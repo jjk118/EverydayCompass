@@ -1,6 +1,13 @@
 {
   "singapore": [
     {
+      "title": "Malaysian low-cost carrier Firefly cancels all flights between Subang, Seletar airports due to haze",
+      "url": "https://www.channelnewsasia.com/asia/malaysia-firefly-flights-cancelled-seletar-airport-subang-6449996",
+      "summary": "All flights between Sultan Abdul Aziz Shah Airport in Subang and Singapore’s Seletar Airport have been cancelled through Monday (Oct 12).",
+      "source": "CNA",
+      "published": "Sun, 11 Oct 2026 14:01:25 +0800"
+    },
+    {
       "title": "Singapore to roll out haze subsidies at GP clinics, polyclinics from Oct 12",
       "url": "https://www.channelnewsasia.com/singapore/haze-subsidy-scheme-gp-clinics-polyclinics-moh-6449066",
       "summary": "Eligible Singaporeans will pay no more than S$10 for treatment of haze-related conditions, said the Ministry of Health.",
@@ -45,7 +52,7 @@
     {
       "title": "'Beyond the uniform': Singapore, Brunei officers share stories of lasting friendships as defence ties turn 50",
       "url": "https://www.channelnewsasia.com/singapore/brunei-singapore-officers-50-years-defence-ties-6448251",
-      "summary": "\"We encouraged each other, learned from one another and, most importantly, knew that we were not navigating those challenges alone,\" says a Royal Brunei Air Force officer.",
+      "summary": "Three pairs of officers tell CNA how football, food and shared experiences brought them together.",
       "source": "CNA",
       "published": "Sat, 10 Oct 2026 18:30:00 +0800"
     },
@@ -97,22 +104,29 @@
       "summary": "While some showers are forecast over Singapore and parts of the surrounding region, dry conditions are expected to continue over parts of southern Sumatra and Kalimantan, says NEA.",
       "source": "CNA",
       "published": "Sat, 10 Oct 2026 06:51:00 +0800"
-    },
-    {
-      "title": "Commentary: Rules preventing public servants’ misuse of confidential information must be stricter – for their own good",
-      "url": "https://www.channelnewsasia.com/commentary/public-servants-property-mrt-locations-misuse-information-rules-declare-6445691",
-      "summary": "Amid checks on whether public servants used insider information for personal benefit, it should be stressed that no illegality has yet been uncovered. But the idea that it might have taken place unbeknown to anyone is galling, says veteran newspaper editor Han Fook Kwang.",
-      "source": "CNA",
-      "published": "Sat, 10 Oct 2026 06:00:00 +0800"
     }
   ],
   "world": [
+    {
+      "title": "Indian capital braces for second day of protests against poll chief",
+      "url": "https://www.channelnewsasia.com/asia/india-youth-protests-cockroach-party-election-commission-6450011",
+      "summary": "Thousands of police and paramilitary personnel continued to be deployed across New Delhi on Sunday (Oct 11) although metro stations reopened and mobile internet services were back up.",
+      "source": "CNA",
+      "published": "Sun, 11 Oct 2026 14:44:12 +0800"
+    },
+    {
+      "title": "South Korea completes Arctic-Europe commercial voyage, eyes regular service despite risks",
+      "url": "https://www.channelnewsasia.com/asia/south-korea-arctic-europe-commercial-voyage-6449811",
+      "summary": "South Korean President President Lee Jae Myung has made Arctic shipping a priority, and officials hope to launch regular services by 2030.",
+      "source": "CNA",
+      "published": "Sun, 11 Oct 2026 12:57:24 +0800"
+    },
     {
       "title": "Nepal urges villagers to evacuate after flood triggered by landslide",
       "url": "https://www.channelnewsasia.com/asia/nepal-villagers-landslide-evacuation-flood-6449926",
       "summary": "Authorities said several houses and two suspension bridges had been swept away, and a hydroelectric project was damaged by the flood.",
       "source": "CNA",
-      "published": "Sun, 11 Oct 2026 11:55:52 +0800"
+      "published": "Sun, 11 Oct 2026 11:55:00 +0800"
     },
     {
       "title": "WHO unsure what caused pneumonia that killed plague-lab worker in Russia",
@@ -197,22 +211,8 @@
       "summary": "The European Automobile Manufacturers’ Association called the agreement “a positive step in easing trade tensions.”",
       "source": "CNA",
       "published": "Sat, 10 Oct 2026 03:13:54 +0800"
-    },
-    {
-      "title": "Navi Pillay: S.Africa's global rights activist and Nobel winner",
-      "url": "https://www.channelnewsasia.com/world/navi-pillay-nobel-peace-prize-winner-activist-6447036",
-      "summary": "International Court of Justice judge and former UN human rights chief Navi Pillay has been awarded the 2026 Nobel Peace Prize.",
-      "source": "CNA",
-      "published": "Sat, 10 Oct 2026 00:56:35 +0800"
-    },
-    {
-      "title": "Outrage over US military plan to livestream firing squad execution",
-      "url": "https://www.channelnewsasia.com/world/outrage-over-us-military-plan-livestream-firing-squad-execution-6446971",
-      "summary": "Representative Adam Smith, the top Democrat on the House Armed Services Committee, said the plan is \"disturbing and makes a mockery of our legal system\".",
-      "source": "CNA",
-      "published": "Sat, 10 Oct 2026 00:23:00 +0800"
     }
   ],
-  "generated_at": "2026-10-11T12:53:32+08:00",
+  "generated_at": "2026-10-11T15:00:35+08:00",
   "test_mode": false
 }
