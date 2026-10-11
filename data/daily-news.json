@@ -108,6 +108,13 @@
   ],
   "world": [
     {
+      "title": "Traumatised Panamanians begin recovery after 7.7-magnitude quake",
+      "url": "https://www.channelnewsasia.com/world/panama-earthquake-77-magnitude-aftershocks-recovery-efforts-6450021",
+      "summary": "After the initial 7.7-magnitude quake around midday on Friday, more than 100 aftershocks have been recorded, some as strong as magnitude 6.0.",
+      "source": "CNA",
+      "published": "Sun, 11 Oct 2026 15:27:15 +0800"
+    },
+    {
       "title": "Indian capital braces for second day of protests against poll chief",
       "url": "https://www.channelnewsasia.com/asia/india-youth-protests-cockroach-party-election-commission-6450011",
       "summary": "Thousands of police and paramilitary personnel continued to be deployed across New Delhi on Sunday (Oct 11) although metro stations reopened and mobile internet services were back up.",
@@ -204,15 +211,8 @@
       "summary": "UN Secretary-General Antonio Guterres called the sanctions “a serious blow to our collective pursuit of international criminal justice,” while the ICC warned that “history will judge this moment.”",
       "source": "CNA",
       "published": "Sat, 10 Oct 2026 04:18:00 +0800"
-    },
-    {
-      "title": "China agrees to 'moderate' car exports to Europe: EU commerce chief",
-      "url": "https://www.channelnewsasia.com/world/china-agrees-moderate-car-exports-europe-eu-commerce-chief-6447791",
-      "summary": "The European Automobile Manufacturers’ Association called the agreement “a positive step in easing trade tensions.”",
-      "source": "CNA",
-      "published": "Sat, 10 Oct 2026 03:13:54 +0800"
     }
   ],
-  "generated_at": "2026-10-11T15:00:35+08:00",
+  "generated_at": "2026-10-11T15:54:50+08:00",
   "test_mode": false
 }
