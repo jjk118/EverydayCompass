@@ -1,6 +1,13 @@
 {
   "singapore": [
     {
+      "title": "30 evacuated, 1 hospitalised after fire at Bukit Batok coffee shop",
+      "url": "https://www.channelnewsasia.com/singapore/fire-bukit-batok-coffee-shop-evacuated-6450196",
+      "summary": "Three food stalls were damaged in the blaze at Block 413 Bukit Batok West Avenue 4.",
+      "source": "CNA",
+      "published": "Sun, 11 Oct 2026 19:29:28 +0800"
+    },
+    {
       "title": "PCF Sparkletots to double spending on staff development to S$20 million over 3 years",
       "url": "https://www.channelnewsasia.com/singapore/pcf-sparkletots-preschools-early-childhood-education-teachers-6450081",
       "summary": "Teachers will have their administrative workload reduced and get a checklist for supporting children with diverse learning needs.",
@@ -22,9 +29,9 @@
       "published": "Sun, 11 Oct 2026 10:01:00 +0800"
     },
     {
-      "title": "Air quality remains unhealthy across Singapore amid haze",
-      "url": "https://www.channelnewsasia.com/singapore/haze-persists-singapore-air-quality-6449771",
-      "summary": "The 24-hour PSI is expected to be in the \"unhealthy\" to \"high unhealthy\" range on Sunday, NEA said on Saturday evening.",
+      "title": "Air quality stays unhealthy across Singapore as haze persists",
+      "url": "https://www.channelnewsasia.com/singapore/haze-psi-singapore-air-quality-6449771",
+      "summary": "The air quality for the next 24 hours is expected to remain in the \"unhealthy\" range, NEA said on Sunday evening.",
       "source": "CNA",
       "published": "Sun, 11 Oct 2026 07:12:00 +0800"
     },
@@ -97,16 +104,23 @@
       "summary": "The Institute of Mental Health will also be redesignated as a national specialty centre and renamed the National Centre for Mental Health Singapore in 2027.",
       "source": "CNA",
       "published": "Sat, 10 Oct 2026 12:05:00 +0800"
-    },
-    {
-      "title": "Singapore ‘stands ready’ to assist Indonesia on forest fires amid haze: Grace Fu",
-      "url": "https://www.channelnewsasia.com/singapore/singapore-indonesia-haze-support-grace-fu-6447076",
-      "summary": "\"We are concerned about the well-being of our people. We are on top of the situation,\" says Singapore's Minister for Sustainability and the Environment.",
-      "source": "CNA",
-      "published": "Sat, 10 Oct 2026 09:52:00 +0800"
     }
   ],
   "world": [
+    {
+      "title": "Polish security services meet after 'deadly serious' threat to PM and defence minister",
+      "url": "https://www.channelnewsasia.com/world/poland-pm-donald-tusk-assassination-attack-attempt-6450276",
+      "summary": "",
+      "source": "CNA",
+      "published": "Sun, 11 Oct 2026 20:26:00 +0800"
+    },
+    {
+      "title": "Pope Leo to undergo surgery for small growth on lung",
+      "url": "https://www.channelnewsasia.com/world/pope-leo-undergo-surgery-small-growth-lung-6450191",
+      "summary": "",
+      "source": "CNA",
+      "published": "Sun, 11 Oct 2026 19:28:00 +0800"
+    },
     {
       "title": "Pakistan imposes emergency rule in northern province after protests",
       "url": "https://www.channelnewsasia.com/asia/pakistan-province-emergency-rule-imran-khan-supporters-6450151",
@@ -197,22 +211,8 @@
       "summary": "Twenty people, including three children, die as Russian glide bombs hit Zaporizhzhia flats, the third mass-casualty strike on Ukraine this week.",
       "source": "CNA",
       "published": "Sun, 11 Oct 2026 02:02:00 +0800"
-    },
-    {
-      "title": "Houthis issue new threat to Saudi airspace after deadly airport attack",
-      "url": "https://www.channelnewsasia.com/world/riyadh-airport-attack-12-killed-yemen-houthis-6449071",
-      "summary": "The attack prompted Saudi health officials to activate a rare mass call-up of doctors to deal with the \"serious emergency\", a medical source said.",
-      "source": "CNA",
-      "published": "Sun, 11 Oct 2026 01:33:00 +0800"
-    },
-    {
-      "title": "France students plan more protests, UN 'concerned' over violence",
-      "url": "https://www.channelnewsasia.com/world/france-students-plan-more-protests-un-concerned-over-violence-6447841",
-      "summary": "Tens of thousands have taken to the streets across France since students in late September began blocking entrances to high schools, which led to squads of riot police being deployed.",
-      "source": "CNA",
-      "published": "Sat, 10 Oct 2026 05:53:00 +0800"
     }
   ],
-  "generated_at": "2026-10-11T18:56:27+08:00",
+  "generated_at": "2026-10-11T21:01:46+08:00",
   "test_mode": false
 }
