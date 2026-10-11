@@ -1,6 +1,13 @@
 {
   "singapore": [
     {
+      "title": "PCF Sparkletots to double spending on staff development to S$20 million over 3 years",
+      "url": "https://www.channelnewsasia.com/singapore/pcf-sparkletots-preschools-early-childhood-education-teachers-6450081",
+      "summary": "Teachers will have their administrative workload reduced and get a checklist for supporting children with diverse learning needs.",
+      "source": "CNA",
+      "published": "Sun, 11 Oct 2026 17:51:59 +0800"
+    },
+    {
       "title": "Malaysian low-cost carrier Firefly cancels all flights between Subang, Seletar airports due to haze",
       "url": "https://www.channelnewsasia.com/asia/malaysia-firefly-flights-cancelled-seletar-airport-subang-6449996",
       "summary": "All flights between Sultan Abdul Aziz Shah Airport in Subang and Singapore’s Seletar Airport have been cancelled through Monday (Oct 12).",
@@ -97,16 +104,23 @@
       "summary": "\"We are concerned about the well-being of our people. We are on top of the situation,\" says Singapore's Minister for Sustainability and the Environment.",
       "source": "CNA",
       "published": "Sat, 10 Oct 2026 09:52:00 +0800"
-    },
-    {
-      "title": "Singapore air quality expected to be in ‘unhealthy’ to ‘high unhealthy’ range on Oct 11",
-      "url": "https://www.channelnewsasia.com/singapore/singapore-haze-psi-unhealthy-oct-10-6446631",
-      "summary": "While some showers are forecast over Singapore and parts of the surrounding region, dry conditions are expected to continue over parts of southern Sumatra and Kalimantan, says NEA.",
-      "source": "CNA",
-      "published": "Sat, 10 Oct 2026 06:51:00 +0800"
     }
   ],
   "world": [
+    {
+      "title": "Pakistan imposes emergency rule in northern province after protests",
+      "url": "https://www.channelnewsasia.com/asia/pakistan-province-emergency-rule-imran-khan-supporters-6450151",
+      "summary": "The province of Khyber Pakhtunkhwa is a stronghold of jailed former prime minister Imran Khan's Pakistan Tehreek-e-Insaf (PTI) party.",
+      "source": "CNA",
+      "published": "Sun, 11 Oct 2026 17:52:25 +0800"
+    },
+    {
+      "title": "US Justice Department probes TV networks over pool coverage: Reports",
+      "url": "https://www.channelnewsasia.com/world/us-justice-department-pool-media-coverage-6450061",
+      "summary": "Justice Department spokeswoman Emily Covington said that the five networks - ABC, CBS, CNN, NBC and Fox News - had \"boycotted covering White House events\".",
+      "source": "CNA",
+      "published": "Sun, 11 Oct 2026 16:16:24 +0800"
+    },
     {
       "title": "Traumatised Panamanians begin recovery after 7.7-magnitude quake",
       "url": "https://www.channelnewsasia.com/world/panama-earthquake-77-magnitude-aftershocks-recovery-efforts-6450021",
@@ -185,8 +199,8 @@
       "published": "Sun, 11 Oct 2026 02:02:00 +0800"
     },
     {
-      "title": "Airport strike in Riyadh kills 12, Saudi coalition vows 'decisive' response",
-      "url": "https://www.channelnewsasia.com/world/riyadh-airport-attack-12-killed-6449071",
+      "title": "Houthis issue new threat to Saudi airspace after deadly airport attack",
+      "url": "https://www.channelnewsasia.com/world/riyadh-airport-attack-12-killed-yemen-houthis-6449071",
       "summary": "The attack prompted Saudi health officials to activate a rare mass call-up of doctors to deal with the \"serious emergency\", a medical source said.",
       "source": "CNA",
       "published": "Sun, 11 Oct 2026 01:33:00 +0800"
@@ -197,22 +211,8 @@
       "summary": "Tens of thousands have taken to the streets across France since students in late September began blocking entrances to high schools, which led to squads of riot police being deployed.",
       "source": "CNA",
       "published": "Sat, 10 Oct 2026 05:53:00 +0800"
-    },
-    {
-      "title": "Trump says Putin agrees to major release of diesel to US, global markets",
-      "url": "https://www.channelnewsasia.com/world/trump-russia-diesel-putin-global-markets-6447926",
-      "summary": "US President Donald Trump said Russia would initially supply more than 300,000 tonnes of diesel, followed by further shipments in November and the months ahead.",
-      "source": "CNA",
-      "published": "Sat, 10 Oct 2026 04:53:00 +0800"
-    },
-    {
-      "title": "US announces sanctions on ICC, hours after Nobel award to former judge",
-      "url": "https://www.channelnewsasia.com/world/us-icc-sanctions-rubio-nobel-prize-6447851",
-      "summary": "UN Secretary-General Antonio Guterres called the sanctions “a serious blow to our collective pursuit of international criminal justice,” while the ICC warned that “history will judge this moment.”",
-      "source": "CNA",
-      "published": "Sat, 10 Oct 2026 04:18:00 +0800"
     }
   ],
-  "generated_at": "2026-10-11T15:54:50+08:00",
+  "generated_at": "2026-10-11T18:56:27+08:00",
   "test_mode": false
 }
