@@ -1,6 +1,20 @@
 {
   "singapore": [
     {
+      "title": "New advisory committee among initiatives to boost lifelong learning, job opportunities for people with disabilities",
+      "url": "https://www.channelnewsasia.com/singapore/disabilities-jobs-lifelong-learning-advisory-committee-sg-enable-6451941",
+      "summary": "Efforts are also being made to reduce training costs and make mainstream courses more accessible to people with disabilities.",
+      "source": "CNA",
+      "published": "Mon, 12 Oct 2026 13:29:00 +0800"
+    },
+    {
+      "title": "Better understanding of AI cybersecurity risks needed, says TikTok’s Chew Shou Zi",
+      "url": "https://www.channelnewsasia.com/singapore/tiktok-ceo-shou-chew-ai-6451691",
+      "summary": "TikTok’s top executive thinks there’s a “non-zero chance” that AI will become superior to human beings in certain aspects. “The technology is evolving, but you can see a world where silicon is just superior to carbon.”",
+      "source": "CNA",
+      "published": "Mon, 12 Oct 2026 13:16:00 +0800"
+    },
+    {
       "title": "From JJ Lin to Kim Kardashian: All the music and celebrity buzz you missed at Singapore Grand Prix 2026",
       "url": "https://www.channelnewsasia.com/entertainment/singapore-grand-prix-2026-entertainment-highlights-concerts-celebrities-6451391",
       "summary": "Here are the entertainment highlights of this year’s Singapore Grand Prix.",
@@ -29,9 +43,9 @@
       "published": "Mon, 12 Oct 2026 10:59:00 +0800"
     },
     {
-      "title": "Air quality unhealthy across Singapore amid sustained haze",
+      "title": "Air quality unhealthy across Singapore as haze persists",
       "url": "https://www.channelnewsasia.com/singapore/haze-air-quality-unhealthy-psi-pm25-6451716",
-      "summary": "Subsidised treatments for haze-related conditions took effect at Public Health Preparedness Clinics and polyclinics on Oct 12.",
+      "summary": "The 1-hour PM2.5 level in the central region fell back into the elevated band at 2pm after earlier entering the high range.",
       "source": "CNA",
       "published": "Mon, 12 Oct 2026 09:59:00 +0800"
     },
@@ -90,20 +104,6 @@
       "summary": "The air quality for the next 24 hours is expected to remain in the \"unhealthy\" range, NEA said on Sunday evening.",
       "source": "CNA",
       "published": "Sun, 11 Oct 2026 07:12:00 +0800"
-    },
-    {
-      "title": "She turned her kids’ old clothes into keepsakes – now it’s a thriving home business",
-      "url": "https://www.channelnewsasia.com/women/childrens-old-clothes-keepsakes-bears-quilts-6401706",
-      "summary": "Siti Nur’ain Awari turned them into bears and quilts her children could keep. That idea grew into Patchwork Handmade Keepsakes, where the mum of four has transformed other kids' clothes, from baby onesies to school uniforms, into treasured mementos.",
-      "source": "CNA",
-      "published": "Sun, 11 Oct 2026 06:54:00 +0800"
-    },
-    {
-      "title": "Odette’s longtime wine director Vincent Tan is leaving after 10 years to join Park90",
-      "url": "https://www.channelnewsasia.com/people/odette-wine-director-vincent-tan-park90-6441436",
-      "summary": "Vincent Tan, who helped shape the three-Michelin-starred restaurant’s wine programme, is taking on a new group role at Park90 as it expands across Southeast Asia.",
-      "source": "CNA",
-      "published": "Sun, 11 Oct 2026 06:17:00 +0800"
     }
   ],
   "world": [
@@ -213,6 +213,6 @@
       "published": "Sun, 11 Oct 2026 19:28:00 +0800"
     }
   ],
-  "generated_at": "2026-10-12T12:57:23+08:00",
+  "generated_at": "2026-10-12T15:09:38+08:00",
   "test_mode": false
 }
