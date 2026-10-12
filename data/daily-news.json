@@ -1,6 +1,20 @@
 {
   "singapore": [
     {
+      "title": "CNA Explains: Why PSI and AQI readings differ - and which one should you follow during haze season?",
+      "url": "https://www.channelnewsasia.com/singapore/haze-psi-aqi-air-quality-pm25-6452896",
+      "summary": "While the National Environment Agency uses the 24-hour PSI and 1-hour PM2.5 to track air quality, other online platforms monitor pollution levels differently.",
+      "source": "CNA",
+      "published": "Mon, 12 Oct 2026 19:55:42 +0800"
+    },
+    {
+      "title": "Former primary school head of department charged with voyeurism",
+      "url": "https://www.channelnewsasia.com/singapore/primary-school-head-department-voyeurism-teacher-6452726",
+      "summary": "The 45-year-old Singaporean man is accused of intentionally recording a female victim at the school in 2023.",
+      "source": "CNA",
+      "published": "Mon, 12 Oct 2026 18:58:00 +0800"
+    },
+    {
       "title": "Singapore government worried AI may break 'bottom rung' of career ladder for young workers: PM Wong",
       "url": "https://www.channelnewsasia.com/singapore/lawrence-wong-ai-jobs-training-6452176",
       "summary": "“AI will replace all of that routine work, but we should be careful not to automate away the learning that comes from it,” says Prime Minister Lawrence Wong.",
@@ -90,23 +104,16 @@
       "summary": "Among several moves, Singapore will establish a priority track assessing selected innovative health products, says Health Minister Ong Ye Kung.",
       "source": "CNA",
       "published": "Mon, 12 Oct 2026 11:05:00 +0800"
-    },
-    {
-      "title": "Couple pleads guilty to regularly abusing their baby, who died after being smothered",
-      "url": "https://www.channelnewsasia.com/singapore/couple-abuse-baby-died-8-months-smothered-6448371",
-      "summary": "Trevor Neo Yu Hin was abused by his parents, Chloe Gan Ci Xuan, 23, and Neo Jia Ming, 27, from when he was just over a month old and eventually died when he was eight months old.",
-      "source": "CNA",
-      "published": "Mon, 12 Oct 2026 10:59:00 +0800"
-    },
-    {
-      "title": "Haze persists across Singapore, PM2.5 reading 'high' in west region",
-      "url": "https://www.channelnewsasia.com/singapore/haze-air-quality-unhealthy-psi-pm25-6451716",
-      "summary": "Hourly PM2.5 levels in the western region entered the high band again at 5pm after dipping back into the elevated band at 4pm.",
-      "source": "CNA",
-      "published": "Mon, 12 Oct 2026 09:59:00 +0800"
     }
   ],
   "world": [
+    {
+      "title": "UN refugee agency's funding shortfall is impacting refugees worldwide, its chief says",
+      "url": "https://www.channelnewsasia.com/world/un-refugee-agency-funding-shortfall-6452876",
+      "summary": "",
+      "source": "CNA",
+      "published": "Mon, 12 Oct 2026 19:44:48 +0800"
+    },
     {
       "title": "Riyadh airport extends suspension after weekend attacks",
       "url": "https://www.channelnewsasia.com/world/riyadh-airport-cancel-flights-houthi-attacks-saudi-6452381",
@@ -204,15 +211,8 @@
       "summary": "Ukraine's President Volodymyr Zelenskyy expressed surprise at US President Donald Trump's announcement of an energy ceasefire and said he was seeking further details, while Russia has yet to confirm its agreement.",
       "source": "CNA",
       "published": "Sun, 11 Oct 2026 22:59:00 +0800"
-    },
-    {
-      "title": "Max Verstappen wins Singapore Grand Prix for first time",
-      "url": "https://www.channelnewsasia.com/sport/max-verstappen-singapore-grand-prix-first-win-6450371",
-      "summary": "The four-time world champion had never won or even achieved a pole position in nine previous attempts going back to his debut for Toro Rosso in 2015.",
-      "source": "CNA",
-      "published": "Sun, 11 Oct 2026 21:59:00 +0800"
     }
   ],
-  "generated_at": "2026-10-12T19:02:56+08:00",
+  "generated_at": "2026-10-12T21:20:12+08:00",
   "test_mode": false
 }
