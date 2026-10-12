@@ -1,6 +1,20 @@
 {
   "singapore": [
     {
+      "title": "Man charged with trespassing into F1 Singapore Grand Prix event area",
+      "url": "https://www.channelnewsasia.com/singapore/man-charged-trespass-f1-grand-prix-6452286",
+      "summary": "He allegedly entered a restricted area meant for F1 Singapore Grand Prix staff and performing artistes.",
+      "source": "CNA",
+      "published": "Mon, 12 Oct 2026 15:57:00 +0800"
+    },
+    {
+      "title": "Cremated remains may be scattered at sea under two-year pilot to be launched by NEA",
+      "url": "https://www.channelnewsasia.com/singapore/ash-scattering-sea-cremated-remains-pilot-ferry-service-nea-6452241",
+      "summary": "The fee for the service will be S$50 per application, compared with S$320 for scattering cremated remains at Singapore's two inland ash scattering gardens.",
+      "source": "CNA",
+      "published": "Mon, 12 Oct 2026 15:33:23 +0800"
+    },
+    {
       "title": "New advisory committee among initiatives to boost lifelong learning, job opportunities for people with disabilities",
       "url": "https://www.channelnewsasia.com/singapore/disabilities-jobs-lifelong-learning-advisory-committee-sg-enable-6451941",
       "summary": "Efforts are also being made to reduce training costs and make mainstream courses more accessible to people with disabilities.",
@@ -38,14 +52,14 @@
     {
       "title": "Couple pleads guilty to regularly abusing their baby, who died after being smothered",
       "url": "https://www.channelnewsasia.com/singapore/couple-abuse-baby-died-8-months-smothered-6448371",
-      "summary": "Trevor Neo Yu Hin was abused by his parents from when he was just over a month old and eventually died when he was eight months old.",
+      "summary": "Trevor Neo Yu Hin was abused by his parents, Chloe Gan Ci Xuan, 23, and Neo Jia Ming, 27, from when he was just over a month old and eventually died when he was eight months old.",
       "source": "CNA",
       "published": "Mon, 12 Oct 2026 10:59:00 +0800"
     },
     {
-      "title": "Air quality unhealthy across Singapore as haze persists",
+      "title": "Haze persists across Singapore, PM2.5 readings 'high' in central and west regions",
       "url": "https://www.channelnewsasia.com/singapore/haze-air-quality-unhealthy-psi-pm25-6451716",
-      "summary": "The 1-hour PM2.5 level in the central region fell back into the elevated band at 2pm after earlier entering the high range.",
+      "summary": "Hourly PM2.5 levels in the central region entered the high band again at 3pm after dipping back into the elevated band at 2pm.",
       "source": "CNA",
       "published": "Mon, 12 Oct 2026 09:59:00 +0800"
     },
@@ -90,20 +104,6 @@
       "summary": "All flights between Sultan Abdul Aziz Shah Airport in Subang and Singapore’s Seletar Airport have been cancelled through Monday (Oct 12).",
       "source": "CNA",
       "published": "Sun, 11 Oct 2026 14:01:25 +0800"
-    },
-    {
-      "title": "Singapore to roll out haze subsidies at GP clinics, polyclinics from Oct 12",
-      "url": "https://www.channelnewsasia.com/singapore/haze-subsidy-scheme-gp-clinics-polyclinics-moh-6449066",
-      "summary": "Eligible Singaporeans will pay no more than S$10 for treatment of haze-related conditions, said the Ministry of Health.",
-      "source": "CNA",
-      "published": "Sun, 11 Oct 2026 10:01:00 +0800"
-    },
-    {
-      "title": "Air quality stays unhealthy across Singapore as haze persists",
-      "url": "https://www.channelnewsasia.com/singapore/haze-psi-singapore-air-quality-6449771",
-      "summary": "The air quality for the next 24 hours is expected to remain in the \"unhealthy\" range, NEA said on Sunday evening.",
-      "source": "CNA",
-      "published": "Sun, 11 Oct 2026 07:12:00 +0800"
     }
   ],
   "world": [
@@ -213,6 +213,6 @@
       "published": "Sun, 11 Oct 2026 19:28:00 +0800"
     }
   ],
-  "generated_at": "2026-10-12T15:09:38+08:00",
+  "generated_at": "2026-10-12T16:02:01+08:00",
   "test_mode": false
 }
