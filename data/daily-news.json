@@ -108,6 +108,13 @@
   ],
   "world": [
     {
+      "title": "Poland holds suspect in alleged assassination plot against PM Tusk",
+      "url": "https://www.channelnewsasia.com/world/poland-suspect-alleged-assassination-plot-pm-donald-tusk-6451726",
+      "summary": "",
+      "source": "CNA",
+      "published": "Mon, 12 Oct 2026 09:51:08 +0800"
+    },
+    {
       "title": "One dead in new attack on Saudi airport, a day after Houthi strike kills 13",
       "url": "https://www.channelnewsasia.com/world/saudi-arabia-riyadh-airport-attack-houthis-6451631",
       "summary": "Saudi-led coalition forces in Yemen said an unidentified projectile had targeted Riyadh's international airport Terminal 4 on Sunday, causing a fire. Eleven people were wounded in addition to the fatality, the Saudi civil aviation authority said.",
@@ -204,15 +211,8 @@
       "summary": "South Korean President President Lee Jae Myung has made Arctic shipping a priority, and officials hope to launch regular services by 2030.",
       "source": "CNA",
       "published": "Sun, 11 Oct 2026 12:57:24 +0800"
-    },
-    {
-      "title": "Nepal urges villagers to evacuate after flood triggered by landslide",
-      "url": "https://www.channelnewsasia.com/asia/nepal-villagers-landslide-evacuation-flood-6449926",
-      "summary": "Authorities said several houses and two suspension bridges had been swept away, and a hydroelectric project was damaged by the flood.",
-      "source": "CNA",
-      "published": "Sun, 11 Oct 2026 11:55:00 +0800"
     }
   ],
-  "generated_at": "2026-10-12T09:07:39+08:00",
+  "generated_at": "2026-10-12T09:57:38+08:00",
   "test_mode": false
 }
