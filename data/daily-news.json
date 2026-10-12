@@ -17,7 +17,7 @@
     {
       "title": "In pictures: Full throttle at the F1 Singapore Grand Prix 2026",
       "url": "https://www.channelnewsasia.com/singapore/f1-singapore-grand-prix-2026-photos-6450296",
-      "summary": "",
+      "summary": "Max Verstappen won the Singapore Grand Prix for the first time in his career on Sunday (Oct 11).",
       "source": "CNA",
       "published": "Sun, 11 Oct 2026 22:59:00 +0800"
     },
@@ -107,6 +107,13 @@
     }
   ],
   "world": [
+    {
+      "title": "One dead in new attack on Saudi airport, a day after Houthi strike kills 13",
+      "url": "https://www.channelnewsasia.com/world/saudi-arabia-riyadh-airport-attack-houthis-6451631",
+      "summary": "Saudi-led coalition forces in Yemen said an unidentified projectile had targeted Riyadh's international airport Terminal 4 on Sunday, causing a fire. Eleven people were wounded in addition to the fatality, the Saudi civil aviation authority said.",
+      "source": "CNA",
+      "published": "Mon, 12 Oct 2026 08:26:00 +0800"
+    },
     {
       "title": "UK PM Burnham says Russia interfered in 2016 Brexit vote",
       "url": "https://www.channelnewsasia.com/world/uk-andy-burham-russia-interfere-brexit-6450551",
@@ -204,15 +211,8 @@
       "summary": "Authorities said several houses and two suspension bridges had been swept away, and a hydroelectric project was damaged by the flood.",
       "source": "CNA",
       "published": "Sun, 11 Oct 2026 11:55:00 +0800"
-    },
-    {
-      "title": "WHO unsure what caused pneumonia that killed plague-lab worker in Russia",
-      "url": "https://www.channelnewsasia.com/world/who-russia-plague-lab-worker-pneumonia-6449906",
-      "summary": "The lab worker fell ill and died in undisclosed circumstances on Oct 2, prompting authorities to quarantine about 200 people and causing public health fears on social media.",
-      "source": "CNA",
-      "published": "Sun, 11 Oct 2026 11:03:18 +0800"
     }
   ],
-  "generated_at": "2026-10-12T06:55:31+08:00",
+  "generated_at": "2026-10-12T09:07:39+08:00",
   "test_mode": false
 }
