@@ -52,7 +52,7 @@
     {
       "title": "Air quality remains unhealthy across Singapore amid haze",
       "url": "https://www.channelnewsasia.com/singapore/haze-air-quality-psi-pm25-unhealthy-6454476",
-      "summary": "At 2pm, 24-hour PSI readings ranged from 124 to 173, with hourly PM2.5 levels elevated in most regions.",
+      "summary": "At 3pm, 24-hour PSI readings ranged from 121 to 172, with hourly PM2.5 levels elevated in all regions.",
       "source": "CNA",
       "published": "Tue, 13 Oct 2026 07:55:00 +0800"
     },
@@ -115,11 +115,11 @@
       "published": "Tue, 13 Oct 2026 15:05:50 +0800"
     },
     {
-      "title": "US says it opposes Chinese 'coercion', after Belize, Paraguay ministers sanctioned",
+      "title": "US says it opposes Chinese 'coercion', after Belize and Paraguay ministers sanctioned",
       "url": "https://www.channelnewsasia.com/east-asia/us-oppose-china-taiwan-coercion-belize-paraguay-sanctions-6454641",
       "summary": "A Chinese foreign ministry spokesperson said in response that the United States should \"stop sending the wrong signals to Taiwan separatist forces\".",
       "source": "CNA",
-      "published": "Tue, 13 Oct 2026 14:59:59 +0800"
+      "published": "Tue, 13 Oct 2026 14:59:00 +0800"
     },
     {
       "title": "South Korea says US raises intelligence cooperation concerns, Yonhap says",
@@ -213,6 +213,6 @@
       "published": "Tue, 13 Oct 2026 05:58:00 +0800"
     }
   ],
-  "generated_at": "2026-10-13T15:08:53+08:00",
+  "generated_at": "2026-10-13T16:00:34+08:00",
   "test_mode": false
 }
