@@ -1,6 +1,13 @@
 {
   "singapore": [
     {
+      "title": "Former Sumo Salad employee cleared of cheating, work injury fraud allegations",
+      "url": "https://www.channelnewsasia.com/singapore/sumo-salad-eatgreen-work-injury-compensation-claim-no-evidence-mom-spf-6454566",
+      "summary": "The case arose following the death of Sumo Salad's owner, who had published Facebook posts about the former employee who she claimed had filed a false work injury claim to get compensation.",
+      "source": "CNA",
+      "published": "Tue, 13 Oct 2026 14:06:00 +0800"
+    },
+    {
       "title": "16 flights diverted from Seletar Airport between Oct 5 and Oct 11 as haze lowered visibility",
       "url": "https://www.channelnewsasia.com/singapore/seletar-airport-changi-airport-flights-haze-6454786",
       "summary": "Changi Airport and Seletar Airport remain operational, but additional measures will be implemented if the haze situation worsens, the Civil Aviation Authority of Singapore and Changi Airport Group said.",
@@ -22,9 +29,9 @@
       "published": "Tue, 13 Oct 2026 10:30:00 +0800"
     },
     {
-      "title": "Public hospitals, healthcare institutions across Singapore hit by system disruptions",
+      "title": "No indication of cyberattack in system disruptions across Singapore public healthcare institutions: Health tech agency",
       "url": "https://www.channelnewsasia.com/singapore/public-hospitals-healthcare-system-disruptions-6454651",
-      "summary": "NHG Health institutions, the National University Hospital and Singapore General Hospital are experiencing system disruptions.",
+      "summary": "Public hospitals and other healthcare institutions across Singapore reported system disruptions on Tuesday (Oct 13), affecting services including appointment bookings, patient registration, payments and call centre operations.",
       "source": "CNA",
       "published": "Tue, 13 Oct 2026 10:28:00 +0800"
     },
@@ -45,7 +52,7 @@
     {
       "title": "Air quality remains unhealthy across Singapore amid haze",
       "url": "https://www.channelnewsasia.com/singapore/haze-air-quality-psi-pm25-unhealthy-6454476",
-      "summary": "At 11am, 24-hour PSI readings ranged from 129 to 174, with hourly PM2.5 levels elevated in all regions.",
+      "summary": "At 2pm, 24-hour PSI readings ranged from 124 to 173, with hourly PM2.5 levels elevated in most regions.",
       "source": "CNA",
       "published": "Tue, 13 Oct 2026 07:55:00 +0800"
     },
@@ -97,16 +104,23 @@
       "summary": "The bracelet, worth about S$256, was recovered from the 38-year-old woman after the police identified her using surveillance footage.",
       "source": "CNA",
       "published": "Mon, 12 Oct 2026 16:58:00 +0800"
-    },
-    {
-      "title": "MAS tightens financial roadshow guidelines, representatives must get consent before sales pitches",
-      "url": "https://www.channelnewsasia.com/singapore/financial-roadshow-rules-sales-pitches-mas-6452236",
-      "summary": "When conducted inappropriately, public prospecting activities may lead to concerns about conduct when people are subjected to \"unsolicited or persistent solicitation\", said the Monetary Authority of Singapore.",
-      "source": "CNA",
-      "published": "Mon, 12 Oct 2026 16:54:00 +0800"
     }
   ],
   "world": [
+    {
+      "title": "Qantas plane grounded after passengers complain of bedbug bites",
+      "url": "https://www.channelnewsasia.com/world/qantas-flight-rome-grounded-bedbugs-6455136",
+      "summary": "Passengers travelling on Qantas flight QF5 from Perth to Rome last Friday (Oct 9) complained of being bitten by bedbugs.",
+      "source": "CNA",
+      "published": "Tue, 13 Oct 2026 15:05:50 +0800"
+    },
+    {
+      "title": "US says it opposes Chinese 'coercion', after Belize, Paraguay ministers sanctioned",
+      "url": "https://www.channelnewsasia.com/east-asia/us-oppose-china-taiwan-coercion-belize-paraguay-sanctions-6454641",
+      "summary": "A Chinese foreign ministry spokesperson said in response that the United States should \"stop sending the wrong signals to Taiwan separatist forces\".",
+      "source": "CNA",
+      "published": "Tue, 13 Oct 2026 14:59:59 +0800"
+    },
     {
       "title": "South Korea says US raises intelligence cooperation concerns, Yonhap says",
       "url": "https://www.channelnewsasia.com/east-asia/south-korea-us-intelligence-cooperation-concerns-6454721",
@@ -197,22 +211,8 @@
       "summary": "Investor portfolios have become alarmingly reliant on the fortunes of just one bet on the build-out of an uncertain technology, says Katie Martin for the Financial Times.",
       "source": "CNA",
       "published": "Tue, 13 Oct 2026 05:58:00 +0800"
-    },
-    {
-      "title": "Oil rises as Saudi Arabia vows response to attacks",
-      "url": "https://www.channelnewsasia.com/world/oil-rises-saudi-arabia-attacks-6454351",
-      "summary": "",
-      "source": "CNA",
-      "published": "Tue, 13 Oct 2026 05:56:00 +0800"
-    },
-    {
-      "title": "Burnham hopes for EU deal next month, stirs Brexit debate",
-      "url": "https://www.channelnewsasia.com/world/uk-burnham-eu-deal-brexit-6454336",
-      "summary": "",
-      "source": "CNA",
-      "published": "Tue, 13 Oct 2026 05:32:00 +0800"
     }
   ],
-  "generated_at": "2026-10-13T12:57:16+08:00",
+  "generated_at": "2026-10-13T15:08:53+08:00",
   "test_mode": false
 }
