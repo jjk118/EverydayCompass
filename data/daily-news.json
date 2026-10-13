@@ -1,11 +1,18 @@
 {
   "singapore": [
     {
+      "title": "Business as usual for most patients as public healthcare clusters recover from 9-hour disruption",
+      "url": "https://www.channelnewsasia.com/singapore/system-disruption-hospital-business-usual-patients-6455806",
+      "summary": "Across seven healthcare institutions visited by CNA, most patients said they had few or no issues, despite signs warning visitors of potentially longer wait times.",
+      "source": "CNA",
+      "published": "Tue, 13 Oct 2026 20:31:00 +0800"
+    },
+    {
       "title": "‘Completely lost’: 71-year-old grandfather graduates from SUSS with multiple distinctions after initial struggles",
       "url": "https://www.channelnewsasia.com/singapore/suss-university-graduate-chinese-language-degree-6455256",
       "summary": "Mr Wong Yee Keong shares with CNA how he fulfilled a lifelong dream after a “painful and frustrating” start to his university journey.",
       "source": "CNA",
-      "published": "Tue, 13 Oct 2026 18:46:40 +0800"
+      "published": "Tue, 13 Oct 2026 18:46:00 +0800"
     },
     {
       "title": "Vape importer pleads guilty over attempts to retrieve S$6.6 million stash seized by HSA, other charges",
@@ -78,9 +85,9 @@
       "published": "Tue, 13 Oct 2026 10:02:00 +0800"
     },
     {
-      "title": "Air quality remains unhealthy across Singapore amid haze",
+      "title": "Air quality forecast to remain in unhealthy range on Oct 14: NEA",
       "url": "https://www.channelnewsasia.com/singapore/haze-air-quality-psi-pm25-unhealthy-6454476",
-      "summary": "At 5pm, 24-hour PSI readings ranged from 115 to 165, with hourly PM2.5 levels elevated in most regions.",
+      "summary": "Air quality has also stayed in the unhealthy range across Singapore on Tuesday, while hourly PM2.5 levels ranged from normal to elevated through the day.",
       "source": "CNA",
       "published": "Tue, 13 Oct 2026 07:55:00 +0800"
     },
@@ -97,16 +104,16 @@
       "summary": "While the National Environment Agency uses the 24-hour PSI and 1-hour PM2.5 to track air quality, other online platforms monitor pollution levels differently.",
       "source": "CNA",
       "published": "Mon, 12 Oct 2026 19:55:00 +0800"
-    },
-    {
-      "title": "Former primary school head of department charged with voyeurism",
-      "url": "https://www.channelnewsasia.com/singapore/primary-school-head-department-voyeurism-teacher-6452726",
-      "summary": "The 45-year-old Singaporean man is accused of intentionally recording a female victim at the school in 2023.",
-      "source": "CNA",
-      "published": "Mon, 12 Oct 2026 18:58:00 +0800"
     }
   ],
   "world": [
+    {
+      "title": "Nobel peace laureate Navi Pillay urges US to defend human rights",
+      "url": "https://www.channelnewsasia.com/world/nobel-peace-laureate-navi-pillay-human-rights-6455731",
+      "summary": "",
+      "source": "CNA",
+      "published": "Tue, 13 Oct 2026 19:29:29 +0800"
+    },
     {
       "title": "Eleven sailors missing after drone sinks ship off Bulgaria",
       "url": "https://www.channelnewsasia.com/world/eleven-sailors-missing-after-drone-sinks-ship-bulgaria-6455051",
@@ -204,15 +211,8 @@
       "summary": "The distinction between supporting Saudi forces and fighting alongside them may become increasingly difficult to maintain, says Derek Grossman of the University of Southern California.",
       "source": "CNA",
       "published": "Tue, 13 Oct 2026 08:58:57 +0800"
-    },
-    {
-      "title": "RJ Mitte, Breaking Bad actor and disability rights advocate, dies at 34",
-      "url": "https://www.channelnewsasia.com/entertainment/breaking-bad-actor-rj-mitte-dies-34-6454456",
-      "summary": "RJ Mitte rose to fame playing Walter White Jr in the acclaimed television series Breaking Bad. He drew on his personal experience with cerebral palsy to portray the character.",
-      "source": "CNA",
-      "published": "Tue, 13 Oct 2026 08:14:00 +0800"
     }
   ],
-  "generated_at": "2026-10-13T19:02:12+08:00",
+  "generated_at": "2026-10-13T21:10:11+08:00",
   "test_mode": false
 }
