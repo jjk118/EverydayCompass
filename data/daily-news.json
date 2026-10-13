@@ -3,7 +3,7 @@
     {
       "title": "Air quality remains unhealthy across Singapore amid haze",
       "url": "https://www.channelnewsasia.com/singapore/haze-air-quality-psi-pm25-unhealthy-6454476",
-      "summary": "At 8am, 24-hour PSI readings ranged from 127 to 173, with hourly PM2.5 levels elevated in all regions.",
+      "summary": "At 9am, 24-hour PSI readings ranged from 127 to 172, with hourly PM2.5 levels elevated in all regions except the south.",
       "source": "CNA",
       "published": "Tue, 13 Oct 2026 07:55:00 +0800"
     },
@@ -19,7 +19,7 @@
       "url": "https://www.channelnewsasia.com/singapore/haze-psi-aqi-air-quality-pm25-6452896",
       "summary": "While the National Environment Agency uses the 24-hour PSI and 1-hour PM2.5 to track air quality, other online platforms monitor pollution levels differently.",
       "source": "CNA",
-      "published": "Mon, 12 Oct 2026 19:55:42 +0800"
+      "published": "Mon, 12 Oct 2026 19:55:00 +0800"
     },
     {
       "title": "Former primary school head of department charged with voyeurism",
@@ -157,7 +157,7 @@
       "published": "Tue, 13 Oct 2026 04:27:00 +0800"
     },
     {
-      "title": "US immigration authorities raid Democratic congresswoman Ilhan Omar's home",
+      "title": "US immigration authorities raid home of Democratic Trump critic Ilhan Omar",
       "url": "https://www.channelnewsasia.com/world/ilhan-omar-democratic-home-raid-trump-us-6454226",
       "summary": "US authorities raided Democratic Representative Ilhan Omar’s home as part of an ongoing investigation into alleged immigration fraud, just weeks before the midterm elections.",
       "source": "CNA",
@@ -213,6 +213,6 @@
       "published": "Mon, 12 Oct 2026 16:56:46 +0800"
     }
   ],
-  "generated_at": "2026-10-13T09:08:30+08:00",
+  "generated_at": "2026-10-13T09:57:39+08:00",
   "test_mode": false
 }
