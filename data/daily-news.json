@@ -1,6 +1,20 @@
 {
   "singapore": [
     {
+      "title": "Air quality remains unhealthy across Singapore amid haze",
+      "url": "https://www.channelnewsasia.com/singapore/haze-air-quality-psi-pm25-unhealthy-6454476",
+      "summary": "At 8am, 24-hour PSI readings ranged from 127 to 173, with hourly PM2.5 levels elevated in all regions.",
+      "source": "CNA",
+      "published": "Tue, 13 Oct 2026 07:55:00 +0800"
+    },
+    {
+      "title": "Attack On Titan: The Musical coming to Singapore in April 2027",
+      "url": "https://www.channelnewsasia.com/entertainment/attack-titan-musical-singapore-2027-6445636",
+      "summary": "The Japanese-language production, following performances in Japan and New York, will run at Sands Theatre from Apr 15 to May 2, 2027, with tickets starting at S$58.",
+      "source": "CNA",
+      "published": "Tue, 13 Oct 2026 07:21:00 +0800"
+    },
+    {
       "title": "CNA Explains: Why PSI and AQI readings differ - and which one should you follow during haze season?",
       "url": "https://www.channelnewsasia.com/singapore/haze-psi-aqi-air-quality-pm25-6452896",
       "summary": "While the National Environment Agency uses the 24-hour PSI and 1-hour PM2.5 to track air quality, other online platforms monitor pollution levels differently.",
@@ -90,23 +104,23 @@
       "summary": "Here are the entertainment highlights of this year’s Singapore Grand Prix.",
       "source": "CNA",
       "published": "Mon, 12 Oct 2026 11:10:00 +0800"
-    },
-    {
-      "title": "Mosques to remain open for prayers, arrangements may be adjusted if haze worsens",
-      "url": "https://www.channelnewsasia.com/singapore/haze-mosques-open-prayers-muis-6451861",
-      "summary": "Mosques will suspend non-essential outdoor programmes and activities if the 24-hour PSI crosses into the very unhealthy range.",
-      "source": "CNA",
-      "published": "Mon, 12 Oct 2026 11:06:00 +0800"
-    },
-    {
-      "title": "Singapore moves to accelerate healthcare innovations in push to be regional clinical research hub",
-      "url": "https://www.channelnewsasia.com/singapore/clinical-research-hub-drug-innovations-ong-ye-kung-6451686",
-      "summary": "Among several moves, Singapore will establish a priority track assessing selected innovative health products, says Health Minister Ong Ye Kung.",
-      "source": "CNA",
-      "published": "Mon, 12 Oct 2026 11:05:00 +0800"
     }
   ],
   "world": [
+    {
+      "title": "Commentary: How far will Pakistan go in defending Saudi Arabia against Houthi attacks?",
+      "url": "https://www.channelnewsasia.com/commentary/pakistan-saudi-arabia-houthi-iran-mecca-pact-6452661",
+      "summary": "The distinction between supporting Saudi forces and fighting alongside them may become increasingly difficult to maintain, says Derek Grossman of the University of Southern California.",
+      "source": "CNA",
+      "published": "Tue, 13 Oct 2026 08:58:57 +0800"
+    },
+    {
+      "title": "RJ Mitte, Breaking Bad actor and disability rights advocate, dies at 34",
+      "url": "https://www.channelnewsasia.com/entertainment/breaking-bad-actor-rj-mitte-dies-34-6454456",
+      "summary": "RJ Mitte rose to fame playing Walter White Jr in the acclaimed television series Breaking Bad. He drew on his personal experience with cerebral palsy to portray the character.",
+      "source": "CNA",
+      "published": "Tue, 13 Oct 2026 08:14:00 +0800"
+    },
     {
       "title": "Commentary: America is risking its biggest asset",
       "url": "https://www.channelnewsasia.com/commentary/america-choke-point-foreign-policy-strategy-6452796",
@@ -147,21 +161,21 @@
       "url": "https://www.channelnewsasia.com/world/ilhan-omar-democratic-home-raid-trump-us-6454226",
       "summary": "US authorities raided Democratic Representative Ilhan Omar’s home as part of an ongoing investigation into alleged immigration fraud, just weeks before the midterm elections.",
       "source": "CNA",
-      "published": "Tue, 13 Oct 2026 04:05:41 +0800"
+      "published": "Tue, 13 Oct 2026 04:05:00 +0800"
     },
     {
       "title": "NATO general sets out tough military response to any 'foolish' Russian attack",
       "url": "https://www.channelnewsasia.com/world/nato-general-grynkewich-russia-attack-defence-6454186",
-      "summary": "“If someone is foolish enough to attack us, we will fight,” NATO’s top commander General Alexus Grynkewich said, warning that any attack on an ally would prove “utterly futile.”",
+      "summary": "“If someone is foolish enough to attack us, we will fight,” NATO’s top commander General Alexus Grynkewich said, warning that any attack on an ally would prove “utterly futile”.",
       "source": "CNA",
-      "published": "Tue, 13 Oct 2026 03:33:49 +0800"
+      "published": "Tue, 13 Oct 2026 03:33:00 +0800"
     },
     {
       "title": "French supermarkets suffer refrigerator shutdown after 'unprecedented' cyberattack",
-      "url": "https://www.channelnewsasia.com/world/french-supermarkets-suffer-refrigerator-shutdown-after-unprecedented-cyberattack-6453906",
+      "url": "https://www.channelnewsasia.com/world/french-supermarkets-cyberattack-refrigerator-shutdown-6453906",
       "summary": "The attack reportedly exploited outdated refrigeration control systems, affecting more than 400 supermarket outlets across France.",
       "source": "CNA",
-      "published": "Tue, 13 Oct 2026 02:15:56 +0800"
+      "published": "Tue, 13 Oct 2026 02:15:00 +0800"
     },
     {
       "title": "More than 100 foreign trekkers stranded in flood-hit region of Nepal, official says",
@@ -197,22 +211,8 @@
       "summary": "Saudi Arabia's civil aviation body has extended the suspension of operations at King Khalid airport in the wake of deadly attacks by Yemen's Iran-aligned Houthis, without specifying when they might resume.",
       "source": "CNA",
       "published": "Mon, 12 Oct 2026 16:56:46 +0800"
-    },
-    {
-      "title": "EU top diplomat says will welcome Ukraine energy truce 'when it holds'",
-      "url": "https://www.channelnewsasia.com/world/eu-top-diplomat-says-will-welcome-ukraine-energy-truce-when-it-holds-6452396",
-      "summary": "",
-      "source": "CNA",
-      "published": "Mon, 12 Oct 2026 16:29:00 +0800"
-    },
-    {
-      "title": "Hurricane Simon weakens to Category 3 as rains flood Mexico's Pacific coast",
-      "url": "https://www.channelnewsasia.com/world/hurricane-simon-weakens-category-3-rains-flood-mexicos-pacific-coast-6451826",
-      "summary": "",
-      "source": "CNA",
-      "published": "Mon, 12 Oct 2026 12:08:58 +0800"
     }
   ],
-  "generated_at": "2026-10-13T06:57:13+08:00",
+  "generated_at": "2026-10-13T09:08:30+08:00",
   "test_mode": false
 }
