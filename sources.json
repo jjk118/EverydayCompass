@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "max_sources": 15,
+  "sources": [
+    {"id": "sccc", "name": "Singapore Chinese Cultural Centre", "url": "https://singaporeccc.org.sg/events/", "enabled": true},
+    {"id": "gardens", "name": "Gardens by the Bay", "url": "https://www.gardensbythebay.com.sg/en/things-to-do/calendar-of-events.html", "enabled": true},
+    {"id": "esplanade", "name": "Esplanade", "url": "https://www.esplanade.com/whats-on", "enabled": true},
+    {"id": "national_museum", "name": "National Museum of Singapore", "url": "https://www.nationalmuseum.nhb.gov.sg/whats-on/exhibition/exhibitions", "enabled": true},
+    {"id": "national_gallery", "name": "National Gallery Singapore", "url": "https://www.nationalgallery.sg/sg/en/whats-on.html", "enabled": true},
+    {"id": "artscience", "name": "ArtScience Museum", "url": "https://www.marinabaysands.com/museum/whats-on.html", "enabled": true},
+    {"id": "ura", "name": "Urban Redevelopment Authority", "url": "https://www.ura.gov.sg/get-involved/events-and-exhibitions/", "enabled": true},
+    {"id": "nlb", "name": "National Library Board", "url": "https://exhibitions.nlb.gov.sg/current-exhibitions/", "enabled": true}
+  ]
+}
