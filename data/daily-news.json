@@ -1,6 +1,20 @@
 {
   "singapore": [
     {
+      "title": "Two men arrested for allegedly stealing bank cards from passengers' bags on flight to Singapore",
+      "url": "https://www.channelnewsasia.com/singapore/two-men-arrested-alleged-theft-bank-cards-bags-flight-6456216",
+      "summary": "The men were found with three bank cards that did not belong to them, the police said.",
+      "source": "CNA",
+      "published": "Tue, 13 Oct 2026 21:42:50 +0800"
+    },
+    {
+      "title": "Singaporeans advised to defer all travel to Saudi Arabia amid heightened security risks: MFA",
+      "url": "https://www.channelnewsasia.com/singapore/saudi-arabia-airport-singaporeans-avoid-travel-6456166",
+      "summary": "Over the past weeks, airports in Saudi Arabia have been attacked and there have been repeated strikes on Riyadh’s King Khalid International Airport, says MFA.",
+      "source": "CNA",
+      "published": "Tue, 13 Oct 2026 21:10:00 +0800"
+    },
+    {
       "title": "Business as usual for most patients as public healthcare clusters recover from 9-hour disruption",
       "url": "https://www.channelnewsasia.com/singapore/system-disruption-hospital-business-usual-patients-6455806",
       "summary": "Across seven healthcare institutions visited by CNA, most patients said they had few or no issues, despite signs warning visitors of potentially longer wait times.",
@@ -33,7 +47,7 @@
       "url": "https://www.channelnewsasia.com/singapore/preschool-teacher-non-contact-time-lesson-planning-ecda-6454146",
       "summary": "The two hours is not a cap and centres that can offer more are encouraged to do so, says the Early Childhood Development Agency (ECDA).",
       "source": "CNA",
-      "published": "Tue, 13 Oct 2026 16:00:10 +0800"
+      "published": "Tue, 13 Oct 2026 16:00:00 +0800"
     },
     {
       "title": "Former Sumo Salad employee cleared of cheating, work injury fraud allegations",
@@ -90,23 +104,23 @@
       "summary": "Air quality has also stayed in the unhealthy range across Singapore on Tuesday, while hourly PM2.5 levels ranged from normal to elevated through the day.",
       "source": "CNA",
       "published": "Tue, 13 Oct 2026 07:55:00 +0800"
-    },
-    {
-      "title": "Attack On Titan: The Musical coming to Singapore in April 2027",
-      "url": "https://www.channelnewsasia.com/entertainment/attack-titan-musical-singapore-2027-6445636",
-      "summary": "The Japanese-language production, following performances in Japan and New York, will run at Sands Theatre from Apr 15 to May 2, 2027, with tickets starting at S$58.",
-      "source": "CNA",
-      "published": "Tue, 13 Oct 2026 07:21:00 +0800"
-    },
-    {
-      "title": "CNA Explains: Why PSI and AQI readings differ - and which one should you follow during haze season?",
-      "url": "https://www.channelnewsasia.com/singapore/haze-psi-aqi-air-quality-pm25-6452896",
-      "summary": "While the National Environment Agency uses the 24-hour PSI and 1-hour PM2.5 to track air quality, other online platforms monitor pollution levels differently.",
-      "source": "CNA",
-      "published": "Mon, 12 Oct 2026 19:55:00 +0800"
     }
   ],
   "world": [
+    {
+      "title": "Egyptian foreign minister urges diplomacy, says ‘no military solution’ to Middle East conflict",
+      "url": "https://www.channelnewsasia.com/world/egypt-foreign-minister-badr-abdelatty-interview-imf-world-bank-meetings-middle-east-conflict-6456226",
+      "summary": "In a wide-ranging interview with CNA’s Saksith Saiyasombut at the IMF-World Bank Annual Meetings in Bangkok, Egyptian Foreign Minister Badr Abdelatty also discussed opportunities for greater trade with Asia and the growing debt burden on developing countries.",
+      "source": "CNA",
+      "published": "Tue, 13 Oct 2026 21:57:00 +0800"
+    },
+    {
+      "title": "Singaporeans advised to defer all travel to Saudi Arabia amid heightened security risks: MFA",
+      "url": "https://www.channelnewsasia.com/singapore/saudi-arabia-airport-singaporeans-avoid-travel-6456166",
+      "summary": "Over the past weeks, airports in Saudi Arabia have been attacked and there have been repeated strikes on Riyadh’s King Khalid International Airport, says MFA.",
+      "source": "CNA",
+      "published": "Tue, 13 Oct 2026 21:10:00 +0800"
+    },
     {
       "title": "Nobel peace laureate Navi Pillay urges US to defend human rights",
       "url": "https://www.channelnewsasia.com/world/nobel-peace-laureate-navi-pillay-human-rights-6455731",
@@ -197,22 +211,8 @@
       "summary": "",
       "source": "CNA",
       "published": "Tue, 13 Oct 2026 10:12:00 +0800"
-    },
-    {
-      "title": "Americans Hall and Woodford win economics Nobel for stabilisation models",
-      "url": "https://www.channelnewsasia.com/world/nobel-prize-hall-woodford-economic-fluctuations-6454646",
-      "summary": "",
-      "source": "CNA",
-      "published": "Tue, 13 Oct 2026 10:06:58 +0800"
-    },
-    {
-      "title": "Commentary: How far will Pakistan go in defending Saudi Arabia against Houthi attacks?",
-      "url": "https://www.channelnewsasia.com/commentary/pakistan-saudi-arabia-houthi-iran-mecca-pact-6452661",
-      "summary": "The distinction between supporting Saudi forces and fighting alongside them may become increasingly difficult to maintain, says Derek Grossman of the University of Southern California.",
-      "source": "CNA",
-      "published": "Tue, 13 Oct 2026 08:58:57 +0800"
     }
   ],
-  "generated_at": "2026-10-13T21:10:11+08:00",
+  "generated_at": "2026-10-13T22:04:25+08:00",
   "test_mode": false
 }
