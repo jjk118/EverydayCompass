@@ -56,10 +56,11 @@ jobs:
         run: pytest -q
       - name: Dry run
         if: steps.refresh_check.outputs.needed == 'true'
-        run: python scripts/update_events.py --dry-run
+        run: python scripts/run_whats_on.py --dry-run
       - name: Update feed
+        id: update
         if: steps.refresh_check.outputs.needed == 'true'
-        run: python scripts/update_events.py
+        run: python scripts/run_whats_on.py
       - name: Commit changed feed
         if: steps.refresh_check.outputs.needed == 'true'
         run: |
@@ -71,3 +72,10 @@ jobs:
             git pull --rebase origin main
             git push origin HEAD:main
           fi
+      # Runs AFTER the feed is saved, so finished events are still removed.
+      # Failing here marks the run red on the Actions page and triggers GitHub's failure notification.
+      - name: Fail the run if every source returned zero events
+        if: steps.refresh_check.outputs.needed == 'true' && steps.update.outputs.all_sources_failed == 'true'
+        run: |
+          echo "::error::Every What's On source returned zero events. Previous events were kept and finished events removed. Check the source list and the websites."
+          exit 1
