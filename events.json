@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T09:57:12+08:00",
+  "updated_at": "2026-10-14T06:09:39+08:00",
   "events": [
     {
       "title": "70 Years of RSP: Where Design Meets Humanity",
@@ -51,31 +51,6 @@
       "link": "https://singaporeccc.org.sg/events/bit-bit-forest-mid-autumn-light-up-maff-2026/"
     },
     {
-      "title": "Crossing Borders 2026",
-      "category": "Music · Free Performances",
-      "overview": "A month of free music and cultural performances from the Middle East, Asia, Europe and the Americas. The 26–27 September weekend includes Okinawan music, Korean dance, Latin American performances and Afro-Brazilian percussion.",
-      "why": "Good for a flexible weekend visit because you can choose from several free performances rather than committing to one long ticketed show.",
-      "period": "1 – 30 Sep 2026",
-      "time": "Various programme times",
-      "venue": "Esplanade – Theatres on the Bay",
-      "mrt": "Esplanade MRT",
-      "duration": "Varies",
-      "adult": "Free programmes",
-      "senior": "Free programmes",
-      "child": "Free programmes",
-      "status": "Ending Soon",
-      "statusClass": "ending",
-      "tags": [
-        "ongoing",
-        "weekend",
-        "ending",
-        "free",
-        "senior",
-        "wheelchair"
-      ],
-      "link": "https://www.esplanade.com/whats-on/festivals-and-series/crossing-borders/2026"
-    },
-    {
       "title": "Into the Ocean: Journey Beneath",
       "category": "Exhibition · Ocean & Science",
       "overview": "A world-premiere ArtScience Museum exhibition with OceanX that takes visitors from sunlit surface waters into the deep ocean through footage, specimens, research and immersive displays.",
@@ -124,31 +99,6 @@
         "indoor"
       ],
       "link": "https://www.nationalgallery.sg/sg/en/exhibitions/Lai-Foong-Moi-Crossings.html"
-    },
-    {
-      "title": "Mid-Autumn Festival 2026",
-      "category": "Festival · Lights",
-      "overview": "Gardens by the Bay lights up with lantern displays across Golden Garden, Dragonfly Lake, Supertree Grove and other areas, plus a marketplace, carnival activities and selected craft programmes.",
-      "why": "This is the final weekend, making it a timely choice for an evening outing with lanterns, food stalls and festive performances.",
-      "period": "12 – 27 Sep 2026",
-      "time": "6pm – 10pm",
-      "venue": "Gardens by the Bay · Multiple outdoor locations",
-      "mrt": "Gardens by the Bay MRT",
-      "duration": "1½–2 hr",
-      "adult": "Free festival admission*",
-      "senior": "Free festival admission*",
-      "child": "Free festival admission*",
-      "status": "Ending Soon",
-      "statusClass": "ending",
-      "tags": [
-        "ongoing",
-        "weekend",
-        "ending",
-        "free",
-        "senior",
-        "wheelchair"
-      ],
-      "link": "https://www.gardensbythebay.com.sg/en/things-to-do/calendar-of-events/mid-autumn-festival-2026.html"
     },
     {
       "title": "Singapore TV: From Local to Global",
@@ -294,5 +244,80 @@
       "count": 0,
       "error": "zero usable events; preserving previous source records"
     }
-  }
+  },
+  "sources": [
+    {
+      "id": "sccc",
+      "name": "Singapore Chinese Cultural Centre",
+      "url": "https://singaporeccc.org.sg/events/",
+      "status": "fallback",
+      "count": 0,
+      "last_success": null,
+      "error": "zero usable events; preserving previous source records"
+    },
+    {
+      "id": "gardens",
+      "name": "Gardens by the Bay",
+      "url": "https://www.gardensbythebay.com.sg/en/things-to-do/calendar-of-events.html",
+      "status": "fallback",
+      "count": 0,
+      "last_success": null,
+      "error": "zero usable events; preserving previous source records"
+    },
+    {
+      "id": "esplanade",
+      "name": "Esplanade",
+      "url": "https://www.esplanade.com/whats-on",
+      "status": "fallback",
+      "count": 0,
+      "last_success": null,
+      "error": "zero usable Esplanade events; preserving previous source records"
+    },
+    {
+      "id": "national_museum",
+      "name": "National Museum of Singapore",
+      "url": "https://www.nationalmuseum.nhb.gov.sg/whats-on/exhibition/exhibitions",
+      "status": "fallback",
+      "count": 0,
+      "last_success": null,
+      "error": "zero usable events; preserving previous source records"
+    },
+    {
+      "id": "national_gallery",
+      "name": "National Gallery Singapore",
+      "url": "https://www.nationalgallery.sg/sg/en/whats-on.html",
+      "status": "fallback",
+      "count": 0,
+      "last_success": null,
+      "error": "zero usable events; preserving previous source records"
+    },
+    {
+      "id": "artscience",
+      "name": "ArtScience Museum",
+      "url": "https://www.marinabaysands.com/museum/whats-on.html",
+      "status": "fallback",
+      "count": 0,
+      "last_success": null,
+      "error": "HTTPSConnectionPool(host='www.marinabaysands.com', port=443): Read timed out. (read timeout=30)"
+    },
+    {
+      "id": "ura",
+      "name": "Urban Redevelopment Authority",
+      "url": "https://www.ura.gov.sg/get-involved/events-and-exhibitions/",
+      "status": "fallback",
+      "count": 0,
+      "last_success": null,
+      "error": "zero usable events; preserving previous source records"
+    },
+    {
+      "id": "nlb",
+      "name": "National Library Board",
+      "url": "https://exhibitions.nlb.gov.sg/current-exhibitions/",
+      "status": "fallback",
+      "count": 0,
+      "last_success": null,
+      "error": "zero usable events; preserving previous source records"
+    }
+  ],
+  "all_sources_failed": true
 }
