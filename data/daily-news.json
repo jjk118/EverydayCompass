@@ -1,6 +1,27 @@
 {
   "singapore": [
     {
+      "title": "Anthropic opens Singapore office, signs AI safety agreement with government",
+      "url": "https://www.channelnewsasia.com/singapore/anthropic-office-safety-agreement-government-deal-6456671",
+      "summary": "The agreement covers AI safety, model evaluation, responsible adoption and incident response.",
+      "source": "CNA",
+      "published": "Wed, 14 Oct 2026 18:22:00 +0800"
+    },
+    {
+      "title": "Man sent explicit photos of wife and lover to family chat, but court declines to grant protection order",
+      "url": "https://www.channelnewsasia.com/singapore/man-explicit-photos-wife-lover-family-chat-protection-order-abuse-6458481",
+      "summary": "The man said that he was very angry and wanted the family to know he was not the one who sabotaged the marriage.",
+      "source": "CNA",
+      "published": "Wed, 14 Oct 2026 17:58:00 +0800"
+    },
+    {
+      "title": "Singapore haze: Government starts N95 mask distribution early as PM2.5 hits very high band",
+      "url": "https://www.channelnewsasia.com/singapore/singapore-haze-psi-live-oct-14-6458371",
+      "summary": "The 1-hour PM2.5 reading in the western region entered the very high band at 2pm, reaching its highest level since 2015.",
+      "source": "CNA",
+      "published": "Wed, 14 Oct 2026 16:20:00 +0800"
+    },
+    {
       "title": "Singapore’s AI-led economic growth set to continue in 2027: MAS",
       "url": "https://www.channelnewsasia.com/singapore/ai-tech-sectors-economic-growth-mas-6458136",
       "summary": "Activity in technology-related sectors is expected to moderate next year, but should remain a principal driver of economic growth, said the central bank on Wednesday (Oct 14).",
@@ -36,9 +57,9 @@
       "published": "Wed, 14 Oct 2026 13:34:00 +0800"
     },
     {
-      "title": "Singapore haze: Hourly PM2.5 reading surges to 288 in the west, enters very high band",
+      "title": "Singapore haze worsens as hourly PM2.5 reaches 288 in west, highest since 2015",
       "url": "https://www.channelnewsasia.com/singapore/singapore-haze-oct-14-unhealthy-pm-25-psi-6457956",
-      "summary": "At 3pm, hourly PM2.5 readings were in the high range in the south (177), east (208) and central (218) regions.",
+      "summary": "Sports facilities were closed and outdoor activities suspended as air quality deteriorated across the country.",
       "source": "CNA",
       "published": "Wed, 14 Oct 2026 13:01:00 +0800"
     },
@@ -78,35 +99,21 @@
       "published": "Wed, 14 Oct 2026 10:19:34 +0800"
     },
     {
-      "title": "GovTech and Google DeepMind developing real-time detection of AI scams on devices",
+      "title": "GovTech and Google DeepMind developing real-time detection of scams on devices",
       "url": "https://www.channelnewsasia.com/singapore/govtech-google-deepmind-ai-scam-quantum-sicw-6455621",
       "summary": "Organisations will also receive funding through a new grant to protect against quantum threats.",
       "source": "CNA",
       "published": "Wed, 14 Oct 2026 09:32:00 +0800"
-    },
-    {
-      "title": "MAS keeps monetary policy on hold after tightening twice this year",
-      "url": "https://www.channelnewsasia.com/singapore/mas-monetary-policy-inflation-economy-6454831",
-      "summary": "The Monetary Authority of Singapore also narrowed the core inflation forecast to 1.5 to 2 per cent, from a previous prediction of 1.5 to 2.5 per cent.",
-      "source": "CNA",
-      "published": "Wed, 14 Oct 2026 08:21:00 +0800"
-    },
-    {
-      "title": "Singapore's economy grows 5.4% in Q3, down from 6.2% in previous quarter: Advance estimates",
-      "url": "https://www.channelnewsasia.com/singapore/gdp-forecast-q3-growth-meti-6455581",
-      "summary": "On a quarter-on-quarter seasonally adjusted basis, Singapore's economy grew 1.1 per cent, compared to the 1.5 per cent growth in Q2.",
-      "source": "CNA",
-      "published": "Wed, 14 Oct 2026 08:00:00 +0800"
-    },
-    {
-      "title": "‘Thinking of you’, ‘stay strong’: Why words like these can fail when a loved one is going through the worst",
-      "url": "https://www.channelnewsasia.com/women/support-someone-cancer-grief-6423496",
-      "summary": "Michelle Bong Lejtenyi has spent her career finding the right words, but when people she loved faced cancer and grief, she struggled with knowing what to say. She’s learnt that sincerity can matter more than finding the perfect words.",
-      "source": "CNA",
-      "published": "Wed, 14 Oct 2026 07:36:00 +0800"
     }
   ],
   "world": [
+    {
+      "title": "What we know about Pope Leo's lung cancer diagnosis",
+      "url": "https://www.channelnewsasia.com/world/pope-leo-lung-cancer-diagnosis-hospital-vatican-6457486",
+      "summary": "Pope Leo has undergone surgery to remove a cancerous tumour from his right lung, raising questions about his health and whether he will need further treatment. Here's what we know so far about his condition.",
+      "source": "CNA",
+      "published": "Wed, 14 Oct 2026 17:03:00 +0800"
+    },
     {
       "title": "Pope Leo recovering after lung cancer operation",
       "url": "https://www.channelnewsasia.com/world/pope-leo-recovering-lung-cancer-tumour-removal-operation-6457146",
@@ -204,15 +211,8 @@
       "summary": "",
       "source": "CNA",
       "published": "Wed, 14 Oct 2026 00:31:00 +0800"
-    },
-    {
-      "title": "Egyptian foreign minister urges diplomacy, says ‘no military solution’ to Middle East conflict",
-      "url": "https://www.channelnewsasia.com/world/egypt-foreign-minister-badr-abdelatty-interview-imf-world-bank-meetings-middle-east-conflict-6456226",
-      "summary": "In a wide-ranging interview with CNA’s Saksith Saiyasombut at the IMF-World Bank Annual Meetings in Bangkok, Egyptian Foreign Minister Badr Abdelatty also discussed opportunities for greater trade with Asia and the growing debt burden on developing countries.",
-      "source": "CNA",
-      "published": "Tue, 13 Oct 2026 21:57:00 +0800"
     }
   ],
-  "generated_at": "2026-10-14T16:12:26+08:00",
+  "generated_at": "2026-10-14T19:12:19+08:00",
   "test_mode": false
 }
