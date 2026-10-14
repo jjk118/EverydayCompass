@@ -1,11 +1,18 @@
 {
   "singapore": [
     {
+      "title": "GovTech and Google DeepMind developing real-time detection of AI scams on devices",
+      "url": "https://www.channelnewsasia.com/singapore/govtech-google-deepmind-ai-scam-quantum-sicw-6455621",
+      "summary": "Organisations will also receive funding through a new grant to protect against quantum threats.",
+      "source": "CNA",
+      "published": "Wed, 14 Oct 2026 09:32:32 +0800"
+    },
+    {
       "title": "MAS keeps monetary policy on hold after tightening twice this year",
       "url": "https://www.channelnewsasia.com/singapore/mas-monetary-policy-inflation-economy-6454831",
       "summary": "The Monetary Authority of Singapore also narrowed the core inflation forecast to 1.5 to 2 per cent, from a previous prediction of 1.5 to 2.5 per cent.",
       "source": "CNA",
-      "published": "Wed, 14 Oct 2026 08:21:22 +0800"
+      "published": "Wed, 14 Oct 2026 08:21:00 +0800"
     },
     {
       "title": "Singapore's economy grows 5.4% in Q3, down from 6.2% in previous quarter: Advance estimates",
@@ -97,13 +104,6 @@
       "summary": "Changi Airport and Seletar Airport remain operational, but additional measures will be implemented if the haze situation worsens, the Civil Aviation Authority of Singapore and Changi Airport Group said.",
       "source": "CNA",
       "published": "Tue, 13 Oct 2026 12:46:08 +0800"
-    },
-    {
-      "title": "The Sandbox screening with just 7 moviegoers sparks discussion on support for Singapore films",
-      "url": "https://www.channelnewsasia.com/entertainment/sandbox-seven-viewers-singapore-films-cinema-support-6454691",
-      "summary": "After the surprise appearance, cast members Nathan Hartono and Fauzi Azzhar urged audiences to support Singapore films in cinemas rather than wait for streaming releases, sparking discussions about cinema attendance, streaming habits and the challenges facing local filmmakers.",
-      "source": "CNA",
-      "published": "Tue, 13 Oct 2026 12:46:00 +0800"
     }
   ],
   "world": [
@@ -213,6 +213,6 @@
       "published": "Tue, 13 Oct 2026 14:59:00 +0800"
     }
   ],
-  "generated_at": "2026-10-14T09:18:35+08:00",
+  "generated_at": "2026-10-14T10:07:09+08:00",
   "test_mode": false
 }
