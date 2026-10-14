@@ -1,6 +1,27 @@
 {
   "singapore": [
     {
+      "title": "CNA Explains: What happens when the government disagrees with the courts?",
+      "url": "https://www.channelnewsasia.com/singapore/government-parliament-judiciary-courts-legislative-changes-disagree-6458426",
+      "summary": "A recent High Court ruling that overturned deterrent sentences for four young scam mules prompted the government to propose changes to the law. CNA looks at similar past cases, how lawmakers responded and the constitutional limits involved.",
+      "source": "CNA",
+      "published": "Thu, 15 Oct 2026 06:00:00 +0800"
+    },
+    {
+      "title": "Singapore keeping options open on haze prosecution against companies as it collects, reviews data: Grace Fu",
+      "url": "https://www.channelnewsasia.com/singapore/options-open-haze-prosecution-collects-reviews-data-grace-fu-6458601",
+      "summary": "Singapore's hourly PM2.5 reading hit its highest level since 2015 on Wednesday, as worsening haze prompted sports facility closures and other precautionary measures.",
+      "source": "CNA",
+      "published": "Wed, 14 Oct 2026 22:52:00 +0800"
+    },
+    {
+      "title": "Spike in PM2.5 in Singapore catches people off guard, haze hits businesses and outdoor workers",
+      "url": "https://www.channelnewsasia.com/singapore/haze-pm25-psi-businesses-outdoor-workers-poor-air-quality-6459106",
+      "summary": "PM2.5 levels climbed above 280 in western Singapore on Wednesday, prompting a rush for N95 masks and air purifiers.",
+      "source": "CNA",
+      "published": "Wed, 14 Oct 2026 22:38:00 +0800"
+    },
+    {
       "title": "Two Singapore-registered vessels struck in Strait of Hormuz, one sinks",
       "url": "https://www.channelnewsasia.com/singapore/vessels-singapore-registered-struck-strait-hormuz-6459176",
       "summary": "All crew members on both container vessels are safe, says the Maritime and Port Authority of Singapore.",
@@ -19,7 +40,7 @@
       "url": "https://www.channelnewsasia.com/singapore/grants-incentives-employers-jobs-flexible-jasmin-lau-6457496",
       "summary": "The government is studying which sectors to begin rolling out the policy, but workers in such roles must be prepared for their salaries to vary according to their work output, said Acting Manpower Minister Jasmin Lau.",
       "source": "CNA",
-      "published": "Wed, 14 Oct 2026 19:48:04 +0800"
+      "published": "Wed, 14 Oct 2026 19:48:00 +0800"
     },
     {
       "title": "Singapore brings forward N95 mask distribution amid worsening haze",
@@ -43,7 +64,7 @@
       "published": "Wed, 14 Oct 2026 17:58:00 +0800"
     },
     {
-      "title": "Singapore haze: PM2.5 hits highest level since 2015 as authorities step up measures",
+      "title": "As it happened: Singapore haze - PM2.5 hits highest level since 2015 as authorities step up measures",
       "url": "https://www.channelnewsasia.com/singapore/singapore-haze-psi-live-oct-14-6458371",
       "summary": "The government began rolling out additional haze measures on Wednesday (Oct 14), including the distribution of N95 masks to vulnerable Singaporeans.",
       "source": "CNA",
@@ -83,30 +104,58 @@
       "summary": "IMDA also launched the first version of a starter kit aimed at helping organisations test agentic AI systems for safety and reliability.",
       "source": "CNA",
       "published": "Wed, 14 Oct 2026 13:34:00 +0800"
-    },
-    {
-      "title": "Singapore haze worsens as hourly PM2.5 reaches 288 in west, highest since 2015",
-      "url": "https://www.channelnewsasia.com/singapore/singapore-haze-oct-14-unhealthy-pm-25-psi-6457956",
-      "summary": "Sports facilities were closed and outdoor activities suspended as air quality deteriorated across the country.",
-      "source": "CNA",
-      "published": "Wed, 14 Oct 2026 13:01:00 +0800"
-    },
-    {
-      "title": "Beauty World Plaza up for collective sale for third time at S$165 million",
-      "url": "https://www.channelnewsasia.com/singapore/beauty-world-plaza-collective-sale-165-million-etc-realion-6457561",
-      "summary": "Beauty World Plaza was previously put up for collective sale in November 2018 and June 2019 at the same guide price.",
-      "source": "CNA",
-      "published": "Wed, 14 Oct 2026 11:56:00 +0800"
-    },
-    {
-      "title": "Attendance at pools and stadiums falls 12% as haze curbs outdoor exercise",
-      "url": "https://www.channelnewsasia.com/singapore/haze-air-quality-exercise-pools-stadium-activesg-golf-6457676",
-      "summary": "Warren Golf and Country Club in Chua Chu Kang has also observed a 20 per cent drop in weekly attendance due to the haze.",
-      "source": "CNA",
-      "published": "Wed, 14 Oct 2026 11:51:05 +0800"
     }
   ],
   "world": [
+    {
+      "title": "Commentary: Trump wants cheaper diesel, but Ukraine could pay the price",
+      "url": "https://www.channelnewsasia.com/commentary/trump-russia-diesel-deal-ukraine-war-u-turn-6458896",
+      "summary": "Ukraine is more vulnerable, after the US eased sanctions on Russian diesel and declared an energy ceasefire that Moscow is not heeding, says war studies lecturer Samir Puri.",
+      "source": "CNA",
+      "published": "Thu, 15 Oct 2026 06:00:00 +0800"
+    },
+    {
+      "title": "Ukraine accuses US of helping Russia as missiles hit Kyiv",
+      "url": "https://www.channelnewsasia.com/world/ukraine-us-russia-missiles-starshield-musk-6460691",
+      "summary": "Ukraine said the US had failed to warn it of incoming Russian missile strikes and had hobbled its military response through changes to the Starlink system it uses on the battlefield.",
+      "source": "CNA",
+      "published": "Thu, 15 Oct 2026 05:48:00 +0800"
+    },
+    {
+      "title": "Kenya announces second Ebola case, says 'no evidence' of wider spread",
+      "url": "https://www.channelnewsasia.com/world/kenya-ebola-no-wider-spread-6460636",
+      "summary": "The patient is receiving treatment in isolation, while authorities have identified 128 contacts linked to the first case and traced 113 of them as part of efforts to contain the outbreak.",
+      "source": "CNA",
+      "published": "Thu, 15 Oct 2026 05:04:00 +0800"
+    },
+    {
+      "title": "Netflix to cut about 1,000 jobs amid slower growth",
+      "url": "https://www.channelnewsasia.com/world/netflix-job-cuts-1000-slow-growth-6460556",
+      "summary": "Netflix plans to cut around 1,000 jobs amid slowing revenue growth and reports of declining viewing time on its streaming platform.",
+      "source": "CNA",
+      "published": "Thu, 15 Oct 2026 04:15:00 +0800"
+    },
+    {
+      "title": "Pope Leo back on his feet after shock cancer diagnosis",
+      "url": "https://www.channelnewsasia.com/world/pope-leo-lung-cancer-operation-hospital-vatican-6460486",
+      "summary": "The diagnosis has raised concerns about the 71-year-old pontiff’s health and the future of his papacy, though the Vatican says his recovery is progressing well.",
+      "source": "CNA",
+      "published": "Thu, 15 Oct 2026 02:42:00 +0800"
+    },
+    {
+      "title": "US inflation heats up in September; Fed rate hike this month back on table",
+      "url": "https://www.channelnewsasia.com/world/us-inflation-heats-up-in-september-fed-rate-hike-month-back-table-6460151",
+      "summary": "US inflation rose to 3.7 per cent in September, driven by higher gasoline prices, increasing pressure on households and complicating the Federal Reserve’s decision on interest rates.",
+      "source": "CNA",
+      "published": "Thu, 15 Oct 2026 01:53:00 +0800"
+    },
+    {
+      "title": "Ukrainian drones hit Russia's top data centre in attack on AI ambitions",
+      "url": "https://www.channelnewsasia.com/world/ukrainian-drones-hit-russias-top-data-centre-in-attack-ai-ambitions-6459946",
+      "summary": "The attack follows a series of Ukrainian strikes on Russian data centres.",
+      "source": "CNA",
+      "published": "Thu, 15 Oct 2026 00:43:59 +0800"
+    },
     {
       "title": "Yemen fighting overwhelms hospitals, cuts aid to 800,000 people, relief agencies say",
       "url": "https://www.channelnewsasia.com/world/middle-east-yemen-fighting-hospitals-houthi-6458566",
@@ -162,57 +211,8 @@
       "summary": "MUIS said it is encouraging Umrah travel agents to help those with existing bookings with clear information and, where possible, flexible arrangements for postponing or rescheduling their trips.",
       "source": "CNA",
       "published": "Wed, 14 Oct 2026 11:42:00 +0800"
-    },
-    {
-      "title": "Commentary: Is there a case for reversing Brexit?",
-      "url": "https://www.channelnewsasia.com/commentary/britain-reversal-brexit-european-union-andy-burnham-6455446",
-      "summary": "The political, strategic and economic momentum for a reversal of Brexit is growing, says Gideon Rachman for the Financial Times.",
-      "source": "CNA",
-      "published": "Wed, 14 Oct 2026 05:58:00 +0800"
-    },
-    {
-      "title": "Cornell suspends frat parties after alleged gang rape",
-      "url": "https://www.channelnewsasia.com/world/cornell-gang-rape-frat-parties-banned-6457251",
-      "summary": "Cornell President Michael Kotlikoff said the suspension \"will provide time for a thorough review of fraternity life at Cornell to determine whether and how it can safely continue\".",
-      "source": "CNA",
-      "published": "Wed, 14 Oct 2026 05:55:00 +0800"
-    },
-    {
-      "title": "Pope Leo diagnosed with cancer as doctors remove part of lung, Vatican says",
-      "url": "https://www.channelnewsasia.com/world/pope-leo-lung-cancer-operation-hospital-vatican-6457201",
-      "summary": "Pope Leo has lung adenocarcinoma, a common form of cancer, according to the Vatican's bulletin.",
-      "source": "CNA",
-      "published": "Wed, 14 Oct 2026 05:30:00 +0800"
-    },
-    {
-      "title": "Ex-gang leader sentenced to minimum 40 years for Tupac murder",
-      "url": "https://www.channelnewsasia.com/world/tupac-murder-sentence-keffe-d-40-years-prison-6457156",
-      "summary": "Duane “Keffe D” Davis was sentenced to at least 40 years in prison for ordering the 1996 killing of rapper Tupac Shakur in Las Vegas.",
-      "source": "CNA",
-      "published": "Wed, 14 Oct 2026 04:44:00 +0800"
-    },
-    {
-      "title": "AI could 'change the stakes' on bioweapons: UK spy chief",
-      "url": "https://www.channelnewsasia.com/world/uk-mi5-spy-chief-ai-bioweapons-cyberattacks-6457066",
-      "summary": "MI5 chief Ken McCallum warned that AI could “change the stakes” on bioweapons and increase cyberattacks and other security threats to the UK.",
-      "source": "CNA",
-      "published": "Wed, 14 Oct 2026 03:47:36 +0800"
-    },
-    {
-      "title": "New White House spokeswoman heavy on Trump praise, light on questions in debut",
-      "url": "https://www.channelnewsasia.com/world/white-house-press-secretary-katie-zacharia-trump-6456881",
-      "summary": "US President Donald Trump praised her performance at the podium, saying he thought she was \"very good”.",
-      "source": "CNA",
-      "published": "Wed, 14 Oct 2026 01:50:00 +0800"
-    },
-    {
-      "title": "Russia detains Japanese journalist on suspicion of spying",
-      "url": "https://www.channelnewsasia.com/world/russia-detains-japanese-journalist-suspicion-spying-6456826",
-      "summary": "Russian state TV showed a man lying on a floor and handcuffed by three masked men in black uniform.",
-      "source": "CNA",
-      "published": "Wed, 14 Oct 2026 01:02:00 +0800"
     }
   ],
-  "generated_at": "2026-10-14T22:10:20+08:00",
+  "generated_at": "2026-10-15T07:05:40+08:00",
   "test_mode": false
 }
