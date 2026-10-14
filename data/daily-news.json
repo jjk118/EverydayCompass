@@ -1,6 +1,34 @@
 {
   "singapore": [
     {
+      "title": "Two Singapore-registered vessels struck in Strait of Hormuz, one sinks",
+      "url": "https://www.channelnewsasia.com/singapore/vessels-singapore-registered-struck-strait-hormuz-6459176",
+      "summary": "All crew members on both container vessels are safe, says the Maritime and Port Authority of Singapore.",
+      "source": "CNA",
+      "published": "Wed, 14 Oct 2026 20:57:00 +0800"
+    },
+    {
+      "title": "Extremist influences becoming more diverse, anyone can be susceptible: PM Wong",
+      "url": "https://www.channelnewsasia.com/singapore/extremist-influences-more-diverse-susceptible-pm-wong-6459061",
+      "summary": "Singapore must guard against people “retreating into separate worlds”, surrounded only by others who think like them and gradually losing their connection with the wider community, said Prime Minister Lawrence Wong.",
+      "source": "CNA",
+      "published": "Wed, 14 Oct 2026 20:45:00 +0800"
+    },
+    {
+      "title": "Grants, incentives to be given to employers that redesign jobs for flexible work: Jasmin Lau",
+      "url": "https://www.channelnewsasia.com/singapore/grants-incentives-employers-jobs-flexible-jasmin-lau-6457496",
+      "summary": "The government is studying which sectors to begin rolling out the policy, but workers in such roles must be prepared for their salaries to vary according to their work output, said Acting Manpower Minister Jasmin Lau.",
+      "source": "CNA",
+      "published": "Wed, 14 Oct 2026 19:48:04 +0800"
+    },
+    {
+      "title": "Singapore brings forward N95 mask distribution amid worsening haze",
+      "url": "https://www.channelnewsasia.com/singapore/haze-n95-mask-distribution-psi-pm25-6458336",
+      "summary": "Mask distribution for vulnerable citizens began earlier than originally planned after the 1-hour PM2.5 reading hit 288 in the west at 2pm on Wednesday.",
+      "source": "CNA",
+      "published": "Wed, 14 Oct 2026 19:28:00 +0800"
+    },
+    {
       "title": "Anthropic opens Singapore office, signs AI safety agreement with government",
       "url": "https://www.channelnewsasia.com/singapore/anthropic-office-safety-agreement-government-deal-6456671",
       "summary": "The agreement covers AI safety, model evaluation, responsible adoption and incident response.",
@@ -15,9 +43,9 @@
       "published": "Wed, 14 Oct 2026 17:58:00 +0800"
     },
     {
-      "title": "Singapore haze: Government starts N95 mask distribution early as PM2.5 hits very high band",
+      "title": "Singapore haze: PM2.5 hits highest level since 2015 as authorities step up measures",
       "url": "https://www.channelnewsasia.com/singapore/singapore-haze-psi-live-oct-14-6458371",
-      "summary": "The 1-hour PM2.5 reading in the western region entered the very high band at 2pm, reaching its highest level since 2015.",
+      "summary": "The government began rolling out additional haze measures on Wednesday (Oct 14), including the distribution of N95 masks to vulnerable Singaporeans.",
       "source": "CNA",
       "published": "Wed, 14 Oct 2026 16:20:00 +0800"
     },
@@ -76,37 +104,16 @@
       "summary": "Warren Golf and Country Club in Chua Chu Kang has also observed a 20 per cent drop in weekly attendance due to the haze.",
       "source": "CNA",
       "published": "Wed, 14 Oct 2026 11:51:05 +0800"
-    },
-    {
-      "title": "Singaporeans advised to consider postponing Umrah pilgrimages amid Saudi Arabia security risks: MUIS",
-      "url": "https://www.channelnewsasia.com/singapore/muis-advice-postpone-umrah-pilgrimage-saudi-arabia-6457621",
-      "summary": "MUIS said it is encouraging Umrah travel agents to help those with existing bookings with clear information and, where possible, flexible arrangements for postponing or rescheduling their trips.",
-      "source": "CNA",
-      "published": "Wed, 14 Oct 2026 11:42:00 +0800"
-    },
-    {
-      "title": "Why is everyone saying 'I Am Jane Doe' – and why should you care?",
-      "url": "https://www.channelnewsasia.com/women/i-am-jane-doe-cornell-sexual-assault-6457366",
-      "summary": "When internet users tried to uncover the identity of a woman accusing seven Cornell University students of sexual assault, social media users responded with “I Am Jane Doe”. The movement has become a viral stand against victim-blaming, with a message that resonates in Singapore too.",
-      "source": "CNA",
-      "published": "Wed, 14 Oct 2026 10:22:51 +0800"
-    },
-    {
-      "title": "King Of Culinary: Woks Up is Mediacorp's new series where hawkers compete to be crowned champion",
-      "url": "https://www.channelnewsasia.com/entertainment/mediacorp-king-culinary-woks-up-hawkers-competition-6457506",
-      "summary": "The series premieres on Wednesday (Oct 14) on mewatch and Channel 8.",
-      "source": "CNA",
-      "published": "Wed, 14 Oct 2026 10:19:34 +0800"
-    },
-    {
-      "title": "GovTech and Google DeepMind developing real-time detection of scams on devices",
-      "url": "https://www.channelnewsasia.com/singapore/govtech-google-deepmind-ai-scam-quantum-sicw-6455621",
-      "summary": "Organisations will also receive funding through a new grant to protect against quantum threats.",
-      "source": "CNA",
-      "published": "Wed, 14 Oct 2026 09:32:00 +0800"
     }
   ],
   "world": [
+    {
+      "title": "Yemen fighting overwhelms hospitals, cuts aid to 800,000 people, relief agencies say",
+      "url": "https://www.channelnewsasia.com/world/middle-east-yemen-fighting-hospitals-houthi-6458566",
+      "summary": "",
+      "source": "CNA",
+      "published": "Wed, 14 Oct 2026 19:42:04 +0800"
+    },
     {
       "title": "What we know about Pope Leo's lung cancer diagnosis",
       "url": "https://www.channelnewsasia.com/world/pope-leo-lung-cancer-diagnosis-hospital-vatican-6457486",
@@ -204,15 +211,8 @@
       "summary": "Russian state TV showed a man lying on a floor and handcuffed by three masked men in black uniform.",
       "source": "CNA",
       "published": "Wed, 14 Oct 2026 01:02:00 +0800"
-    },
-    {
-      "title": "Saudi Arabia says Houthi attacks sparked Aramco fire, wounded 4 in Riyadh",
-      "url": "https://www.channelnewsasia.com/world/saudi-arabia-houthis-yemen-strike-sanaa-oil-site-6456711",
-      "summary": "",
-      "source": "CNA",
-      "published": "Wed, 14 Oct 2026 00:31:00 +0800"
     }
   ],
-  "generated_at": "2026-10-14T19:12:19+08:00",
+  "generated_at": "2026-10-14T21:20:34+08:00",
   "test_mode": false
 }
