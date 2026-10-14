@@ -1,6 +1,27 @@
 {
   "singapore": [
     {
+      "title": "MAS keeps monetary policy on hold after tightening twice this year",
+      "url": "https://www.channelnewsasia.com/singapore/mas-monetary-policy-inflation-economy-6454831",
+      "summary": "The Monetary Authority of Singapore also narrowed the core inflation forecast to 1.5 to 2 per cent, from a previous prediction of 1.5 to 2.5 per cent.",
+      "source": "CNA",
+      "published": "Wed, 14 Oct 2026 08:21:22 +0800"
+    },
+    {
+      "title": "Singapore's economy grows 5.4% in Q3, down from 6.2% in previous quarter: Advance estimates",
+      "url": "https://www.channelnewsasia.com/singapore/gdp-forecast-q3-growth-meti-6455581",
+      "summary": "On a quarter-on-quarter seasonally adjusted basis, Singapore's economy grew 1.1 per cent, compared to the 1.5 per cent growth in Q2.",
+      "source": "CNA",
+      "published": "Wed, 14 Oct 2026 08:00:00 +0800"
+    },
+    {
+      "title": "‘Thinking of you’, ‘stay strong’: Why words like these can fail when a loved one is going through the worst",
+      "url": "https://www.channelnewsasia.com/women/support-someone-cancer-grief-6423496",
+      "summary": "Michelle Bong Lejtenyi has spent her career finding the right words, but when people she loved faced cancer and grief, she struggled with knowing what to say. She’s learnt that sincerity can matter more than finding the perfect words.",
+      "source": "CNA",
+      "published": "Wed, 14 Oct 2026 07:36:00 +0800"
+    },
+    {
       "title": "‘Modest take-up’: More than 90 families await childminders as pilot faces matching challenge",
       "url": "https://www.channelnewsasia.com/singapore/childminding-nanny-baby-parents-caregiving-challenge-6456531",
       "summary": "Having the service more evenly spread across Singapore would give parents options closer to home and reduce travel time, one parent said.",
@@ -83,27 +104,6 @@
       "summary": "After the surprise appearance, cast members Nathan Hartono and Fauzi Azzhar urged audiences to support Singapore films in cinemas rather than wait for streaming releases, sparking discussions about cinema attendance, streaming habits and the challenges facing local filmmakers.",
       "source": "CNA",
       "published": "Tue, 13 Oct 2026 12:46:00 +0800"
-    },
-    {
-      "title": "Singapore startup opens plant to recover lithium from EV batteries, raises US$7.6 million",
-      "url": "https://www.channelnewsasia.com/singapore/ev-battery-lithium-recycling-singapore-6452506",
-      "summary": "NEU Battery Materials says its Tuas plant can process 1,300 tonnes of battery materials a year but will not run at full capacity for now.",
-      "source": "CNA",
-      "published": "Tue, 13 Oct 2026 10:30:00 +0800"
-    },
-    {
-      "title": "Services restored after hours-long disruption at public healthcare clusters; no indication of cyberattack: Health tech agency",
-      "url": "https://www.channelnewsasia.com/singapore/public-hospitals-healthcare-system-disruptions-6454651",
-      "summary": "The disruption, which affected patient-facing services such as appointment bookings through call centres, visitor registration and billing enquiries, lasted about nine hours.",
-      "source": "CNA",
-      "published": "Tue, 13 Oct 2026 10:28:00 +0800"
-    },
-    {
-      "title": "New Singapore cybersecurity strategy to tap 'best available' AI models for cyber defence",
-      "url": "https://www.channelnewsasia.com/singapore/shanmugam-cybersecurity-strategy-csa-ai-6452641",
-      "summary": "To prepare for AI-enabled cyber threats, Singapore will seek to act earlier, at national scale and at the speed of malicious attackers, says Senior Minister K Shanmugam.",
-      "source": "CNA",
-      "published": "Tue, 13 Oct 2026 10:04:00 +0800"
     }
   ],
   "world": [
@@ -119,7 +119,7 @@
       "url": "https://www.channelnewsasia.com/world/cornell-gang-rape-frat-parties-banned-6457251",
       "summary": "The university said the suspension would allow a review of fraternity life, after protests demanded accountability and better protection for survivors.",
       "source": "CNA",
-      "published": "Wed, 14 Oct 2026 05:55:36 +0800"
+      "published": "Wed, 14 Oct 2026 05:55:00 +0800"
     },
     {
       "title": "Pope Leo diagnosed with cancer as doctors remove part of lung, Vatican says",
@@ -147,21 +147,21 @@
       "url": "https://www.channelnewsasia.com/world/white-house-press-secretary-zacharia-trump-6456881",
       "summary": "US President Donald Trump praised her performance at the podium, saying he thought she was \"very good”.",
       "source": "CNA",
-      "published": "Wed, 14 Oct 2026 01:50:14 +0800"
+      "published": "Wed, 14 Oct 2026 01:50:00 +0800"
     },
     {
       "title": "Russia detains Japanese journalist on suspicion of spying",
       "url": "https://www.channelnewsasia.com/world/russia-detains-japanese-journalist-suspicion-spying-6456826",
       "summary": "Russian state TV showed a man lying on a floor and handcuffed by three masked men in black uniform.",
       "source": "CNA",
-      "published": "Wed, 14 Oct 2026 01:02:02 +0800"
+      "published": "Wed, 14 Oct 2026 01:02:00 +0800"
     },
     {
-      "title": "Houthis say Saudi Arabia strikes oil site in Yemen's capital",
-      "url": "https://www.channelnewsasia.com/world/saudi-arabia-houthis-yemen-strike-yanaa-oil-site-6456711",
+      "title": "Saudi Arabia says Houthi attacks sparked Aramco fire, wounded 4 in Riyadh",
+      "url": "https://www.channelnewsasia.com/world/saudi-arabia-houthis-yemen-strike-sanaa-oil-site-6456711",
       "summary": "",
       "source": "CNA",
-      "published": "Wed, 14 Oct 2026 00:31:41 +0800"
+      "published": "Wed, 14 Oct 2026 00:31:00 +0800"
     },
     {
       "title": "Egyptian foreign minister urges diplomacy, says ‘no military solution’ to Middle East conflict",
@@ -213,6 +213,6 @@
       "published": "Tue, 13 Oct 2026 14:59:00 +0800"
     }
   ],
-  "generated_at": "2026-10-14T07:05:36+08:00",
+  "generated_at": "2026-10-14T09:18:35+08:00",
   "test_mode": false
 }
