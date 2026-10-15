@@ -50,9 +50,9 @@
       "published": "Thu, 15 Oct 2026 10:30:00 +0800"
     },
     {
-      "title": "Singapore haze: PM2.5 reading high in east; air quality remains very unhealthy in west",
+      "title": "Singapore haze: PM2.5 readings elevated across Singapore; air quality in west out of very unhealthy band",
       "url": "https://www.channelnewsasia.com/singapore/haze-pm25-elevated-psi-very-unhealthy-6460876",
-      "summary": "At 2pm, the hourly PM2.5 reading in the eastern region was high at 156, while the other regions had elevated readings ranging from 93 to 144.",
+      "summary": "Air quality in the west had been in the very unhealthy band since 9pm on Wednesday.",
       "source": "CNA",
       "published": "Thu, 15 Oct 2026 08:10:00 +0800"
     },
@@ -107,6 +107,13 @@
     }
   ],
   "world": [
+    {
+      "title": "Pakistan school roof collapse kills 28; more deaths feared",
+      "url": "https://www.channelnewsasia.com/asia/pakistan-school-roof-collapse-dozens-students-dead-6461551",
+      "summary": "",
+      "source": "CNA",
+      "published": "Thu, 15 Oct 2026 16:00:00 +0800"
+    },
     {
       "title": "Japan denies spying after Russia arrests journalist",
       "url": "https://www.channelnewsasia.com/east-asia/japan-denies-spying-russia-journalist-arrest-6459186",
@@ -204,15 +211,8 @@
       "summary": "",
       "source": "CNA",
       "published": "Wed, 14 Oct 2026 14:13:00 +0800"
-    },
-    {
-      "title": "US to drop South Korea intelligence case against ex-CIA analyst",
-      "url": "https://www.channelnewsasia.com/east-asia/us-drop-south-korea-intelligence-case-against-ex-cia-analyst-6457891",
-      "summary": "",
-      "source": "CNA",
-      "published": "Wed, 14 Oct 2026 13:16:08 +0800"
     }
   ],
-  "generated_at": "2026-10-15T15:23:00+08:00",
+  "generated_at": "2026-10-15T16:13:31+08:00",
   "test_mode": false
 }
