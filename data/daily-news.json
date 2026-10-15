@@ -1,6 +1,34 @@
 {
   "singapore": [
     {
+      "title": "AI accelerating cyber threats, making regional cooperation crucial: Australian minister",
+      "url": "https://www.channelnewsasia.com/singapore/artificial-intelligence-cyber-threats-regional-cooperation-australia-thistlethwaite-6461546",
+      "summary": "Australian Assistant Foreign Affairs and Trade Minister Matt Thistlethwaite tells CNA's Paul Sng that countries must work together to counter increasingly sophisticated cyberattacks and transnational cybercrime.",
+      "source": "CNA",
+      "published": "Thu, 15 Oct 2026 15:00:29 +0800"
+    },
+    {
+      "title": "Haze in Singapore: How to collect free N95 masks and who is eligible",
+      "url": "https://www.channelnewsasia.com/singapore/n95-mask-collection-community-centre-vending-machines-6461351",
+      "summary": "The free N95 masks are for individuals who are more vulnerable to the haze's negative health effects and can be collected at vending machines or People's Association Community Centres.",
+      "source": "CNA",
+      "published": "Thu, 15 Oct 2026 14:11:00 +0800"
+    },
+    {
+      "title": "BigBang concert organisers issue haze advisory ahead of weekend shows in Singapore",
+      "url": "https://www.channelnewsasia.com/entertainment/bigbang-singapore-concert-haze-advisory-6461461",
+      "summary": "In a post on Thursday (Oct 15), live events company AEG Presents Asia outlined measures fans can take to protect themselves, in light of Singapore's haze situation.",
+      "source": "CNA",
+      "published": "Thu, 15 Oct 2026 14:05:01 +0800"
+    },
+    {
+      "title": "Proposed COE changes could reshape Singapore’s used car market, say dealers",
+      "url": "https://www.channelnewsasia.com/singapore/coe-premiums-second-hand-used-cars-resale-value-dealers-6461331",
+      "summary": "Dealers and analysts say some mass-market vehicles could lose resale value under the proposed COE changes, while demand for pre-owned luxury cars may rise.",
+      "source": "CNA",
+      "published": "Thu, 15 Oct 2026 13:24:33 +0800"
+    },
+    {
       "title": "Remember Sogurt? The frozen yogurt chain is making a comeback after 8 years with new flavours",
       "url": "https://www.channelnewsasia.com/dining/sogurt-frozen-yogurt-comeback-one-holland-village-6461161",
       "summary": "Once operating 12 outlets across Singapore, the pioneering self-serve froyo brand is making a comeback at One Holland Village this December with revamped recipes, nostalgic favourites and a spacious new flagship cafe.",
@@ -22,9 +50,9 @@
       "published": "Thu, 15 Oct 2026 10:30:00 +0800"
     },
     {
-      "title": "Singapore haze: PM2.5 reading high in central region; air quality remains very unhealthy in west",
+      "title": "Singapore haze: PM2.5 reading high in east; air quality remains very unhealthy in west",
       "url": "https://www.channelnewsasia.com/singapore/haze-pm25-elevated-psi-very-unhealthy-6460876",
-      "summary": "At noon, the hourly PM2.5 reading in central Singapore was high, while readings were elevated in the other regions, ranging from 99 to 143.",
+      "summary": "At 2pm, the hourly PM2.5 reading in the eastern region was high at 156, while the other regions had elevated readings ranging from 93 to 144.",
       "source": "CNA",
       "published": "Thu, 15 Oct 2026 08:10:00 +0800"
     },
@@ -76,34 +104,6 @@
       "summary": "The government is studying which sectors to begin rolling out the policy, but workers in such roles must be prepared for their salaries to vary according to their work output, said Acting Manpower Minister Jasmin Lau.",
       "source": "CNA",
       "published": "Wed, 14 Oct 2026 19:48:00 +0800"
-    },
-    {
-      "title": "Singapore brings forward N95 mask distribution amid worsening haze",
-      "url": "https://www.channelnewsasia.com/singapore/haze-n95-mask-distribution-psi-pm25-6458336",
-      "summary": "Mask distribution for vulnerable citizens began earlier than originally planned after the 1-hour PM2.5 reading hit 288 in the west at 2pm on Wednesday.",
-      "source": "CNA",
-      "published": "Wed, 14 Oct 2026 19:28:00 +0800"
-    },
-    {
-      "title": "Anthropic opens Singapore office, signs AI safety agreement with government",
-      "url": "https://www.channelnewsasia.com/singapore/anthropic-office-safety-agreement-government-deal-6456671",
-      "summary": "The agreement covers AI safety, model evaluation, responsible adoption and incident response.",
-      "source": "CNA",
-      "published": "Wed, 14 Oct 2026 18:22:00 +0800"
-    },
-    {
-      "title": "Man sent explicit photos of wife and lover to family chat, but court declines to grant protection order",
-      "url": "https://www.channelnewsasia.com/singapore/man-explicit-photos-wife-lover-family-chat-protection-order-abuse-6458481",
-      "summary": "The man said that he was very angry and wanted the family to know he was not the one who sabotaged the marriage.",
-      "source": "CNA",
-      "published": "Wed, 14 Oct 2026 17:58:00 +0800"
-    },
-    {
-      "title": "Singapore haze as it happened: PM2.5 hits highest level since 2015 as authorities step up measures",
-      "url": "https://www.channelnewsasia.com/singapore/singapore-haze-psi-live-oct-14-6458371",
-      "summary": "The government began rolling out additional haze measures on Wednesday (Oct 14), including the distribution of N95 masks to vulnerable Singaporeans.",
-      "source": "CNA",
-      "published": "Wed, 14 Oct 2026 16:20:00 +0800"
     }
   ],
   "world": [
@@ -213,6 +213,6 @@
       "published": "Wed, 14 Oct 2026 13:16:08 +0800"
     }
   ],
-  "generated_at": "2026-10-15T13:06:09+08:00",
+  "generated_at": "2026-10-15T15:23:00+08:00",
   "test_mode": false
 }
