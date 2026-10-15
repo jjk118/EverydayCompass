@@ -92,7 +92,7 @@
       "published": "Thu, 15 Oct 2026 10:30:00 +0800"
     },
     {
-      "title": "Singapore haze: PM2.5 readings high in 3 regions; air quality unhealthy in all regions",
+      "title": "Singapore haze: PM2.5 readings high in 4 regions; air quality unhealthy in all regions",
       "url": "https://www.channelnewsasia.com/singapore/haze-pm25-elevated-psi-very-unhealthy-6460876",
       "summary": "Air quality in the west was in the very unhealthy band from 9pm on Wednesday to 3pm on Thursday.",
       "source": "CNA",
@@ -213,6 +213,6 @@
       "published": "Wed, 14 Oct 2026 19:42:04 +0800"
     }
   ],
-  "generated_at": "2026-10-15T21:25:02+08:00",
+  "generated_at": "2026-10-15T22:17:55+08:00",
   "test_mode": false
 }
