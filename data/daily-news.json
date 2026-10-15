@@ -1,6 +1,34 @@
 {
   "singapore": [
     {
+      "title": "Singapore haze: Air quality very unhealthy in central region; PM2.5 reading high in east",
+      "url": "https://www.channelnewsasia.com/singapore/haze-oct-16-psi-pm-25-6459416",
+      "summary": "At 6am, the 24-hour PSI in central Singapore was 221, a new high for the year.",
+      "source": "CNA",
+      "published": "Fri, 16 Oct 2026 06:33:00 +0800"
+    },
+    {
+      "title": "How a four-member government team turned red-light cameras into speed enforcers in 3 months",
+      "url": "https://www.channelnewsasia.com/singapore/road-safety-speeding-traffic-police-ogp-6461926",
+      "summary": "The Roadbuster tool processed 120,000 speeding cases in two years before it was retired, and speeding violations fell by 66 per cent at locations where it was activated.",
+      "source": "CNA",
+      "published": "Fri, 16 Oct 2026 06:00:00 +0800"
+    },
+    {
+      "title": "Inside Audemars Piguet’s AP House Singapore, where watches are only part of the experience",
+      "url": "https://www.channelnewsasia.com/obsessions/audemars-piguet-ap-house-singapore-ceo-stefanie-ng-6455201",
+      "summary": "At Raffles Singapore, the Swiss watchmaker has created a space where watches share the spotlight with food, design, hospitality and conversation. In partnership with Audemars Piguet",
+      "source": "CNA",
+      "published": "Fri, 16 Oct 2026 05:52:00 +0800"
+    },
+    {
+      "title": "Singapore looking into which companies responsible for haze-causing fires, may take legal action: PM Wong",
+      "url": "https://www.channelnewsasia.com/singapore/haze-singapore-indonesia-companies-fires-legal-action-pm-wong-6463101",
+      "summary": "Singapore is also exploring joint action with other countries, says Prime Minister Lawrence Wong.",
+      "source": "CNA",
+      "published": "Thu, 15 Oct 2026 23:18:00 +0800"
+    },
+    {
       "title": "Smooth for some, frustrating for others as N95 mask distribution gets underway amid haze in Singapore",
       "url": "https://www.channelnewsasia.com/singapore/n95-masks-distribution-vending-machines-community-clubs-haze-6462106",
       "summary": "Some residents faced long queues, stock shortages and confusion over collection procedures, while others were able to get their N95 masks with little fuss.",
@@ -76,37 +104,65 @@
       "summary": "Once operating 12 outlets across Singapore, the pioneering self-serve froyo brand is making a comeback at One Holland Village this December with revamped recipes, nostalgic favourites and a spacious new flagship cafe.",
       "source": "CNA",
       "published": "Thu, 15 Oct 2026 13:01:07 +0800"
-    },
-    {
-      "title": "Singapore Airlines will have new in-flight amenities across all cabin classes from November",
-      "url": "https://www.channelnewsasia.com/travel/singapore-airlines-new-in-flight-amenities-november-2026-6461076",
-      "summary": "These include a collectible drawstring pouch with the airline's batik motif, containing travel essentials, for economy class passengers, as well as sleeper suits for business class passengers.",
-      "source": "CNA",
-      "published": "Thu, 15 Oct 2026 12:03:37 +0800"
-    },
-    {
-      "title": "Ubisoft to cut 70 jobs in Singapore, close Finland studio",
-      "url": "https://www.channelnewsasia.com/singapore/ubisoft-cut-jobs-layoff-close-finland-studio-6461046",
-      "summary": "The video game publisher and developer is behind popular action-adventure franchises including Assassin's Creed, Far Cry and Watch Dogs.",
-      "source": "CNA",
-      "published": "Thu, 15 Oct 2026 10:30:00 +0800"
-    },
-    {
-      "title": "Singapore haze: PM2.5 readings high in 4 regions; air quality unhealthy in all regions",
-      "url": "https://www.channelnewsasia.com/singapore/haze-pm25-elevated-psi-very-unhealthy-6460876",
-      "summary": "Air quality in the west was in the very unhealthy band from 9pm on Wednesday to 3pm on Thursday.",
-      "source": "CNA",
-      "published": "Thu, 15 Oct 2026 08:10:00 +0800"
-    },
-    {
-      "title": "This Singaporean shoemaker moved to Kyoto to make barefoot shoes by hand",
-      "url": "https://www.channelnewsasia.com/style-beauty/singaporean-shoemaker-kyoto-handmade-shoes-6414651",
-      "summary": "Singaporean craftsperson Chin Shiying went to Japan to master traditional shoemaking – only to realise she didn’t want to wear the shoes she made. That discovery eventually led her to barefoot footwear and a new life in Kyoto.",
-      "source": "CNA",
-      "published": "Thu, 15 Oct 2026 07:20:12 +0800"
     }
   ],
   "world": [
+    {
+      "title": "Commentary: This is an era of Davids, not Goliaths",
+      "url": "https://www.channelnewsasia.com/commentary/era-davids-not-goliaths-geopolitics-6461811",
+      "summary": "What explains the agonies of Goliath? How is it that apparent titans so often fail to get their way? Janan Ganesh from the Financial Times weighs in.",
+      "source": "CNA",
+      "published": "Fri, 16 Oct 2026 05:59:00 +0800"
+    },
+    {
+      "title": "US stocks end higher as AI shares stabilise",
+      "url": "https://www.channelnewsasia.com/world/us-stocks-end-higher-ai-shares-stabilise-6464161",
+      "summary": "",
+      "source": "CNA",
+      "published": "Fri, 16 Oct 2026 05:57:03 +0800"
+    },
+    {
+      "title": "Venezuela's Maduro denies US torture charges as 'false accusations'",
+      "url": "https://www.channelnewsasia.com/world/maduro-wife-flores-venezuela-torture-charges-6464071",
+      "summary": "Nicolas Maduro and his wife Cilia Flores pleaded not guilty to new torture charges in a US court, with Maduro rejecting them as “false accusations” and Flores declaring, “I am completely innocent, I am not guilty.”",
+      "source": "CNA",
+      "published": "Fri, 16 Oct 2026 05:21:17 +0800"
+    },
+    {
+      "title": "Bus hits train near Channel Tunnel in France, 19 hurt",
+      "url": "https://www.channelnewsasia.com/world/bus-hits-train-near-channel-tunnel-in-france-19-hurt-6464016",
+      "summary": "A minibus crashed into a stationary train near the Channel Tunnel in France, injuring 19 people, five seriously.",
+      "source": "CNA",
+      "published": "Fri, 16 Oct 2026 04:38:00 +0800"
+    },
+    {
+      "title": "Houthis launch deadly attack on presidential palace in Yemen's Aden",
+      "url": "https://www.channelnewsasia.com/world/houthis-yemen-aden-presidential-palace-strikes-iran-6463881",
+      "summary": "The Houthis launched missile strikes on Yemen’s presidential palace in Aden, killing at least four people and injuring 10.",
+      "source": "CNA",
+      "published": "Fri, 16 Oct 2026 04:10:45 +0800"
+    },
+    {
+      "title": "Germany warns against bringing Russia back into G20 fold",
+      "url": "https://www.channelnewsasia.com/world/germany-russia-g20-us-bangkok-meeting-6463326",
+      "summary": "At a G20 finance ministers’ meeting in Bangkok, German Finance Minister Lars Klingbeil said, “There will be no pretending that Russia is now returning as a normal member of the G20 and simply taking its seat at the table again - not with me, and not with the other Europeans.”",
+      "source": "CNA",
+      "published": "Fri, 16 Oct 2026 02:22:27 +0800"
+    },
+    {
+      "title": "Nasdaq slides to near one-month low as AI rout deepens",
+      "url": "https://www.channelnewsasia.com/world/nasdaq-slides-near-one-month-low-ai-rout-deepens-6463166",
+      "summary": "",
+      "source": "CNA",
+      "published": "Fri, 16 Oct 2026 00:49:26 +0800"
+    },
+    {
+      "title": "Trump shuts down Hegseth plan to livestream military execution",
+      "url": "https://www.channelnewsasia.com/world/trump-us-military-execution-not-livestream-6462851",
+      "summary": "\"Many very good and well meaning people would rather not watch him die,\" the US president said.",
+      "source": "CNA",
+      "published": "Thu, 15 Oct 2026 22:53:00 +0800"
+    },
     {
       "title": "Asian Cup in Saudi Arabia could be postponed but 'no hurry' to decide: AFC",
       "url": "https://www.channelnewsasia.com/world/saudi-arabia-asian-cup-postponed-houthi-attacks-6462196",
@@ -155,64 +211,8 @@
       "summary": "British comedian Russell Brand faces 7 charges involving rape, sexual assault and indecent assault against 6 women. He denies all allegations concerning incidents between 1999 and 2009.",
       "source": "CNA",
       "published": "Thu, 15 Oct 2026 10:08:00 +0800"
-    },
-    {
-      "title": "Commentary: Trump’s Russian diesel U-turn comes at bad time for Ukraine",
-      "url": "https://www.channelnewsasia.com/commentary/trump-russia-diesel-deal-ukraine-war-u-turn-6458896",
-      "summary": "Ukraine is more vulnerable, after the US eased sanctions on Russian diesel and declared an energy ceasefire that Moscow is not heeding, says war studies lecturer Samir Puri.",
-      "source": "CNA",
-      "published": "Thu, 15 Oct 2026 06:00:00 +0800"
-    },
-    {
-      "title": "Ukraine accuses US of helping Russia as missiles hit Kyiv",
-      "url": "https://www.channelnewsasia.com/world/ukraine-us-russia-missiles-starshield-musk-6460691",
-      "summary": "Ukraine said the US had failed to warn it of incoming Russian missile strikes and had hobbled its military response through changes to the Starlink system it uses on the battlefield.",
-      "source": "CNA",
-      "published": "Thu, 15 Oct 2026 05:48:00 +0800"
-    },
-    {
-      "title": "Kenya announces second Ebola case, says 'no evidence' of wider spread",
-      "url": "https://www.channelnewsasia.com/world/kenya-ebola-no-wider-spread-6460636",
-      "summary": "The patient is receiving treatment in isolation, while authorities have identified 128 contacts linked to the first case and traced 113 of them as part of efforts to contain the outbreak.",
-      "source": "CNA",
-      "published": "Thu, 15 Oct 2026 05:04:00 +0800"
-    },
-    {
-      "title": "Netflix to cut about 1,000 jobs amid slower growth",
-      "url": "https://www.channelnewsasia.com/world/netflix-job-cuts-1000-slow-growth-6460556",
-      "summary": "Netflix plans to cut around 1,000 jobs amid slowing revenue growth and reports of declining viewing time on its streaming platform.",
-      "source": "CNA",
-      "published": "Thu, 15 Oct 2026 04:15:00 +0800"
-    },
-    {
-      "title": "Pope Leo back on his feet after shock cancer diagnosis",
-      "url": "https://www.channelnewsasia.com/world/pope-leo-lung-cancer-operation-hospital-vatican-6460486",
-      "summary": "Pope Leo's recovery from surgery is progressing as expected and he has begun walking in his hospital room, the Vatican said.",
-      "source": "CNA",
-      "published": "Thu, 15 Oct 2026 02:42:00 +0800"
-    },
-    {
-      "title": "US inflation heats up in September; Fed rate hike this month back on table",
-      "url": "https://www.channelnewsasia.com/world/us-inflation-september-fed-rate-hike-6460151",
-      "summary": "US inflation rose to 3.7 per cent in September, driven by higher gasoline prices, increasing pressure on households and complicating the Federal Reserve’s decision on interest rates.",
-      "source": "CNA",
-      "published": "Thu, 15 Oct 2026 01:53:00 +0800"
-    },
-    {
-      "title": "Ukrainian drones hit Russia's top data centre in attack on AI ambitions",
-      "url": "https://www.channelnewsasia.com/world/ukrainian-drones-hit-russias-top-data-centre-in-attack-ai-ambitions-6459946",
-      "summary": "The attack follows a series of Ukrainian strikes on Russian data centres.",
-      "source": "CNA",
-      "published": "Thu, 15 Oct 2026 00:43:59 +0800"
-    },
-    {
-      "title": "Yemen fighting overwhelms hospitals, cuts aid to 800,000 people, relief agencies say",
-      "url": "https://www.channelnewsasia.com/world/middle-east-yemen-fighting-hospitals-houthi-6458566",
-      "summary": "",
-      "source": "CNA",
-      "published": "Wed, 14 Oct 2026 19:42:04 +0800"
     }
   ],
-  "generated_at": "2026-10-15T22:17:55+08:00",
+  "generated_at": "2026-10-16T07:02:26+08:00",
   "test_mode": false
 }
