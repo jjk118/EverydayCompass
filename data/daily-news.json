@@ -1,6 +1,20 @@
 {
   "singapore": [
     {
+      "title": "Smooth for some, frustrating for others as N95 mask distribution gets underway amid haze in Singapore",
+      "url": "https://www.channelnewsasia.com/singapore/n95-masks-distribution-vending-machines-community-clubs-haze-6462106",
+      "summary": "Some residents faced long queues, stock shortages and confusion over collection procedures, while others were able to get their N95 masks with little fuss.",
+      "source": "CNA",
+      "published": "Thu, 15 Oct 2026 20:15:00 +0800"
+    },
+    {
+      "title": "Small states must have say as world shapes new compact with tech giants: Vivian Balakrishnan",
+      "url": "https://www.channelnewsasia.com/singapore/small-states-say-compact-tech-giants-balakrishnan-6461956",
+      "summary": "Dr Balakrishnan called for a compact between governments, tech firms and the wider international community to \"develop common norms and guardrails so that we can accelerate the pace of technology and reap its benefits, but also deal with the risks\".",
+      "source": "CNA",
+      "published": "Thu, 15 Oct 2026 19:54:34 +0800"
+    },
+    {
       "title": "Ex-inmate from Inside Maximum Security prison documentary gets jail after committing offences after release",
       "url": "https://www.channelnewsasia.com/singapore/graceson-ang-inside-maximum-security-prison-jailed-6461646",
       "summary": "Graceson Ang's lawyer outlined how he had been able to find only a low-paying job upon release from prison, and turned to the delivery of contraband cigarettes.",
@@ -8,9 +22,9 @@
       "published": "Thu, 15 Oct 2026 18:07:38 +0800"
     },
     {
-      "title": "Six passengers injured after chain collision involving three public buses in Yishun",
+      "title": "Three people taken to hospital after chain collision involving public buses in Yishun",
       "url": "https://www.channelnewsasia.com/singapore/chain-collision-sbs-tower-transit-singapore-injured-yishun-6461836",
-      "summary": "Three people were taken to hospital after the accident at a bus stop at Block 790 Yishun Ave 2, said bus operator Tower Transit Singapore.",
+      "summary": "One of the buses that was rear-ended mounted the kerb, with five passengers on board suffering injuries.",
       "source": "CNA",
       "published": "Thu, 15 Oct 2026 17:27:00 +0800"
     },
@@ -78,7 +92,7 @@
       "published": "Thu, 15 Oct 2026 10:30:00 +0800"
     },
     {
-      "title": "Singapore haze: PM2.5 readings high in 4 regions; air quality unhealthy in all regions",
+      "title": "Singapore haze: PM2.5 readings high in 3 regions; air quality unhealthy in all regions",
       "url": "https://www.channelnewsasia.com/singapore/haze-pm25-elevated-psi-very-unhealthy-6460876",
       "summary": "Air quality in the west was in the very unhealthy band from 9pm on Wednesday to 3pm on Thursday.",
       "source": "CNA",
@@ -90,20 +104,6 @@
       "summary": "Singaporean craftsperson Chin Shiying went to Japan to master traditional shoemaking – only to realise she didn’t want to wear the shoes she made. That discovery eventually led her to barefoot footwear and a new life in Kyoto.",
       "source": "CNA",
       "published": "Thu, 15 Oct 2026 07:20:12 +0800"
-    },
-    {
-      "title": "CNA Explains: What happens when the government disagrees with the courts?",
-      "url": "https://www.channelnewsasia.com/singapore/government-parliament-judiciary-courts-legislative-changes-disagree-6458426",
-      "summary": "A recent High Court ruling that overturned deterrent sentences for four young scam mules prompted the government to propose changes to the law. CNA looks at similar past cases, how lawmakers responded and the constitutional limits involved.",
-      "source": "CNA",
-      "published": "Thu, 15 Oct 2026 06:00:00 +0800"
-    },
-    {
-      "title": "Singapore keeping options open on haze prosecution against companies as it collects, reviews data: Grace Fu",
-      "url": "https://www.channelnewsasia.com/singapore/options-open-haze-prosecution-collects-reviews-data-grace-fu-6458601",
-      "summary": "Singapore's hourly PM2.5 reading hit its highest level since 2015 on Wednesday, as worsening haze prompted sports facility closures and other precautionary measures.",
-      "source": "CNA",
-      "published": "Wed, 14 Oct 2026 22:52:00 +0800"
     }
   ],
   "world": [
@@ -213,6 +213,6 @@
       "published": "Wed, 14 Oct 2026 19:42:04 +0800"
     }
   ],
-  "generated_at": "2026-10-15T19:11:50+08:00",
+  "generated_at": "2026-10-15T21:25:02+08:00",
   "test_mode": false
 }
