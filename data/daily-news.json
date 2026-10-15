@@ -1,6 +1,20 @@
 {
   "singapore": [
     {
+      "title": "Singapore haze: PM2.5 readings elevated in all regions; air quality remains very unhealthy in west",
+      "url": "https://www.channelnewsasia.com/singapore/haze-pm25-elevated-psi-very-unhealthy-6460876",
+      "summary": "At 9am, the 24-hour PSI reading in western Singapore was 208, in the very unhealthy range.",
+      "source": "CNA",
+      "published": "Thu, 15 Oct 2026 08:10:00 +0800"
+    },
+    {
+      "title": "This Singaporean shoemaker moved to Kyoto to make barefoot shoes by hand",
+      "url": "https://www.channelnewsasia.com/style-beauty/singaporean-shoemaker-kyoto-handmade-shoes-6414651",
+      "summary": "Singaporean craftsperson Chin Shiying went to Japan to master traditional shoemaking – only to realise she didn’t want to wear the shoes she made. That discovery eventually led her to barefoot footwear and a new life in Kyoto.",
+      "source": "CNA",
+      "published": "Thu, 15 Oct 2026 07:20:12 +0800"
+    },
+    {
       "title": "CNA Explains: What happens when the government disagrees with the courts?",
       "url": "https://www.channelnewsasia.com/singapore/government-parliament-judiciary-courts-legislative-changes-disagree-6458426",
       "summary": "A recent High Court ruling that overturned deterrent sentences for four young scam mules prompted the government to propose changes to the law. CNA looks at similar past cases, how lawmakers responded and the constitutional limits involved.",
@@ -64,7 +78,7 @@
       "published": "Wed, 14 Oct 2026 17:58:00 +0800"
     },
     {
-      "title": "As it happened: Singapore haze - PM2.5 hits highest level since 2015 as authorities step up measures",
+      "title": "Singapore haze as it happened: PM2.5 hits highest level since 2015 as authorities step up measures",
       "url": "https://www.channelnewsasia.com/singapore/singapore-haze-psi-live-oct-14-6458371",
       "summary": "The government began rolling out additional haze measures on Wednesday (Oct 14), including the distribution of N95 masks to vulnerable Singaporeans.",
       "source": "CNA",
@@ -90,25 +104,11 @@
       "summary": "The accident occurred at a private residential property along Cranborne Road at about 2.30pm on Tuesday.",
       "source": "CNA",
       "published": "Wed, 14 Oct 2026 14:40:00 +0800"
-    },
-    {
-      "title": "SGH head of neurosurgery under probe for failing to report patient's death to coroner",
-      "url": "https://www.channelnewsasia.com/singapore/sgh-neurosurgery-head-patient-death-coroner-nni-6457981",
-      "summary": "Dr Jai Prashanth Rao said that he had mistakenly believed he had the discretion to decide whether to report the case to the coroner, and wanted to show compassion to the patient's family.",
-      "source": "CNA",
-      "published": "Wed, 14 Oct 2026 14:14:00 +0800"
-    },
-    {
-      "title": "Singapore forms task force to strengthen defences against AI-enabled cyber threats",
-      "url": "https://www.channelnewsasia.com/singapore/singapore-task-force-ai-related-cyber-threats-6457921",
-      "summary": "IMDA also launched the first version of a starter kit aimed at helping organisations test agentic AI systems for safety and reliability.",
-      "source": "CNA",
-      "published": "Wed, 14 Oct 2026 13:34:00 +0800"
     }
   ],
   "world": [
     {
-      "title": "Commentary: Trump wants cheaper diesel, but Ukraine could pay the price",
+      "title": "Commentary: Trump’s Russian diesel U-turn comes at bad time for Ukraine",
       "url": "https://www.channelnewsasia.com/commentary/trump-russia-diesel-deal-ukraine-war-u-turn-6458896",
       "summary": "Ukraine is more vulnerable, after the US eased sanctions on Russian diesel and declared an energy ceasefire that Moscow is not heeding, says war studies lecturer Samir Puri.",
       "source": "CNA",
@@ -138,13 +138,13 @@
     {
       "title": "Pope Leo back on his feet after shock cancer diagnosis",
       "url": "https://www.channelnewsasia.com/world/pope-leo-lung-cancer-operation-hospital-vatican-6460486",
-      "summary": "The diagnosis has raised concerns about the 71-year-old pontiff’s health and the future of his papacy, though the Vatican says his recovery is progressing well.",
+      "summary": "Pope Leo's recovery from surgery is progressing as expected and he has begun walking in his hospital room, the Vatican said.",
       "source": "CNA",
       "published": "Thu, 15 Oct 2026 02:42:00 +0800"
     },
     {
       "title": "US inflation heats up in September; Fed rate hike this month back on table",
-      "url": "https://www.channelnewsasia.com/world/us-inflation-heats-up-in-september-fed-rate-hike-month-back-table-6460151",
+      "url": "https://www.channelnewsasia.com/world/us-inflation-september-fed-rate-hike-6460151",
       "summary": "US inflation rose to 3.7 per cent in September, driven by higher gasoline prices, increasing pressure on households and complicating the Federal Reserve’s decision on interest rates.",
       "source": "CNA",
       "published": "Thu, 15 Oct 2026 01:53:00 +0800"
@@ -213,6 +213,6 @@
       "published": "Wed, 14 Oct 2026 11:42:00 +0800"
     }
   ],
-  "generated_at": "2026-10-15T07:05:40+08:00",
+  "generated_at": "2026-10-15T09:17:40+08:00",
   "test_mode": false
 }
