@@ -1,6 +1,20 @@
 {
   "singapore": [
     {
+      "title": "Singapore haze: 7 takeaways from press conference – from school contingency plans to mask supplies",
+      "url": "https://www.channelnewsasia.com/singapore/haze-key-takeaways-psi-air-quality-6465711",
+      "summary": "Singapore has endured nearly two weeks of unhealthy air quality in at least part of the country, with Friday marking six weeks since it recorded its first unhealthy 24-hour PSI reading of the year.",
+      "source": "CNA",
+      "published": "Fri, 16 Oct 2026 21:10:00 +0800"
+    },
+    {
+      "title": "Mother of bodybuilder, who died at 20 from effects of banned weight-loss substance, questions how he got illicit drug",
+      "url": "https://www.channelnewsasia.com/singapore/bodybuilder-death-toxic-weight-loss-drug-dinitrophenol-6465906",
+      "summary": "The state coroner found that the youth had probably taken dinitrophenol, which can only be obtained illicitly in Singapore.",
+      "source": "CNA",
+      "published": "Fri, 16 Oct 2026 20:42:09 +0800"
+    },
+    {
       "title": "President Tharman to make state visit to Sweden from Oct 17 to 21",
       "url": "https://www.channelnewsasia.com/singapore/president-tharman-state-visit-sweden-mfa-6465466",
       "summary": "This will be the first state visit to Sweden by a Singapore president.",
@@ -23,7 +37,7 @@
     },
     {
       "title": "Platform workers should not be penalised for delays during haze: Jasmin Lau",
-      "url": "https://www.channelnewsasia.com/singapore/haze-singapore-indonesia-press-conference-platform-workers-wfh-6465216",
+      "url": "https://www.channelnewsasia.com/singapore/haze-singapore-platform-workers-wfh-6465216",
       "summary": "Under the Platform Workers Act, platform operators have workplace safety and health responsibilities towards their workers, said the Acting Minister for Manpower.",
       "source": "CNA",
       "published": "Fri, 16 Oct 2026 17:44:00 +0800"
@@ -90,20 +104,6 @@
       "summary": "\"I just wanted to craft a simple-looking website, as I have a few family members and friends that are also often overwhelmed by all the different numbers, and I just wanted a simple website for them to use,\" Zi Heng tells 8days.sg.",
       "source": "CNA",
       "published": "Fri, 16 Oct 2026 12:26:04 +0800"
-    },
-    {
-      "title": "Singapore-listed First Resources points to El Nino, says haze-linked fires were outside its operations",
-      "url": "https://www.channelnewsasia.com/singapore/haze-el-nino-first-resources-indonesia-6464761",
-      "summary": "Palm oil producer First Resources said the current hotspots are largely concentrated in regions where the group does not operate.",
-      "source": "CNA",
-      "published": "Fri, 16 Oct 2026 12:13:00 +0800"
-    },
-    {
-      "title": "Road changes around AMK Hub for 18 months after unexpected obstructions halt MRT tunnelling works",
-      "url": "https://www.channelnewsasia.com/singapore/ang-mo-kio-hub-traffic-road-changes-mrt-tunnelling-crl-suspended-6461931",
-      "summary": "The temporary traffic reconfiguration along Ang Mo Kio Avenue 3 is required to facilitate additional recovery works, said the Land Transport Authority.",
-      "source": "CNA",
-      "published": "Fri, 16 Oct 2026 10:08:00 +0800"
     }
   ],
   "world": [
@@ -213,6 +213,6 @@
       "published": "Thu, 15 Oct 2026 19:02:50 +0800"
     }
   ],
-  "generated_at": "2026-10-16T19:11:47+08:00",
+  "generated_at": "2026-10-16T21:23:27+08:00",
   "test_mode": false
 }
