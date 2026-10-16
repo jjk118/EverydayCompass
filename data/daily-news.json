@@ -1,6 +1,27 @@
 {
   "singapore": [
     {
+      "title": "NTU student creates website that estimates how many cigarettes’ worth of haze you've breathed in",
+      "url": "https://www.channelnewsasia.com/living/singapore-haze-tracker-ntu-student-6464691",
+      "summary": "\"I just wanted to craft a simple-looking website, as I have a few family members and friends that are also often overwhelmed by all the different numbers, and I just wanted a simple website for them to use,\" Zi Heng tells 8days.sg.",
+      "source": "CNA",
+      "published": "Fri, 16 Oct 2026 12:26:04 +0800"
+    },
+    {
+      "title": "Singapore-listed First Resources points to El Nino, says haze-linked fires were outside its operations",
+      "url": "https://www.channelnewsasia.com/singapore/haze-el-nino-first-resources-indonesia-6464761",
+      "summary": "Palm oil producer First Resources said the current hotspots are largely concentrated in regions where the group does not operate.",
+      "source": "CNA",
+      "published": "Fri, 16 Oct 2026 12:13:00 +0800"
+    },
+    {
+      "title": "Road changes around AMK Hub for 18 months after unexpected obstructions halt MRT tunnelling works",
+      "url": "https://www.channelnewsasia.com/singapore/ang-mo-kio-hub-traffic-road-changes-mrt-tunnelling-crl-suspended-6461931",
+      "summary": "The temporary traffic reconfiguration along Ang Mo Kio Avenue 3 is required to facilitate additional recovery works, said the Land Transport Authority.",
+      "source": "CNA",
+      "published": "Fri, 16 Oct 2026 10:08:00 +0800"
+    },
+    {
       "title": "Singapore's non-oil exports surge 68.4% in September; growth driven by non-electronics shipments",
       "url": "https://www.channelnewsasia.com/singapore/non-oil-exports-nodx-september-2026-6464416",
       "summary": "Singapore's NODX rose by 27.6% in the first nine months of 2026.",
@@ -15,9 +36,9 @@
       "published": "Fri, 16 Oct 2026 07:30:27 +0800"
     },
     {
-      "title": "Singapore haze: Air quality very unhealthy in central region; PM2.5 reading high",
+      "title": "Singapore haze: Air quality very unhealthy in three regions; PM2.5 readings high across the country",
       "url": "https://www.channelnewsasia.com/singapore/haze-oct-16-psi-pm-25-6459416",
-      "summary": "At 9am, the 24-hour PSI in central Singapore was 227, a new high for the year.",
+      "summary": "At 9am, the 24-hour PSI in central Singapore hit 227, a new high for the year.",
       "source": "CNA",
       "published": "Fri, 16 Oct 2026 06:33:00 +0800"
     },
@@ -83,30 +104,30 @@
       "summary": "The MRT network's mean kilometres between failures (MKBF) rose to 3.38 million train-km, surpassing the previous record of 2.88 million train-km set in August.",
       "source": "CNA",
       "published": "Thu, 15 Oct 2026 17:00:00 +0800"
-    },
-    {
-      "title": "AI accelerating cyber threats, making regional cooperation crucial: Australian minister",
-      "url": "https://www.channelnewsasia.com/singapore/artificial-intelligence-cyber-threats-regional-cooperation-australia-thistlethwaite-6461546",
-      "summary": "Australian Assistant Foreign Affairs and Trade Minister Matt Thistlethwaite tells CNA's Paul Sng that countries must work together to counter increasingly sophisticated cyberattacks and transnational cybercrime.",
-      "source": "CNA",
-      "published": "Thu, 15 Oct 2026 15:00:29 +0800"
-    },
-    {
-      "title": "Haze in Singapore: How to collect free N95 masks and who is eligible",
-      "url": "https://www.channelnewsasia.com/singapore/n95-mask-collection-community-centre-vending-machines-6461351",
-      "summary": "The free N95 masks are for individuals who are more vulnerable to the haze's negative health effects and can be collected at vending machines or People's Association Community Centres.",
-      "source": "CNA",
-      "published": "Thu, 15 Oct 2026 14:11:00 +0800"
-    },
-    {
-      "title": "BigBang concert organisers issue haze advisory ahead of weekend shows in Singapore",
-      "url": "https://www.channelnewsasia.com/entertainment/bigbang-singapore-concert-haze-advisory-6461461",
-      "summary": "In a post on Thursday (Oct 15), live events company AEG Presents Asia outlined measures fans can take to protect themselves, in light of Singapore's haze situation.",
-      "source": "CNA",
-      "published": "Thu, 15 Oct 2026 14:05:00 +0800"
     }
   ],
   "world": [
+    {
+      "title": "Trump says he is talking to Russia and China about denuclearisation",
+      "url": "https://www.channelnewsasia.com/world/trump-russia-china-denuclearisation-6464736",
+      "summary": "",
+      "source": "CNA",
+      "published": "Fri, 16 Oct 2026 10:27:35 +0800"
+    },
+    {
+      "title": "White House press secretary Katie Zacharia says she did not pass bar exam",
+      "url": "https://www.channelnewsasia.com/world/white-house-press-secretary-katie-zacharia-bar-exam-lawyer-6464731",
+      "summary": "",
+      "source": "CNA",
+      "published": "Fri, 16 Oct 2026 10:23:22 +0800"
+    },
+    {
+      "title": "Bollywood actor Imran Khan asked to leave India after participating in protest, media says",
+      "url": "https://www.channelnewsasia.com/asia/bollywood-actor-imran-khan-october-10-protest-6461731",
+      "summary": "The former Bollywood star joined a political protest on October 10 and shared a photograph from what appeared to be a police van on the same day.",
+      "source": "CNA",
+      "published": "Fri, 16 Oct 2026 10:16:53 +0800"
+    },
     {
       "title": "Three children and one teacher killed in Oregon school shooting: Police",
       "url": "https://www.channelnewsasia.com/world/us-oregon-elementary-school-shooting-dead-6464226",
@@ -190,29 +211,8 @@
       "summary": "",
       "source": "CNA",
       "published": "Thu, 15 Oct 2026 17:50:00 +0800"
-    },
-    {
-      "title": "Pakistan school roof collapse kills 28; more deaths feared",
-      "url": "https://www.channelnewsasia.com/asia/pakistan-school-roof-collapse-dozens-students-dead-6461551",
-      "summary": "A rescue official said the ceiling came down on the students after the roof of a higher floor collapsed, crumpling the two storeys.",
-      "source": "CNA",
-      "published": "Thu, 15 Oct 2026 16:00:00 +0800"
-    },
-    {
-      "title": "Japan denies spying after Russia arrests journalist",
-      "url": "https://www.channelnewsasia.com/east-asia/japan-denies-spying-russia-journalist-arrest-6459186",
-      "summary": "",
-      "source": "CNA",
-      "published": "Thu, 15 Oct 2026 12:40:00 +0800"
-    },
-    {
-      "title": "Ubisoft to cut 70 jobs in Singapore, close Finland studio",
-      "url": "https://www.channelnewsasia.com/singapore/ubisoft-cut-jobs-layoff-close-finland-studio-6461046",
-      "summary": "The video game publisher and developer is behind popular action-adventure franchises including Assassin's Creed, Far Cry and Watch Dogs.",
-      "source": "CNA",
-      "published": "Thu, 15 Oct 2026 10:30:00 +0800"
     }
   ],
-  "generated_at": "2026-10-16T10:09:27+08:00",
+  "generated_at": "2026-10-16T13:07:47+08:00",
   "test_mode": false
 }
