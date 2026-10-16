@@ -1,9 +1,23 @@
 {
   "singapore": [
     {
-      "title": "Singapore haze: Air quality very unhealthy in central region; PM2.5 reading high in east",
+      "title": "Singapore's non-oil exports surge 68.4% in September; growth driven by non-electronics shipments",
+      "url": "https://www.channelnewsasia.com/singapore/non-oil-exports-nodx-september-2026-6464416",
+      "summary": "Singapore's NODX rose by 27.6% in the first nine months of 2026.",
+      "source": "CNA",
+      "published": "Fri, 16 Oct 2026 08:32:00 +0800"
+    },
+    {
+      "title": "10 years of The Coconut Club: How its S$12.80 nasi lemak challenged the way we value local food",
+      "url": "https://www.channelnewsasia.com/dining/coconut-club-10th-anniversary-nasi-lemak-6459016",
+      "summary": "From a cold-press coconut machine developed by an F1 engineer to daily ikan bilis inspections, the restaurant's painstaking approach to Singapore's beloved dish hasn't come cheap. But, as it celebrates a decade in the business, what does its journey tell us about the value of local food?",
+      "source": "CNA",
+      "published": "Fri, 16 Oct 2026 07:30:27 +0800"
+    },
+    {
+      "title": "Singapore haze: Air quality very unhealthy in central region; PM2.5 reading high",
       "url": "https://www.channelnewsasia.com/singapore/haze-oct-16-psi-pm-25-6459416",
-      "summary": "At 6am, the 24-hour PSI in central Singapore was 221, a new high for the year.",
+      "summary": "At 9am, the 24-hour PSI in central Singapore was 227, a new high for the year.",
       "source": "CNA",
       "published": "Fri, 16 Oct 2026 06:33:00 +0800"
     },
@@ -90,23 +104,16 @@
       "summary": "In a post on Thursday (Oct 15), live events company AEG Presents Asia outlined measures fans can take to protect themselves, in light of Singapore's haze situation.",
       "source": "CNA",
       "published": "Thu, 15 Oct 2026 14:05:00 +0800"
-    },
-    {
-      "title": "Proposed COE changes could reshape Singapore’s used car market, say dealers",
-      "url": "https://www.channelnewsasia.com/singapore/coe-premiums-second-hand-used-cars-resale-value-dealers-6461331",
-      "summary": "Dealers and analysts say some mass-market vehicles could lose resale value under the proposed COE changes, while demand for pre-owned luxury cars may rise.",
-      "source": "CNA",
-      "published": "Thu, 15 Oct 2026 13:24:33 +0800"
-    },
-    {
-      "title": "Remember Sogurt? The frozen yogurt chain is making a comeback after 8 years with new flavours",
-      "url": "https://www.channelnewsasia.com/dining/sogurt-frozen-yogurt-comeback-one-holland-village-6461161",
-      "summary": "Once operating 12 outlets across Singapore, the pioneering self-serve froyo brand is making a comeback at One Holland Village this December with revamped recipes, nostalgic favourites and a spacious new flagship cafe.",
-      "source": "CNA",
-      "published": "Thu, 15 Oct 2026 13:01:07 +0800"
     }
   ],
   "world": [
+    {
+      "title": "Three children and one teacher killed in Oregon school shooting: Police",
+      "url": "https://www.channelnewsasia.com/world/us-oregon-elementary-school-shooting-dead-6464226",
+      "summary": "One media outlet reported the shooter was 16 years old.",
+      "source": "CNA",
+      "published": "Fri, 16 Oct 2026 07:54:00 +0800"
+    },
     {
       "title": "Commentary: This is an era of Davids, not Goliaths",
       "url": "https://www.channelnewsasia.com/commentary/era-davids-not-goliaths-geopolitics-6461811",
@@ -204,15 +211,8 @@
       "summary": "The video game publisher and developer is behind popular action-adventure franchises including Assassin's Creed, Far Cry and Watch Dogs.",
       "source": "CNA",
       "published": "Thu, 15 Oct 2026 10:30:00 +0800"
-    },
-    {
-      "title": "Comedian Russell Brand was a ruthless sexual predator, UK prosecutors say",
-      "url": "https://www.channelnewsasia.com/entertainment/russell-brand-rape-sexual-assault-trial-six-women-6458586",
-      "summary": "British comedian Russell Brand faces 7 charges involving rape, sexual assault and indecent assault against 6 women. He denies all allegations concerning incidents between 1999 and 2009.",
-      "source": "CNA",
-      "published": "Thu, 15 Oct 2026 10:08:00 +0800"
     }
   ],
-  "generated_at": "2026-10-16T07:02:26+08:00",
+  "generated_at": "2026-10-16T09:16:12+08:00",
   "test_mode": false
 }
