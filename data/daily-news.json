@@ -1,11 +1,18 @@
 {
   "singapore": [
     {
+      "title": "Are two free N95 masks enough? What to know about wearing and reusing them amid the haze",
+      "url": "https://www.channelnewsasia.com/singapore/haze-singapore-n95-masks-moh-6465101",
+      "summary": "Two N95 masks may be enough for a week for someone who wears them only for short commutes, but those who spend several hours outdoors may need to replace them more often, says an NUS public health expert.",
+      "source": "CNA",
+      "published": "Fri, 16 Oct 2026 15:58:07 +0800"
+    },
+    {
       "title": "No lessons, no pay: Sports coaches hit by haze cancellations, facility closures",
       "url": "https://www.channelnewsasia.com/singapore/haze-sports-coaches-activesg-facilities-closure-6464996",
       "summary": "Coaches say the fluctuating air quality has made it difficult to plan their schedules and find alternative venues for lessons.",
       "source": "CNA",
-      "published": "Fri, 16 Oct 2026 15:12:15 +0800"
+      "published": "Fri, 16 Oct 2026 15:12:00 +0800"
     },
     {
       "title": "SIA flight returns to San Francisco almost 9 hours after departure over 'unruly' passenger",
@@ -97,13 +104,6 @@
       "summary": "Some residents faced long queues, stock shortages and confusion over collection procedures, while others were able to get their N95 masks with little fuss.",
       "source": "CNA",
       "published": "Thu, 15 Oct 2026 20:15:00 +0800"
-    },
-    {
-      "title": "Small states must have say as world shapes new compact with tech giants: Vivian Balakrishnan",
-      "url": "https://www.channelnewsasia.com/singapore/small-states-say-compact-tech-giants-balakrishnan-6461956",
-      "summary": "Dr Balakrishnan called for a compact between governments, tech firms and the wider international community to \"develop common norms and guardrails so that we can accelerate the pace of technology and reap its benefits, but also deal with the risks\".",
-      "source": "CNA",
-      "published": "Thu, 15 Oct 2026 19:54:34 +0800"
     }
   ],
   "world": [
@@ -213,6 +213,6 @@
       "published": "Thu, 15 Oct 2026 18:53:16 +0800"
     }
   ],
-  "generated_at": "2026-10-16T15:20:59+08:00",
+  "generated_at": "2026-10-16T16:11:59+08:00",
   "test_mode": false
 }
