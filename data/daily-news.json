@@ -1,6 +1,13 @@
 {
   "singapore": [
     {
+      "title": "Great Eastern Women’s Run cancelled due to worsening haze",
+      "url": "https://www.channelnewsasia.com/singapore/great-eastern-womens-run-cancelled-haze-air-quality-6466311",
+      "summary": "The decision to cancel the run, scheduled for Nov 1, was made to safeguard the health of participants, staff and volunteers, the event organiser said.",
+      "source": "CNA",
+      "published": "Fri, 16 Oct 2026 21:50:00 +0800"
+    },
+    {
       "title": "Singapore haze: 7 takeaways from press conference – from school contingency plans to mask supplies",
       "url": "https://www.channelnewsasia.com/singapore/haze-key-takeaways-psi-air-quality-6465711",
       "summary": "Singapore has endured nearly two weeks of unhealthy air quality in at least part of the country, with Friday marking six weeks since it recorded its first unhealthy 24-hour PSI reading of the year.",
@@ -97,13 +104,6 @@
       "summary": "The victim had lacerations on his leg that were deep enough to expose bone.",
       "source": "CNA",
       "published": "Fri, 16 Oct 2026 13:09:41 +0800"
-    },
-    {
-      "title": "NTU student creates website that estimates how many cigarettes’ worth of haze you've breathed in",
-      "url": "https://www.channelnewsasia.com/living/singapore-haze-tracker-ntu-student-6464691",
-      "summary": "\"I just wanted to craft a simple-looking website, as I have a few family members and friends that are also often overwhelmed by all the different numbers, and I just wanted a simple website for them to use,\" Zi Heng tells 8days.sg.",
-      "source": "CNA",
-      "published": "Fri, 16 Oct 2026 12:26:04 +0800"
     }
   ],
   "world": [
@@ -213,6 +213,6 @@
       "published": "Thu, 15 Oct 2026 19:02:50 +0800"
     }
   ],
-  "generated_at": "2026-10-16T21:23:27+08:00",
+  "generated_at": "2026-10-16T22:14:02+08:00",
   "test_mode": false
 }
