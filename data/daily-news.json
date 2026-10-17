@@ -1,6 +1,13 @@
 {
   "singapore": [
     {
+      "title": "Singapore haze eases overnight, but air quality remains unhealthy",
+      "url": "https://www.channelnewsasia.com/singapore/singapore-haze-psi-pm25-oct-17-6466816",
+      "summary": "NEA says the transport of smoke haze from Kalimantan to Singapore could ease on Saturday, with shifting winds and showers expected over Singapore and the surrounding region.",
+      "source": "CNA",
+      "published": "Sat, 17 Oct 2026 07:09:00 +0800"
+    },
+    {
       "title": "Legal action by Singapore against haze-causing firms in Indonesia may come with diplomatic implications: Lawyers",
       "url": "https://www.channelnewsasia.com/singapore/haze-indonesia-diplomatic-implications-legal-action-lawyers-6465511",
       "summary": "Minister for Sustainability and the Environment Grace Fu said Singapore will send preventive measure notices to seven companies in Indonesia responsible for fires causing the current haze.",
@@ -22,7 +29,7 @@
       "published": "Sat, 17 Oct 2026 06:00:00 +0800"
     },
     {
-      "title": "Singapore-listed firm Kencana Agri facing inquiry by Indonesian authorities over suspected land clearing by burning",
+      "title": "Singapore-listed Kencana Agri facing inquiry in Indonesia over suspected land clearing by burning",
       "url": "https://www.channelnewsasia.com/singapore/forest-fire-haze-sgx-listed-kencana-inquiry-indonesia-6466396",
       "summary": "Several firms listed on the Singapore Exchange (SGX) on Friday (Oct 16) distanced themselves from the fires and haze.",
       "source": "CNA",
@@ -97,13 +104,6 @@
       "summary": "When a bus captain on service 854 experienced a medical emergency in September, quick-thinking commuters helped to bring the bus safely to a stop.",
       "source": "CNA",
       "published": "Fri, 16 Oct 2026 16:32:00 +0800"
-    },
-    {
-      "title": "Are two free N95 masks enough? What to know about wearing and reusing them amid the haze",
-      "url": "https://www.channelnewsasia.com/singapore/haze-singapore-n95-masks-moh-6465101",
-      "summary": "Two N95 masks may be enough for a week for someone who wears them only for short commutes, but those who spend several hours outdoors may need to replace them more often, says an NUS public health expert.",
-      "source": "CNA",
-      "published": "Fri, 16 Oct 2026 15:58:00 +0800"
     }
   ],
   "world": [
@@ -213,6 +213,6 @@
       "published": "Fri, 16 Oct 2026 05:21:17 +0800"
     }
   ],
-  "generated_at": "2026-10-17T07:05:22+08:00",
+  "generated_at": "2026-10-17T09:17:17+08:00",
   "test_mode": false
 }
