@@ -163,3 +163,7 @@ def test_worded_date_range_not_mistaken_for_published_date():
 def test_detail_without_visitor_dates_is_not_an_event():
     html = "<main><h1>Visit Us</h1><p>Published 12 August 2026</p><p>" + "Visitor information. " * 10 + "</p></main>"
     assert not u.parse_official_detail(html, "https://www.nationalgallery.sg/sg/en/exhibitions/test.html", "national_gallery", date(2026,10,18))
+
+def test_visit_singapore_abbreviated_years():
+    period=u.extract_period("30 APR ’26 - 01 NOV ’26")
+    assert u.finite_end_date(period) == date(2026,11,1)

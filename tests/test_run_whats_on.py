@@ -136,3 +136,26 @@ def test_builtin_uses_nested_event_subtypes():
                  today=TODAY, now=NOW, fetcher=lambda url:html)
     assert [e["title"] for e in out["events"]] == ["Nested exhibition"]
     assert out["all_sources_failed"] is False
+
+def test_listing_url_stays_on_configured_source_domain(tmp_path):
+    path=tmp_path/"sources.json"
+    path.write_text(json.dumps({"sources":[
+        {"id":"visit_singapore","url":"https://www.visitsingapore.com/things-to-do/top-things-to-do/",
+         "listing_url":"https://www.visitsingapore.com/whats-happening/all-happenings/"},
+        {"id":"bad","url":"https://example.sg/","listing_url":"https://example.sg.evil.test/feed"}
+    ]}))
+    sources,_=rw.load_sources(path)
+    assert sources["visit_singapore"]["listing_url"].endswith("/all-happenings/")
+    assert "listing_url" not in sources["bad"]
+
+def test_catch_structured_events_must_be_confirmed_free():
+    config={"catch_sg":{"name":"Catch Free Events","url":"https://www.catch.sg/Event?EventCategory=Free%20Events","host":"catch.sg"}}
+    html="""<script type="application/ld+json">[
+      {"@type":"Event","name":"Free show","startDate":"2026-10-20","endDate":"2026-10-21",
+       "url":"https://www.catch.sg/Event/free","isAccessibleForFree":true},
+      {"@type":"Event","name":"Paid show","startDate":"2026-10-20","endDate":"2026-10-21",
+       "url":"https://www.catch.sg/Event/paid","offers":{"price":20}}
+    ]</script>"""
+    with rw.patched(config):
+        events=rw.parse_source_html_v2(html,"catch_sg",TODAY)
+    assert [e["title"] for e in events] == ["Free show"]

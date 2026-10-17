@@ -92,6 +92,7 @@ SINGLE_DATE = re.compile(
 
 def extract_period(text):
     text = norm(text)
+    text = re.sub(r"([A-Za-z]{3,9})\s*[’'](\d{2})\b", r"\1 20\2", text)
     for pattern in (MONTH_FIRST_RANGE, DATE_RANGE, ISO_RANGE, SHORT_DATE_RANGE):
         match = pattern.search(text)
         if match:
@@ -323,7 +324,10 @@ def source_specific_events(soup, key, today):
             continue
         link = urljoin(SOURCES[key]["url"], lk["href"])
         if not official_link(link, key):
-            continue
+            if key == "visit_singapore":
+                link = SOURCES[key].get("listing_url", SOURCES[key]["url"])
+            else:
+                continue
         if link.split("#")[0].rstrip("/") == SOURCES[key]["url"].split("#")[0].rstrip("/"):
             continue
         ident = (title.lower(), period.lower())
@@ -510,6 +514,9 @@ def fetch_esplanade_two_stage(listing_html, today, fetcher, max_details=80):
     return dedupe(events), errors
 
 DETAIL_PATHS = {
+    "visit_singapore": re.compile(r"^/whats-happening/all-happenings/events/[^/]+/?$"),
+    "catch_sg": re.compile(r"^/Event/[^?#]+$"),
+    "gardens": re.compile(r"^/en/things-to-do/calendar-of-events/[^/]+\.html$"),
     "national_gallery": re.compile(r"^/sg/en/(?:exhibitions|whats-on|programmes)/[^/]+\.html$"),
     "ura": re.compile(r"^/get-involved/events-and-exhibitions/[^/]+/?$"),
     "artscience": re.compile(r"^/museum/(?:exhibitions|events|programmes)/[^/]+\.html$"),
@@ -519,6 +526,10 @@ def parse_official_detail(html, url, key, today):
     soup = BeautifulSoup(html, "html.parser")
     structured = jsonld_events(soup, key, today)
     if structured:
+        if key == "catch_sg":
+            structured = [e for e in structured if e.get("adult") in ("0", "0.0", "0.00", "Free")]
+            for e in structured:
+                e["adult"] = e["senior"] = e["child"] = "Free"
         return [e for e in structured if not is_expired(e, today)]
     for node in soup.select("nav, header, footer, aside, script, style"):
         node.decompose()
@@ -543,8 +554,13 @@ def parse_official_detail(html, url, key, today):
     overview = next((p for p in paragraphs if len(p) >= 80 and not re.search(r"cookie|newsletter|privacy", p, re.I)), "")
     if not overview:
         return []
+    if key == "catch_sg" and not re.search(r"\b(?:admission is free|free admission|price\s*:?\s*free|tickets?\s*:?\s*free)\b", text, re.I):
+        return []
     e = clean_event({"title":title, "overview":overview[:700], "period":period,
                      "category":"Event / Exhibition", "link":url}, key, today)
+    if key == "catch_sg":
+        e["adult"] = e["senior"] = e["child"] = "Free"
+        e["tags"] = sorted(set(e["tags"]) | {"free"})
     return [] if is_expired(e, today) else [e]
 
 def fetch_official_details(listing_html, key, today, fetcher, limit=12):
@@ -626,11 +642,11 @@ def update(previous, today=None, fetcher=fetch):
         try:
             rendered = False
             try:
-                html = fetcher(cfg["url"])
+                html = fetcher(cfg.get("listing_url", cfg["url"]))
             except Exception:
-                if fetcher is not fetch or key not in ("gardens", "artscience"):
+                if fetcher is not fetch or key not in ("gardens", "artscience", "visit_singapore", "catch_sg"):
                     raise
-                html = render_source(cfg["url"])
+                html = render_source(cfg.get("listing_url", cfg["url"]))
                 rendered = True
             if key == "esplanade":
                 fresh, detail_errors = fetch_esplanade_two_stage(html, today, fetcher)
@@ -644,8 +660,8 @@ def update(previous, today=None, fetcher=fetch):
                                "detail_errors":len(detail_errors)}
             else:
                 fresh = parse_source_html(html, key, today)
-                if not fresh and not rendered and fetcher is fetch and key in ("gardens", "artscience"):
-                    html = render_source(cfg["url"])
+                if not fresh and not rendered and fetcher is fetch and key in ("gardens", "artscience", "visit_singapore", "catch_sg"):
+                    html = render_source(cfg.get("listing_url", cfg["url"]))
                     fresh = parse_source_html(html, key, today)
                 if not fresh:
                     fresh = fetch_official_details(html, key, today, fetcher)

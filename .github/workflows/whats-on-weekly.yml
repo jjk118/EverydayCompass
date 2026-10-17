@@ -4,6 +4,7 @@ on:
   push:
     branches: [main]
     paths:
+      - sources.json
       - scripts/update_events.py
       - scripts/run_whats_on.py
       - tests/**

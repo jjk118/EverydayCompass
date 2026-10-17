@@ -118,6 +118,10 @@ def load_sources(path=None):
         if b and host.endswith(b["host"]):
             host = b["host"]
         out[key] = {"name": name, "url": url, "host": host}
+        listing = str(it.get("listing_url") or "").strip()
+        lu = urlparse(listing)
+        if lu.scheme == "https" and ((lu.hostname or "").lower() == host or (lu.hostname or "").lower().endswith("." + host)):
+            out[key]["listing_url"] = listing
     if not out:
         warnings.append("no usable enabled sources in sources.json - using the built-in sources")
         return copy.deepcopy(BUILTIN), warnings
@@ -215,9 +219,13 @@ def generic_parse(html, key, today):
 
 def parse_source_html_v2(html, key, today):
     structured = generic_parse(html, key, today)
+    if key == "catch_sg":
+        return [e for e in structured if e.get("adult") == "Free"]
     if key in BUILTIN:
         return ue.dedupe(structured + _orig_parse_source_html(html, key, today))
-    return structured
+    from bs4 import BeautifulSoup
+    cards = ue.source_specific_events(BeautifulSoup(html, "html.parser"), key, today)
+    return ue.dedupe(structured + [e for e in cards if not ue.is_expired(e, today)])
 
 
 @contextlib.contextmanager
