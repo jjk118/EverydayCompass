@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T06:11:02+08:00",
+  "updated_at": "2026-10-18T06:14:13+08:00",
   "events": [
     {
       "title": "70 Years of RSP: Where Design Meets Humanity",
@@ -187,6 +187,29 @@
       ]
     },
     {
+      "title": "Bloomyard",
+      "period": "10 Sep - 25 Oct 2026",
+      "link": "https://www.gardensbythebay.com.sg/en/things-to-do/calendar-of-events/bloomyard.html",
+      "overview": "Step into Bloomyard, where Graphic Rewilding’s surreal botanical world comes to life. Wander through larger-than-life blooms, swing among the flowers, play table tennis or take on the garden mini-golf course.",
+      "time": "Mon - Thu: 10.00am - 7.00pm Fri - Sun: 10.00am - 8.00pm",
+      "venue": "Gardens by the Bay",
+      "category": "Event / Exhibition",
+      "source_key": "gardens",
+      "source": "Gardens by the Bay",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "Flexible",
+      "adult": "Check official information",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Ending Soon",
+      "statusClass": "ending",
+      "tags": [
+        "ending",
+        "ongoing"
+      ]
+    },
+    {
       "title": "Book Havens of Bras Basah: Curiocity",
       "period": "Permanent",
       "overview": "Nestled in one of Singapore's oldest districts, the Bras Basah Bugis precinct holds a rich history as a hub for learning, publishing and reading.",
@@ -231,16 +254,16 @@
       ]
     },
     {
-      "title": "Children’s Festival featuring Disney's Winnie the Pooh",
-      "overview": "For a better visiting experience and facilitate crowd movement, we seek your kind understanding that usage of tripods and camera stands will not be permitted in Floral Fantasy.",
-      "period": "8 June 2026 to 14 March 2027",
+      "title": "Cloud Forest featuring Jurassic World: The Experience",
+      "period": "Ongoing",
+      "link": "https://www.gardensbythebay.com.sg/en/things-to-do/calendar-of-events/cloud-forest-featuring-jurassic-world-the-experience.html",
+      "overview": "Jurassic World: The Experience comes to the misty landscapes of Cloud Forest at Gardens by the Bay, featuring life-sized animatronic dinosaurs in an immersive adventure inspired by the blockbuster film franchise.",
+      "time": "9.00am - 9.00pm",
+      "venue": "Cloud Forest",
       "category": "Event / Exhibition",
-      "link": "https://www.gardensbythebay.com.sg/en/things-to-do/calendar-of-events/disney-garden-of-wonder-at-floral-fantasy.html",
       "source_key": "gardens",
       "source": "Gardens by the Bay",
       "why": "See the official organiser page for the latest visitor information.",
-      "time": "Check official information",
-      "venue": "Gardens by the Bay",
       "mrt": "Check directions",
       "duration": "Flexible",
       "adult": "Check official information",
@@ -319,6 +342,28 @@
       ]
     },
     {
+      "title": "Disney Garden of Wonder at Floral Fantasy",
+      "period": "8 Jun 2026 - 14 Mar 2027",
+      "link": "https://www.gardensbythebay.com.sg/en/things-to-do/calendar-of-events/disney-garden-of-wonder-at-floral-fantasy.html",
+      "overview": "Disney Garden of Wonder returns to Floral Fantasy, with new horticultural displays of beloved characters. See Disney and Pixar’s \"Toy Story 5\" and Disney’s \"FROZEN\" make their floral debut in Singapore, alongside scenes from other favourite stories.",
+      "time": "10.00am - 9.00pm",
+      "venue": "Floral Fantasy",
+      "category": "Event / Exhibition",
+      "source_key": "gardens",
+      "source": "Gardens by the Bay",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "Flexible",
+      "adult": "Check official information",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Ongoing",
+      "statusClass": "",
+      "tags": [
+        "ongoing"
+      ]
+    },
+    {
       "title": "Energize 2026",
       "category": "Event / Exhibition",
       "overview": "Mar 01, 2025 - Dec 30, 2026 Singapore Chinese Cultural Centre Concourse, Level 1 Energize 2026 “Energize” is back! Every Monday to Wednesday, 7pm to 8pm, let’s workout together at the… Fitness/Exercise Free",
@@ -328,6 +373,28 @@
       "link": "https://singaporeccc.org.sg/events/energize-2026/",
       "source_key": "sccc",
       "source": "Singapore Chinese Cultural Centre",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "Flexible",
+      "adult": "Check official information",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Ongoing",
+      "statusClass": "",
+      "tags": [
+        "ongoing"
+      ]
+    },
+    {
+      "title": "Experience Portugal",
+      "period": "8 Oct - 9 Nov 2026",
+      "link": "https://www.gardensbythebay.com.sg/en/things-to-do/calendar-of-events/portuguese-programmes.html",
+      "overview": "Step into a celebration of Portugal’s rich heritage and shared history with Singapore, through food, dance, art and film.",
+      "time": "Various timing",
+      "venue": "Flower Dome",
+      "category": "Event / Exhibition",
+      "source_key": "gardens",
+      "source": "Gardens by the Bay",
       "why": "See the official organiser page for the latest visitor information.",
       "mrt": "Check directions",
       "duration": "Flexible",
@@ -359,6 +426,29 @@
       "status": "Ongoing",
       "statusClass": "",
       "tags": [
+        "ongoing"
+      ]
+    },
+    {
+      "title": "Formula 1 ® Exhibition Singapore",
+      "period": "23 Jul - 18 Oct 2026",
+      "link": "https://www.gardensbythebay.com.sg/en/things-to-do/calendar-of-events/formula-1-exhibition-singapore.html",
+      "overview": "The award-winning Formula 1® Exhibition arrives at Gardens by the Bay for its first time in Asia. Explore iconic cars, rare artefacts and immersive race simulators in a seven-room journey through 75+ years of Formula 1® history and innovation.",
+      "time": "11.00am - 7.00pm",
+      "venue": "Gardens by the Bay MRT Plaza",
+      "category": "Event / Exhibition",
+      "source_key": "gardens",
+      "source": "Gardens by the Bay",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "Flexible",
+      "adult": "Check official information",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Ending Soon",
+      "statusClass": "ending",
+      "tags": [
+        "ending",
         "ongoing"
       ]
     },
@@ -778,16 +868,16 @@
       ]
     },
     {
-      "title": "Sunflower Surprise 2026",
-      "overview": "For a better visiting experience and facilitate crowd movement, we seek your kind understanding that usage of tripods and camera stands will not be permitted in Floral Fantasy.",
-      "period": "9 Oct to 9 Nov 2026",
-      "category": "Event / Exhibition",
+      "title": "Sunflower Surprise: Garden by the Ocean",
+      "period": "9 Oct - 9 Nov 2026",
       "link": "https://www.gardensbythebay.com.sg/en/things-to-do/calendar-of-events/sunflower-surprise-2026.html",
+      "overview": "Stroll among radiant sunflowers and discover iconic elements like hand-painted Azulejos, a quintessential feature of Portuguese culture and architecture.",
+      "time": "9.00am - 9.00pm",
+      "venue": "Flower Dome",
+      "category": "Event / Exhibition",
       "source_key": "gardens",
       "source": "Gardens by the Bay",
       "why": "See the official organiser page for the latest visitor information.",
-      "time": "Check official information",
-      "venue": "Gardens by the Bay",
       "mrt": "Check directions",
       "duration": "Flexible",
       "adult": "Check official information",
@@ -1302,6 +1392,50 @@
       ]
     },
     {
+      "title": "Get Crafty! – Paper Sunflower Bouquet by When Stars Align",
+      "period": "24 Oct - 25 Oct 2026",
+      "link": "https://www.gardensbythebay.com.sg/en/things-to-do/calendar-of-events/get-crafty-paper-sunflower-bouquet-by-when-stars-align.html",
+      "overview": "Inspired by Vincent van Gogh's iconic sunflower paintings, craft an everlasting paper sunflower before adding dried baby's breath and learning simple paper-folding techniques to create a beautiful bouquet.",
+      "time": "10.00am - 6.00pm",
+      "venue": "Australian Garden, Flower Dome",
+      "category": "Event / Exhibition",
+      "source_key": "gardens",
+      "source": "Gardens by the Bay",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "Flexible",
+      "adult": "Check official information",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Upcoming",
+      "statusClass": "upcoming",
+      "tags": [
+        "upcoming"
+      ]
+    },
+    {
+      "title": "Get Crafty! – Sunflower Suncatcher by Happy Hands Can",
+      "period": "31 Oct - 1 Nov 2026",
+      "link": "https://www.gardensbythebay.com.sg/en/things-to-do/calendar-of-events/get-crafty-sunflower-suncatcher-by-happy-hands-can.html",
+      "overview": "Create a sunflower-inspired hanging suncatcher using crushed glass and resin for a beautiful faux stained-glass effect that glows beautifully when light shines through.",
+      "time": "10.00am - 5.00pm",
+      "venue": "Australian Garden, Flower Dome",
+      "category": "Event / Exhibition",
+      "source_key": "gardens",
+      "source": "Gardens by the Bay",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "Flexible",
+      "adult": "Check official information",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Upcoming",
+      "statusClass": "upcoming",
+      "tags": [
+        "upcoming"
+      ]
+    },
+    {
       "title": "HOME | GROUND 2026",
       "category": "Event / Exhibition",
       "overview": "24 OCT ’26 HOME | GROUND 2026 HOME | GROUND 2026 transforms Goodman Arts Centre into a creative arts village celebrating the artists, stories, and communities that shaped the space. Enjoy performances, workshops, markets, and open studios in Singapore’s largest arts enclave.",
@@ -1590,6 +1724,28 @@
       "link": "https://singaporeccc.org.sg/events/pan/",
       "source_key": "sccc",
       "source": "Singapore Chinese Cultural Centre",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "Flexible",
+      "adult": "Check official information",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Upcoming",
+      "statusClass": "upcoming",
+      "tags": [
+        "upcoming"
+      ]
+    },
+    {
+      "title": "Race to Sustainability! 2026",
+      "period": "22 Oct – 29 Nov 2026",
+      "link": "https://www.gardensbythebay.com.sg/en/things-to-do/calendar-of-events/race-to-sustainability-2026.html",
+      "overview": "Race to Sustainability! turns 10 this year! Join us in our exciting lineup of activities as we celebrate this milestone and learn about the effects of climate change and what we can do to ensure the sustainability of our environment.",
+      "time": "Various Timings",
+      "venue": "Gardens by the Bay",
+      "category": "Event / Exhibition",
+      "source_key": "gardens",
+      "source": "Gardens by the Bay",
       "why": "See the official organiser page for the latest visitor information.",
       "mrt": "Check directions",
       "duration": "Flexible",
@@ -1920,6 +2076,28 @@
       ]
     },
     {
+      "title": "The Story of Studio Ghibli",
+      "period": "18 Dec 2026 - 4 Jul 2027",
+      "link": "https://www.gardensbythebay.com.sg/en/things-to-do/calendar-of-events/the-story-of-studio-ghibli.html",
+      "overview": "Wander into the worlds of Studio Ghibli at West Lawn, where 12 immersive scenes bring beloved film moments to life across nearly 3,500 square metres during a 60 to 75-minute journey, from My Neighbor Totoro’s bus stop to an eight-metre-tall bathhouse.",
+      "time": "10.00am to 7.00pm",
+      "venue": "West Lawn (beside Active Garden)",
+      "category": "Event / Exhibition",
+      "source_key": "gardens",
+      "source": "Gardens by the Bay",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "Flexible",
+      "adult": "Check official information",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Upcoming",
+      "statusClass": "upcoming",
+      "tags": [
+        "upcoming"
+      ]
+    },
+    {
       "title": "The Voices We Meet",
       "category": "Event",
       "overview": "Come revel and sing along in a heartwarming evening of choral music and audience interaction!",
@@ -2030,6 +2208,28 @@
         "ongoing",
         "upcoming"
       ]
+    },
+    {
+      "title": "Yip Yew Chong: Live Painting at IMBA Theatre",
+      "period": "21 Oct 2026 - 25 Oct 2026",
+      "link": "https://www.gardensbythebay.com.sg/en/things-to-do/calendar-of-events/yip-yew-chong-live-painting-at-imba.html",
+      "overview": "Watch artist Yip Yew Chong bring Singapore to life at IMBA Theatre from 21 to 25 October. See a panoramic night scene featuring Gardens by the Bay and the city skyline gradually take shape in his I Paint my World series.",
+      "time": "12.00pm - 6.00pm",
+      "venue": "IMBA Theatre (West Lawn, beside Bayfront Plaza)",
+      "category": "Event / Exhibition",
+      "source_key": "gardens",
+      "source": "Gardens by the Bay",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "Flexible",
+      "adult": "Check official information",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Upcoming",
+      "statusClass": "upcoming",
+      "tags": [
+        "upcoming"
+      ]
     }
   ],
   "source_report": {
@@ -2039,7 +2239,7 @@
     },
     "gardens": {
       "status": "fresh",
-      "count": 2
+      "count": 11
     },
     "esplanade": {
       "status": "fresh",
@@ -2085,7 +2285,7 @@
       "url": "https://singaporeccc.org.sg/events/",
       "status": "ok",
       "count": 29,
-      "last_success": "2026-10-18T06:08:44+08:00",
+      "last_success": "2026-10-18T06:11:50+08:00",
       "error": ""
     },
     {
@@ -2093,8 +2293,8 @@
       "name": "Gardens by the Bay",
       "url": "https://www.gardensbythebay.com.sg/en/things-to-do/calendar-of-events.html",
       "status": "ok",
-      "count": 2,
-      "last_success": "2026-10-18T06:08:44+08:00",
+      "count": 11,
+      "last_success": "2026-10-18T06:11:50+08:00",
       "error": ""
     },
     {
@@ -2103,7 +2303,7 @@
       "url": "https://www.esplanade.com/whats-on",
       "status": "ok",
       "count": 29,
-      "last_success": "2026-10-18T06:08:44+08:00",
+      "last_success": "2026-10-18T06:11:50+08:00",
       "error": ""
     },
     {
@@ -2121,7 +2321,7 @@
       "url": "https://www.nationalgallery.sg/sg/en/whats-on.html",
       "status": "ok",
       "count": 3,
-      "last_success": "2026-10-18T06:08:44+08:00",
+      "last_success": "2026-10-18T06:11:50+08:00",
       "error": ""
     },
     {
@@ -2139,7 +2339,7 @@
       "url": "https://www.ura.gov.sg/get-involved/events-and-exhibitions/",
       "status": "ok",
       "count": 1,
-      "last_success": "2026-10-18T06:08:44+08:00",
+      "last_success": "2026-10-18T06:11:50+08:00",
       "error": ""
     },
     {
@@ -2148,7 +2348,7 @@
       "url": "https://exhibitions.nlb.gov.sg/current-exhibitions/",
       "status": "ok",
       "count": 5,
-      "last_success": "2026-10-18T06:08:44+08:00",
+      "last_success": "2026-10-18T06:11:50+08:00",
       "error": ""
     },
     {
@@ -2157,7 +2357,7 @@
       "url": "https://www.visitsingapore.com/things-to-do/top-things-to-do/",
       "status": "ok",
       "count": 12,
-      "last_success": "2026-10-18T06:08:44+08:00",
+      "last_success": "2026-10-18T06:11:50+08:00",
       "error": ""
     },
     {
