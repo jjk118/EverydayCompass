@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T06:05:12+08:00",
+  "updated_at": "2026-10-18T06:11:02+08:00",
   "events": [
     {
       "title": "70 Years of RSP: Where Design Meets Humanity",
@@ -209,6 +209,50 @@
       ]
     },
     {
+      "title": "Central Singapore Market",
+      "category": "Event / Exhibition",
+      "overview": "26 JUL ’26 - 06 DEC ’26 Central Singapore Market Organised by the Central Singapore Community Development Council, experience \"A Market with a Difference\" as this weekend market series brings local farmers, entrepreneurs, and artists from across Central Singapore to offer fresh produce, products, and performances.",
+      "period": "26 JUL 2026 - 06 DEC 2026",
+      "time": "Check official information",
+      "venue": "Visit Singapore",
+      "link": "https://www.visitsingapore.com/whats-happening/all-happenings/",
+      "source_key": "visit_singapore",
+      "source": "Visit Singapore",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "Flexible",
+      "adult": "Check official information",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Ongoing",
+      "statusClass": "",
+      "tags": [
+        "ongoing"
+      ]
+    },
+    {
+      "title": "Children’s Festival featuring Disney's Winnie the Pooh",
+      "overview": "For a better visiting experience and facilitate crowd movement, we seek your kind understanding that usage of tripods and camera stands will not be permitted in Floral Fantasy.",
+      "period": "8 June 2026 to 14 March 2027",
+      "category": "Event / Exhibition",
+      "link": "https://www.gardensbythebay.com.sg/en/things-to-do/calendar-of-events/disney-garden-of-wonder-at-floral-fantasy.html",
+      "source_key": "gardens",
+      "source": "Gardens by the Bay",
+      "why": "See the official organiser page for the latest visitor information.",
+      "time": "Check official information",
+      "venue": "Gardens by the Bay",
+      "mrt": "Check directions",
+      "duration": "Flexible",
+      "adult": "Check official information",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Ongoing",
+      "statusClass": "",
+      "tags": [
+        "ongoing"
+      ]
+    },
+    {
       "title": "Common Ground",
       "category": "Event / Exhibition",
       "overview": "Apr 09, 2026 - Apr 06, 2027 SCCC Level 9 & 10 foyer Common Ground Common Ground shines the spotlight on void decks and the familiar void deck tables as… Exhibition Free",
@@ -386,6 +430,51 @@
       ]
     },
     {
+      "title": "In the Ether—The Rise of Sanctuary Technologies",
+      "category": "Event / Exhibition",
+      "overview": "03 OCT ’26 - 06 DEC ’26 In the Ether—The Rise of Sanctuary Technologies In the Ether is ArtScience Museum's festival that explores how art, science and technology shape society, inviting audiences to imagine trusted, caring and collective futures through artworks, research, prototypes and public programmes.",
+      "period": "03 OCT 2026 - 06 DEC 2026",
+      "time": "Check official information",
+      "venue": "Visit Singapore",
+      "link": "https://www.visitsingapore.com/whats-happening/all-happenings/",
+      "source_key": "visit_singapore",
+      "source": "Visit Singapore",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "Flexible",
+      "adult": "Check official information",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Ongoing",
+      "statusClass": "",
+      "tags": [
+        "ongoing"
+      ]
+    },
+    {
+      "title": "Into the Ocean: Journey Beneath",
+      "category": "Event / Exhibition",
+      "overview": "06 JUN ’26 - 01 NOV ’26 Into the Ocean: Journey Beneath Featuring never-before-seen deep-sea footage and contemporary art and science, this immersive exhibition by ArtScience Museum and OceanX takes visitors through the ocean’s depths and inspires marine conservation.",
+      "period": "06 JUN 2026 - 01 NOV 2026",
+      "time": "Check official information",
+      "venue": "Visit Singapore",
+      "link": "https://www.visitsingapore.com/whats-happening/all-happenings/",
+      "source_key": "visit_singapore",
+      "source": "Visit Singapore",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "Flexible",
+      "adult": "Check official information",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Ending Soon",
+      "statusClass": "ending",
+      "tags": [
+        "ending",
+        "ongoing"
+      ]
+    },
+    {
       "title": "Into the Ocean: Journey Beneath",
       "category": "Exhibition · Ocean & Science",
       "overview": "A world-premiere ArtScience Museum exhibition with OceanX that takes visitors from sunlit surface waters into the deep ocean through footage, specimens, research and immersive displays.",
@@ -434,6 +523,50 @@
         "indoor"
       ],
       "link": "https://www.nationalgallery.sg/sg/en/exhibitions/Lai-Foong-Moi-Crossings.html"
+    },
+    {
+      "title": "Lai Foong Moi: Crossings at National Gallery Singapore",
+      "category": "Event / Exhibition",
+      "overview": "14 AUG ’26 - 03 OCT ’27 Lai Foong Moi: Crossings at National Gallery Singapore An exhibition exploring 1960s Singapore and Malaya through the art of Lai Foong Moi, focusing on themes of identity, social transformation, and belonging. It is part of the Dalam Singapore series.",
+      "period": "14 AUG 2026 - 03 OCT 2027",
+      "time": "Check official information",
+      "venue": "Visit Singapore",
+      "link": "https://www.visitsingapore.com/whats-happening/all-happenings/",
+      "source_key": "visit_singapore",
+      "source": "Visit Singapore",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "Flexible",
+      "adult": "Check official information",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Ongoing",
+      "statusClass": "",
+      "tags": [
+        "ongoing"
+      ]
+    },
+    {
+      "title": "ONE Ocean: Every Action Ripples",
+      "category": "Event / Exhibition",
+      "overview": "30 MAY ’26 - 03 JAN ’27 ONE Ocean: Every Action Ripples Embark on a multi-sensory journey into the depths of the Ocean through immersive 360° spatial projection, free-roaming VR adventure and hands-on wow moments at every turn.",
+      "period": "30 MAY 2026 - 03 JAN 2027",
+      "time": "Check official information",
+      "venue": "Visit Singapore",
+      "link": "https://www.visitsingapore.com/whats-happening/all-happenings/",
+      "source_key": "visit_singapore",
+      "source": "Visit Singapore",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "Flexible",
+      "adult": "Check official information",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Ongoing",
+      "statusClass": "",
+      "tags": [
+        "ongoing"
+      ]
     },
     {
       "title": "Punggol Stories",
@@ -501,6 +634,29 @@
       "statusClass": "",
       "tags": [
         "free",
+        "ongoing"
+      ]
+    },
+    {
+      "title": "Sands Comedy Season 2",
+      "category": "Event / Exhibition",
+      "overview": "16 - 18 OCT ’26 Sands Comedy Season 2 This October, comedy takes centre stage through a curated programme featuring celebrated international acts and rising talents alike. Expect performances that are intelligent, unexpected, and unmistakably world-class.",
+      "period": "16 - 18 OCT 2026",
+      "time": "Check official information",
+      "venue": "Visit Singapore",
+      "link": "https://www.visitsingapore.com/whats-happening/all-happenings/",
+      "source_key": "visit_singapore",
+      "source": "Visit Singapore",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "Flexible",
+      "adult": "Check official information",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Ending Soon",
+      "statusClass": "ending",
+      "tags": [
+        "ending",
         "ongoing"
       ]
     },
@@ -622,6 +778,28 @@
       ]
     },
     {
+      "title": "Sunflower Surprise 2026",
+      "overview": "For a better visiting experience and facilitate crowd movement, we seek your kind understanding that usage of tripods and camera stands will not be permitted in Floral Fantasy.",
+      "period": "9 Oct to 9 Nov 2026",
+      "category": "Event / Exhibition",
+      "link": "https://www.gardensbythebay.com.sg/en/things-to-do/calendar-of-events/sunflower-surprise-2026.html",
+      "source_key": "gardens",
+      "source": "Gardens by the Bay",
+      "why": "See the official organiser page for the latest visitor information.",
+      "time": "Check official information",
+      "venue": "Gardens by the Bay",
+      "mrt": "Check directions",
+      "duration": "Flexible",
+      "adult": "Check official information",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Ongoing",
+      "statusClass": "",
+      "tags": [
+        "ongoing"
+      ]
+    },
+    {
       "title": "Tails from the Coasts: Nature Stories of Singapore",
       "category": "Exhibition · Nature & Heritage",
       "overview": "An exhibition at the National Museum exploring nature stories connected with Singapore’s coasts, adding an environmental perspective to the museum’s Singapore-focused displays.",
@@ -645,6 +823,28 @@
         "indoor"
       ],
       "link": "https://www.nationalmuseum.nhb.gov.sg/whats-on/exhibition/exhibitions"
+    },
+    {
+      "title": "teamLab : Infinite Existence",
+      "category": "Event / Exhibition",
+      "overview": "19 SEP ’26 - 08 NOV ’26 teamLab : Infinite Existence This first solo exhibition, hosted by Singapore-based art platform Supper House, brings together eight monitor-based works that offer a rare insight into teamLab's engagement with history, mythology, and nature.",
+      "period": "19 SEP 2026 - 08 NOV 2026",
+      "time": "Check official information",
+      "venue": "Visit Singapore",
+      "link": "https://www.visitsingapore.com/whats-happening/all-happenings/",
+      "source_key": "visit_singapore",
+      "source": "Visit Singapore",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "Flexible",
+      "adult": "Check official information",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Ongoing",
+      "statusClass": "",
+      "tags": [
+        "ongoing"
+      ]
     },
     {
       "title": "TGIF Music Station 2026",
@@ -779,6 +979,29 @@
       "status": "Ongoing",
       "statusClass": "",
       "tags": [
+        "ongoing"
+      ]
+    },
+    {
+      "title": "When Art Meets Nature at National Gallery",
+      "category": "Event / Exhibition",
+      "overview": "30 APR ’26 - 01 NOV ’26 When Art Meets Nature at National Gallery A children’s art exhibition co-curated by the Taoyuan Museum of Fine Arts and the National Gallery Singapore, inviting visitors into a sensorial journey to explore nature and reimagine new worlds that foster environmental sustainability.",
+      "period": "30 APR 2026 - 01 NOV 2026",
+      "time": "Check official information",
+      "venue": "Visit Singapore",
+      "link": "https://www.visitsingapore.com/whats-happening/all-happenings/",
+      "source_key": "visit_singapore",
+      "source": "Visit Singapore",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "Flexible",
+      "adult": "Check official information",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Ending Soon",
+      "statusClass": "ending",
+      "tags": [
+        "ending",
         "ongoing"
       ]
     },
@@ -967,6 +1190,28 @@
       ]
     },
     {
+      "title": "Black Myth: Wukong Global Concert",
+      "category": "Event / Exhibition",
+      "overview": "24 - 25 OCT ’26 Black Myth: Wukong Global Concert Heed the Destiny - Black Myth: Wukong Global Concert features selected in-game music, blending symphonic orchestration with Chinese folk music to score an epic adventure. Destined Ones get to embark on the Journey to the West and listen to what destiny plays.",
+      "period": "24 - 25 OCT 2026",
+      "time": "Check official information",
+      "venue": "Visit Singapore",
+      "link": "https://www.visitsingapore.com/whats-happening/all-happenings/",
+      "source_key": "visit_singapore",
+      "source": "Visit Singapore",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "Flexible",
+      "adult": "Check official information",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Upcoming",
+      "statusClass": "upcoming",
+      "tags": [
+        "upcoming"
+      ]
+    },
+    {
       "title": "Classic Memories: Songs That…",
       "category": "Event / Exhibition",
       "overview": "Nov 06, 2026 - Nov 06, 2026 Victoria Concert Hall Classic Memories: Songs That… Classic Memories: Songs That Bring Us Together reimagines beloved Chinese popular classics through the distinctive… Concert",
@@ -976,6 +1221,28 @@
       "link": "https://singaporeccc.org.sg/events/classic-memories-songs-that-bring-us-together/",
       "source_key": "sccc",
       "source": "Singapore Chinese Cultural Centre",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "Flexible",
+      "adult": "Check official information",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Upcoming",
+      "statusClass": "upcoming",
+      "tags": [
+        "upcoming"
+      ]
+    },
+    {
+      "title": "Des Bishop Live in Singapore",
+      "category": "Event / Exhibition",
+      "overview": "26 OCT ’26 Des Bishop Live in Singapore Des Bishop is bringing his sharp wit and laugh-out-loud observations here. Known for his acclaimed stand-up specials and sold-out shows around the world, Des delivers comedy that is smart, honest and hilariously relatable.",
+      "period": "26 OCT 2026",
+      "time": "Check official information",
+      "venue": "Visit Singapore",
+      "link": "https://www.visitsingapore.com/whats-happening/all-happenings/",
+      "source_key": "visit_singapore",
+      "source": "Visit Singapore",
       "why": "See the official organiser page for the latest visitor information.",
       "mrt": "Check directions",
       "duration": "Flexible",
@@ -1031,6 +1298,28 @@
       "tags": [
         "free",
         "ongoing",
+        "upcoming"
+      ]
+    },
+    {
+      "title": "HOME | GROUND 2026",
+      "category": "Event / Exhibition",
+      "overview": "24 OCT ’26 HOME | GROUND 2026 HOME | GROUND 2026 transforms Goodman Arts Centre into a creative arts village celebrating the artists, stories, and communities that shaped the space. Enjoy performances, workshops, markets, and open studios in Singapore’s largest arts enclave.",
+      "period": "24 OCT 2026",
+      "time": "Check official information",
+      "venue": "Visit Singapore",
+      "link": "https://www.visitsingapore.com/whats-happening/all-happenings/",
+      "source_key": "visit_singapore",
+      "source": "Visit Singapore",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "Flexible",
+      "adult": "Check official information",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Upcoming",
+      "statusClass": "upcoming",
+      "tags": [
         "upcoming"
       ]
     },
@@ -1405,6 +1694,28 @@
       ]
     },
     {
+      "title": "Side A, A Singapore Record Show",
+      "category": "Event / Exhibition",
+      "overview": "24 OCT ’26 Side A, A Singapore Record Show Side A, A Singapore Record Show, celebrates the vibrant culture of vinyl records and other physical music formats. Held for the third time this year, the event will be joined by Universal Music Singapore.",
+      "period": "24 OCT 2026",
+      "time": "Check official information",
+      "venue": "Visit Singapore",
+      "link": "https://www.visitsingapore.com/whats-happening/all-happenings/",
+      "source_key": "visit_singapore",
+      "source": "Visit Singapore",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "Flexible",
+      "adult": "Check official information",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Upcoming",
+      "statusClass": "upcoming",
+      "tags": [
+        "upcoming"
+      ]
+    },
+    {
       "title": "Singapore Clay Festival 2026",
       "category": "Event / Exhibition",
       "overview": "Nov 06, 2026 - Nov 08, 2026 Singapore Chinese Cultural Centre Multi-Purpose Hall, Level 7 Singapore Clay Festival 2026 SINGAPORE CLAY FESTIVAL is the most important ceramics event in Southeast Asia, bringing thousands of… Other",
@@ -1727,9 +2038,8 @@
       "count": 29
     },
     "gardens": {
-      "status": "fallback",
-      "count": 0,
-      "error": "zero usable events; preserving previous source records"
+      "status": "fresh",
+      "count": 2
     },
     "esplanade": {
       "status": "fresh",
@@ -1757,6 +2067,15 @@
     "nlb": {
       "status": "fresh",
       "count": 5
+    },
+    "visit_singapore": {
+      "status": "fresh",
+      "count": 12
+    },
+    "catch_sg": {
+      "status": "fallback",
+      "count": 0,
+      "error": "zero usable events; preserving previous source records"
     }
   },
   "sources": [
@@ -1766,17 +2085,17 @@
       "url": "https://singaporeccc.org.sg/events/",
       "status": "ok",
       "count": 29,
-      "last_success": "2026-10-18T06:03:34+08:00",
+      "last_success": "2026-10-18T06:08:44+08:00",
       "error": ""
     },
     {
       "id": "gardens",
       "name": "Gardens by the Bay",
       "url": "https://www.gardensbythebay.com.sg/en/things-to-do/calendar-of-events.html",
-      "status": "fallback",
-      "count": 0,
-      "last_success": null,
-      "error": "zero usable events; preserving previous source records"
+      "status": "ok",
+      "count": 2,
+      "last_success": "2026-10-18T06:08:44+08:00",
+      "error": ""
     },
     {
       "id": "esplanade",
@@ -1784,7 +2103,7 @@
       "url": "https://www.esplanade.com/whats-on",
       "status": "ok",
       "count": 29,
-      "last_success": "2026-10-18T06:03:34+08:00",
+      "last_success": "2026-10-18T06:08:44+08:00",
       "error": ""
     },
     {
@@ -1802,7 +2121,7 @@
       "url": "https://www.nationalgallery.sg/sg/en/whats-on.html",
       "status": "ok",
       "count": 3,
-      "last_success": "2026-10-18T06:03:34+08:00",
+      "last_success": "2026-10-18T06:08:44+08:00",
       "error": ""
     },
     {
@@ -1820,7 +2139,7 @@
       "url": "https://www.ura.gov.sg/get-involved/events-and-exhibitions/",
       "status": "ok",
       "count": 1,
-      "last_success": "2026-10-18T06:03:34+08:00",
+      "last_success": "2026-10-18T06:08:44+08:00",
       "error": ""
     },
     {
@@ -1829,8 +2148,26 @@
       "url": "https://exhibitions.nlb.gov.sg/current-exhibitions/",
       "status": "ok",
       "count": 5,
-      "last_success": "2026-10-18T06:03:34+08:00",
+      "last_success": "2026-10-18T06:08:44+08:00",
       "error": ""
+    },
+    {
+      "id": "visit_singapore",
+      "name": "Visit Singapore",
+      "url": "https://www.visitsingapore.com/things-to-do/top-things-to-do/",
+      "status": "ok",
+      "count": 12,
+      "last_success": "2026-10-18T06:08:44+08:00",
+      "error": ""
+    },
+    {
+      "id": "catch_sg",
+      "name": "Catch.sg — Free Events",
+      "url": "https://www.catch.sg/Event?EventCategory=Free%20Events",
+      "status": "fallback",
+      "count": 0,
+      "last_success": null,
+      "error": "zero usable events; preserving previous source records"
     }
   ],
   "all_sources_failed": false
