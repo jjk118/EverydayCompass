@@ -51,8 +51,11 @@ jobs:
               target = now.replace(hour=6, minute=45, second=0, microsecond=0)
               try:
                   with open("events.json", encoding="utf-8") as fh:
-                      updated = datetime.fromisoformat(json.load(fh)["updated_at"])
-                  needed = updated < target
+                      feed = json.load(fh)
+                  updated = datetime.fromisoformat(feed["updated_at"])
+                  needed = updated < target or feed.get("all_sources_failed", False) or any(
+                      row.get("status") != "ok" for row in feed.get("sources", [])
+                  )
               except Exception:
                   needed = True
 

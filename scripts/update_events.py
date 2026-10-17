@@ -383,8 +383,8 @@ def esplanade_detail_links(listing_html):
     soup = BeautifulSoup(listing_html, "html.parser")
     links = []
     for a in soup.find_all("a", href=True):
-        href = urljoin(SOURCES["esplanade"]["url"], a["href"])
-        if "esplanade.com/whats-on/" not in href:
+        href = urljoin(SOURCES["esplanade"]["url"], a["href"]).split("#")[0].split("?")[0]
+        if not official_link(href, "esplanade") or not urlparse(href).path.startswith("/whats-on/"):
             continue
         if href.rstrip("/") in {
             SOURCES["esplanade"]["url"].rstrip("/"),
