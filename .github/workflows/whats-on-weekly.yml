@@ -67,9 +67,6 @@ jobs:
       - name: Safety tests
         if: steps.refresh_check.outputs.needed == 'true'
         run: pytest -q
-      - name: Dry run
-        if: steps.refresh_check.outputs.needed == 'true'
-        run: python scripts/run_whats_on.py --dry-run
       - name: Update feed
         id: update
         if: steps.refresh_check.outputs.needed == 'true'
