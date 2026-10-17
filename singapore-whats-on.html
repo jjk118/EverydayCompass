@@ -143,6 +143,7 @@ td{font-size:.9rem}
 <button class="chip" data-filter="free" onclick="setFilter('free')">Free</button>
 <button class="chip" data-filter="wheelchair" onclick="setFilter('wheelchair')">♿ Wheelchair</button>
 <button class="chip" data-filter="indoor" onclick="setFilter('indoor')">Indoor</button>
+<button class="chip" data-filter="timings" onclick="setFilter('timings')">🕙 Daily opening timings</button>
 </div>
 <div class="refreshbar">
 <div class="refresh-info">
@@ -163,6 +164,10 @@ To request for What’s On adhoc request, click <a class="btn primary" href="htt
 <div class="updated">Source priority: Official organiser websites</div>
 </div>
 
+<section id="timingsWrap" class="table-wrap" style="display:none" aria-label="Daily event opening timings">
+<p style="padding:12px">Published opening hours and session times for all current events. Hours may vary by day; check the official site before visiting.</p>
+<table><thead><tr><th>Event</th><th>Daily opening hours / sessions</th><th>Event dates</th><th>Venue</th><th>More</th></tr></thead>
+<tbody id="timingsBody"></tbody></table></section>
 <section id="cards" class="grid"></section>
 <section id="tableWrap" class="table-wrap">
 <table>
@@ -320,8 +325,17 @@ return `<tr class="event" data-tags="${e.tags.join(" ")}" data-search="${esc((e.
 <td>${e.tags.includes("wheelchair")?"♿ Wheelchair-friendly":"Check venue"}</td>
 <td><a href="${e.link}" target="_blank" rel="noopener"><b>Official site ↗</b></a></td></tr>`;
 }
+function timingRow(e){
+ const published=String(e.time||"").trim();
+ const hours=!published||/^(check official information|check official site|tbc|tba|unknown|n\/a)$/i.test(published)
+  ?"Not available — check official site":published;
+ return `<tr class="event" data-tags="${esc((e.tags||[]).join(" "))}" data-search="${esc((e.title+" "+e.category+" "+e.overview+" "+e.venue).toLowerCase())}">
+<td><b>${esc(e.title||"")}</b></td><td>${esc(hours)}</td><td>${esc(e.period||"")}</td><td>${esc(e.venue||"")}</td>
+<td><a href="${esc(e.link||"#")}" target="_blank" rel="noopener"><b>Official site ↗</b></a></td></tr>`;
+}
 function render(){
  const list=currentEvents();
+ document.getElementById("timingsBody").innerHTML=list.map(timingRow).join("");
  document.getElementById("cards").innerHTML=list.map(eventCard).join("");
  document.getElementById("tableBody").innerHTML=list.map(tableRow).join("");
  document.getElementById("emptyState").classList.toggle("hidden",list.length>0);
@@ -329,7 +343,10 @@ function render(){
  renderExpiryCheck();
 }
 function setFilter(f){
+ const wasTimings=activeFilter==="timings";
  activeFilter=f;
+ if(f==="timings") setView("timings");
+ else if(wasTimings) setView("cards");
  document.querySelectorAll(".chip").forEach(c=>c.classList.toggle("active",c.dataset.filter===f));
  applyFilters();
  document.querySelector(".quick").scrollIntoView({behavior:"smooth",block:"start"});
@@ -338,17 +355,23 @@ function applyFilters(){
  const q=document.getElementById("search").value.trim().toLowerCase();
  document.querySelectorAll(".event").forEach(el=>{
   const tags=el.dataset.tags.split(" ");
-  const okF=activeFilter==="all"||tags.includes(activeFilter);
+  const okF=activeFilter==="all"||activeFilter==="timings"||tags.includes(activeFilter);
   const okS=!q||el.dataset.search.includes(q);
   el.classList.toggle("hidden",!(okF&&okS));
  });
 }
 function setView(v){
+ if(v!=="timings"&&activeFilter==="timings"){
+  activeFilter="all";
+  document.querySelectorAll(".chip").forEach(c=>c.classList.toggle("active",c.dataset.filter==="all"));
+  applyFilters();
+ }
+ document.getElementById("timingsWrap").style.display=v==="timings"?"block":"none";
  const cards=v==="cards";
  document.getElementById("cards").style.display=cards?"grid":"none";
- document.getElementById("tableWrap").style.display=cards?"none":"block";
+ document.getElementById("tableWrap").style.display=v==="table"?"block":"none";
  document.getElementById("cardsBtn").classList.toggle("active",cards);
- document.getElementById("tableBtn").classList.toggle("active",!cards);
+ document.getElementById("tableBtn").classList.toggle("active",v==="table");
 }
 
 /* ---------- FEED / REFRESH DISPLAY ---------- */
