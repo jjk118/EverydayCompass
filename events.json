@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T05:55:40+08:00",
+  "updated_at": "2026-10-18T05:57:44+08:00",
   "events": [
     {
       "title": "70 Years of RSP: Where Design Meets Humanity",
@@ -1925,7 +1925,7 @@
       "url": "https://singaporeccc.org.sg/events/",
       "status": "ok",
       "count": 29,
-      "last_success": "2026-10-18T05:54:52+08:00",
+      "last_success": "2026-10-18T05:56:54+08:00",
       "error": ""
     },
     {
@@ -1943,7 +1943,7 @@
       "url": "https://www.esplanade.com/whats-on",
       "status": "ok",
       "count": 36,
-      "last_success": "2026-10-18T05:54:52+08:00",
+      "last_success": "2026-10-18T05:56:54+08:00",
       "error": ""
     },
     {
@@ -1961,7 +1961,7 @@
       "url": "https://www.nationalgallery.sg/sg/en/whats-on.html",
       "status": "ok",
       "count": 3,
-      "last_success": "2026-10-18T05:54:52+08:00",
+      "last_success": "2026-10-18T05:56:54+08:00",
       "error": ""
     },
     {
@@ -1979,7 +1979,7 @@
       "url": "https://www.ura.gov.sg/get-involved/events-and-exhibitions/",
       "status": "ok",
       "count": 1,
-      "last_success": "2026-10-18T05:54:52+08:00",
+      "last_success": "2026-10-18T05:56:54+08:00",
       "error": ""
     },
     {
@@ -1988,7 +1988,7 @@
       "url": "https://exhibitions.nlb.gov.sg/current-exhibitions/",
       "status": "ok",
       "count": 5,
-      "last_success": "2026-10-18T05:54:52+08:00",
+      "last_success": "2026-10-18T05:56:54+08:00",
       "error": ""
     }
   ],
