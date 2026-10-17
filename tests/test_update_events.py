@@ -167,3 +167,16 @@ def test_detail_without_visitor_dates_is_not_an_event():
 def test_visit_singapore_abbreviated_years():
     period=u.extract_period("30 APR ’26 - 01 NOV ’26")
     assert u.finite_end_date(period) == date(2026,11,1)
+
+def test_rendered_gardens_cards_use_event_dates_not_weekday_labels():
+    html="""<a class="programme-tile" href="/en/things-to-do/calendar-of-events/sunflower.html">
+    <div class="title"><h6>Sunflower Surprise</h6></div><div class="detail">A seasonal floral display.</div>
+    <span class="gbb-event">Fri, 9 Oct - Mon, 9 Nov 2026</span>
+    <span class="gbb-hours">9.00am - 9.00pm</span><span class="gbb-location">Flower Dome</span></a>
+    <a class="programme-tile" href="/en/things-to-do/calendar-of-events/jurassic.html">
+    <div class="title"><h6>Jurassic World</h6></div><span class="gbb-event">Ongoing</span></a>"""
+    got=u.parse_source_html(html,"gardens",date(2026,10,18))
+    assert {e["title"] for e in got} == {"Sunflower Surprise", "Jurassic World"}
+    event=next(e for e in got if e["title"]=="Sunflower Surprise")
+    assert u.finite_end_date(event["period"]) == date(2026,11,9)
+    assert event["venue"] == "Flower Dome"

@@ -92,6 +92,7 @@ SINGLE_DATE = re.compile(
 
 def extract_period(text):
     text = norm(text)
+    text = re.sub(r"\b(?:Mon(?:day)?|Tue(?:sday)?|Wed(?:nesday)?|Thu(?:rsday)?|Fri(?:day)?|Sat(?:urday)?|Sun(?:day)?),?\s+(?=\d)", "", text, flags=re.I)
     text = re.sub(r"([A-Za-z]{3,9})\s*[’'](\d{2})\b", r"\1 20\2", text)
     for pattern in (MONTH_FIRST_RANGE, DATE_RANGE, ISO_RANGE, SHORT_DATE_RANGE):
         match = pattern.search(text)
@@ -377,11 +378,36 @@ def section_events(soup, key, today):
     return events
 
 
+def gardens_events(soup, key, today):
+    if key != "gardens":
+        return []
+    events = []
+    for card in soup.select("a.programme-tile[href]"):
+        heading = card.select_one(".title h6")
+        dates = card.select_one(".gbb-event")
+        if not heading or not dates:
+            continue
+        title = norm(heading.get_text(" ", strip=True))
+        period = extract_period(dates.get_text(" ", strip=True))
+        link = urljoin(SOURCES[key]["url"], card["href"])
+        if not title or not period or not official_link(link, key):
+            continue
+        def field(selector):
+            el = card.select_one(selector)
+            return norm(el.get_text(" ", strip=True)) if el else ""
+        e = clean_event({"title":title, "period":period, "link":link,
+                         "overview":field(".detail"), "time":field(".gbb-hours"),
+                         "venue":field(".gbb-location"), "category":"Event / Exhibition"}, key, today)
+        if not is_expired(e, today):
+            events.append(e)
+    return events
+
+
 def parse_source_html(html, key, today):
     soup = BeautifulSoup(html, "html.parser")
     events = jsonld_events(soup, key, today)
     if not events:
-        events = source_specific_events(soup, key, today) + section_events(soup, key, today)
+        events = source_specific_events(soup, key, today) + section_events(soup, key, today) + gardens_events(soup, key, today)
     return dedupe([e for e in events if not is_expired(e, today)])
 
 
@@ -622,12 +648,6 @@ def render_source(url):
             check_verification()
             html = page.content()
             print(f"Rendered public listing {page.url}: {len(html)} characters", flush=True)
-            if "gardensbythebay.com.sg" in url:
-                soup = BeautifulSoup(html, "html.parser")
-                cards = [a for a in soup.find_all("a", href=True)
-                         if "/calendar-of-events/" in a["href"]]
-                for a in cards[:2]:
-                    print("Gardens listing sample: " + str(a.parent)[:4500], flush=True)
             return html
         finally:
             browser.close()
