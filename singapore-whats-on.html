@@ -180,20 +180,22 @@ To request for What’s On adhoc request, click <a class="btn primary" href="htt
 <div id="overlay" class="overlay hidden" onclick="if(event.target===this)closeSettings()">
 <div class="panel" role="dialog" aria-modal="true" aria-labelledby="setTitle">
 <h2 id="setTitle">Source settings</h2>
-<p class="sub">These are the websites the weekly update searches for events. Maximum 15. Only secure (https) web addresses are accepted.</p>
+<p class="sub">These are the websites the weekly update searches for events. Maximum 20. Only secure (https) web addresses are accepted.</p>
 <div><span class="src-count" id="srcCount"></span> <span id="srcOrigin" style="color:var(--muted);font-size:.85rem"></span></div>
 <div id="srcRows" style="margin-top:10px"></div>
 <div id="srcErrors" class="errors"></div>
 <div id="srcOk" class="okmsg"></div>
 <div class="panel-actions">
 <button class="btn secondary" id="addBtn" onclick="addRow()">+ Add source</button>
-<button class="btn primary" onclick="saveSources()">Save draft in this browser</button>
+<button class="btn primary" id="publishSourcesBtn" onclick="publishSources()">Publish source list</button>
+<button class="btn secondary" onclick="saveSources()">Save draft in this browser</button>
+<button class="btn outline" onclick="reloadPublishedSources()">Load published list</button>
 <button class="btn outline" onclick="downloadSources()">Download sources.json</button>
 <button class="btn outline" onclick="copySources()">Copy JSON</button>
 <button class="btn danger" onclick="resetSources()">Reset to the 8 defaults</button>
 <button class="btn outline" onclick="closeSettings()">Close</button>
 </div>
-<p class="sub" style="margin-top:12px"><b>To make the weekly update use your list:</b> download <code>sources.json</code> and upload it to the main folder of your GitHub repository (same place as <code>events.json</code>). Saving here only keeps a draft in this browser; it does not change the live website. Once the new refresh script is installed, the weekly refresh reads this file and uses your list.</p>
+<p class="sub" style="margin-top:12px"><b>To make the weekly update use your list:</b> download <code>sources.json</code> and upload it to the main folder of your GitHub repository (same place as <code>events.json</code>). Saving here only keeps a draft in this browser; it does not change the live website. Every refresh reads the current published file, including newly added enabled sites. Alternatively, use <b>Publish source list</b> with the token below to save directly to GitHub and start a refresh. Browser drafts must be published or uploaded before the refresh can use them.</p>
 
 <h3>🔄 Run What's On refresh</h3>
 <p class="sub">The refresh runs on GitHub (the same job that runs weekly). It looks for new events and removes finished ones, then updates the website. It can take a few minutes.</p>
@@ -203,8 +205,8 @@ To request for What’s On adhoc request, click <a class="btn primary" href="htt
 </div>
 <p class="sub" style="margin-top:8px">Simple way, no token: in GitHub Actions, click the refresh job on the left, then <b>Run workflow</b> → <b>Run workflow</b>.</p>
 <details style="margin-top:10px">
-<summary style="cursor:pointer;font-weight:800;color:var(--navy)">Run it from this page instead (needs a GitHub token)</summary>
-<p class="sub" style="margin-top:8px">Create a “fine-grained personal access token” in GitHub for the <b>EverydayCompass</b> repository only, with permission <b>Actions: Read and write</b>, and a short expiry. Paste it below. It is used only for this visit, is never saved, and is cleared when you close this panel. Never put the token inside the html file.</p>
+<summary style="cursor:pointer;font-weight:800;color:var(--navy)">Publish sources or run a refresh (needs a GitHub token)</summary>
+<p class="sub" style="margin-top:8px">Create a “fine-grained personal access token” in GitHub for the <b>EverydayCompass</b> repository only, with <b>Contents: Read and write</b> to publish sources, and <b>Actions: Read and write</b> to start jobs manually, and a short expiry. Paste it below. It is used only for this visit, is never saved, and is cleared when you close this panel. Never put the token inside the html file.</p>
 <div class="panel-actions" style="margin-top:0">
 <input type="password" id="ghToken" autocomplete="off" placeholder="Paste GitHub token" aria-label="GitHub token" style="flex:1;min-width:200px;padding:9px 11px;border:1px solid var(--line);border-radius:11px">
 <button class="btn secondary" onclick="ghLoadWorkflows()">Load jobs</button>
@@ -399,7 +401,7 @@ async function loadScheduledFeed(){
 }
 
 /* ---------- SOURCE SETTINGS ---------- */
-const MAX_SOURCES=15;
+const MAX_SOURCES=20;
 const DEFAULT_SOURCES=[
  {id:"sccc",name:"Singapore Chinese Cultural Centre",url:"https://singaporeccc.org.sg/events/",enabled:true},
  {id:"gardens",name:"Gardens by the Bay",url:"https://www.gardensbythebay.com.sg/en/things-to-do/calendar-of-events.html",enabled:true},
@@ -424,10 +426,22 @@ async function loadSources(){
   try{const d=JSON.parse(draft); if(Array.isArray(d.sources)){sources=d.sources.slice(0,MAX_SOURCES); sourceOrigin="(draft saved in this browser)"; return;}}catch(e){}
  }
  try{
-  const res=await fetch("./sources.json?t="+Date.now(),{cache:"no-store"});
+  const res=await fetch("https://raw.githubusercontent.com/myai118/EverydayCompass/main/sources.json?t="+Date.now(),{cache:"no-store"});
   if(res.ok){const d=await res.json(); if(Array.isArray(d.sources)){sources=d.sources.slice(0,MAX_SOURCES); sourceOrigin="(from sources.json)"; return;}}
  }catch(e){}
  sources=DEFAULT_SOURCES.map(s=>({...s})); sourceOrigin="(built-in defaults)";
+}
+async function reloadPublishedSources(){
+ if(!confirm("Discard your current edits and load the published source list?")) return;
+ try{
+  const r=await fetch("https://raw.githubusercontent.com/myai118/EverydayCompass/main/sources.json?t="+Date.now(),{cache:"no-store"});
+  if(!r.ok) throw new Error("HTTP "+r.status);
+  const data=await r.json();
+  if(!Array.isArray(data.sources)) throw new Error("Invalid source list");
+  sources=data.sources.slice(0,MAX_SOURCES); lsDel(); sourceOrigin="(published list)";
+  drawRows(); document.getElementById("srcErrors").textContent="";
+  document.getElementById("srcOk").textContent="Loaded the current published source list.";
+ }catch(e){document.getElementById("srcErrors").textContent="Could not load the published list. Your edits were kept.";}
 }
 function openSettings(){
  document.getElementById("overlay").classList.remove("hidden");
@@ -471,7 +485,7 @@ function validate(){
  return errs;
 }
 function cleanPayload(){
- return {version:1,max_sources:MAX_SOURCES,sources:sources.map((s,i)=>({id:(s.id&&/^[a-z0-9_]+$/.test(s.id))?s.id:slug(s.name||"",i),name:(s.name||"").trim(),url:new URL((s.url||"").trim()).href,enabled:s.enabled!==false}))};
+ return {version:1,max_sources:MAX_SOURCES,sources:sources.map((s,i)=>({id:(s.id&&/^[a-z0-9_]+$/.test(s.id))?s.id:slug(s.name||"",i),name:(s.name||"").trim(),url:new URL((s.url||"").trim()).href,enabled:s.enabled!==false,...(s.listing_url?{listing_url:s.listing_url}:{})}))};
 }
 function saveSources(){
  const errs=validate(), er=document.getElementById("srcErrors"), ok=document.getElementById("srcOk");
@@ -480,6 +494,36 @@ function saveSources(){
  if(lsSet(JSON.stringify(p))){sources=p.sources; sourceOrigin="(draft saved in this browser)"; drawRows(); ok.textContent="Draft saved in this browser. To use it for the weekly update, download sources.json and upload it to GitHub.";}
  else er.textContent="Could not save in this browser (storage blocked). Use Download or Copy instead.";
 }
+
+async function publishSources(){
+ const er=document.getElementById("srcErrors"), ok=document.getElementById("srcOk");
+ const errs=validate(); er.textContent=errs.join("\n"); ok.textContent=""; if(errs.length) return;
+ if(!ghNeedToken()){
+  er.textContent="Open “Publish sources or run a refresh” below and enter a token with Contents: Read and write.";
+  document.getElementById("ghToken").closest("details").open=true;
+  document.getElementById("ghToken").focus(); return;
+ }
+ const payload=cleanPayload(), btn=document.getElementById("publishSourcesBtn");
+ btn.disabled=true; ok.textContent="Publishing source list…";
+ try{
+  const url="https://api.github.com/repos/"+GH_REPO+"/contents/sources.json";
+  const current=await fetch(url+"?ref="+encodeURIComponent(GH_REF),{headers:ghHeaders(false),cache:"no-store"});
+  if(!current.ok) throw new Error("Cannot read the current source list (HTTP "+current.status+").");
+  const file=await current.json();
+  const bytes=new TextEncoder().encode(JSON.stringify(payload,null,2)+"\n");
+  const content=btoa(Array.from(bytes,b=>String.fromCharCode(b)).join(""));
+  const saved=await fetch(url,{method:"PUT",headers:ghHeaders(true),body:JSON.stringify({
+   message:"Update What's On source settings",branch:GH_REF,sha:file.sha,content
+  })});
+  if(!saved.ok) throw new Error(saved.status===409||saved.status===422
+   ?"The source list changed while saving. Reload the published list before retrying."
+   :"Publishing failed (HTTP "+saved.status+"). Check Contents: Read and write permission on EverydayCompass.");
+  sources=payload.sources; lsDel(); sourceOrigin="(published to GitHub)"; drawRows();
+  ok.textContent="Source list published. A refresh starts automatically and will check every enabled site. See GitHub Actions for progress.";
+ }catch(e){ok.textContent="";er.textContent=e.message||"Publishing failed. Check your connection.";}
+ finally{btn.disabled=false;}
+}
+
 function downloadSources(){
  const errs=validate(); document.getElementById("srcErrors").textContent=errs.join("\n"); if(errs.length) return;
  const blob=new Blob([JSON.stringify(cleanPayload(),null,2)+"\n"],{type:"application/json"});

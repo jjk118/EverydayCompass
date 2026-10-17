@@ -3,7 +3,7 @@
 Everyday Compass - What's On refresh, version 2 (wrapper around update_events.py).
 
 This file does NOT change update_events.py. It borrows its readers and safety rules, and adds:
-  1. Reads the source list from sources.json (up to 15 sources). Falls back to the built-in 8.
+  1. Reads the source list from sources.json (up to 20 sources). Falls back to the built-in 8.
   2. Records the date each source was LAST CHECKED SUCCESSFULLY (kept when a source fails).
   3. Flags the run when EVERY source returned zero events, so the workflow can fail and email you.
   4. Fixes the end-date reader so periods like "12 - 27 Sep 2026" are understood, and removes
@@ -32,7 +32,7 @@ import update_events as ue  # noqa: E402
 
 ROOT = ue.ROOT
 SOURCES_FILE = ROOT / "sources.json"
-MAX_SOURCES = 15
+MAX_SOURCES = 20
 BUILTIN = copy.deepcopy(ue.SOURCES)
 
 _orig_finite_end_date = ue.finite_end_date

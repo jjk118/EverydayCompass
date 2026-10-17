@@ -66,7 +66,7 @@ def test_load_sources_rules(tmp_path):
 
 
 def test_load_sources_limit_and_fallback(tmp_path):
-    many = {"sources": [{"id": f"s{i}", "name": f"S{i}", "url": f"https://s{i}.example.sg"} for i in range(20)]}
+    many = {"sources": [{"id": f"s{i}", "name": f"S{i}", "url": f"https://s{i}.example.sg"} for i in range(21)]}
     p = tmp_path / "sources.json"
     p.write_text(json.dumps(many))
     s, w = rw.load_sources(p)
@@ -159,3 +159,47 @@ def test_catch_structured_events_must_be_confirmed_free():
     with rw.patched(config):
         events=rw.parse_source_html_v2(html,"catch_sg",TODAY)
     assert [e["title"] for e in events] == ["Free show"]
+
+
+def test_twenty_sources_and_new_settings_are_read_on_each_refresh(tmp_path, monkeypatch):
+    path = tmp_path / "sources.json"
+    monkeypatch.setattr(rw, "SOURCES_FILE", path)
+    items = [{"id": f"s{i}", "name": f"S{i}", "url": f"https://s{i}.example.sg"}
+             for i in range(20)]
+    path.write_text(json.dumps({"sources": items[:1]}))
+    first, warnings = rw.load_sources()
+    assert list(first) == ["s0"] and not warnings
+    # Settings are published between refreshes; the next load must use the new list.
+    path.write_text(json.dumps({"sources": items}))
+    current, warnings = rw.load_sources()
+    assert len(current) == 20 and not warnings
+    visited = []
+    def fetcher(url):
+        visited.append(url)
+        if len(visited) == 1:
+            raise TimeoutError("first site unavailable")
+        if len(visited) == 2:
+            return "<html>No events</html>"
+        return LD
+    result = rw.run({"events": []}, current, today=TODAY, now=NOW, fetcher=fetcher)
+    assert visited == [s["url"] for s in current.values()]
+    assert len(result["sources"]) == 20
+    assert [s["status"] for s in result["sources"][:3]] == ["fallback", "fallback", "ok"]
+    assert result["sources"][-1]["status"] == "ok"
+    assert not result["all_sources_failed"]
+
+
+def test_settings_javascript_syntax(tmp_path):
+    import re
+    import shutil
+    import subprocess
+    import pytest
+    node = shutil.which("node")
+    if not node:
+        pytest.skip("Node is required for JavaScript syntax validation")
+    html = (Path(__file__).resolve().parents[1] / "singapore-whats-on.html").read_text()
+    scripts = re.findall(r"<script(?:\s[^>]*)?>(.*?)</script>", html, re.S)
+    assert scripts
+    script = tmp_path / "settings.js"
+    script.write_text("\n".join(scripts))
+    subprocess.run([node, "--check", str(script)], check=True, capture_output=True, text=True)
