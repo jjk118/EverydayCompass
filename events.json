@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T05:53:42+08:00",
+  "updated_at": "2026-10-18T05:55:40+08:00",
   "events": [
     {
       "title": "70 Years of RSP: Where Design Meets Humanity",
@@ -25,6 +25,97 @@
         "indoor"
       ],
       "link": "https://www.ura.gov.sg/get-involved/events-and-exhibitions/rsp70-where-design-meets-humanity-sac/"
+    },
+    {
+      "title": "70 Years of RSP: Where Design Meets Humanity (A Singapore Architecture Collection Exhibition)",
+      "category": "Event / Exhibition",
+      "overview": "12 August 2026 12 August 2026 70 Years of RSP: Where Design Meets Humanity (A Singapore Architecture Collection Exhibition) Discover how RSP has helped shaped many of Singaporeâs most distinctive landmarks and beloved spaces over 70 years. Visit the exhibition at The URA Centre from 12 August to 26 October 2026. Exhibitions",
+      "period": "12 August to 26 October 2026",
+      "time": "Check official information",
+      "venue": "Urban Redevelopment Authority",
+      "link": "https://www.ura.gov.sg/get-involved/events-and-exhibitions/rsp70-where-design-meets-humanity-sac/",
+      "source_key": "ura",
+      "source": "Urban Redevelopment Authority",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "Flexible",
+      "adult": "Check official information",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Ending Soon",
+      "statusClass": "ending",
+      "tags": [
+        "ending",
+        "ongoing"
+      ]
+    },
+    {
+      "title": "A Slice of Sugee: Love in All Its Flavours",
+      "category": "Event",
+      "overview": "A catchy tune from TikTok has a way of sticking around. The Sugees invite listeners to reminisce and enjoy an evening of their own romantic adventures, keeping memories of love and heartbreak alive through timeless and trending hits.",
+      "period": "18 Oct 2026",
+      "time": "5:00 PM, 6:00 PM",
+      "venue": "Esplanade Concourse",
+      "link": "https://www.esplanade.com/whats-on/festivals-and-series/popaholic/2026/a-slice-of-sugee-love-in-all-its-flavours",
+      "source_key": "esplanade",
+      "source": "Esplanade",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "5mins",
+      "adult": "Free",
+      "senior": "Free",
+      "child": "Free",
+      "status": "Ending Soon",
+      "statusClass": "ending",
+      "tags": [
+        "ending",
+        "free",
+        "ongoing"
+      ]
+    },
+    {
+      "title": "Art Remembers",
+      "category": "Event",
+      "overview": "Bringing together 20 artworks centring on Southeast Asia, this exhibition examines how artists work with archives to address forgotten, lesser known, or difficult histories.",
+      "period": "2026-08-21 to 2026-10-18",
+      "time": "Check official information",
+      "venue": "City Hall Wing, Level 3, Singtel Special Exhibition Gallery 1 and City Hall Chamber",
+      "adult": "Check official information",
+      "link": "https://www.nationalgallery.sg/sg/en/whats-on.html",
+      "source_key": "national_gallery",
+      "source": "National Gallery Singapore",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "Flexible",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Ongoing",
+      "statusClass": "",
+      "tags": [
+        "ongoing"
+      ]
+    },
+    {
+      "title": "Bedok to Bollywood",
+      "category": "Event",
+      "overview": "Three decades. Two Singaporeans. One dream. Based on true stories from prolific stand-up comedian Rishi Budhrani and award-winning host K.P. Sandhu, this heartwarming, interactive dramedy follows two Singaporeans chasing an elusive dream: becoming superstars in Bollywood.",
+      "period": "27 & 28 Nov 2026",
+      "time": "8:00 PM",
+      "venue": "Esplanade Recital Studio",
+      "link": "https://www.esplanade.com/whats-on/festivals-and-series/kalaa-utsavam-indian-festival-of-arts/2026/bedok-to-bollywood",
+      "source_key": "esplanade",
+      "source": "Esplanade",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "5mins",
+      "adult": "From $41.50",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Ongoing",
+      "statusClass": "",
+      "tags": [
+        "ongoing"
+      ]
     },
     {
       "title": "Bit Bit Forest Mid-Autumn Light Up!",
@@ -117,6 +208,29 @@
       ]
     },
     {
+      "title": "da:ns LAB 2026",
+      "category": "Event",
+      "overview": "da:ns LAB 2026 brings together four independent artists from across the Asia-Pacific to engage in dialogue around their respective praxes, experimental approaches, and the complexities of navigating artistic production across varied infrastructural and cultural ecologies.",
+      "period": "15 & 16 Oct 2026",
+      "time": "4:00 PM, 5:00 PM",
+      "venue": "Esplanade Annexe Studio",
+      "link": "https://www.esplanade.com/whats-on/festivals-and-series/dans-focus/2026/dans-lab-2026",
+      "source_key": "esplanade",
+      "source": "Esplanade",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "5mins",
+      "adult": "Free",
+      "senior": "Free",
+      "child": "Free",
+      "status": "Ongoing",
+      "statusClass": "",
+      "tags": [
+        "free",
+        "ongoing"
+      ]
+    },
+    {
       "title": "Dance Connections",
       "category": "Event / Exhibition",
       "overview": "Oct 01, 2026 - Dec 30, 2027 Singapore Chinese Cultural Centre Multi-Purpose Hall, Level 7 Dance Connections Looking to pick up Chinese dance after work while staying active and expanding your social… Other Free",
@@ -139,6 +253,28 @@
       ]
     },
     {
+      "title": "Diana Krall",
+      "category": "Event",
+      "overview": "Diana Krall is the only jazz singer to have eight albums debut at the top of the Billboard Jazz Albums chart. To date, her albums have garnered two Grammy® Awards, ten Juno® Awards and have also earned nine gold, three platinum and seven multi-platinum albums. Krall's unique artistry transcends any single musical style and has made her one of the most recognizable artists of our time. As The New York Times recently noted Krall possesses, “A voice at once cool and sultry, wielded with a rhythmic sophistication.”",
+      "period": "24 & 25 Nov 2026",
+      "time": "8:00 PM",
+      "venue": "Esplanade Concert Hall",
+      "link": "https://www.esplanade.com/whats-on/festivals-and-series/mosaic-music-series/2026/diana-krall",
+      "source_key": "esplanade",
+      "source": "Esplanade",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "5mins",
+      "adult": "From $74.80",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Ongoing",
+      "statusClass": "",
+      "tags": [
+        "ongoing"
+      ]
+    },
+    {
       "title": "Energize 2026",
       "category": "Event / Exhibition",
       "overview": "Mar 01, 2025 - Dec 30, 2026 Singapore Chinese Cultural Centre Concourse, Level 1 Energize 2026 “Energize” is back! Every Monday to Wednesday, 7pm to 8pm, let’s workout together at the… Fitness/Exercise Free",
@@ -152,6 +288,74 @@
       "mrt": "Check directions",
       "duration": "Flexible",
       "adult": "Check official information",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Ongoing",
+      "statusClass": "",
+      "tags": [
+        "ongoing"
+      ]
+    },
+    {
+      "title": "Everybody Barre Now",
+      "category": "Event",
+      "overview": "Join us for the first edition of Everybody Barre Now , a brand-new programme adapted from da:ns focus’s EveryBody Dance Now series, featuring beginner-friendly dance sessions. Created specially for Ballet by the Bay , this edition shines a spotlight on one of ballet’s most iconic elements: the barre.",
+      "period": "27 & 28 Jun 2026",
+      "time": "1:10 pm, 2:00 PM",
+      "venue": "Esplanade Concourse",
+      "link": "https://www.esplanade.com/whats-on/festivals-and-series/dans-focus/2026/everybody-barre-now",
+      "source_key": "esplanade",
+      "source": "Esplanade",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "5mins",
+      "adult": "Free",
+      "senior": "Free",
+      "child": "Free",
+      "status": "Ongoing",
+      "statusClass": "",
+      "tags": [
+        "free",
+        "ongoing"
+      ]
+    },
+    {
+      "title": "Everybody Dance Now: Tai Chi Dao Yin",
+      "category": "Event",
+      "overview": "Join us for this special edition of Everybody Dance Now, a popular series by Esplanade’s da:ns focus where everyone is invited to take part and experience dance through beginner-friendly sessions!",
+      "period": "16 & 17 Oct 2026",
+      "time": "7:00 PM",
+      "venue": "Esplanade Concourse",
+      "link": "https://www.esplanade.com/whats-on/festivals-and-series/dans-focus/2026/everybody-dance-now-tai-chi-dao-yin",
+      "source_key": "esplanade",
+      "source": "Esplanade",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "5mins",
+      "adult": "Free",
+      "senior": "Free",
+      "child": "Free",
+      "status": "Ongoing",
+      "statusClass": "",
+      "tags": [
+        "free",
+        "ongoing"
+      ]
+    },
+    {
+      "title": "Fear No Power: Women Imagining Otherwise",
+      "category": "Event",
+      "overview": "Fear No Power: Women Imagining Otherwise highlights the lives and practices of five artists from Southeast Asia for whom art, life, kinship and community are inseparable. Featuring Imelda Cajipe-Endaya (Philippines), Nirmala Dutt (Malaysia), Amanda Heng (Singapore), Dolorosa Sinaga (Indonesia), and Phaptawan Suwannakudt (Thailand), the exhibition honours their multi-faceted roles—not only as artists, but also as educators, writers or community organisers.",
+      "period": "2026-01-09 to 2026-11-15",
+      "time": "Check official information",
+      "venue": "City Hall Wing, Level B1, The Ngee Ann Kongsi Concourse Gallery",
+      "adult": "Check official information",
+      "link": "https://www.nationalgallery.sg/sg/en/whats-on.html",
+      "source_key": "national_gallery",
+      "source": "National Gallery Singapore",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "Flexible",
       "senior": "Check official information",
       "child": "Check official information",
       "status": "Ongoing",
@@ -228,6 +432,28 @@
       ]
     },
     {
+      "title": "Inter Alia (Screening)",
+      "category": "Event",
+      "overview": "★★★★★ ‘An unmissable production’ – Radio Times",
+      "period": "27 & 30 Aug 2026",
+      "time": "7:30 pm",
+      "venue": "Singtel Waterfront Theatre at Esplanade",
+      "link": "https://www.esplanade.com/whats-on/festivals-and-series/national-theatre-live/2026/inter-alia-screening",
+      "source_key": "esplanade",
+      "source": "Esplanade",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "5mins",
+      "adult": "From $24",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Ongoing",
+      "statusClass": "",
+      "tags": [
+        "ongoing"
+      ]
+    },
+    {
       "title": "Into the Ocean: Journey Beneath",
       "category": "Exhibition · Ocean & Science",
       "overview": "A world-premiere ArtScience Museum exhibition with OceanX that takes visitors from sunlit surface waters into the deep ocean through footage, specimens, research and immersive displays.",
@@ -296,6 +522,53 @@
       "status": "Ongoing",
       "statusClass": "",
       "tags": [
+        "ongoing"
+      ]
+    },
+    {
+      "title": "Rhythm & Pop by Haziqah Hashir, Syamim, Iskandar Mazlan & Matt Raham",
+      "category": "Event",
+      "overview": "An evening of smooth grooves, soulful melodies and familiar favourites awaits.",
+      "period": "18 Oct 2026",
+      "time": "7:00 PM, 8:00 PM",
+      "venue": "Esplanade Concourse",
+      "link": "https://www.esplanade.com/whats-on/festivals-and-series/popaholic/2026/rhythm-and-pop-by-haziqah-hashir-syamim-iskandar-mazlan-and-matt-raham",
+      "source_key": "esplanade",
+      "source": "Esplanade",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "5mins",
+      "adult": "Free",
+      "senior": "Free",
+      "child": "Free",
+      "status": "Ending Soon",
+      "statusClass": "ending",
+      "tags": [
+        "ending",
+        "free",
+        "ongoing"
+      ]
+    },
+    {
+      "title": "Rooted in Tradition: A Youthful Insight",
+      "category": "Event",
+      "overview": "What does it mean to grow up learning Indian classical dance?",
+      "period": "21 & 22 Nov 2026",
+      "time": "12:00 PM, 1:00 PM",
+      "venue": "Esplanade Concourse",
+      "link": "https://www.esplanade.com/whats-on/festivals-and-series/kalaa-utsavam-indian-festival-of-arts/2026/rooted-in-tradition-a-youthful-insight",
+      "source_key": "esplanade",
+      "source": "Esplanade",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "5mins",
+      "adult": "Free",
+      "senior": "Free",
+      "child": "Free",
+      "status": "Ongoing",
+      "statusClass": "",
+      "tags": [
+        "free",
         "ongoing"
       ]
     },
@@ -417,6 +690,28 @@
       ]
     },
     {
+      "title": "Sounding Light",
+      "category": "Event",
+      "overview": "“This is a company that you will enjoy, fall in love with, and want to see again.” – Ballet-Dance Magazine",
+      "period": "16 & 17 Oct 2026",
+      "time": "8:00 PM",
+      "venue": "Esplanade Theatre",
+      "link": "https://www.esplanade.com/whats-on/festivals-and-series/dans-focus/2026/sounding-light",
+      "source_key": "esplanade",
+      "source": "Esplanade",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "5mins",
+      "adult": "From $42.50",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Ongoing",
+      "statusClass": "",
+      "tags": [
+        "ongoing"
+      ]
+    },
+    {
       "title": "Tails from the Coasts: Nature Stories of Singapore",
       "category": "Exhibition · Nature & Heritage",
       "overview": "An exhibition at the National Museum exploring nature stories connected with Singapore’s coasts, adding an environmental perspective to the museum’s Singapore-focused displays.",
@@ -512,6 +807,28 @@
       "link": "https://exhibitions.nlb.gov.sg/current-exhibitions/"
     },
     {
+      "title": "The Misanthrope (Screening)",
+      "category": "Event",
+      "overview": "★★★★ ‘Sandra Oh shines in a witty update of Molière’s Misanthrope. ’ – Sunday Times",
+      "period": "3 & 5 Dec 2026",
+      "time": "7:30 pm",
+      "venue": "Singtel Waterfront Theatre at Esplanade",
+      "link": "https://www.esplanade.com/whats-on/festivals-and-series/national-theatre-live/2026/the-misanthrope-screening",
+      "source_key": "esplanade",
+      "source": "Esplanade",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "5mins",
+      "adult": "From $24",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Ongoing",
+      "statusClass": "",
+      "tags": [
+        "ongoing"
+      ]
+    },
+    {
       "title": "The News Gallery: Beyond Headlines",
       "period": "Permanent",
       "overview": "Discover stories of Singapore newspapers in the National Library's collection dating from the 1820s and learn about significant episodes from Singapore's history through the perspectives of different media. Gain insights into fake news, and learn how you can be more discerning about information and media, through our rich resources on newspapers.",
@@ -525,6 +842,28 @@
       "mrt": "Check directions",
       "duration": "Flexible",
       "adult": "Check official information",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Ongoing",
+      "statusClass": "",
+      "tags": [
+        "ongoing"
+      ]
+    },
+    {
+      "title": "When Art Meets Nature",
+      "category": "Event",
+      "overview": "In When Art Meets Nature, a children’s art exhibition co-curated by the Taoyuan Museum of Fine Arts and the National Gallery Singapore, we invite you into a sensorial journey where you can explore nature through the artists’ lens and reimagine new worlds that foster environmental sustainability.",
+      "period": "2026-04-30 to 2026-11-01",
+      "time": "Check official information",
+      "venue": "City Hall Wing, Level 1, City Hall Alcove and Keppel Centre for Art Education",
+      "adult": "Check official information",
+      "link": "https://www.nationalgallery.sg/sg/en/whats-on.html",
+      "source_key": "national_gallery",
+      "source": "National Gallery Singapore",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "Flexible",
       "senior": "Check official information",
       "child": "Check official information",
       "status": "Ongoing",
@@ -624,6 +963,100 @@
       ]
     },
     {
+      "title": "A Very Mahogany Wedding",
+      "category": "Event",
+      "overview": "South Asian weddings are often marked by their grandiose and colourful spectacles! Yet, beneath this grandeur often lies a more tumultuous emotional landscape.",
+      "period": "20 Nov 2026",
+      "time": "7:30 pm",
+      "venue": "Esplanade Annexe Studio",
+      "link": "https://www.esplanade.com/whats-on/festivals-and-series/kalaa-utsavam-indian-festival-of-arts/2026/a-very-mahogany-wedding",
+      "source_key": "esplanade",
+      "source": "Esplanade",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "5mins",
+      "adult": "From $29",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Upcoming",
+      "statusClass": "upcoming",
+      "tags": [
+        "ongoing",
+        "upcoming"
+      ]
+    },
+    {
+      "title": "All My Sons (Screening)",
+      "category": "Event",
+      "overview": "★★★★★ ‘The stars of a dream cast align.’ – Guardian",
+      "period": "4 Dec 2026",
+      "time": "7:30 pm",
+      "venue": "Singtel Waterfront Theatre at Esplanade",
+      "link": "https://www.esplanade.com/whats-on/festivals-and-series/national-theatre-live/2026/all-my-sons-screening",
+      "source_key": "esplanade",
+      "source": "Esplanade",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "5mins",
+      "adult": "From $24",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Upcoming",
+      "statusClass": "upcoming",
+      "tags": [
+        "ongoing",
+        "upcoming"
+      ]
+    },
+    {
+      "title": "An Indian Girl's Mixtape",
+      "category": "Event",
+      "overview": "There is a particular kind of playlist that belongs to anyone who grew up between languages — a Tamil song beside a Hindi one beside a Malayalam one, with no thought given to whether they belong together. An Indian Girl's Mixtape takes that instinct to the stage. Across an evening of soulful and up-tempo material, songs from Ilaiyaraaja, A.R. Rahman and the Hindi film songbook are reimagined for voice, keys and percussion, often in genres far from their originals. Nothing is played straight, and nothing is played for novelty. Just good songs, heard differently, in the company of people who love them.",
+      "period": "20 Nov 2026",
+      "time": "7:15 pm, 8:15 pm",
+      "venue": "Esplanade Concourse",
+      "link": "https://www.esplanade.com/whats-on/festivals-and-series/kalaa-utsavam-indian-festival-of-arts/2026/an-indian-girls-mixtape",
+      "source_key": "esplanade",
+      "source": "Esplanade",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "5mins",
+      "adult": "Free",
+      "senior": "Free",
+      "child": "Free",
+      "status": "Upcoming",
+      "statusClass": "upcoming",
+      "tags": [
+        "free",
+        "ongoing",
+        "upcoming"
+      ]
+    },
+    {
+      "title": "BEYOND BORDERS",
+      "category": "Event",
+      "overview": "In BEYOND BORDERS, Fusiosonic reimagines Tamil and Indian pop hits through Western and world music influences. Audiences can look forward to favourites from the past decade, reworked through new arrangements and a wide range of musical textures. The set brings together chart-topping Tamil songs and popular film hits, alongside selected favourites from across India. Familiar melodies take unexpected turns, blending cultures and musical styles while keeping the spirit of each song intact. For anyone who grew up with these songs, it is a chance to hear them again for the first time.",
+      "period": "21 Oct 2026",
+      "time": "6:45 pm, 7:45 pm",
+      "venue": "Esplanade Concourse",
+      "link": "https://www.esplanade.com/whats-on/festivals-and-series/popaholic/2026/beyond-borders",
+      "source_key": "esplanade",
+      "source": "Esplanade",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "5mins",
+      "adult": "Free",
+      "senior": "Free",
+      "child": "Free",
+      "status": "Upcoming",
+      "statusClass": "upcoming",
+      "tags": [
+        "free",
+        "ongoing",
+        "upcoming"
+      ]
+    },
+    {
       "title": "Classic Memories: Songs That…",
       "category": "Event / Exhibition",
       "overview": "Nov 06, 2026 - Nov 06, 2026 Victoria Concert Hall Classic Memories: Songs That… Classic Memories: Songs That Bring Us Together reimagines beloved Chinese popular classics through the distinctive… Concert",
@@ -642,6 +1075,29 @@
       "status": "Upcoming",
       "statusClass": "upcoming",
       "tags": [
+        "upcoming"
+      ]
+    },
+    {
+      "title": "Dee Dee Bridgewater Duo with Helen Sung",
+      "category": "Event",
+      "overview": "A fearless voyager, explorer, pioneer and keeper of tradition, Dee Dee Bridgewater has ascended to the upper echelon of vocalists over the course of a multifaceted career spanning four decades. This jazz giant and multiple GRAMMY and Tony Award-winner has become well known for taking intrepid leaps of faith in re-envisioning jazz classics, parsing cuts from The Great American Songbook through her own singular artistic vision.",
+      "period": "29 Oct 2026",
+      "time": "7:30 pm, 9:30 pm",
+      "venue": "Esplanade Recital Studio",
+      "link": "https://www.esplanade.com/whats-on/festivals-and-series/mosaic-music-series/2026/dee-dee-bridgewater-duo-with-helen-sung",
+      "source_key": "esplanade",
+      "source": "Esplanade",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "5mins",
+      "adult": "From $74.80",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Upcoming",
+      "statusClass": "upcoming",
+      "tags": [
+        "ongoing",
         "upcoming"
       ]
     },
@@ -668,6 +1124,170 @@
       ]
     },
     {
+      "title": "DOMi & JD BECK - WHO ASKED? Tour",
+      "category": "Event",
+      "overview": "Widely regarded as two of jazz’s most innovative young artists, DOMi & JD BECK have redefined the genre with their fearless blend of intricate harmonies, breakneck rhythms, and playful internet-era sensibilities. The year they arrived on scene, they won over just about everyone: buttoned-up jazz fans, hip-hop heads, pop fans—you name it. Then, of course, came the GRAMMY Awards nominations for 2022’s NOT TiGHT , their debut record released by the iconic Blue Note Records in partnership with Anderson .Paak’s APESHIT, Inc. label. They were touted as the Gen Z ambassadors for jazz... up until they seemingly vanished.",
+      "period": "1 Dec 2026",
+      "time": "8:00 PM",
+      "venue": "Esplanade Annexe Studio",
+      "link": "https://www.esplanade.com/whats-on/festivals-and-series/mosaic-music-series/2026/domi-and-jd-beck-who-asked-tour",
+      "source_key": "esplanade",
+      "source": "Esplanade",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "5mins",
+      "adult": "From $67.50",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Upcoming",
+      "statusClass": "upcoming",
+      "tags": [
+        "ongoing",
+        "upcoming"
+      ]
+    },
+    {
+      "title": "Doomscroll Time!",
+      "category": "Event",
+      "overview": "Popping off on a Monday evening, this performance by Masha Nyanna invites audiences into an indie-pop deep-dive of songs from her For You page. Featuring viral hits from Janine Berdin, Hayley Williams and more, the set showcases how these tunes have shaped her distinct musical artistry, while also highlighting recent releases like The Feeling and Changing Seasons . Joined by long-time friend and guitarist Syafiq Gunawi, and percussionist Kendrick Tan and Joel Tan on keys, audiences are invited to arrive curious—this is a doomscroll that might just lead to a new favourite.",
+      "period": "19 Oct 2026",
+      "time": "6:45 pm, 7:45 pm",
+      "venue": "Esplanade Concourse",
+      "link": "https://www.esplanade.com/whats-on/festivals-and-series/popaholic/2026/doomscroll-time",
+      "source_key": "esplanade",
+      "source": "Esplanade",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "5mins",
+      "adult": "Free",
+      "senior": "Free",
+      "child": "Free",
+      "status": "Upcoming",
+      "statusClass": "upcoming",
+      "tags": [
+        "free",
+        "ongoing",
+        "upcoming"
+      ]
+    },
+    {
+      "title": "Inventions by Biswa Kalyan Rath",
+      "category": "Event",
+      "overview": "Fresh off packed houses across North America and India, comedy heavy-hitter and serial ranter Biswa Kalyan Rath is finally coming to town with his latest, highly acclaimed stand-up show.",
+      "period": "20 Nov 2026",
+      "time": "7:30 pm",
+      "venue": "Esplanade Concert Hall",
+      "link": "https://www.esplanade.com/whats-on/festivals-and-series/kalaa-utsavam-indian-festival-of-arts/2026/inventions-by-biswa-kalyan-rath",
+      "source_key": "esplanade",
+      "source": "Esplanade",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "5mins",
+      "adult": "From $41.50",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Upcoming",
+      "statusClass": "upcoming",
+      "tags": [
+        "ongoing",
+        "upcoming"
+      ]
+    },
+    {
+      "title": "Just Sittin’ Up in My Room",
+      "category": "Event",
+      "overview": "An evening in Elsa Mickayla’s room awaits, filled with R&B favourites, originals and good company.",
+      "period": "23 Oct 2026",
+      "time": "8:15 pm, 7:00 PM",
+      "venue": "DBS Foundation Outdoor Theatre at Esplanade",
+      "link": "https://www.esplanade.com/whats-on/festivals-and-series/popaholic/2026/just-sittin-up-in-my-room",
+      "source_key": "esplanade",
+      "source": "Esplanade",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "5mins",
+      "adult": "Free",
+      "senior": "Free",
+      "child": "Free",
+      "status": "Upcoming",
+      "statusClass": "upcoming",
+      "tags": [
+        "free",
+        "ongoing",
+        "upcoming"
+      ]
+    },
+    {
+      "title": "Leave Those Kids Alone",
+      "category": "Event",
+      "overview": "Leave Those Kids Alone throws a 2010s pop party, running through a decade of hits and feel-good anthems that defined a generation. With favourites from Rihanna, Taylor Swift, Bruno Mars, Justin Bieber and more, it is a set built for singing and dancing along. This bunch of kids brings high-energy performances to every stage they play, in a night that relives, rewinds and parties like it is the 2010s all over again!",
+      "period": "25 Oct 2026",
+      "time": "8:15 pm, 7:00 PM",
+      "venue": "DBS Foundation Outdoor Theatre at Esplanade",
+      "link": "https://www.esplanade.com/whats-on/festivals-and-series/popaholic/2026/leave-those-kids-alone",
+      "source_key": "esplanade",
+      "source": "Esplanade",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "5mins",
+      "adult": "Free",
+      "senior": "Free",
+      "child": "Free",
+      "status": "Upcoming",
+      "statusClass": "upcoming",
+      "tags": [
+        "free",
+        "ongoing",
+        "upcoming"
+      ]
+    },
+    {
+      "title": "Les Liaisons Dangereuses ​(Screening)",
+      "category": "Event",
+      "overview": "★★★★ ‘Lesley Manville is characteristically brilliant. ’ – Independent",
+      "period": "6 Dec 2026",
+      "time": "2:00 PM",
+      "venue": "Singtel Waterfront Theatre at Esplanade",
+      "link": "https://www.esplanade.com/whats-on/festivals-and-series/national-theatre-live/2026/les-liaisons-dangereuses-screening",
+      "source_key": "esplanade",
+      "source": "Esplanade",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "5mins",
+      "adult": "From $24",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Upcoming",
+      "statusClass": "upcoming",
+      "tags": [
+        "ongoing",
+        "upcoming"
+      ]
+    },
+    {
+      "title": "Life of Pi (Encore Screening)",
+      "category": "Event",
+      "overview": "★★★★★ ‘It will make you believe in theatre. A triumph.’ – Sunday Times",
+      "period": "5 Dec 2026",
+      "time": "2:00 PM",
+      "venue": "Singtel Waterfront Theatre at Esplanade",
+      "link": "https://www.esplanade.com/whats-on/festivals-and-series/national-theatre-live/2026/life-of-pi-encore-screening",
+      "source_key": "esplanade",
+      "source": "Esplanade",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "5mins",
+      "adult": "From $24",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Upcoming",
+      "statusClass": "upcoming",
+      "tags": [
+        "ongoing",
+        "upcoming"
+      ]
+    },
+    {
       "title": "Lions and Tigers in…",
       "category": "Event / Exhibition",
       "overview": "Nov 14, 2026 - Nov 14, 2026 Singapore Chinese Cultural Centre Recital Studio, Level 6 Lions and Tigers in… Tigers and lions occupy an important place in the folklore, history and cultural symbolism of… Lectures/Talks/Conference Workshop and Talk",
@@ -686,6 +1306,30 @@
       "status": "Upcoming",
       "statusClass": "upcoming",
       "tags": [
+        "upcoming"
+      ]
+    },
+    {
+      "title": "Love, NurJannah",
+      "category": "Event",
+      "overview": "NurJannah brings a heartfelt pop showcase through every stage of love—the butterflies, the heartbreak, and the healing that follows. She performs soulful renditions of contemporary favourites from Olivia Dean, Adele, Ariana Grande, Bruno Mars, Dua Lipa, Taylor Swift and more, alongside regional gems from Tulus and Misha Omar. Expect warm, vocal-driven pop and R&B, for a feel-good, family-friendly celebration of love in all forms.",
+      "period": "23 Oct 2026",
+      "time": "6:45 pm, 7:45 pm",
+      "venue": "Esplanade Concourse",
+      "link": "https://www.esplanade.com/whats-on/festivals-and-series/popaholic/2026/love-nurjannah",
+      "source_key": "esplanade",
+      "source": "Esplanade",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "5mins",
+      "adult": "Free",
+      "senior": "Free",
+      "child": "Free",
+      "status": "Upcoming",
+      "statusClass": "upcoming",
+      "tags": [
+        "free",
+        "ongoing",
         "upcoming"
       ]
     },
@@ -712,6 +1356,78 @@
       ]
     },
     {
+      "title": "Music from Daisy Chain Fields",
+      "category": "Event",
+      "overview": "Risa Ann Wong and guitarist RENE pay tribute to the artists who performed at the inaugural Daisy Chain Fields Music Festival in August 2026. Founded and headlined by Olivia Rodrigo, the all-women line-up donated all proceeds to charities advancing and advocating for women and girls. Audiences can expect pop hits from Olivia Rodrigo, Chappell Roan, Alanis Morissette, Stevie Nicks and more.",
+      "period": "24 Oct 2026",
+      "time": "6:45 pm, 7:45 pm",
+      "venue": "Esplanade Concourse",
+      "link": "https://www.esplanade.com/whats-on/festivals-and-series/popaholic/2026/music-from-daisy-chain-fields",
+      "source_key": "esplanade",
+      "source": "Esplanade",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "5mins",
+      "adult": "Free",
+      "senior": "Free",
+      "child": "Free",
+      "status": "Upcoming",
+      "statusClass": "upcoming",
+      "tags": [
+        "free",
+        "ongoing",
+        "upcoming"
+      ]
+    },
+    {
+      "title": "nightly laments with & ish",
+      "category": "Event",
+      "overview": "Danish finds inspiration in heartbreak, longing, and the quieter, more reflective moments of life. It’s in these moments that listeners meet & ish. Through folk-pop, acoustic, and soulful sounds, he creates an intimate space for listeners to slow down, reminisce and feel. Audiences can expect songs from artists such as Faouzia, Gigi Perez and Rachel Chinouriri, alongside familiar favourites and original music by & ish. Whether carrying a memory, nursing a heartbreak or simply looking for a moment to themselves, audiences will find in his set an invitation to breathe, sit with their thoughts and just be.",
+      "period": "20 Oct 2026",
+      "time": "6:45 pm, 7:45 pm",
+      "venue": "Esplanade Concourse",
+      "link": "https://www.esplanade.com/whats-on/festivals-and-series/popaholic/2026/nightly-laments-with-and-ish",
+      "source_key": "esplanade",
+      "source": "Esplanade",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "5mins",
+      "adult": "Free",
+      "senior": "Free",
+      "child": "Free",
+      "status": "Upcoming",
+      "statusClass": "upcoming",
+      "tags": [
+        "free",
+        "ongoing",
+        "upcoming"
+      ]
+    },
+    {
+      "title": "pov: Ari made Izzy",
+      "category": "Event",
+      "overview": "Izzathy Halil takes centre stage for a night celebrating the music of pop queen Ariana Grande.",
+      "period": "24 Oct 2026",
+      "time": "8:15 pm, 9:30 pm, 7:00 PM",
+      "venue": "DBS Foundation Outdoor Theatre at Esplanade",
+      "link": "https://www.esplanade.com/whats-on/festivals-and-series/popaholic/2026/pov-ari-made-izzy",
+      "source_key": "esplanade",
+      "source": "Esplanade",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "5mins",
+      "adult": "Free",
+      "senior": "Free",
+      "child": "Free",
+      "status": "Upcoming",
+      "statusClass": "upcoming",
+      "tags": [
+        "free",
+        "ongoing",
+        "upcoming"
+      ]
+    },
+    {
       "title": "Pán",
       "category": "Event / Exhibition",
       "overview": "Nov 06, 2026 - Nov 07, 2026 Singapore Chinese Cultural Centre Auditorium, Level 9 Pán What are we shaped by? Pán《盤》is an evocative two-part work by T.H.E Dance Company’s founding… Dance/Theatre",
@@ -730,6 +1446,53 @@
       "status": "Upcoming",
       "statusClass": "upcoming",
       "tags": [
+        "upcoming"
+      ]
+    },
+    {
+      "title": "Rafta Rafta",
+      "category": "Event",
+      "overview": "Rafta Rafta means “slowly, slowly”, a fitting phrase for a young marriage trying to find its footing in a Singapore that is always on the move.",
+      "period": "18 Nov 2026",
+      "time": "8:00 PM",
+      "venue": "Esplanade Theatre",
+      "link": "https://www.esplanade.com/whats-on/festivals-and-series/kalaa-utsavam-indian-festival-of-arts/2026/rafta-rafta",
+      "source_key": "esplanade",
+      "source": "Esplanade",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "5mins",
+      "adult": "From $57.20",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Upcoming",
+      "statusClass": "upcoming",
+      "tags": [
+        "ongoing",
+        "upcoming"
+      ]
+    },
+    {
+      "title": "Rhythms of Tradition",
+      "category": "Event",
+      "overview": "The students and alumnus of Singapore Indian Fine Arts Society present a showcase of dance pieces that highlight the classical Indian dance forms such as bharatanatyam , kathak and kuchipudi , through a vibrant tapestry of music, movement and storytelling.",
+      "period": "20 Nov 2026",
+      "time": "7:00 PM, 8:00 PM, 9:00 PM",
+      "venue": "DBS Foundation Outdoor Theatre at Esplanade",
+      "link": "https://www.esplanade.com/whats-on/festivals-and-series/kalaa-utsavam-indian-festival-of-arts/2026/rhythms-of-tradition",
+      "source_key": "esplanade",
+      "source": "Esplanade",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "5mins",
+      "adult": "Free",
+      "senior": "Free",
+      "child": "Free",
+      "status": "Upcoming",
+      "statusClass": "upcoming",
+      "tags": [
+        "free",
+        "ongoing",
         "upcoming"
       ]
     },
@@ -774,6 +1537,29 @@
       "status": "Upcoming",
       "statusClass": "upcoming",
       "tags": [
+        "upcoming"
+      ]
+    },
+    {
+      "title": "Silica Gel ASIA TOUR <Syn.THE.Size: Ballad of You>",
+      "category": "Event",
+      "overview": "There's no pain, just joy when Silica Gel’s around: following their explosive live show at Baybeats 2025 , this beloved South Korean indie rock band returns to Singapore for a full-fledged performance!",
+      "period": "19 Oct 2026",
+      "time": "8:00 PM",
+      "venue": "Esplanade Annexe Studio",
+      "link": "https://www.esplanade.com/whats-on/festivals-and-series/mosaic-music-series/2026/silica-gel-asia-tour-synthesize-ballad-of-you",
+      "source_key": "esplanade",
+      "source": "Esplanade",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "5mins",
+      "adult": "From $61.20",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Upcoming",
+      "statusClass": "upcoming",
+      "tags": [
+        "ongoing",
         "upcoming"
       ]
     },
@@ -844,6 +1630,76 @@
       ]
     },
     {
+      "title": "Songs I know because of TikTok",
+      "category": "Event",
+      "overview": "Unc Daniel Sid is back, proving that he still knows what is cool with a younger crowd. Expect a set of his favourite current hits, alongside old favourites back in the spotlight.",
+      "period": "25 Oct 2026",
+      "time": "6:45 pm, 7:45 pm",
+      "venue": "Esplanade Concourse",
+      "link": "https://www.esplanade.com/whats-on/festivals-and-series/popaholic/2026/songs-i-know-because-of-tiktok",
+      "source_key": "esplanade",
+      "source": "Esplanade",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "5mins",
+      "adult": "Free",
+      "senior": "Free",
+      "child": "Free",
+      "status": "Upcoming",
+      "statusClass": "upcoming",
+      "tags": [
+        "free",
+        "ongoing",
+        "upcoming"
+      ]
+    },
+    {
+      "title": "Songs of Journey, Songs of Home",
+      "category": "Event",
+      "overview": "“[Male Ensemble Philippines’] next-level vocal harmonies…added a powerful, resonant dimension.” – Tatler Asia",
+      "period": "5 Dec 2026",
+      "time": "7:30 pm",
+      "venue": "Esplanade Recital Studio",
+      "link": "https://www.esplanade.com/whats-on/festivals-and-series/voices-a-festival-of-song/2026/songs-of-journey-songs-of-home",
+      "source_key": "esplanade",
+      "source": "Esplanade",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "5mins",
+      "adult": "From $32",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Upcoming",
+      "statusClass": "upcoming",
+      "tags": [
+        "ongoing",
+        "upcoming"
+      ]
+    },
+    {
+      "title": "Songs of the Bulbul",
+      "category": "Event",
+      "overview": "★ ★ ★ ★ ★ “Songs of the Bulbul has the confidence of a performer who has found his place. It is a song of beauty and light and life.” – The Guardian",
+      "period": "20 Nov 2026",
+      "time": "8:00 PM",
+      "venue": "Singtel Waterfront Theatre at Esplanade",
+      "link": "https://www.esplanade.com/whats-on/festivals-and-series/kalaa-utsavam-indian-festival-of-arts/2026/songs-of-the-bulbul",
+      "source_key": "esplanade",
+      "source": "Esplanade",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "5mins",
+      "adult": "From $39.60",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Upcoming",
+      "statusClass": "upcoming",
+      "tags": [
+        "ongoing",
+        "upcoming"
+      ]
+    },
+    {
       "title": "Talking to Twilight (Singapore…",
       "category": "Event / Exhibition",
       "overview": "Nov 14, 2026 - Nov 14, 2026 Singapore Chinese Cultural Centre Recital Studio, Level 6 Talking to Twilight (Singapore… What is longing, if not a form of translation? The same yearning, felt across languages.… Lectures/Talks/Conference Workshop and Talk",
@@ -866,6 +1722,30 @@
       ]
     },
     {
+      "title": "The Rabbit Hole",
+      "category": "Event",
+      "overview": "Get ready to werk it with BANIE, an emerging Singaporean vocalist and Anugerah Generasi Terkini 2026 contestant ready to bring bold energy and vocal power to the stage. With an ear for contemporary pop and R&B, BANIE delivers a set filled with familiar favourites, infectious energy and moments that let her vocals take centre stage. Inspired by artists such as Rihanna, RAYE, Zara Larsson and Doja Cat, audiences can expect upbeat pop anthems, soulful grooves and feel-good songs reimagined through BANIE’s distinctive vocal style. Come for the music, stay for the energy—and werk it with BANIE!",
+      "period": "22 Oct 2026",
+      "time": "6:45 pm, 7:45 pm",
+      "venue": "Esplanade Concourse",
+      "link": "https://www.esplanade.com/whats-on/festivals-and-series/popaholic/2026/the-rabbit-hole",
+      "source_key": "esplanade",
+      "source": "Esplanade",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "5mins",
+      "adult": "Free",
+      "senior": "Free",
+      "child": "Free",
+      "status": "Upcoming",
+      "statusClass": "upcoming",
+      "tags": [
+        "free",
+        "ongoing",
+        "upcoming"
+      ]
+    },
+    {
       "title": "The Soup of Reincarnation",
       "category": "Event / Exhibition",
       "overview": "Nov 13, 2026 - Nov 15, 2026 Goodman Arts Centre BlackBox The Soup of Reincarnation Step into a mysterious world where love, fate, memory and rebirth collide. At the River… Dance/Theatre",
@@ -884,6 +1764,29 @@
       "status": "Upcoming",
       "statusClass": "upcoming",
       "tags": [
+        "upcoming"
+      ]
+    },
+    {
+      "title": "The Voices We Meet",
+      "category": "Event",
+      "overview": "Come revel and sing along in a heartwarming evening of choral music and audience interaction!",
+      "period": "6 Dec 2026",
+      "time": "5:00 PM",
+      "venue": "Esplanade Concert Hall",
+      "link": "https://www.esplanade.com/whats-on/festivals-and-series/voices-a-festival-of-song/2026/the-voices-we-meet",
+      "source_key": "esplanade",
+      "source": "Esplanade",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "5mins",
+      "adult": "From $28",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Upcoming",
+      "statusClass": "upcoming",
+      "tags": [
+        "ongoing",
         "upcoming"
       ]
     },
@@ -952,6 +1855,29 @@
       "tags": [
         "upcoming"
       ]
+    },
+    {
+      "title": "Workshop: Sama-Sama, Let us Sing Together!",
+      "category": "Event",
+      "overview": "“ Sama-sama ”—the Filipino word for “together”—captures the very heart of making music. Through song, voices come together, strangers become fellow musicians, and individual sounds are woven into one shared expression.",
+      "period": "6 Dec 2026",
+      "time": "2:00 PM",
+      "venue": "Esplanade Recital Studio",
+      "link": "https://www.esplanade.com/whats-on/festivals-and-series/voices-a-festival-of-song/2026/workshop-sama-sama-let-us-sing-together",
+      "source_key": "esplanade",
+      "source": "Esplanade",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "5mins",
+      "adult": "From $25",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Upcoming",
+      "statusClass": "upcoming",
+      "tags": [
+        "ongoing",
+        "upcoming"
+      ]
     }
   ],
   "source_report": {
@@ -965,19 +1891,18 @@
       "error": "zero usable events; preserving previous source records"
     },
     "esplanade": {
-      "status": "fallback",
-      "count": 0,
-      "error": "zero usable Esplanade events; preserving previous source records"
+      "status": "fresh",
+      "count": 36,
+      "detail_errors": 0
     },
     "national_museum": {
       "status": "fallback",
       "count": 0,
-      "error": "zero usable events; preserving previous source records"
+      "error": "Official source returned HTTP 202 with no usable page; keeping previous events"
     },
     "national_gallery": {
-      "status": "fallback",
-      "count": 0,
-      "error": "zero usable events; preserving previous source records"
+      "status": "fresh",
+      "count": 3
     },
     "artscience": {
       "status": "fallback",
@@ -985,9 +1910,8 @@
       "error": "HTTPSConnectionPool(host='www.marinabaysands.com', port=443): Read timed out. (read timeout=30)"
     },
     "ura": {
-      "status": "fallback",
-      "count": 0,
-      "error": "zero usable events; preserving previous source records"
+      "status": "fresh",
+      "count": 1
     },
     "nlb": {
       "status": "fresh",
@@ -1001,7 +1925,7 @@
       "url": "https://singaporeccc.org.sg/events/",
       "status": "ok",
       "count": 29,
-      "last_success": "2026-10-18T05:53:03+08:00",
+      "last_success": "2026-10-18T05:54:52+08:00",
       "error": ""
     },
     {
@@ -1017,10 +1941,10 @@
       "id": "esplanade",
       "name": "Esplanade",
       "url": "https://www.esplanade.com/whats-on",
-      "status": "fallback",
-      "count": 0,
-      "last_success": null,
-      "error": "zero usable Esplanade events; preserving previous source records"
+      "status": "ok",
+      "count": 36,
+      "last_success": "2026-10-18T05:54:52+08:00",
+      "error": ""
     },
     {
       "id": "national_museum",
@@ -1029,16 +1953,16 @@
       "status": "fallback",
       "count": 0,
       "last_success": null,
-      "error": "zero usable events; preserving previous source records"
+      "error": "Official source returned HTTP 202 with no usable page; keeping previous events"
     },
     {
       "id": "national_gallery",
       "name": "National Gallery Singapore",
       "url": "https://www.nationalgallery.sg/sg/en/whats-on.html",
-      "status": "fallback",
-      "count": 0,
-      "last_success": null,
-      "error": "zero usable events; preserving previous source records"
+      "status": "ok",
+      "count": 3,
+      "last_success": "2026-10-18T05:54:52+08:00",
+      "error": ""
     },
     {
       "id": "artscience",
@@ -1053,10 +1977,10 @@
       "id": "ura",
       "name": "Urban Redevelopment Authority",
       "url": "https://www.ura.gov.sg/get-involved/events-and-exhibitions/",
-      "status": "fallback",
-      "count": 0,
-      "last_success": null,
-      "error": "zero usable events; preserving previous source records"
+      "status": "ok",
+      "count": 1,
+      "last_success": "2026-10-18T05:54:52+08:00",
+      "error": ""
     },
     {
       "id": "nlb",
@@ -1064,7 +1988,7 @@
       "url": "https://exhibitions.nlb.gov.sg/current-exhibitions/",
       "status": "ok",
       "count": 5,
-      "last_success": "2026-10-18T05:53:03+08:00",
+      "last_success": "2026-10-18T05:54:52+08:00",
       "error": ""
     }
   ],
