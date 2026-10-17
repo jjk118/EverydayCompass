@@ -1,6 +1,13 @@
 {
   "singapore": [
     {
+      "title": "Consumers urged not to overbuy N95 masks; major retailers are 'actively replenishing' stocks: CASE",
+      "url": "https://www.channelnewsasia.com/singapore/n95-masks-stock-shortage-haze-case-6468201",
+      "summary": "The Consumers Association of Singapore advised consumers to be careful when buying masks and air purifiers from the secondary market as sellers often cannot be verified.",
+      "source": "CNA",
+      "published": "Sat, 17 Oct 2026 19:45:58 +0800"
+    },
+    {
       "title": "PM Wong to visit Qatar, UAE in first trip to Middle East since taking office",
       "url": "https://www.channelnewsasia.com/singapore/lawrence-wong-qatar-uae-middle-east-visit-6468046",
       "summary": "The visits will provide an opportunity for Singapore to exchange views on recent developments in the region and strengthen cooperation with both countries in areas of mutual interest, such as in energy security and economic resilience, said the PMO.",
@@ -22,7 +29,7 @@
       "published": "Sat, 17 Oct 2026 10:59:15 +0800"
     },
     {
-      "title": "Singapore haze: PM2.5 readings climb into high band in four regions",
+      "title": "Singapore haze: 24-hour PSI in west region enters 'very unhealthy' range",
       "url": "https://www.channelnewsasia.com/singapore/singapore-haze-psi-pm25-oct-17-6466816",
       "summary": "NEA warned of a continued risk of severe transboundary haze, with dry conditions expected to persist in parts of the southern ASEAN region over the coming days.",
       "source": "CNA",
@@ -36,16 +43,16 @@
       "published": "Sat, 17 Oct 2026 06:00:00 +0800"
     },
     {
-      "title": "Some Singapore pilgrims press ahead with Umrah plans despite advisory, others face cancellations",
-      "url": "https://www.channelnewsasia.com/singapore/singapore-pilgrims-umrah-mfa-muis-advisory-saudi-arabia-6465391",
-      "summary": "The Ministry of Foreign Affairs advised Singaporeans to defer all travel to Saudi Arabia amid heightened security risks.",
+      "title": "Legal action by Singapore against haze-causing firms in Indonesia may come with diplomatic implications: Lawyers",
+      "url": "https://www.channelnewsasia.com/singapore/haze-indonesia-diplomatic-implications-legal-action-lawyers-6465511",
+      "summary": "Minister for Sustainability and the Environment Grace Fu said Singapore will send preventive measure notices to seven companies in Indonesia responsible for fires causing the current haze.",
       "source": "CNA",
       "published": "Sat, 17 Oct 2026 06:00:00 +0800"
     },
     {
-      "title": "Legal action by Singapore against haze-causing firms in Indonesia may come with diplomatic implications: Lawyers",
-      "url": "https://www.channelnewsasia.com/singapore/haze-indonesia-diplomatic-implications-legal-action-lawyers-6465511",
-      "summary": "Minister for Sustainability and the Environment Grace Fu said Singapore will send preventive measure notices to seven companies in Indonesia responsible for fires causing the current haze.",
+      "title": "Some Singapore pilgrims press ahead with Umrah plans despite advisory, others face cancellations",
+      "url": "https://www.channelnewsasia.com/singapore/singapore-pilgrims-umrah-mfa-muis-advisory-saudi-arabia-6465391",
+      "summary": "The Ministry of Foreign Affairs advised Singaporeans to defer all travel to Saudi Arabia amid heightened security risks.",
       "source": "CNA",
       "published": "Sat, 17 Oct 2026 06:00:00 +0800"
     },
@@ -97,13 +104,6 @@
       "summary": "Some practitioners want the threshold lowered to as young as 13 or 14 - even none at all - as the government works on guidelines on parental consent for mental health services.",
       "source": "CNA",
       "published": "Fri, 16 Oct 2026 17:48:04 +0800"
-    },
-    {
-      "title": "Platform workers should not be penalised for delays during haze: Jasmin Lau",
-      "url": "https://www.channelnewsasia.com/singapore/haze-singapore-platform-workers-wfh-6465216",
-      "summary": "Under the Platform Workers Act, platform operators have workplace safety and health responsibilities towards their workers, said the Acting Minister for Manpower.",
-      "source": "CNA",
-      "published": "Fri, 16 Oct 2026 17:44:00 +0800"
     }
   ],
   "world": [
@@ -213,6 +213,6 @@
       "published": "Fri, 16 Oct 2026 07:54:00 +0800"
     }
   ],
-  "generated_at": "2026-10-17T19:04:24+08:00",
+  "generated_at": "2026-10-17T21:15:43+08:00",
   "test_mode": false
 }
