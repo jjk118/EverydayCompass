@@ -280,6 +280,7 @@ def run(previous, sources, today=None, now=None, fetcher=None):
             "count": r.get("count", 0),
             "last_success": last,
             "error": "" if ok else str(r.get("error", ""))[:180],
+            "needs_reader_review": not ok and "zero usable" in str(r.get("error", "")).lower(),
         })
     payload["sources"] = rows
     payload["all_sources_failed"] = not any(r["status"] == "ok" for r in rows)
@@ -314,6 +315,18 @@ def main(argv=None):
             line += f" - {row['error']}"
         print(line)
 
+    reviews = [row for row in payload["sources"] if row.get("needs_reader_review")]
+    if not args.dry_run:
+        write_github_output("reader_review", "true" if reviews else "false")
+        write_github_output("reader_review_details", json.dumps(reviews, ensure_ascii=True))
+    summary = os.environ.get("GITHUB_STEP_SUMMARY")
+    if summary and reviews:
+        import html
+        with open(summary, "a", encoding="utf-8") as fh:
+            fh.write("## Source reader enhancement review\n\n")
+            fh.write("These pages returned no usable events. They may have no current events or need a custom reader; review before enhancing.\n\n")
+            for row in reviews:
+                fh.write(f"- {html.escape(row['name'])}: {html.escape(row['url'])} — {html.escape(row['error'])}\n")
     if payload["all_sources_failed"]:
         print("WARNING: every source returned zero events. Old events were kept (finished ones removed).")
 

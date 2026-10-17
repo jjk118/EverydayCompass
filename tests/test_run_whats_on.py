@@ -203,3 +203,43 @@ def test_settings_javascript_syntax(tmp_path):
     script = tmp_path / "settings.js"
     script.write_text("\n".join(scripts))
     subprocess.run([node, "--check", str(script)], check=True, capture_output=True, text=True)
+
+
+def test_reader_review_flags_empty_page_but_not_network_failure():
+    configs = {
+        "empty": {"name": "Empty site", "url": "https://empty.example.sg", "host": "empty.example.sg"},
+        "network": {"name": "Network site", "url": "https://network.example.sg", "host": "network.example.sg"},
+        "working": DEMO["demo"],
+    }
+    def fetcher(url):
+        if "empty" in url:
+            return "<html>No upcoming events</html>"
+        if "network" in url:
+            raise TimeoutError("timed out")
+        return LD
+    out = rw.run({"events": []}, configs, today=TODAY, now=NOW, fetcher=fetcher)
+    assert [r["needs_reader_review"] for r in out["sources"]] == [True, False, False]
+    assert not out["all_sources_failed"]
+
+
+def test_reader_review_outputs_include_source_details(tmp_path, monkeypatch):
+    source_path = tmp_path / "sources.json"
+    source_path.write_text(json.dumps({"sources": [
+        {"id": "empty", "name": "Empty site", "url": "https://empty.example.sg"}
+    ]}))
+    feed = tmp_path / "events.json"
+    feed.write_text(json.dumps({"events": []}))
+    output, summary = tmp_path / "output", tmp_path / "summary"
+    monkeypatch.setenv("GITHUB_OUTPUT", str(output))
+    monkeypatch.setenv("GITHUB_STEP_SUMMARY", str(summary))
+    monkeypatch.setattr(rw, "run", lambda *a, **k: {
+        "events": [{"title": "Safe record"}],
+        "sources": [{"name": "Empty site", "url": "https://empty.example.sg",
+                     "status": "fallback", "count": 0, "error": "zero usable events",
+                     "needs_reader_review": True}],
+        "all_sources_failed": False,
+    })
+    assert rw.main(["--sources", str(source_path), "--output", str(feed)]) == 0
+    assert "reader_review=true" in output.read_text()
+    assert "empty.example.sg" in output.read_text()
+    assert "custom reader" in summary.read_text()

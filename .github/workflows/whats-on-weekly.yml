@@ -28,6 +28,9 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    outputs:
+      reader_review: ${{ steps.update.outputs.reader_review }}
+      reader_review_details: ${{ steps.update.outputs.reader_review_details }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -91,3 +94,31 @@ jobs:
         run: |
           echo "::error::Every What's On source returned zero events. Previous events were kept and finished events removed. Check the source list and the websites."
           exit 1
+
+  reader-enhancement-alert:
+    name: Enhancement review - source may need a custom reader
+    needs: refresh
+    if: always() && needs.refresh.outputs.reader_review == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Flag source reader review for GitHub failure email
+        env:
+          READER_REVIEW_DETAILS: ${{ needs.refresh.outputs.reader_review_details }}
+        shell: python
+        run: |
+          import json, os, html
+          rows = json.loads(os.environ["READER_REVIEW_DETAILS"])
+          lines = [
+              "What's On refresh completed its source checks.",
+              "Additional enhancement review: these sites returned no usable events.",
+              "Check whether there are genuinely no current events or a custom reader is needed.",
+              "Other sources were still processed; valid fallback events were preserved.",
+          ]
+          for row in rows:
+              lines.append(f"{row['name']} | {row['url']} | {row['error']}")
+          message = "\n".join(lines)
+          print(message)
+          with open(os.environ["GITHUB_STEP_SUMMARY"], "a", encoding="utf-8") as fh:
+              fh.write("<pre>" + html.escape(message) + "</pre>\n")
+          # Native Actions failure notifications link to this named job and its source details.
+          raise SystemExit(1)
