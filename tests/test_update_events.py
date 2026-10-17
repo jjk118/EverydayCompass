@@ -151,3 +151,15 @@ def test_nlb_heading_sections_do_not_mix_neighbouring_exhibitions():
     assert [e["title"] for e in got] == ["The Albatross File"]
     assert got[0]["link"].endswith("#one")
     assert got[0]["venue"] == "Level 10, National Library Building"
+
+def test_worded_date_range_not_mistaken_for_published_date():
+    html = """<main><h1>Architecture Exhibition</h1><p>12 August 2026</p>
+    <p>Discover the official architecture exhibition. Visit from 12 August to 26 October 2026 at The URA Centre.</p>
+    <p>Date: 12 August to 26 October 2026</p></main>"""
+    got = u.parse_official_detail(html, "https://www.ura.gov.sg/get-involved/events-and-exhibitions/test/", "ura", date(2026,10,18))
+    assert len(got) == 1
+    assert u.finite_end_date(got[0]["period"]) == date(2026,10,26)
+
+def test_detail_without_visitor_dates_is_not_an_event():
+    html = "<main><h1>Visit Us</h1><p>Published 12 August 2026</p><p>" + "Visitor information. " * 10 + "</p></main>"
+    assert not u.parse_official_detail(html, "https://www.nationalgallery.sg/sg/en/exhibitions/test.html", "national_gallery", date(2026,10,18))

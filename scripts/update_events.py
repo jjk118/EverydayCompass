@@ -17,6 +17,7 @@ extract events it preserves the previous valid records instead of guessing.
 from __future__ import annotations
 import argparse, copy, hashlib, json, re, sys
 from datetime import date, datetime
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
 from zoneinfo import ZoneInfo
@@ -73,7 +74,7 @@ SOURCES = {
 }
 
 DATE_RANGE = re.compile(
-    r"(?P<start>\d{1,2}\s+[A-Za-z]{3,9}(?:\s+\d{4})?)\s*[–—-]\s*"
+    r"(?P<start>\d{1,2}\s+[A-Za-z]{3,9}(?:\s+\d{4})?)\s*(?:to|until|till|[–—-])\s*"
     r"(?P<end>\d{1,2}\s+[A-Za-z]{3,9}\s+\d{4})", re.I
 )
 ISO_RANGE = re.compile(r"(?P<start>\d{4}-\d{2}-\d{2})\s*(?:to|–|—|-)\s*(?P<end>\d{4}-\d{2}-\d{2})", re.I)
@@ -476,23 +477,98 @@ def parse_esplanade_detail(html, url, today):
     return None if is_expired(event, today) else event
 
 def fetch_esplanade_two_stage(listing_html, today, fetcher, max_details=80):
-    """Discover detail links from Esplanade listing, fetch each detail page, keep usable current events."""
-    links = esplanade_detail_links(listing_html)[:max_details]
-    events=[]
-    errors=[]
-    for url in links:
-        try:
-            detail=fetcher(url)
-            event=parse_esplanade_detail(detail,url,today)
+    """Follow listing -> festival/category -> performance, with a bounded request budget."""
+    pending = esplanade_detail_links(listing_html)
+    seen = set()
+    events, errors = [], []
+    while pending and len(seen) < max_details:
+        batch = [u for u in dict.fromkeys(pending) if u not in seen][:max_details-len(seen)]
+        pending = []
+        if not batch:
+            break
+        seen.update(batch)
+        def read(url):
+            try:
+                return url, fetcher(url), None
+            except Exception as exc:
+                return url, "", str(exc)
+        with ThreadPoolExecutor(max_workers=4) as pool:
+            results = list(pool.map(read, batch))
+        for url, detail, error in results:
+            if error:
+                errors.append((url, error))
+                continue
+            event = parse_esplanade_detail(detail, url, today)
             if event:
                 events.append(event)
-        except Exception as exc:
-            errors.append((url,str(exc)))
+            else:
+                # Landing pages are discovery pages, not performances.
+                pending.extend(u for u in esplanade_detail_links(detail) if u not in seen)
     return dedupe(events), errors
+
+DETAIL_PATHS = {
+    "national_gallery": re.compile(r"^/sg/en/(?:exhibitions|whats-on|programmes)/[^/]+\.html$"),
+    "ura": re.compile(r"^/get-involved/events-and-exhibitions/[^/]+/?$"),
+    "artscience": re.compile(r"^/museum/(?:exhibitions|events|programmes)/[^/]+\.html$"),
+}
+
+def parse_official_detail(html, url, key, today):
+    soup = BeautifulSoup(html, "html.parser")
+    structured = jsonld_events(soup, key, today)
+    if structured:
+        return [e for e in structured if not is_expired(e, today)]
+    for node in soup.select("nav, header, footer, aside, script, style"):
+        node.decompose()
+    main = soup.find("main") or soup
+    h1 = main.find("h1")
+    meta_title = soup.find("meta", property="og:title")
+    title = norm(h1.get_text(" ", strip=True) if h1 else meta_title.get("content", "") if meta_title else "")
+    title = title.split(" | ")[0]
+    if not title or len(title) > 200:
+        return []
+    text = norm(main.get_text(" ", strip=True))
+    # Prefer labelled visitor dates. Never use a publication timestamp as an event date.
+    labels = [norm(el.get_text(" ", strip=True)) for el in main.find_all(["li", "p"])
+              if re.search(r"\b(?:When|Date):", el.get_text(" "), re.I)]
+    period = next((extract_period(s) for s in labels if extract_period(s)), "")
+    if not period:
+        match = MONTH_FIRST_RANGE.search(text) or DATE_RANGE.search(text) or ISO_RANGE.search(text) or SHORT_DATE_RANGE.search(text)
+        period = match.group(0) if match else ""
+    if not period:
+        return []
+    paragraphs = [norm(p.get_text(" ", strip=True)) for p in main.find_all("p")]
+    overview = next((p for p in paragraphs if len(p) >= 80 and not re.search(r"cookie|newsletter|privacy", p, re.I)), "")
+    if not overview:
+        return []
+    e = clean_event({"title":title, "overview":overview[:700], "period":period,
+                     "category":"Event / Exhibition", "link":url}, key, today)
+    return [] if is_expired(e, today) else [e]
+
+def fetch_official_details(listing_html, key, today, fetcher, limit=12):
+    pattern = DETAIL_PATHS.get(key)
+    if not pattern:
+        return []
+    soup = BeautifulSoup(listing_html, "html.parser")
+    links = []
+    for a in soup.find_all("a", href=True):
+        url = urljoin(SOURCES[key]["url"], a["href"]).split("#")[0].split("?")[0]
+        if official_link(url, key) and pattern.fullmatch(urlparse(url).path) and url not in links:
+            links.append(url)
+    def read(url):
+        try:
+            return parse_official_detail(fetcher(url), url, key, today)
+        except Exception as exc:
+            print(f"Detail unavailable {url}: {str(exc)[:160]}", flush=True)
+            return []
+    with ThreadPoolExecutor(max_workers=4) as pool:
+        return dedupe([e for result in pool.map(read, links[:limit]) for e in result])
+
 
 def fetch(url, timeout=30):
     r = requests.get(url, headers={"User-Agent": UA, "Accept-Language": "en-SG,en;q=0.9"}, timeout=timeout)
     r.raise_for_status()
+    if r.status_code != 200 or not r.content:
+        raise ValueError(f"Official source returned HTTP {r.status_code} with no usable page; keeping previous events")
     soup = BeautifulSoup(r.text, "html.parser")
     page_text = norm(soup.get_text(" ", strip=True))
     if "verify that you're not a robot" in page_text.lower() or "enable javascript and then reload" in page_text.lower():
@@ -521,6 +597,8 @@ def update(previous, today=None, fetcher=fetch):
                                "detail_errors":len(detail_errors)}
             else:
                 fresh = parse_source_html(html, key, today)
+                if not fresh:
+                    fresh = fetch_official_details(html, key, today, fetcher)
                 if not fresh:
                     raise ValueError("zero usable events; preserving previous source records")
                 all_events.extend(fresh)

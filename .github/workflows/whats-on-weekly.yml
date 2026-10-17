@@ -1,6 +1,13 @@
 name: What's On Weekly Refresh
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - scripts/update_events.py
+      - scripts/run_whats_on.py
+      - tests/**
+      - .github/workflows/whats-on-weekly.yml
   workflow_dispatch:
   schedule:
     # Monday 6:45 AM Singapore = Sunday 10:45 PM UTC

@@ -91,3 +91,11 @@ def test_update_esplanade_zero_details_falls_back_previous():
     got=u.update(previous,TODAY,fetcher=f)
     assert any(e["title"]=="Previous Esplanade" for e in got["events"])
     assert got["source_report"]["esplanade"]["status"]=="fallback"
+
+def test_festival_discovery_follows_performance_links():
+    festival="https://www.esplanade.com/whats-on/festivals-and-series/demo/2026"
+    detail="https://www.esplanade.com/whats-on/2026/test-paid-show"
+    pages={festival:'<h1>Demo festival</h1><a href="'+detail+'">Paid show</a>',detail:PAID}
+    got, errors=u.fetch_esplanade_two_stage('<a href="'+festival+'">Festival</a>',TODAY,lambda url:pages[url])
+    assert [e["title"] for e in got] == ["Test Paid Show"]
+    assert errors == []
