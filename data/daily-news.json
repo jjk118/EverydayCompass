@@ -1,6 +1,13 @@
 {
   "singapore": [
     {
+      "title": "Few use Singapore haze shelters, but visitors welcome respite from heat",
+      "url": "https://www.channelnewsasia.com/singapore/singapore-haze-shelters-heat-visitors-community-centres-6468211",
+      "summary": "CNA visited eight shelters across the island, finding most empty or locked, though the few who turned up welcomed the free air-conditioned refuge.",
+      "source": "CNA",
+      "published": "Sat, 17 Oct 2026 21:13:00 +0800"
+    },
+    {
       "title": "Consumers urged not to overbuy N95 masks; major retailers are 'actively replenishing' stocks: CASE",
       "url": "https://www.channelnewsasia.com/singapore/n95-masks-stock-shortage-haze-case-6468201",
       "summary": "The Consumers Association of Singapore advised consumers to be careful when buying masks and air purifiers from the secondary market as sellers often cannot be verified.",
@@ -36,6 +43,13 @@
       "published": "Sat, 17 Oct 2026 07:09:00 +0800"
     },
     {
+      "title": "Some Singapore pilgrims press ahead with Umrah plans despite advisory, others face cancellations",
+      "url": "https://www.channelnewsasia.com/singapore/singapore-pilgrims-umrah-mfa-muis-advisory-saudi-arabia-6465391",
+      "summary": "The Ministry of Foreign Affairs advised Singaporeans to defer all travel to Saudi Arabia amid heightened security risks.",
+      "source": "CNA",
+      "published": "Sat, 17 Oct 2026 06:00:00 +0800"
+    },
+    {
       "title": "Snap Insight: Protecting Singapore’s outdoor workers from haze is easier said than done",
       "url": "https://www.channelnewsasia.com/commentary/haze-outdoor-worker-platform-mask-snap-insight-6466426",
       "summary": "Financial pressures make reducing haze exposure difficult for Singapore's outdoor workers, says Olivia Jensen of NUS’ Institute for the Public Understanding of Risk.",
@@ -46,13 +60,6 @@
       "title": "Legal action by Singapore against haze-causing firms in Indonesia may come with diplomatic implications: Lawyers",
       "url": "https://www.channelnewsasia.com/singapore/haze-indonesia-diplomatic-implications-legal-action-lawyers-6465511",
       "summary": "Minister for Sustainability and the Environment Grace Fu said Singapore will send preventive measure notices to seven companies in Indonesia responsible for fires causing the current haze.",
-      "source": "CNA",
-      "published": "Sat, 17 Oct 2026 06:00:00 +0800"
-    },
-    {
-      "title": "Some Singapore pilgrims press ahead with Umrah plans despite advisory, others face cancellations",
-      "url": "https://www.channelnewsasia.com/singapore/singapore-pilgrims-umrah-mfa-muis-advisory-saudi-arabia-6465391",
-      "summary": "The Ministry of Foreign Affairs advised Singaporeans to defer all travel to Saudi Arabia amid heightened security risks.",
       "source": "CNA",
       "published": "Sat, 17 Oct 2026 06:00:00 +0800"
     },
@@ -97,13 +104,6 @@
       "summary": "Minister for Sustainability and the Environment Grace Fu says she contacted her Indonesian counterpart again on Friday (Oct 16) to offer civilian assistance.",
       "source": "CNA",
       "published": "Fri, 16 Oct 2026 17:50:00 +0800"
-    },
-    {
-      "title": "Mental health practitioners call for lower or no parental consent age as more youths seek help",
-      "url": "https://www.channelnewsasia.com/singapore/mental-health-practitioners-call-lower-parental-consent-age-more-youths-seek-help-6465381",
-      "summary": "Some practitioners want the threshold lowered to as young as 13 or 14 - even none at all - as the government works on guidelines on parental consent for mental health services.",
-      "source": "CNA",
-      "published": "Fri, 16 Oct 2026 17:48:04 +0800"
     }
   ],
   "world": [
@@ -213,6 +213,6 @@
       "published": "Fri, 16 Oct 2026 07:54:00 +0800"
     }
   ],
-  "generated_at": "2026-10-17T21:15:43+08:00",
+  "generated_at": "2026-10-17T22:03:25+08:00",
   "test_mode": false
 }
