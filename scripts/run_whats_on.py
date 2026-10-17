@@ -214,9 +214,10 @@ def generic_parse(html, key, today):
 
 
 def parse_source_html_v2(html, key, today):
+    structured = generic_parse(html, key, today)
     if key in BUILTIN:
-        return _orig_parse_source_html(html, key, today)
-    return generic_parse(html, key, today)
+        return ue.dedupe(structured + _orig_parse_source_html(html, key, today))
+    return structured
 
 
 @contextlib.contextmanager

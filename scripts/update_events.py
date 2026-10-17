@@ -18,7 +18,7 @@ from __future__ import annotations
 import argparse, copy, hashlib, json, re, sys
 from datetime import date, datetime
 from pathlib import Path
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlparse
 from zoneinfo import ZoneInfo
 
 import requests
@@ -78,6 +78,36 @@ DATE_RANGE = re.compile(
 )
 ISO_RANGE = re.compile(r"(?P<start>\d{4}-\d{2}-\d{2})\s*(?:to|–|—|-)\s*(?P<end>\d{4}-\d{2}-\d{2})", re.I)
 
+MONTH_FIRST_RANGE = re.compile(
+    r"(?P<start>[A-Za-z]{3,9}\s+\d{1,2},?\s+\d{4})\s*(?:to|[–—-])\s*"
+    r"(?P<end>[A-Za-z]{3,9}\s+\d{1,2},?\s+\d{4})", re.I
+)
+SHORT_DATE_RANGE = re.compile(
+    r"(?<!\d)\d{1,2}\s*[–—-]\s*\d{1,2}\s+[A-Za-z]{3,9}\s+\d{4}", re.I
+)
+SINGLE_DATE = re.compile(
+    r"\b(?:\d{1,2}\s+[A-Za-z]{3,9}\s+\d{4}|[A-Za-z]{3,9}\s+\d{1,2},?\s+\d{4})\b", re.I
+)
+
+def extract_period(text):
+    text = norm(text)
+    for pattern in (MONTH_FIRST_RANGE, DATE_RANGE, ISO_RANGE, SHORT_DATE_RANGE):
+        match = pattern.search(text)
+        if match:
+            return match.group(0)
+    for word in ("Permanent", "Ongoing"):
+        if re.search(r"\b" + word + r"\b", text, re.I):
+            return word
+    match = SINGLE_DATE.search(text)
+    return match.group(0) if match else ""
+
+def official_link(url, key):
+    parsed = urlparse(url)
+    host = (parsed.hostname or "").lower()
+    allowed = SOURCES[key]["host"]
+    return parsed.scheme == "https" and (host == allowed or host.endswith("." + allowed))
+
+
 def norm(s):
     return re.sub(r"\s+", " ", (s or "")).strip()
 
@@ -97,7 +127,7 @@ def previous_for(previous, key):
 
 def parse_date(s, default_year=None):
     s = norm(s).replace(",", "")
-    for fmt in ("%d %b %Y", "%d %B %Y", "%Y-%m-%d"):
+    for fmt in ("%d %b %Y", "%d %B %Y", "%b %d %Y", "%B %d %Y", "%Y-%m-%d"):
         try:
             return datetime.strptime(s, fmt).date()
         except ValueError:
@@ -115,6 +145,9 @@ def finite_end_date(period):
     p = norm(period)
     if not p or re.search(r"\b(permanent|ongoing|daily|every\b|various dates|from\s+\d)", p, re.I):
         return None
+    m = MONTH_FIRST_RANGE.search(p)
+    if m:
+        return parse_date(m.group("end"))
     m = ISO_RANGE.search(p)
     if m:
         return parse_date(m.group("end"))
@@ -122,6 +155,8 @@ def finite_end_date(period):
     if m:
         end = parse_date(m.group("end"))
         return end
+    if SINGLE_DATE.fullmatch(p):
+        return parse_date(p)
     # single exact dated event
     m = re.fullmatch(r"(?:[A-Za-z]{3},?\s*)?(\d{1,2}\s+[A-Za-z]{3,9}\s+\d{4})", p, re.I)
     return parse_date(m.group(1)) if m else None
@@ -135,7 +170,7 @@ def status_for(period, today):
     if end and end < today:
         return "Expired", ""
     # Parse start where possible
-    m = DATE_RANGE.search(norm(period))
+    m = MONTH_FIRST_RANGE.search(norm(period)) or DATE_RANGE.search(norm(period))
     if m:
         end_d = parse_date(m.group("end"))
         start_d = parse_date(m.group("start"), end_d.year if end_d else today.year)
@@ -143,6 +178,11 @@ def status_for(period, today):
             return "Upcoming", "upcoming"
         if end_d and 0 <= (end_d - today).days <= 14:
             return "Ending Soon", "ending"
+    single = parse_date(norm(period))
+    if single and single > today:
+        return "Upcoming", "upcoming"
+    if single and 0 <= (single - today).days <= 14:
+        return "Ending Soon", "ending"
     return "Ongoing", ""
 
 def richness(e):
@@ -237,42 +277,50 @@ def jsonld_events(soup, key, today):
     return [e for e in out if e["title"]]
 
 def text_blocks(soup):
-    # Conservative card/article extraction only; no fabricated fields.
-    selectors = "article, .card, .event, .event-card, .listing-item, .item, li"
+    # Select the smallest usable card, including sites using compound class names.
+    selectors = "article, [class*='card'], [class*='event'], [class*='listing'], .item, li"
     blocks = []
-    for el in soup.select(selectors):
+    seen = set()
+    candidates = list(soup.select(selectors))
+    # Some listings have no semantic card classes. Walk a bounded number of
+    # ancestors from each event heading instead of treating the whole page as an event.
+    for heading in soup.select("h2, h3, h4, h5"):
+        candidates.extend(list(heading.parents)[:4])
+    for el in candidates:
+        if id(el) in seen or el.name in ("html", "body", "script", "style", "nav", "footer") or el.find_parent(["nav", "footer"]):
+            continue
+        seen.add(id(el))
+        if len(el.find_all(["h1", "h2", "h3", "h4", "h5"])) > 1:
+            continue
         txt = norm(el.get_text(" ", strip=True))
         if 25 <= len(txt) <= 2500:
             blocks.append((el, txt))
     return blocks
 
 def source_specific_events(soup, key, today):
-    """Conservative fallback for official listing pages when JSON-LD Event is absent."""
+    """Extract only cards with a title, explicit dates and an official event link."""
     out = []
     seen = set()
     for el, txt in text_blocks(soup):
-        period = ""
-        m = DATE_RANGE.search(txt) or ISO_RANGE.search(txt)
-        permanent = re.search(r"\bPermanent(?: exhibition)?\b", txt, re.I)
-        ongoing = re.search(r"\bOngoing\b", txt, re.I)
-        if m:
-            period = m.group(0)
-        elif permanent:
-            period = "Permanent"
-        elif ongoing:
-            period = "Ongoing"
-        else:
+        period = extract_period(txt)
+        if not period:
             continue
-
-        heading = el.find(["h1","h2","h3","h4","h5","strong"])
+        heading = el.find(["h1", "h2", "h3", "h4", "h5", "strong"])
         if not heading:
-            a = el.find("a")
-            heading = a
+            heading = el.find("a")
         title = norm(heading.get_text(" ", strip=True) if heading else "")
         if not title or len(title) > 180:
             continue
-        lk = el.find("a", href=True)
-        link = urljoin(SOURCES[key]["url"], lk["href"]) if lk else SOURCES[key]["url"]
+        lk = heading if heading.name == "a" and heading.get("href") else heading.find("a", href=True)
+        if not lk:
+            lk = el.find("a", href=True)
+        if not lk:
+            continue
+        link = urljoin(SOURCES[key]["url"], lk["href"])
+        if not official_link(link, key):
+            continue
+        if link.split("#")[0].rstrip("/") == SOURCES[key]["url"].split("#")[0].rstrip("/"):
+            continue
         ident = (title.lower(), period.lower())
         if ident in seen:
             continue
@@ -410,8 +458,11 @@ def fetch_esplanade_two_stage(listing_html, today, fetcher, max_details=80):
     return dedupe(events), errors
 
 def fetch(url, timeout=30):
-    r = requests.get(url, headers={"User-Agent": UA}, timeout=timeout)
+    r = requests.get(url, headers={"User-Agent": UA, "Accept-Language": "en-SG,en;q=0.9"}, timeout=timeout)
     r.raise_for_status()
+    soup = BeautifulSoup(r.text, "html.parser")
+    print(f"Fetched {r.url}: HTTP {r.status_code}, {len(r.content)} bytes, "
+          f"{len(text_blocks(soup))} candidate cards; title={norm(soup.title.get_text() if soup.title else '')[:100]}", flush=True)
     return r.text
 
 def update(previous, today=None, fetcher=fetch):

@@ -110,3 +110,33 @@ def test_actual_dry_run_leaves_missing_feed_absent(monkeypatch, tmp_path):
     monkeypatch.setattr(u, "update", lambda previous: {"events": [], "source_report": {}})
     assert u.main(["--dry-run", "--output", str(path)]) == 0
     assert not path.exists()
+
+def test_month_first_listing_dates_and_expiry():
+    html = """<div class="event-list"><div class="event-tile">
+    <span>Oct 01, 2026 - Dec 30, 2027</span>
+    <h3><a href="/events/dance/">Dance Connections</a></h3>
+    <p>Guided dance sessions at the cultural centre.</p></div>
+    <div class="event-tile"><span>Oct 01, 2025 - Oct 02, 2025</span>
+    <h3><a href="/events/old/">Finished event</a></h3></div></div>"""
+    got = u.parse_source_html(html, "sccc", date(2026, 10, 18))
+    assert [e["title"] for e in got] == ["Dance Connections"]
+    assert u.finite_end_date(got[0]["period"]) == date(2027, 12, 30)
+    assert got[0]["link"] == "https://singaporeccc.org.sg/events/dance/"
+
+def test_unclassified_card_single_date_and_nonofficial_link():
+    html = """<section><div><h3><a href="/events/talk/">Culture Talk</a></h3>
+    <p>Nov 14, 2026</p><p>A talk by the official organiser.</p></div></section>
+    <article><h3><a href="https://singaporeccc.org.sg.evil.example/show">Bad host</a></h3>
+    <p>Nov 14, 2026</p></article>"""
+    got = u.parse_source_html(html, "sccc", date(2026, 10, 18))
+    assert [e["title"] for e in got] == ["Culture Talk"]
+    assert u.finite_end_date(got[0]["period"]) == date(2026, 11, 14)
+    assert got[0]["status"] == "Upcoming"
+
+def test_listing_does_not_combine_separate_events_or_navigation():
+    html = """<div class="event-list"><div><h3>Undated heading</h3></div>
+    <div><p>Nov 14, 2026</p><a href="/events/talk/">Details</a></div></div>
+    <nav><li><h3><a href="/events/">All Events</a></h3><p>Nov 14, 2026</p></li></nav>"""
+    # The dated "Details" link may be a card, but must never borrow the unrelated heading.
+    got = u.parse_source_html(html, "sccc", date(2026, 10, 18))
+    assert not any(e["title"] in ("Undated heading", "All Events") for e in got)

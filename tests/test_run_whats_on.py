@@ -125,3 +125,14 @@ def test_patches_are_restored():
     before = (ue.SOURCES, ue.finite_end_date, ue.status_for, ue.parse_source_html)
     rw.run({"events": []}, DEMO, today=TODAY, now=NOW, fetcher=lambda url: LD)
     assert (ue.SOURCES, ue.finite_end_date, ue.status_for, ue.parse_source_html) == before
+
+def test_builtin_uses_nested_event_subtypes():
+    html = """<script type="application/ld+json">{
+    "@type":"ItemList","itemListElement":[{"@type":"ListItem","item":{
+    "@type":"ExhibitionEvent","name":"Nested exhibition",
+    "startDate":"2026-10-01","endDate":"2026-12-01",
+    "url":"https://singaporeccc.org.sg/events/nested/"}}]}</script>"""
+    out = rw.run({"events":[]}, {"sccc":rw.BUILTIN["sccc"]},
+                 today=TODAY, now=NOW, fetcher=lambda url:html)
+    assert [e["title"] for e in out["events"]] == ["Nested exhibition"]
+    assert out["all_sources_failed"] is False
