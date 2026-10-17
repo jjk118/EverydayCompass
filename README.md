@@ -65,3 +65,11 @@ Accessibility provisions include a skip link, semantic landmarks and headings, v
 The single Show News / Hide News button displays 15 Singapore and 15 World stories from CNA RSS, in publisher feed order. The checked timestamp records successful generation, not the visitor click time. News generation uses only Python standard libraries. Incomplete or failed feed responses leave the previous edition intact and fail the workflow.
 
 GitHub Actions generates and deploys at 06:45, 12:45 and 18:45 Asia/Singapore (22:45, 04:45 and 10:45 UTC). Scheduled starts may be delayed by GitHub. Pushes to main and manual workflow dispatch also generate and deploy. GitHub Pages uses the Actions publishing source. The workflow deploys its artifact directly because commits made with GITHUB_TOKEN do not trigger another Pages build.
+
+## What's On collector
+
+Run `pip install -r requirements.txt` and `python -m playwright install --with-deps chromium` before running `python scripts/run_whats_on.py`. Use `--dry-run` to inspect collection without changing the feed.
+
+The collector reads `sources.json`, follows official event detail links and recognises day-first, month-first and compact date ranges. Gardens and ArtScience have a browser fallback for public JavaScript listings. Verification challenges are not answered; unavailable sources retain their saved records. Finite expired events are removed, unknown-end records are preserved, and a non-empty feed is never replaced with an empty feed.
+
+Each source reports its own collection result and last successful check in `events.json`. A successful workflow means at least one source refreshed; inspect the source rows for partial outages. The workflow still fails when every source fails, after saving safe fallback results. Backup windows retry sources marked as failed even if a fallback feed has a recent timestamp. Collector and test changes on main also run the tests and refresh automatically.
