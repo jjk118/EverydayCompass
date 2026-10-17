@@ -34,7 +34,9 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: pip install requests beautifulsoup4 pytest
+      - run: pip install requests beautifulsoup4 pytest playwright
+      - name: Install browser for public JavaScript event listings
+        run: python -m playwright install --with-deps chromium
       - name: Check whether backup refresh is needed
         id: refresh_check
         shell: python

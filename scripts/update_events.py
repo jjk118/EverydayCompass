@@ -580,6 +580,37 @@ def fetch(url, timeout=30):
           f"{len(text_blocks(soup))} candidate cards; title={norm(soup.title.get_text() if soup.title else '')[:100]}", flush=True)
     return r.text
 
+def render_source(url):
+    """Read a public JavaScript listing; never interact with verification challenges."""
+    from playwright.sync_api import sync_playwright
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        try:
+            page = browser.new_page(locale="en-SG")
+            response = page.goto(url, wait_until="domcontentloaded", timeout=45000)
+            if response and response.status >= 400:
+                raise ValueError(f"Official browser page returned HTTP {response.status}")
+            def check_verification():
+                text = page.locator("body").inner_text(timeout=10000).lower()
+                if any(s in text for s in ("verify that you're not a robot", "verify you are human", "checking your browser")):
+                    raise ValueError("Official source requires browser verification; keeping previous events")
+            check_verification()
+            # Allow the public listing's JavaScript to fill event cards.
+            try:
+                page.wait_for_function("""() => [...document.querySelectorAll('a[href]')].some(a =>
+                    /calendar-of-events\\/.+|museum\\/(exhibitions|events|programmes)\\/.+/.test(a.getAttribute('href') || ''))""",
+                    timeout=20000)
+            except Exception:
+                pass
+            page.wait_for_timeout(3000)
+            check_verification()
+            html = page.content()
+            print(f"Rendered public listing {page.url}: {len(html)} characters", flush=True)
+            return html
+        finally:
+            browser.close()
+
+
 def update(previous, today=None, fetcher=fetch):
     today = today or datetime.now(SGT).date()
     all_events = []
@@ -587,7 +618,14 @@ def update(previous, today=None, fetcher=fetch):
     for key, cfg in SOURCES.items():
         prev = previous_for(previous, key)
         try:
-            html = fetcher(cfg["url"])
+            rendered = False
+            try:
+                html = fetcher(cfg["url"])
+            except Exception:
+                if fetcher is not fetch or key not in ("gardens", "artscience"):
+                    raise
+                html = render_source(cfg["url"])
+                rendered = True
             if key == "esplanade":
                 fresh, detail_errors = fetch_esplanade_two_stage(html, today, fetcher)
                 # If no detail links/results are usable, fall back to conservative listing parser.
@@ -600,6 +638,9 @@ def update(previous, today=None, fetcher=fetch):
                                "detail_errors":len(detail_errors)}
             else:
                 fresh = parse_source_html(html, key, today)
+                if not fresh and not rendered and fetcher is fetch and key in ("gardens", "artscience"):
+                    html = render_source(cfg["url"])
+                    fresh = parse_source_html(html, key, today)
                 if not fresh:
                     fresh = fetch_official_details(html, key, today, fetcher)
                 if not fresh:
