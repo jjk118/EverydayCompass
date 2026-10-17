@@ -313,7 +313,8 @@ def source_specific_events(soup, key, today):
             continue
         lk = heading if heading.name == "a" and heading.get("href") else heading.find("a", href=True)
         if not lk:
-            lk = el.find("a", href=True)
+            parent_link = heading.find_parent("a", href=True)
+            lk = parent_link if parent_link and (parent_link is el or parent_link in el.descendants) else None
         if not lk:
             continue
         link = urljoin(SOURCES[key]["url"], lk["href"])
