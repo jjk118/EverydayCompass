@@ -268,6 +268,8 @@ def jsonld_events(soup, key, today):
                     price = ""
                     if isinstance(offers, dict) and offers.get("price") is not None:
                         price = str(offers.get("price"))
+                    if obj.get("isAccessibleForFree") is True or price in ("0", "0.0", "0.00"):
+                        price = "Free"
                     out.append(clean_event({
                         "title": obj.get("name",""),
                         "category": "Event",
@@ -556,13 +558,16 @@ def parse_official_detail(html, url, key, today):
             structured = [e for e in structured if e.get("adult") in ("0", "0.0", "0.00", "Free")]
             for e in structured:
                 e["adult"] = e["senior"] = e["child"] = "Free"
-        return [e for e in structured if not is_expired(e, today)]
+        if structured:
+            return [e for e in structured if not is_expired(e, today)]
     for node in soup.select("nav, header, footer, aside, script, style"):
         node.decompose()
-    main = soup.find("main") or soup
+    main = soup if key == "catch_sg" else soup.find("main") or soup
     h1 = main.find("h1")
     meta_title = soup.find("meta", property="og:title")
     title = norm(h1.get_text(" ", strip=True) if h1 else meta_title.get("content", "") if meta_title else "")
+    if key == "catch_sg":
+        title = norm(meta_title.get("content", "") if meta_title else soup.title.get_text(" ", strip=True) if soup.title else title)
     title = title.split(" | ")[0]
     if not title or len(title) > 200:
         return []
@@ -578,9 +583,13 @@ def parse_official_detail(html, url, key, today):
         return []
     paragraphs = [norm(p.get_text(" ", strip=True)) for p in main.find_all("p")]
     overview = next((p for p in paragraphs if len(p) >= 80 and not re.search(r"cookie|newsletter|privacy", p, re.I)), "")
+    if key == "catch_sg":
+        description = soup.find("meta", property="og:description") or soup.find("meta", attrs={"name":"description"})
+        if description and len(norm(description.get("content", ""))) >= 40:
+            overview = norm(description["content"])
     if not overview:
         return []
-    if key == "catch_sg" and not re.search(r"\b(?:admission is free|free admission|price\s*:?\s*free|tickets?\s*:?\s*free)\b", text, re.I):
+    if key == "catch_sg" and not re.search(r"\b(?:admission is free|free admission|(?:tickets?\s*(?:&\s*)?prices?|price|admission)\s*(?:is|:|-)?\s*(?:free|\$?0(?:\.00)?))\b", text, re.I):
         return []
     e = clean_event({"title":title, "overview":overview[:700], "period":period,
                      "category":"Event / Exhibition", "link":url}, key, today)
