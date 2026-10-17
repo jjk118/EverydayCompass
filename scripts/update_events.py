@@ -541,7 +541,7 @@ def fetch_esplanade_two_stage(listing_html, today, fetcher, max_details=80):
 
 DETAIL_PATHS = {
     "visit_singapore": re.compile(r"^/whats-happening/all-happenings/events/[^/]+/?$"),
-    "catch_sg": re.compile(r"^/Event/[^?#]+$"),
+    "catch_sg": re.compile(r"^/Event/(?:[^/]+/)*[^/]*\d{8,}[^/]*$"),
     "gardens": re.compile(r"^/en/things-to-do/calendar-of-events/[^/]+\.html$"),
     "national_gallery": re.compile(r"^/sg/en/(?:exhibitions|whats-on|programmes)/[^/]+\.html$"),
     "ura": re.compile(r"^/get-involved/events-and-exhibitions/[^/]+/?$"),
@@ -601,7 +601,10 @@ def fetch_official_details(listing_html, key, today, fetcher, limit=12):
             links.append(url)
     def read(url):
         try:
-            return parse_official_detail(fetcher(url), url, key, today)
+            events = parse_official_detail(fetcher(url), url, key, today)
+            if not events and key == "catch_sg" and fetcher is fetch:
+                events = parse_official_detail(render_source(url), url, key, today)
+            return events
         except Exception as exc:
             print(f"Detail unavailable {url}: {str(exc)[:160]}", flush=True)
             return []
@@ -639,9 +642,12 @@ def render_source(url):
             check_verification()
             # Allow the public listing's JavaScript to fill event cards.
             try:
-                page.wait_for_function("""() => [...document.querySelectorAll('a[href]')].some(a =>
-                    /calendar-of-events\\/.+|museum\\/(exhibitions|events|programmes)\\/.+/.test(a.getAttribute('href') || ''))""",
-                    timeout=20000)
+                if "catch.sg" in url and "/Event/" in urlparse(url).path:
+                    page.wait_for_function("() => document.body.innerText.includes('Event Details')", timeout=20000)
+                else:
+                    page.wait_for_function("""() => [...document.querySelectorAll('a[href]')].some(a =>
+                        /calendar-of-events\\/.+|museum\\/(exhibitions|events|programmes)\\/.+|\\/Event\\/.*\\d{8}|whats-happening\\/.+/.test(a.getAttribute('href') || ''))""",
+                        timeout=20000)
             except Exception:
                 pass
             page.wait_for_timeout(3000)

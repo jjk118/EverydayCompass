@@ -180,3 +180,17 @@ def test_rendered_gardens_cards_use_event_dates_not_weekday_labels():
     event=next(e for e in got if e["title"]=="Sunflower Surprise")
     assert u.finite_end_date(event["period"]) == date(2026,11,9)
     assert event["venue"] == "Flower Dome"
+
+def test_catch_reads_rendered_detail_and_checks_free_admission(monkeypatch):
+    cfg={"name":"Catch","url":"https://www.catch.sg/Event?EventCategory=Free%20Events","host":"catch.sg"}
+    monkeypatch.setitem(u.SOURCES,"catch_sg",cfg)
+    monkeypatch.setattr(u,"fetch",lambda url:"<html><title>Loading</title></html>")
+    html="""<main><h1>Community Exhibition</h1><p>
+    An exhibition sharing local stories through art, original documents and community contributions.</p>
+    <p>Event Details Date: 30 Apr 2026 - 11 Nov 2026</p><p>Admission is free.</p></main>"""
+    monkeypatch.setattr(u,"render_source",lambda url:html)
+    listing='<a href="/Event/Community-Exhibition-20260703092641">Community Exhibition</a>'
+    got=u.fetch_official_details(listing,"catch_sg",date(2026,10,18),u.fetch)
+    assert len(got)==1 and got[0]["adult"]=="Free"
+    assert u.parse_official_detail(html.replace("Admission is free.","Tickets cost $20."),
+                                  got[0]["link"],"catch_sg",date(2026,10,18)) == []
