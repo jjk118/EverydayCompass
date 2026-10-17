@@ -584,7 +584,7 @@ def render_source(url):
     """Read a public JavaScript listing; never interact with verification challenges."""
     from playwright.sync_api import sync_playwright
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
+        browser = p.chromium.launch(headless=True, args=["--disable-http2"])
         try:
             page = browser.new_page(locale="en-SG")
             response = page.goto(url, wait_until="domcontentloaded", timeout=45000)
@@ -606,6 +606,12 @@ def render_source(url):
             check_verification()
             html = page.content()
             print(f"Rendered public listing {page.url}: {len(html)} characters", flush=True)
+            if "gardensbythebay.com.sg" in url:
+                soup = BeautifulSoup(html, "html.parser")
+                cards = [a for a in soup.find_all("a", href=True)
+                         if "/calendar-of-events/" in a["href"]]
+                for a in cards[:2]:
+                    print("Gardens listing sample: " + str(a.parent)[:4500], flush=True)
             return html
         finally:
             browser.close()
