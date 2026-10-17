@@ -158,6 +158,9 @@ def finite_end_date(period):
         return end
     if SINGLE_DATE.fullmatch(p):
         return parse_date(p)
+    multiple = re.fullmatch(r"\d{1,2}\s*&\s*(\d{1,2}\s+[A-Za-z]{3,9}\s+\d{4})", p)
+    if multiple:
+        return parse_date(multiple.group(1))
     # single exact dated event
     m = re.fullmatch(r"(?:[A-Za-z]{3},?\s*)?(\d{1,2}\s+[A-Za-z]{3,9}\s+\d{4})", p, re.I)
     return parse_date(m.group(1)) if m else None
@@ -417,8 +420,8 @@ def parse_esplanade_detail(html, url, today):
     # Esplanade detail pages visibly expose compact date, venue, duration, Free/Tickets from.
     date_patterns = [
         r"\b\d{1,2}\s*&\s*\d{1,2}\s+[A-Za-z]{3,9}\s+\d{4}\b",
-        r"\b\d{1,2}\s+[A-Za-z]{3,9}\s+\d{4}\b",
         r"\b\d{1,2}\s*[–—-]\s*\d{1,2}\s+[A-Za-z]{3,9}\s+\d{4}\b",
+        r"\b\d{1,2}\s+[A-Za-z]{3,9}\s+\d{4}\b",
     ]
     if not event.get("period"):
         for pat in date_patterns:

@@ -99,3 +99,10 @@ def test_festival_discovery_follows_performance_links():
     got, errors=u.fetch_esplanade_two_stage('<a href="'+festival+'">Festival</a>',TODAY,lambda url:pages[url])
     assert [e["title"] for e in got] == ["Test Paid Show"]
     assert errors == []
+
+def test_multi_day_performance_keeps_full_range_and_expires():
+    html=PAID.replace("25 & 26 Sep 2026", "25 – 26 Sep 2026")
+    e=u.parse_esplanade_detail(html,"https://www.esplanade.com/whats-on/2026/test-paid-show",TODAY)
+    assert e["period"] == "25 – 26 Sep 2026"
+    assert u.finite_end_date("25 & 26 Sep 2026") == date(2026,9,26)
+    assert u.parse_esplanade_detail(PAID,"https://www.esplanade.com/whats-on/2026/test-paid-show",date(2026,10,18)) is None
