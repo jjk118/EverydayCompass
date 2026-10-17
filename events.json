@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T05:57:44+08:00",
+  "updated_at": "2026-10-18T06:00:19+08:00",
   "events": [
     {
       "title": "70 Years of RSP: Where Design Meets Humanity",
@@ -92,6 +92,29 @@
       "status": "Ongoing",
       "statusClass": "",
       "tags": [
+        "ongoing"
+      ]
+    },
+    {
+      "title": "BATU",
+      "category": "Event",
+      "overview": "BATU unfolds through the female body in domestic and ritual spaces, with the kitchen as a central site: a place that shapes, controls, and also empowers. Through movement and voice, two artists negotiate tradition, restraint, devotion, intimacy, shame, pleasure, sacrifice, and healing.",
+      "period": "16 – 18 Oct 2026",
+      "time": "3:00 PM",
+      "venue": "Esplanade Theatre",
+      "link": "https://www.esplanade.com/whats-on/festivals-and-series/dans-focus/2026/batu",
+      "source_key": "esplanade",
+      "source": "Esplanade",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "5mins",
+      "adult": "From $27.20",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Ending Soon",
+      "statusClass": "ending",
+      "tags": [
+        "ending",
         "ongoing"
       ]
     },
@@ -208,29 +231,6 @@
       ]
     },
     {
-      "title": "da:ns LAB 2026",
-      "category": "Event",
-      "overview": "da:ns LAB 2026 brings together four independent artists from across the Asia-Pacific to engage in dialogue around their respective praxes, experimental approaches, and the complexities of navigating artistic production across varied infrastructural and cultural ecologies.",
-      "period": "15 & 16 Oct 2026",
-      "time": "4:00 PM, 5:00 PM",
-      "venue": "Esplanade Annexe Studio",
-      "link": "https://www.esplanade.com/whats-on/festivals-and-series/dans-focus/2026/dans-lab-2026",
-      "source_key": "esplanade",
-      "source": "Esplanade",
-      "why": "See the official organiser page for the latest visitor information.",
-      "mrt": "Check directions",
-      "duration": "5mins",
-      "adult": "Free",
-      "senior": "Free",
-      "child": "Free",
-      "status": "Ongoing",
-      "statusClass": "",
-      "tags": [
-        "free",
-        "ongoing"
-      ]
-    },
-    {
       "title": "Dance Connections",
       "category": "Event / Exhibition",
       "overview": "Oct 01, 2026 - Dec 30, 2027 Singapore Chinese Cultural Centre Multi-Purpose Hall, Level 7 Dance Connections Looking to pick up Chinese dance after work while staying active and expanding your social… Other Free",
@@ -293,52 +293,6 @@
       "status": "Ongoing",
       "statusClass": "",
       "tags": [
-        "ongoing"
-      ]
-    },
-    {
-      "title": "Everybody Barre Now",
-      "category": "Event",
-      "overview": "Join us for the first edition of Everybody Barre Now , a brand-new programme adapted from da:ns focus’s EveryBody Dance Now series, featuring beginner-friendly dance sessions. Created specially for Ballet by the Bay , this edition shines a spotlight on one of ballet’s most iconic elements: the barre.",
-      "period": "27 & 28 Jun 2026",
-      "time": "1:10 pm, 2:00 PM",
-      "venue": "Esplanade Concourse",
-      "link": "https://www.esplanade.com/whats-on/festivals-and-series/dans-focus/2026/everybody-barre-now",
-      "source_key": "esplanade",
-      "source": "Esplanade",
-      "why": "See the official organiser page for the latest visitor information.",
-      "mrt": "Check directions",
-      "duration": "5mins",
-      "adult": "Free",
-      "senior": "Free",
-      "child": "Free",
-      "status": "Ongoing",
-      "statusClass": "",
-      "tags": [
-        "free",
-        "ongoing"
-      ]
-    },
-    {
-      "title": "Everybody Dance Now: Tai Chi Dao Yin",
-      "category": "Event",
-      "overview": "Join us for this special edition of Everybody Dance Now, a popular series by Esplanade’s da:ns focus where everyone is invited to take part and experience dance through beginner-friendly sessions!",
-      "period": "16 & 17 Oct 2026",
-      "time": "7:00 PM",
-      "venue": "Esplanade Concourse",
-      "link": "https://www.esplanade.com/whats-on/festivals-and-series/dans-focus/2026/everybody-dance-now-tai-chi-dao-yin",
-      "source_key": "esplanade",
-      "source": "Esplanade",
-      "why": "See the official organiser page for the latest visitor information.",
-      "mrt": "Check directions",
-      "duration": "5mins",
-      "adult": "Free",
-      "senior": "Free",
-      "child": "Free",
-      "status": "Ongoing",
-      "statusClass": "",
-      "tags": [
-        "free",
         "ongoing"
       ]
     },
@@ -428,28 +382,6 @@
       "statusClass": "ending",
       "tags": [
         "ending",
-        "ongoing"
-      ]
-    },
-    {
-      "title": "Inter Alia (Screening)",
-      "category": "Event",
-      "overview": "★★★★★ ‘An unmissable production’ – Radio Times",
-      "period": "27 & 30 Aug 2026",
-      "time": "7:30 pm",
-      "venue": "Singtel Waterfront Theatre at Esplanade",
-      "link": "https://www.esplanade.com/whats-on/festivals-and-series/national-theatre-live/2026/inter-alia-screening",
-      "source_key": "esplanade",
-      "source": "Esplanade",
-      "why": "See the official organiser page for the latest visitor information.",
-      "mrt": "Check directions",
-      "duration": "5mins",
-      "adult": "From $24",
-      "senior": "Check official information",
-      "child": "Check official information",
-      "status": "Ongoing",
-      "statusClass": "",
-      "tags": [
         "ongoing"
       ]
     },
@@ -681,28 +613,6 @@
       "mrt": "Check directions",
       "duration": "Flexible",
       "adult": "Check official information",
-      "senior": "Check official information",
-      "child": "Check official information",
-      "status": "Ongoing",
-      "statusClass": "",
-      "tags": [
-        "ongoing"
-      ]
-    },
-    {
-      "title": "Sounding Light",
-      "category": "Event",
-      "overview": "“This is a company that you will enjoy, fall in love with, and want to see again.” – Ballet-Dance Magazine",
-      "period": "16 & 17 Oct 2026",
-      "time": "8:00 PM",
-      "venue": "Esplanade Theatre",
-      "link": "https://www.esplanade.com/whats-on/festivals-and-series/dans-focus/2026/sounding-light",
-      "source_key": "esplanade",
-      "source": "Esplanade",
-      "why": "See the official organiser page for the latest visitor information.",
-      "mrt": "Check directions",
-      "duration": "5mins",
-      "adult": "From $42.50",
       "senior": "Check official information",
       "child": "Check official information",
       "status": "Ongoing",
@@ -1079,29 +989,6 @@
       ]
     },
     {
-      "title": "Dee Dee Bridgewater Duo with Helen Sung",
-      "category": "Event",
-      "overview": "A fearless voyager, explorer, pioneer and keeper of tradition, Dee Dee Bridgewater has ascended to the upper echelon of vocalists over the course of a multifaceted career spanning four decades. This jazz giant and multiple GRAMMY and Tony Award-winner has become well known for taking intrepid leaps of faith in re-envisioning jazz classics, parsing cuts from The Great American Songbook through her own singular artistic vision.",
-      "period": "29 Oct 2026",
-      "time": "7:30 pm, 9:30 pm",
-      "venue": "Esplanade Recital Studio",
-      "link": "https://www.esplanade.com/whats-on/festivals-and-series/mosaic-music-series/2026/dee-dee-bridgewater-duo-with-helen-sung",
-      "source_key": "esplanade",
-      "source": "Esplanade",
-      "why": "See the official organiser page for the latest visitor information.",
-      "mrt": "Check directions",
-      "duration": "5mins",
-      "adult": "From $74.80",
-      "senior": "Check official information",
-      "child": "Check official information",
-      "status": "Upcoming",
-      "statusClass": "upcoming",
-      "tags": [
-        "ongoing",
-        "upcoming"
-      ]
-    },
-    {
       "title": "Diary and the Whale…",
       "category": "Event / Exhibition",
       "overview": "Nov 14, 2026 - Nov 14, 2026 Singapore Chinese Cultural Centre Practice Room, Level 10 Diary and the Whale… Diary and the Whale is a project led by Rei Poh and Deng Xiaofei in… Lectures/Talks/Conference Workshop and Talk",
@@ -1120,29 +1007,6 @@
       "status": "Upcoming",
       "statusClass": "upcoming",
       "tags": [
-        "upcoming"
-      ]
-    },
-    {
-      "title": "DOMi & JD BECK - WHO ASKED? Tour",
-      "category": "Event",
-      "overview": "Widely regarded as two of jazz’s most innovative young artists, DOMi & JD BECK have redefined the genre with their fearless blend of intricate harmonies, breakneck rhythms, and playful internet-era sensibilities. The year they arrived on scene, they won over just about everyone: buttoned-up jazz fans, hip-hop heads, pop fans—you name it. Then, of course, came the GRAMMY Awards nominations for 2022’s NOT TiGHT , their debut record released by the iconic Blue Note Records in partnership with Anderson .Paak’s APESHIT, Inc. label. They were touted as the Gen Z ambassadors for jazz... up until they seemingly vanished.",
-      "period": "1 Dec 2026",
-      "time": "8:00 PM",
-      "venue": "Esplanade Annexe Studio",
-      "link": "https://www.esplanade.com/whats-on/festivals-and-series/mosaic-music-series/2026/domi-and-jd-beck-who-asked-tour",
-      "source_key": "esplanade",
-      "source": "Esplanade",
-      "why": "See the official organiser page for the latest visitor information.",
-      "mrt": "Check directions",
-      "duration": "5mins",
-      "adult": "From $67.50",
-      "senior": "Check official information",
-      "child": "Check official information",
-      "status": "Upcoming",
-      "statusClass": "upcoming",
-      "tags": [
-        "ongoing",
         "upcoming"
       ]
     },
@@ -1453,7 +1317,7 @@
       "title": "Rafta Rafta",
       "category": "Event",
       "overview": "Rafta Rafta means “slowly, slowly”, a fitting phrase for a young marriage trying to find its footing in a Singapore that is always on the move.",
-      "period": "18 Nov 2026",
+      "period": "18 – 22 Nov 2026",
       "time": "8:00 PM",
       "venue": "Esplanade Theatre",
       "link": "https://www.esplanade.com/whats-on/festivals-and-series/kalaa-utsavam-indian-festival-of-arts/2026/rafta-rafta",
@@ -1537,29 +1401,6 @@
       "status": "Upcoming",
       "statusClass": "upcoming",
       "tags": [
-        "upcoming"
-      ]
-    },
-    {
-      "title": "Silica Gel ASIA TOUR <Syn.THE.Size: Ballad of You>",
-      "category": "Event",
-      "overview": "There's no pain, just joy when Silica Gel’s around: following their explosive live show at Baybeats 2025 , this beloved South Korean indie rock band returns to Singapore for a full-fledged performance!",
-      "period": "19 Oct 2026",
-      "time": "8:00 PM",
-      "venue": "Esplanade Annexe Studio",
-      "link": "https://www.esplanade.com/whats-on/festivals-and-series/mosaic-music-series/2026/silica-gel-asia-tour-synthesize-ballad-of-you",
-      "source_key": "esplanade",
-      "source": "Esplanade",
-      "why": "See the official organiser page for the latest visitor information.",
-      "mrt": "Check directions",
-      "duration": "5mins",
-      "adult": "From $61.20",
-      "senior": "Check official information",
-      "child": "Check official information",
-      "status": "Upcoming",
-      "statusClass": "upcoming",
-      "tags": [
-        "ongoing",
         "upcoming"
       ]
     },
@@ -1892,7 +1733,7 @@
     },
     "esplanade": {
       "status": "fresh",
-      "count": 36,
+      "count": 29,
       "detail_errors": 0
     },
     "national_museum": {
@@ -1907,7 +1748,7 @@
     "artscience": {
       "status": "fallback",
       "count": 0,
-      "error": "HTTPSConnectionPool(host='www.marinabaysands.com', port=443): Read timed out. (read timeout=30)"
+      "error": "Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.marinabaysands.com/museum/whats-on.html\nCall log:\n  - navigating to \"https://www.marinabaysands.com/museum/whats-on.html\", w"
     },
     "ura": {
       "status": "fresh",
@@ -1925,7 +1766,7 @@
       "url": "https://singaporeccc.org.sg/events/",
       "status": "ok",
       "count": 29,
-      "last_success": "2026-10-18T05:56:54+08:00",
+      "last_success": "2026-10-18T05:59:24+08:00",
       "error": ""
     },
     {
@@ -1942,8 +1783,8 @@
       "name": "Esplanade",
       "url": "https://www.esplanade.com/whats-on",
       "status": "ok",
-      "count": 36,
-      "last_success": "2026-10-18T05:56:54+08:00",
+      "count": 29,
+      "last_success": "2026-10-18T05:59:24+08:00",
       "error": ""
     },
     {
@@ -1961,7 +1802,7 @@
       "url": "https://www.nationalgallery.sg/sg/en/whats-on.html",
       "status": "ok",
       "count": 3,
-      "last_success": "2026-10-18T05:56:54+08:00",
+      "last_success": "2026-10-18T05:59:24+08:00",
       "error": ""
     },
     {
@@ -1971,7 +1812,7 @@
       "status": "fallback",
       "count": 0,
       "last_success": null,
-      "error": "HTTPSConnectionPool(host='www.marinabaysands.com', port=443): Read timed out. (read timeout=30)"
+      "error": "Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.marinabaysands.com/museum/whats-on.html\nCall log:\n  - navigating to \"https://www.marinabaysands.com/museum/whats-on.html\", w"
     },
     {
       "id": "ura",
@@ -1979,7 +1820,7 @@
       "url": "https://www.ura.gov.sg/get-involved/events-and-exhibitions/",
       "status": "ok",
       "count": 1,
-      "last_success": "2026-10-18T05:56:54+08:00",
+      "last_success": "2026-10-18T05:59:24+08:00",
       "error": ""
     },
     {
@@ -1988,7 +1829,7 @@
       "url": "https://exhibitions.nlb.gov.sg/current-exhibitions/",
       "status": "ok",
       "count": 5,
-      "last_success": "2026-10-18T05:56:54+08:00",
+      "last_success": "2026-10-18T05:59:24+08:00",
       "error": ""
     }
   ],
