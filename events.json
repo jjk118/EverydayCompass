@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T06:23:09+08:00",
+  "updated_at": "2026-10-18T06:27:23+08:00",
   "events": [
     {
       "title": "70 Years of RSP: Where Design Meets Humanity",
@@ -115,29 +115,6 @@
       "statusClass": "ending",
       "tags": [
         "ending",
-        "ongoing"
-      ]
-    },
-    {
-      "title": "BBQ Brew + Beats",
-      "overview": "BBQ Brew + Beats is back after a hiatus with a monthly line-up, featuring the signature flaming BBQ from Weber Grill Academy, local brews from Little Island Brewing Co and funky beats by DJ LUVR - no better way to kickback and enjoy the weekend sunset! Known for her high energy sets that move through Afrobeats, Jersey Club, Baile Funk, Miami Bass and other rhythm-driven grooves, DJ LUVR has brought her beats to bars, clubs, festivals and events across Singapore, Australia & Malaysia. BBB is hosted at JEEP Singapore outdoor patio. Date: 17 Oct Sat Time: 5 - 8pm A pet friendly event.",
-      "period": "26 Jun - 31 Dec 2026",
-      "category": "Event / Exhibition",
-      "link": "https://www.catch.sg/Event/BBQ-Brew-Beats-20261011090535",
-      "source_key": "catch_sg",
-      "source": "Catch.sg — Free Events",
-      "why": "See the official organiser page for the latest visitor information.",
-      "time": "Check official information",
-      "venue": "Catch.sg — Free Events",
-      "mrt": "Check directions",
-      "duration": "Flexible",
-      "adult": "Free",
-      "senior": "Free",
-      "child": "Free",
-      "status": "Ongoing",
-      "statusClass": "",
-      "tags": [
-        "free",
         "ongoing"
       ]
     },
@@ -1094,6 +1071,30 @@
       "status": "Ongoing",
       "statusClass": "",
       "tags": [
+        "ongoing"
+      ]
+    },
+    {
+      "title": "What Holds",
+      "overview": "Explore a large-scale multimedia installation that reinterprets iconic regional folklore through a captivating blend of illustration, sculpture, and sound. Spanning three monumental window panels, the public architectural display traces an evocative progression from raw physical force to resilient resistance and its ultimate aftermath, drawing deep inspiration from the historical legends of Bukit Merah, Kusu Island, and Prince Sang Nila Utama. At scheduled intervals throughout the evening, the structure activates via automated lighting sequences and recorded voice tracks, revealing a hidden layer beneath the surface imagery. Immersive experience: 21 August – 20 September 2026, 8pm – 11pm (15",
+      "period": "21 Aug 2026 - 18 Oct 2026",
+      "category": "Event / Exhibition",
+      "link": "https://www.catch.sg/Event/What-Holds-20260806082204",
+      "source_key": "catch_sg",
+      "source": "Catch.sg — Free Events",
+      "why": "See the official organiser page for the latest visitor information.",
+      "time": "Check official information",
+      "venue": "Catch.sg — Free Events",
+      "mrt": "Check directions",
+      "duration": "Flexible",
+      "adult": "Free",
+      "senior": "Free",
+      "child": "Free",
+      "status": "Ending Soon",
+      "statusClass": "ending",
+      "tags": [
+        "ending",
+        "free",
         "ongoing"
       ]
     },
@@ -2331,7 +2332,7 @@
       "url": "https://singaporeccc.org.sg/events/",
       "status": "ok",
       "count": 29,
-      "last_success": "2026-10-18T06:20:57+08:00",
+      "last_success": "2026-10-18T06:25:11+08:00",
       "error": ""
     },
     {
@@ -2340,7 +2341,7 @@
       "url": "https://www.gardensbythebay.com.sg/en/things-to-do/calendar-of-events.html",
       "status": "ok",
       "count": 11,
-      "last_success": "2026-10-18T06:20:57+08:00",
+      "last_success": "2026-10-18T06:25:11+08:00",
       "error": ""
     },
     {
@@ -2349,7 +2350,7 @@
       "url": "https://www.esplanade.com/whats-on",
       "status": "ok",
       "count": 29,
-      "last_success": "2026-10-18T06:20:57+08:00",
+      "last_success": "2026-10-18T06:25:11+08:00",
       "error": ""
     },
     {
@@ -2367,7 +2368,7 @@
       "url": "https://www.nationalgallery.sg/sg/en/whats-on.html",
       "status": "ok",
       "count": 3,
-      "last_success": "2026-10-18T06:20:57+08:00",
+      "last_success": "2026-10-18T06:25:11+08:00",
       "error": ""
     },
     {
@@ -2385,7 +2386,7 @@
       "url": "https://www.ura.gov.sg/get-involved/events-and-exhibitions/",
       "status": "ok",
       "count": 1,
-      "last_success": "2026-10-18T06:20:57+08:00",
+      "last_success": "2026-10-18T06:25:11+08:00",
       "error": ""
     },
     {
@@ -2394,7 +2395,7 @@
       "url": "https://exhibitions.nlb.gov.sg/current-exhibitions/",
       "status": "ok",
       "count": 5,
-      "last_success": "2026-10-18T06:20:57+08:00",
+      "last_success": "2026-10-18T06:25:11+08:00",
       "error": ""
     },
     {
@@ -2403,7 +2404,7 @@
       "url": "https://www.visitsingapore.com/things-to-do/top-things-to-do/",
       "status": "ok",
       "count": 12,
-      "last_success": "2026-10-18T06:20:57+08:00",
+      "last_success": "2026-10-18T06:25:11+08:00",
       "error": ""
     },
     {
@@ -2412,7 +2413,7 @@
       "url": "https://www.catch.sg/Event?EventCategory=Free%20Events",
       "status": "ok",
       "count": 2,
-      "last_success": "2026-10-18T06:20:57+08:00",
+      "last_success": "2026-10-18T06:25:11+08:00",
       "error": ""
     }
   ],
