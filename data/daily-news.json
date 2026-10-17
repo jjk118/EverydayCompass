@@ -1,9 +1,23 @@
 {
   "singapore": [
     {
-      "title": "Singapore haze eases overnight, but air quality remains unhealthy",
+      "title": "TCM providers, practitioners can apply for accreditation from Oct 17; first 5 clinics granted status",
+      "url": "https://www.channelnewsasia.com/singapore/tcm-accreditation-providers-practitioners-clinics-6466746",
+      "summary": "",
+      "source": "CNA",
+      "published": "Sat, 17 Oct 2026 11:00:50 +0800"
+    },
+    {
+      "title": "Singapore FA Cup final postponed due to haze as more outdoor events called off",
+      "url": "https://www.channelnewsasia.com/singapore/singapore-haze-psi-fa-cup-final-postponed-events-6467816",
+      "summary": "Several other outdoor events have already been called off or rescheduled because of the haze, including the Great Eastern Women's Run and the Purple Parade.",
+      "source": "CNA",
+      "published": "Sat, 17 Oct 2026 10:59:15 +0800"
+    },
+    {
+      "title": "Singapore haze: PM2.5 readings climb into high band in three regions",
       "url": "https://www.channelnewsasia.com/singapore/singapore-haze-psi-pm25-oct-17-6466816",
-      "summary": "NEA says the transport of smoke haze from Kalimantan to Singapore could ease on Saturday, with shifting winds and showers expected over Singapore and the surrounding region.",
+      "summary": "NEA warned of a continued risk of severe transboundary haze, with dry conditions expected to persist in parts of the southern ASEAN region over the coming days.",
       "source": "CNA",
       "published": "Sat, 17 Oct 2026 07:09:00 +0800"
     },
@@ -90,20 +104,6 @@
       "summary": "O-Level exams may also be rescheduled if schools close, says the education minister.",
       "source": "CNA",
       "published": "Fri, 16 Oct 2026 17:33:00 +0800"
-    },
-    {
-      "title": "Haze may reach hazardous PSI levels; mask vending machines to be fully deployed by Oct 16, says Grace Fu",
-      "url": "https://www.channelnewsasia.com/singapore/haze-hazardous-air-quality-masks-grace-fu-6465121",
-      "summary": "“Depending on the weather, we can expect air quality to fluctuate, including the possibility of reaching hazardous levels,” says the Minister for Sustainability and the Environment.",
-      "source": "CNA",
-      "published": "Fri, 16 Oct 2026 17:31:00 +0800"
-    },
-    {
-      "title": "Three commended for stepping up during Tower Transit bus driver's medical emergency",
-      "url": "https://www.channelnewsasia.com/singapore/tower-transit-bus-captain-caring-commuters-appreciation-6464716",
-      "summary": "When a bus captain on service 854 experienced a medical emergency in September, quick-thinking commuters helped to bring the bus safely to a stop.",
-      "source": "CNA",
-      "published": "Fri, 16 Oct 2026 16:32:00 +0800"
     }
   ],
   "world": [
@@ -213,6 +213,6 @@
       "published": "Fri, 16 Oct 2026 05:21:17 +0800"
     }
   ],
-  "generated_at": "2026-10-17T10:07:43+08:00",
+  "generated_at": "2026-10-17T13:03:24+08:00",
   "test_mode": false
 }
