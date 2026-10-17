@@ -140,3 +140,14 @@ def test_listing_does_not_combine_separate_events_or_navigation():
     # The dated "Details" link may be a card, but must never borrow the unrelated heading.
     got = u.parse_source_html(html, "sccc", date(2026, 10, 18))
     assert not any(e["title"] in ("Undated heading", "All Events") for e in got)
+
+def test_nlb_heading_sections_do_not_mix_neighbouring_exhibitions():
+    html = """<main><h2 id="one">The Albatross File</h2><ul>
+    <li>Permanent exhibition</li><li>Level 10, National Library Building</li></ul>
+    <p>A current exhibition describing Singapore's history through original documents and official records.</p>
+    <hr><h2 id="two">A finished exhibition</h2><ul><li>1 Jan 2025 - 2 Jan 2025</li></ul>
+    <p>This old exhibition has a long description but it should no longer appear in the current feed.</p></main>"""
+    got = u.parse_source_html(html, "nlb", date(2026, 10, 18))
+    assert [e["title"] for e in got] == ["The Albatross File"]
+    assert got[0]["link"].endswith("#one")
+    assert got[0]["venue"] == "Level 10, National Library Building"

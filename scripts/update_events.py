@@ -337,11 +337,43 @@ def source_specific_events(soup, key, today):
         }, key, today))
     return out
 
+def section_events(soup, key, today):
+    """NLB's current-exhibitions page uses headings followed by prose, not cards."""
+    if key != "nlb":
+        return []
+    events = []
+    for heading in soup.find_all("h2"):
+        title = norm(heading.get_text(" ", strip=True))
+        if not title or "exhibitions" == title.lower().strip():
+            continue
+        nodes = []
+        for sibling in heading.next_siblings:
+            if getattr(sibling, "name", None) in ("h1", "h2", "hr"):
+                break
+            nodes.append(str(sibling))
+        section = BeautifulSoup("".join(nodes), "html.parser")
+        text = norm(section.get_text(" ", strip=True))
+        period = extract_period(text)
+        if not period or not re.search(r"\bexhibition\b", text, re.I):
+            continue
+        identifier = heading.get("id")
+        link = SOURCES[key]["url"] + ("#" + identifier if identifier else "")
+        paragraphs = [norm(p.get_text(" ", strip=True)) for p in section.find_all("p")]
+        overview = next((p for p in paragraphs if len(p) >= 70), "")
+        if not overview:
+            continue
+        venue = next((norm(li.get_text(" ", strip=True)) for li in section.find_all("li")
+                      if re.search(r"\b(?:Level|Library|Building)\b", li.get_text(" "), re.I)), "")
+        events.append(clean_event({"title":title, "period":period, "overview":overview[:700],
+                                   "venue":venue, "category":"Exhibition", "link":link}, key, today))
+    return events
+
+
 def parse_source_html(html, key, today):
     soup = BeautifulSoup(html, "html.parser")
     events = jsonld_events(soup, key, today)
     if not events:
-        events = source_specific_events(soup, key, today)
+        events = source_specific_events(soup, key, today) + section_events(soup, key, today)
     return dedupe([e for e in events if not is_expired(e, today)])
 
 
@@ -462,6 +494,9 @@ def fetch(url, timeout=30):
     r = requests.get(url, headers={"User-Agent": UA, "Accept-Language": "en-SG,en;q=0.9"}, timeout=timeout)
     r.raise_for_status()
     soup = BeautifulSoup(r.text, "html.parser")
+    page_text = norm(soup.get_text(" ", strip=True))
+    if "verify that you're not a robot" in page_text.lower() or "enable javascript and then reload" in page_text.lower():
+        raise ValueError("Official source requires browser verification; keeping previous events")
     print(f"Fetched {r.url}: HTTP {r.status_code}, {len(r.content)} bytes, "
           f"{len(text_blocks(soup))} candidate cards; title={norm(soup.title.get_text() if soup.title else '')[:100]}", flush=True)
     return r.text
