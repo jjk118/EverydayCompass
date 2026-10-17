@@ -576,7 +576,12 @@ def parse_official_detail(html, url, key, today):
     labels = [norm(el.get_text(" ", strip=True)) for el in main.find_all(["li", "p"])
               if re.search(r"\b(?:When|Date):", el.get_text(" "), re.I)]
     period = next((extract_period(s) for s in labels if extract_period(s)), "")
-    if not period:
+    if key == "catch_sg":
+        details = re.search(r"\bEvent Details\b", text, re.I)
+        date_scope = text[details.end():] if details else text
+        date_field = re.search(r"\bDate\s*:?\s*(?=\d)(.*?)(?=\b(?:Opening Hours|Location|Tickets|Contact|FIND OUT MORE)\b|$)", date_scope, re.I)
+        period = extract_period(date_field.group(1)) if date_field else ""
+    elif not period:
         match = MONTH_FIRST_RANGE.search(text) or DATE_RANGE.search(text) or ISO_RANGE.search(text) or SHORT_DATE_RANGE.search(text)
         period = match.group(0) if match else ""
     if not period:
@@ -589,8 +594,12 @@ def parse_official_detail(html, url, key, today):
             overview = norm(description["content"])
     if not overview:
         return []
-    if key == "catch_sg" and not re.search(r"\b(?:admission is free|free admission|(?:tickets?\s*(?:&\s*)?prices?|price|admission)\s*(?:is|:|-)?\s*(?:free|\$?0(?:\.00)?))\b", text, re.I):
-        return []
+    if key == "catch_sg":
+        ticket_section = re.search(r"\bTickets\s*(?:&|and)\s*Prices\b(.*?)(?=\b(?:Terms\s*(?:&|and)\s*Conditions|Event Details)\b|$)", text, re.I)
+        price_scope = ticket_section.group(1).strip() if ticket_section else text
+        free = bool(re.fullmatch(r"Free[.!]?", price_scope, re.I) or re.search(r"\b(?:admission is free|free admission|(?:tickets?\s*(?:&\s*)?prices?|price|admission)\s*(?:is|:|-)?\s*(?:free|\$?0(?:\.00)?))\b", price_scope, re.I))
+        if not free:
+            return []
     e = clean_event({"title":title, "overview":overview[:700], "period":period,
                      "category":"Event / Exhibition", "link":url}, key, today)
     if key == "catch_sg":

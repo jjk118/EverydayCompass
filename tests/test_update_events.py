@@ -205,3 +205,14 @@ def test_catch_uses_page_metadata_not_hidden_account_modal(monkeypatch):
                                "catch_sg",date(2026,10,18))
     assert len(got)==1 and got[0]["title"]=="Community Arts"
     assert got[0]["adult"]=="Free"
+
+def test_catch_uses_event_date_not_unrelated_page_campaign(monkeypatch):
+    monkeypatch.setitem(u.SOURCES,"catch_sg",{"name":"Catch","url":"https://www.catch.sg/Event","host":"catch.sg"})
+    html="""<html><head><meta property="og:title" content="BBQ Brew and Beats">
+    <meta property="og:description" content="A community event with music, art and food at the venue."></head>
+    <body><div>Site campaign 26 Jun - 31 Dec 2026</div>
+    <div>Tickets &amp; Prices Free</div><div>Event Details Date 17 Oct 2026 Opening Hours Full Day Location Gillman Barracks</div></body></html>"""
+    assert not u.parse_official_detail(html,"https://www.catch.sg/Event/BBQ-20261011090535","catch_sg",date(2026,10,18))
+    current=html.replace("Date 17 Oct 2026", "Date 18 Oct 2026")
+    got=u.parse_official_detail(current,"https://www.catch.sg/Event/BBQ-20261011090535","catch_sg",date(2026,10,18))
+    assert len(got)==1 and got[0]["period"]=="18 Oct 2026"
