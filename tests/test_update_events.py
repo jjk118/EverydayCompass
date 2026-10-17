@@ -195,7 +195,8 @@ def test_catch_reads_rendered_detail_and_checks_free_admission(monkeypatch):
     assert u.parse_official_detail(html.replace("Admission is free.","Tickets cost $20."),
                                   got[0]["link"],"catch_sg",date(2026,10,18)) == []
 
-def test_catch_uses_page_metadata_not_hidden_account_modal():
+def test_catch_uses_page_metadata_not_hidden_account_modal(monkeypatch):
+    monkeypatch.setitem(u.SOURCES, "catch_sg", {"name":"Catch", "url":"https://www.catch.sg/Event?EventCategory=Free%20Events", "host":"catch.sg"})
     html="""<html><head><meta property="og:title" content="Community Arts">
     <meta property="og:description" content="Discover a community exhibition of contemporary art and shared local stories."></head>
     <body><h1>My Catch Lists</h1><div>Date 18 Oct 2026 - 30 Oct 2026</div>
