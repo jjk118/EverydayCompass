@@ -15,16 +15,16 @@
       "published": "Sat, 17 Oct 2026 10:59:15 +0800"
     },
     {
-      "title": "Singapore haze: PM2.5 readings climb into high band in three regions",
+      "title": "Singapore haze: PM2.5 readings climb into high band in four regions",
       "url": "https://www.channelnewsasia.com/singapore/singapore-haze-psi-pm25-oct-17-6466816",
       "summary": "NEA warned of a continued risk of severe transboundary haze, with dry conditions expected to persist in parts of the southern ASEAN region over the coming days.",
       "source": "CNA",
       "published": "Sat, 17 Oct 2026 07:09:00 +0800"
     },
     {
-      "title": "Legal action by Singapore against haze-causing firms in Indonesia may come with diplomatic implications: Lawyers",
-      "url": "https://www.channelnewsasia.com/singapore/haze-indonesia-diplomatic-implications-legal-action-lawyers-6465511",
-      "summary": "Minister for Sustainability and the Environment Grace Fu said Singapore will send preventive measure notices to seven companies in Indonesia responsible for fires causing the current haze.",
+      "title": "Snap Insight: Protecting Singapore’s outdoor workers from haze is easier said than done",
+      "url": "https://www.channelnewsasia.com/commentary/haze-outdoor-worker-platform-mask-snap-insight-6466426",
+      "summary": "Financial pressures make reducing haze exposure difficult for Singapore's outdoor workers, says Olivia Jensen of NUS’ Institute for the Public Understanding of Risk.",
       "source": "CNA",
       "published": "Sat, 17 Oct 2026 06:00:00 +0800"
     },
@@ -36,9 +36,9 @@
       "published": "Sat, 17 Oct 2026 06:00:00 +0800"
     },
     {
-      "title": "Snap Insight: Protecting Singapore’s outdoor workers from haze is easier said than done",
-      "url": "https://www.channelnewsasia.com/commentary/haze-outdoor-worker-platform-mask-snap-insight-6466426",
-      "summary": "Financial pressures make reducing haze exposure difficult for Singapore's outdoor workers, says Olivia Jensen of NUS’ Institute for the Public Understanding of Risk.",
+      "title": "Legal action by Singapore against haze-causing firms in Indonesia may come with diplomatic implications: Lawyers",
+      "url": "https://www.channelnewsasia.com/singapore/haze-indonesia-diplomatic-implications-legal-action-lawyers-6465511",
+      "summary": "Minister for Sustainability and the Environment Grace Fu said Singapore will send preventive measure notices to seven companies in Indonesia responsible for fires causing the current haze.",
       "source": "CNA",
       "published": "Sat, 17 Oct 2026 06:00:00 +0800"
     },
@@ -107,6 +107,20 @@
     }
   ],
   "world": [
+    {
+      "title": "Trump waives new Russia sanctions as Ukraine ties slump",
+      "url": "https://www.channelnewsasia.com/world/trump-waives-russia-sanctions-oil-gas-energy-6467991",
+      "summary": "US President Donald Trump's reversal on the Russia sanctions comes after he struck a deal with Russia President Vlamidir Putin to ease sanctions on Russia in exchange for Moscow releasing large amounts of diesel into global markets.",
+      "source": "CNA",
+      "published": "Sat, 17 Oct 2026 13:27:16 +0800"
+    },
+    {
+      "title": "Anthropic quietly pitches its own AI safety Bill to US lawmakers",
+      "url": "https://www.channelnewsasia.com/business/anthropic-quietly-pitches-its-own-ai-safety-bill-us-lawmakers-6467581",
+      "summary": "The Bill would reportedly let the government block a model's release or use only if it poses a foreseeable, imminent risk of more than US$1 billion in damages, or of killing or seriously injuring more than 50 people.",
+      "source": "CNA",
+      "published": "Sat, 17 Oct 2026 06:37:00 +0800"
+    },
     {
       "title": "Iran denies Saudi accusation of involvement in Houthi attacks",
       "url": "https://www.channelnewsasia.com/world/iran-denies-houthi-attacks-saudi-arabia-6467476",
@@ -197,22 +211,8 @@
       "summary": "What explains the agonies of Goliath? How is it that apparent titans so often fail to get their way? Janan Ganesh from the Financial Times weighs in.",
       "source": "CNA",
       "published": "Fri, 16 Oct 2026 05:59:00 +0800"
-    },
-    {
-      "title": "US stocks end higher as AI shares stabilise",
-      "url": "https://www.channelnewsasia.com/world/us-stocks-end-higher-ai-shares-stabilise-6464161",
-      "summary": "",
-      "source": "CNA",
-      "published": "Fri, 16 Oct 2026 05:57:03 +0800"
-    },
-    {
-      "title": "Venezuela's Maduro denies US torture charges as 'false accusations'",
-      "url": "https://www.channelnewsasia.com/world/maduro-wife-flores-venezuela-torture-charges-6464071",
-      "summary": "Nicolas Maduro and his wife Cilia Flores pleaded not guilty to new torture charges in a US court, with Maduro rejecting them as “false accusations” and Flores declaring, “I am completely innocent, I am not guilty.”",
-      "source": "CNA",
-      "published": "Fri, 16 Oct 2026 05:21:17 +0800"
     }
   ],
-  "generated_at": "2026-10-17T13:03:24+08:00",
+  "generated_at": "2026-10-17T15:18:06+08:00",
   "test_mode": false
 }
