@@ -1,6 +1,13 @@
 {
   "singapore": [
     {
+      "title": "PM Wong to visit Qatar, UAE in first trip to Middle East since taking office",
+      "url": "https://www.channelnewsasia.com/singapore/lawrence-wong-qatar-uae-middle-east-visit-6468046",
+      "summary": "The visits will provide an opportunity for Singapore to exchange views on recent developments in the region and strengthen cooperation with both countries in areas of mutual interest, such as in energy security and economic resilience, said the PMO.",
+      "source": "CNA",
+      "published": "Sat, 17 Oct 2026 17:00:00 +0800"
+    },
+    {
       "title": "TCM providers, practitioners can apply for accreditation from Oct 17; first 5 clinics granted status",
       "url": "https://www.channelnewsasia.com/singapore/tcm-accreditation-providers-practitioners-clinics-6466746",
       "summary": "Health Minister Ong Ye Kung said Singapore was taking a practical approach to integrating Western medicine and traditional Chinese medicine while ensuring that treatments are backed by rigorous evidence.",
@@ -97,22 +104,22 @@
       "summary": "Under the Platform Workers Act, platform operators have workplace safety and health responsibilities towards their workers, said the Acting Minister for Manpower.",
       "source": "CNA",
       "published": "Fri, 16 Oct 2026 17:44:00 +0800"
-    },
-    {
-      "title": "Preschools to remain open even if schools close when haze hits hazardous level: Desmond Lee",
-      "url": "https://www.channelnewsasia.com/singapore/haze-o-level-exam-schools-close-preschools-open-6465126",
-      "summary": "O-Level exams may also be rescheduled if schools close, says the education minister.",
-      "source": "CNA",
-      "published": "Fri, 16 Oct 2026 17:33:00 +0800"
     }
   ],
   "world": [
+    {
+      "title": "Pope Leo will leave hospital, return to Vatican on Oct 17: Holy See",
+      "url": "https://www.channelnewsasia.com/asia/pope-leo-will-leave-hospital-return-vatican-oct-17-holy-see-6468156",
+      "summary": "The pope had part of his right lung removed on Tuesday (Oct 13) because of a cancerous tumour.",
+      "source": "CNA",
+      "published": "Sat, 17 Oct 2026 18:14:00 +0800"
+    },
     {
       "title": "Trump waives new Russia sanctions as Ukraine ties slump",
       "url": "https://www.channelnewsasia.com/world/trump-waives-russia-sanctions-oil-gas-energy-6467991",
       "summary": "US President Donald Trump's reversal on the Russia sanctions comes after he struck a deal with Russia President Vlamidir Putin to ease sanctions on Russia in exchange for Moscow releasing large amounts of diesel into global markets.",
       "source": "CNA",
-      "published": "Sat, 17 Oct 2026 13:27:16 +0800"
+      "published": "Sat, 17 Oct 2026 13:27:00 +0800"
     },
     {
       "title": "Anthropic quietly pitches its own AI safety Bill to US lawmakers",
@@ -204,15 +211,8 @@
       "summary": "The shooter was a local 16-year-old boy.",
       "source": "CNA",
       "published": "Fri, 16 Oct 2026 07:54:00 +0800"
-    },
-    {
-      "title": "Commentary: This is an era of Davids, not Goliaths",
-      "url": "https://www.channelnewsasia.com/commentary/era-davids-not-goliaths-geopolitics-6461811",
-      "summary": "What explains the agonies of Goliath? How is it that apparent titans so often fail to get their way? Janan Ganesh from the Financial Times weighs in.",
-      "source": "CNA",
-      "published": "Fri, 16 Oct 2026 05:59:00 +0800"
     }
   ],
-  "generated_at": "2026-10-17T16:04:06+08:00",
+  "generated_at": "2026-10-17T19:04:24+08:00",
   "test_mode": false
 }
