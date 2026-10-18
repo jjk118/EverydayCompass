@@ -1,0 +1,653 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#175f92">
+<title>Singapore What's On | Everyday Compass</title>
+<style>
+:root{--navy:#123f63;--blue:#176ea6;--blue2:#eaf5fb;--teal:#168a86;--mint:#e8f7f3;--bg:#f4f8fb;--card:#fff;--text:#173247;--muted:#617789;--line:#dbe7ee;--danger:#c84b5d;--shadow:0 8px 26px rgba(28,72,99,.09);--radius:22px}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.5}
+button,input,select{font:inherit}
+a{color:inherit}
+.wrap{width:min(1180px,calc(100% - 32px));margin:auto}
+.testbar{background:#fff3cd;color:#664d03;border-bottom:1px solid #ffe69c;text-align:center;padding:8px 12px;font-weight:700;font-size:.9rem}
+.hero{background:linear-gradient(135deg,#123f63 0%,#176ea6 58%,#168a86 100%);color:#fff;padding:28px 0 30px;border-radius:0 0 34px 34px;box-shadow:var(--shadow)}
+.eyebrow{font-size:.82rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;opacity:.88}
+h1{font-size:clamp(2rem,5vw,3.25rem);line-height:1.04;margin:7px 0 10px;letter-spacing:-.035em}
+.hero p{max-width:760px;margin:0;color:#eaf7ff;font-size:1.04rem}
+.hero-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}
+.hero-btn{border:1px solid rgba(255,255,255,.34);background:rgba(255,255,255,.12);color:white;padding:11px 15px;border-radius:14px;font-weight:800;cursor:pointer}
+.hero-btn.primary{background:white;color:var(--navy)}
+main{padding:24px 0 40px}
+.quick{background:#fff;border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:18px;margin-bottom:22px}
+.quick-top{display:grid;grid-template-columns:1fr auto;gap:14px;align-items:center}
+.search{width:100%;padding:14px 16px;border:1px solid var(--line);border-radius:17px;background:#fbfdfe;color:var(--text);outline:none}
+.search:focus{border-color:#5aa7d4;box-shadow:0 0 0 4px rgba(23,110,166,.12)}
+.view-toggle{display:flex;background:#eef4f7;border-radius:14px;padding:4px}
+.view-toggle button{border:0;background:transparent;padding:9px 12px;border-radius:11px;font-weight:800;color:var(--muted);cursor:pointer}
+.view-toggle button.active{background:#fff;color:var(--navy);box-shadow:0 2px 8px rgba(0,0,0,.08)}
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
+.chip{border:1px solid var(--line);background:#fff;color:var(--text);padding:8px 12px;border-radius:999px;font-weight:750;cursor:pointer}
+.chip.active{background:var(--navy);border-color:var(--navy);color:#fff}
+.section-head{display:flex;justify-content:space-between;gap:12px;align-items:end;margin:28px 2px 13px}
+.section-head h2{margin:0;font-size:1.5rem;letter-spacing:-.02em}
+.section-head p{margin:3px 0 0;color:var(--muted)}
+.updated{font-size:.86rem;color:var(--muted);white-space:nowrap}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden;display:flex;flex-direction:column}
+.card-body{padding:20px}
+.topline{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
+.category{font-size:.78rem;font-weight:850;text-transform:uppercase;letter-spacing:.06em;color:var(--blue)}
+.status{font-size:.76rem;font-weight:850;padding:5px 9px;border-radius:999px;background:var(--mint);color:#08706c;white-space:nowrap}
+.status.ending{background:#fff0e2;color:#9b5600}
+.status.upcoming{background:#edf0ff;color:#4e58a7}
+.card h3{font-size:1.32rem;line-height:1.2;margin:8px 0 8px;letter-spacing:-.02em}
+.overview{margin:0 0 12px;color:#40596b}
+.why{background:var(--blue2);border-radius:15px;padding:11px 13px;margin:12px 0;font-size:.93rem}
+.meta{display:grid;grid-template-columns:1fr 1fr;gap:9px 14px;margin-top:14px}
+.meta-item{font-size:.91rem}
+.meta-item b{display:block;font-size:.76rem;color:var(--muted);text-transform:uppercase;letter-spacing:.04em;margin-bottom:1px}
+.prices{margin-top:14px;border-top:1px solid var(--line);padding-top:13px;display:flex;gap:8px;flex-wrap:wrap}
+.price{background:#f7fafc;border:1px solid var(--line);padding:7px 9px;border-radius:11px;font-size:.86rem}
+.tags{display:flex;gap:7px;flex-wrap:wrap;margin-top:13px}
+.tag{background:var(--mint);color:#22635f;border-radius:999px;padding:5px 9px;font-size:.78rem;font-weight:750}
+.card-actions{display:flex;gap:9px;flex-wrap:wrap;padding:0 20px 20px;margin-top:auto}
+.btn{border:0;border-radius:13px;padding:10px 13px;font-weight:850;text-decoration:none;cursor:pointer;display:inline-block}
+.btn.primary{background:var(--blue);color:white}
+.btn.secondary{background:#edf4f8;color:var(--navy)}
+.btn.outline{background:white;border:1px solid var(--line);color:var(--navy)}
+.btn.danger{background:#fdecef;color:var(--danger)}
+.notice{background:#fff8e8;border:1px solid #f0ddb0;color:#76500c;border-radius:16px;padding:12px 14px;margin:0 0 16px}
+.empty{background:#fff;border:1px dashed var(--line);border-radius:var(--radius);padding:28px;text-align:center;color:var(--muted)}
+.table-wrap{display:none;overflow:auto;background:#fff;border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow)}
+table{width:100%;border-collapse:collapse;min-width:1000px}
+th,td{text-align:left;vertical-align:top;padding:14px;border-bottom:1px solid var(--line)}
+th{background:#eef6fa;color:var(--navy);font-size:.82rem}
+td{font-size:.9rem}
+.footer-note{text-align:center;color:var(--muted);font-size:.87rem;margin-top:32px}
+.src-details{margin:6px 0}
+.src-details summary{cursor:pointer;font-weight:800;color:var(--navy)}
+.src-details ul{margin:8px 0 0;padding-left:20px}
+.src-details li{margin:3px 0}
+.src-ok{color:#08706c;font-weight:800}.src-warn{color:#9b5600;font-weight:800}
+.warnbox{background:#fff0e2;border:1px solid #f0c9a0;color:#7a4300;border-radius:12px;padding:9px 12px;margin:8px 0;font-size:.9rem}
+.settings-link{display:block;text-align:center;margin:18px auto 40px;font-size:.8rem;color:var(--muted);background:none;border:0;cursor:pointer;text-decoration:underline}
+.hidden{display:none!important}
+.refreshbar{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-top:14px;padding-top:14px;border-top:1px solid var(--line)}
+.refresh-info{flex:1;min-width:220px;color:var(--muted);font-size:.9rem}
+.refresh-info strong{color:var(--navy)}
+/* settings panel */
+.overlay{position:fixed;inset:0;background:rgba(10,30,45,.55);display:flex;align-items:flex-start;justify-content:center;padding:20px;overflow:auto;z-index:50}
+.panel{background:#fff;border-radius:22px;max-width:860px;width:100%;padding:22px;box-shadow:0 20px 60px rgba(0,0,0,.3)}
+.panel h2{margin:0 0 4px}
+.panel h3{margin:22px 0 8px;font-size:1.05rem}
+.panel .sub{color:var(--muted);margin:0 0 14px;font-size:.92rem}
+.src-row{display:grid;grid-template-columns:auto 1fr 2fr auto;gap:8px;align-items:center;margin-bottom:8px}
+.src-row input[type=text],.src-row input[type=url],.panel input[type=date]{width:100%;padding:9px 11px;border:1px solid var(--line);border-radius:11px}
+.src-row input.bad{border-color:var(--danger);background:#fff6f7}
+.src-count{font-weight:800;color:var(--navy)}
+.errors{color:var(--danger);font-size:.88rem;margin:8px 0;white-space:pre-line}
+.okmsg{color:#08706c;font-size:.88rem;margin:8px 0}
+.panel-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+.check-table{width:100%;min-width:0;font-size:.84rem}
+.check-table th,.check-table td{padding:7px 9px}
+.kept{color:#08706c;font-weight:800}.dropped{color:var(--danger);font-weight:800}
+@media(max-width:760px){
+.wrap{width:min(100% - 20px,1180px)}
+.hero{padding-top:22px;border-radius:0 0 26px 26px}
+.quick-top{grid-template-columns:1fr}
+.view-toggle{width:max-content}
+.grid{grid-template-columns:1fr}
+.meta{grid-template-columns:1fr}
+.section-head{align-items:flex-start;flex-direction:column}
+.updated{white-space:normal}
+.card-body{padding:17px}
+.card-actions{padding:0 17px 17px}
+.src-row{grid-template-columns:auto 1fr}
+.src-row input[type=url]{grid-column:1 / -1}
+}
+</style>
+</head>
+<body>
+<header class="hero">
+<div class="wrap">
+<a class="hero-btn primary" href="https://myai118.github.io/EverydayCompass/" style="display:inline-block;text-decoration:none;margin-bottom:16px">← Return to Everyday Compass</a>
+<div class="eyebrow">Everyday Compass · Discover Singapore</div>
+<h1>Singapore What's On</h1>
+<p>One easy place to discover ongoing and upcoming exhibitions, cultural events, festivals and weekend happenings — with clear summaries, prices and practical visitor information.</p>
+<div class="hero-actions">
+<button class="hero-btn primary" onclick="setFilter('weekend')">⭐ Good This Weekend</button>
+<button class="hero-btn" onclick="setFilter('free')">Free Events</button>
+<button class="hero-btn" onclick="setFilter('wheelchair')">♿ Wheelchair-Friendly</button>
+</div>
+</div>
+</header>
+<main class="wrap">
+<section class="quick">
+<div class="quick-top">
+<input id="search" class="search" aria-label="Search events" placeholder="🔎 Search event, venue, nostalgia, exhibition..." oninput="applyFilters()">
+<div class="view-toggle" aria-label="Choose view">
+<button id="cardsBtn" class="active" onclick="setView('cards')">Cards</button>
+<button id="tableBtn" onclick="setView('table')">List</button>
+</div>
+</div>
+<div class="filters" id="filters">
+<button class="chip active" data-filter="all" onclick="setFilter('all')">All</button>
+<button class="chip" data-filter="weekend" onclick="setFilter('weekend')">This Weekend</button>
+<button class="chip" data-filter="ongoing" onclick="setFilter('ongoing')">Ongoing</button>
+<button class="chip" data-filter="upcoming" onclick="setFilter('upcoming')">Upcoming</button>
+<button class="chip" data-filter="ending" onclick="setFilter('ending')">Ending Soon</button>
+<button class="chip" data-filter="free" onclick="setFilter('free')">Free</button>
+<button class="chip" data-filter="wheelchair" onclick="setFilter('wheelchair')">♿ Wheelchair</button>
+<button class="chip" data-filter="indoor" onclick="setFilter('indoor')">Indoor</button>
+<button class="chip" data-filter="timings" onclick="setFilter('timings')">🕙 Daily opening timings</button>
+</div>
+<div class="refreshbar">
+<div class="refresh-info">
+<div><strong>Sources last checked successfully:</strong> <span id="srcSummary">Checking…</span></div>
+<details class="src-details"><summary>See the date for each source</summary><ul id="srcList"></ul></details>
+<div id="allFailed" class="warnbox hidden">⚠ The latest refresh could not read any source. The events below are the last known ones, with finished events removed.</div>
+<div><strong>Refreshed weekly</strong> · Events past their end date are removed automatically.</div>
+</div>
+</div>
+</section>
+
+<div class="notice"><b>Important:</b><br>
+To request for What’s On adhoc request, click <a class="btn primary" href="https://myai118.github.io/EverydayCompass/" style="margin:6px 4px;text-decoration:none">Everyday Compass</a> followed by &lt;Contact&gt; to submit request
+</div>
+
+<div class="section-head">
+<div><h2>⭐ Discover what's happening</h2><p>Understand the event at a glance before deciding where to go.</p></div>
+<div class="updated">Source priority: Official organiser websites</div>
+</div>
+
+<section id="timingsWrap" class="table-wrap" style="display:none" aria-label="Daily event opening timings">
+<p style="padding:12px">Published opening hours and session times for all current events. Hours may vary by day; check the official site before visiting.</p>
+<table><thead><tr><th>Event</th><th>Daily opening hours / sessions</th><th>Event dates</th><th>Venue</th><th>More</th></tr></thead>
+<tbody id="timingsBody"></tbody></table></section>
+<section id="cards" class="grid"></section>
+<section id="tableWrap" class="table-wrap">
+<table>
+<thead><tr><th>Event / Exhibition & Overview</th><th>Period</th><th>Time</th><th>Venue</th><th>Admission</th><th>Access</th><th>More</th></tr></thead>
+<tbody id="tableBody"></tbody>
+</table>
+</section>
+<div id="emptyState" class="empty hidden">No current events to show right now. Please check back after the next weekly refresh.</div>
+
+<p class="footer-note"><b>Information checked 23 Sep 2026.</b> Always use the “Official Information” button before travelling because organisers may change timings, prices or programmes.<br>Everyday Compass · Simple, useful information for everyday life in Singapore</p>
+<button class="settings-link" onclick="openSettings()">⚙ Source settings</button>
+</main>
+
+<!-- SETTINGS PANEL -->
+<div id="overlay" class="overlay hidden" onclick="if(event.target===this)closeSettings()">
+<div class="panel" role="dialog" aria-modal="true" aria-labelledby="setTitle">
+<h2 id="setTitle">Source settings</h2>
+<p class="sub">These are the websites the weekly update searches for events. Maximum 20. Only secure (https) web addresses are accepted.</p>
+<div><span class="src-count" id="srcCount"></span> <span id="srcOrigin" style="color:var(--muted);font-size:.85rem"></span></div>
+<div id="srcRows" style="margin-top:10px"></div>
+<div id="srcErrors" class="errors"></div>
+<div id="srcOk" class="okmsg"></div>
+<div class="panel-actions">
+<button class="btn secondary" id="addBtn" onclick="addRow()">+ Add source</button>
+<button class="btn primary" id="publishSourcesBtn" onclick="publishSources()">Publish source list</button>
+<button class="btn secondary" onclick="saveSources()">Save draft in this browser</button>
+<button class="btn outline" onclick="reloadPublishedSources()">Load published list</button>
+<button class="btn outline" onclick="downloadSources()">Download sources.json</button>
+<button class="btn outline" onclick="copySources()">Copy JSON</button>
+<button class="btn danger" onclick="resetSources()">Reset to the 8 defaults</button>
+<button class="btn outline" onclick="closeSettings()">Close</button>
+</div>
+<p class="sub" style="margin-top:12px"><b>To make the weekly update use your list:</b> download <code>sources.json</code> and upload it to the main folder of your GitHub repository (same place as <code>events.json</code>). Saving here only keeps a draft in this browser; it does not change the live website. Every refresh reads the current published file, including newly added enabled sites. Alternatively, use <b>Publish source list</b> with the token below to save directly to GitHub and start a refresh. Browser drafts must be published or uploaded before the refresh can use them.</p>
+
+<h3>🔄 Run What's On refresh</h3>
+<p class="sub">The refresh runs on GitHub (the same job that runs weekly). It looks for new events and removes finished ones, then updates the website. It can take a few minutes.</p>
+<div class="panel-actions" style="margin-top:0">
+<a class="btn primary" href="https://github.com/myai118/EverydayCompass/actions" target="_blank" rel="noopener">Open GitHub Actions ↗</a>
+<button class="btn outline" onclick="reloadEventsNow()">Reload events on this page</button>
+</div>
+<p class="sub" style="margin-top:8px">Simple way, no token: in GitHub Actions, click the refresh job on the left, then <b>Run workflow</b> → <b>Run workflow</b>.</p>
+<details style="margin-top:10px">
+<summary style="cursor:pointer;font-weight:800;color:var(--navy)">Publish sources or run a refresh (needs a GitHub token)</summary>
+<p class="sub" style="margin-top:8px">Create a “fine-grained personal access token” in GitHub for the <b>EverydayCompass</b> repository only, with <b>Contents: Read and write</b> to publish sources, and <b>Actions: Read and write</b> to start jobs manually, and a short expiry. Paste it below. It is used only for this visit, is never saved, and is cleared when you close this panel. Never put the token inside the html file.</p>
+<div class="panel-actions" style="margin-top:0">
+<input type="password" id="ghToken" autocomplete="off" placeholder="Paste GitHub token" aria-label="GitHub token" style="flex:1;min-width:200px;padding:9px 11px;border:1px solid var(--line);border-radius:11px">
+<button class="btn secondary" onclick="ghLoadWorkflows()">Load jobs</button>
+</div>
+<div class="panel-actions">
+<select id="ghWorkflow" aria-label="Refresh job" style="flex:1;min-width:200px;padding:9px 11px;border:1px solid var(--line);border-radius:11px"><option value="">— load jobs first —</option></select>
+<button class="btn primary" onclick="ghRun()">Run refresh now</button>
+<button class="btn outline" onclick="ghStatus()">Check latest run</button>
+</div>
+<div id="ghErr" class="errors"></div>
+<div id="ghOk" class="okmsg"></div>
+</details>
+
+<h3>🧪 Test the source dates</h3>
+<p class="sub">Shows how the “Sources last checked successfully” line will look once the new refresh has run. This uses made-up sample data.</p>
+<div class="panel-actions" style="margin-top:0">
+<button class="btn secondary" onclick="previewSampleSources();closeSettings()">Preview sample dates</button>
+<button class="btn secondary" onclick="previewAllFailed();closeSettings()">Preview “every source failed”</button>
+<button class="btn outline" onclick="reloadEventsNow();closeSettings()">Back to real data</button>
+</div>
+
+<h3>🧪 Test the expiry rule</h3>
+<p class="sub">Pretend today is a different date to see which events would be removed. Leave empty to use today’s real date (Singapore time).</p>
+<div class="panel-actions" style="margin-top:0">
+<input type="date" id="testDate" aria-label="Pretend today is">
+<button class="btn secondary" onclick="applyTestDate()">Apply</button>
+<button class="btn outline" onclick="clearTestDate()">Use real date</button>
+</div>
+<p class="sub" id="todayInfo" style="margin-top:10px"></p>
+<div style="overflow:auto"><table class="check-table"><thead><tr><th>Event</th><th>Period (as written)</th><th>End date used</th><th>Result</th></tr></thead><tbody id="checkBody"></tbody></table></div>
+</div>
+</div>
+
+<script>
+/* ---------- EVENT DATA (built-in copy of events.json dated 12 Oct 2026; used if events.json can't be loaded) ---------- */
+const events=[
+{title:"70 Years of RSP: Where Design Meets Humanity",category:"Exhibition · Architecture",overview:"Discover 70 years of Singapore architecture through RSP’s work, including 15 models of familiar projects such as Henderson Waves, Jewel Changi Airport and the Indoor Stadium, plus original drawings and design records.",why:"A free exhibition for anyone curious about how well-known Singapore buildings and public spaces were designed.",period:"12 Aug – 26 Oct 2026",time:"Mon–Sat · 9am – 5pm",venue:"The URA Centre · Level 1 Atrium, 45 Maxwell Road",mrt:"Maxwell MRT",duration:"45–60 min",adult:"Free",senior:"Free",child:"Free",status:"Ongoing",statusClass:"",tags:["ongoing","weekend","free","senior","wheelchair","indoor"],link:"https://www.ura.gov.sg/get-involved/events-and-exhibitions/rsp70-where-design-meets-humanity-sac/"},
+{title:"Bit Bit Forest Mid-Autumn Light Up!",category:"Festival · Light-up",overview:"Giant illuminated Bit Bit Forest bunny inflatables by Hong Kong-based Kau’s Diary transform the Singapore Chinese Cultural Centre Roof Garden and Concourse for Mid-Autumn.",why:"A free, easy-going evening stop for colourful photos and a festive atmosphere, especially if you are already visiting the cultural centre.",period:"11 Sep – 13 Dec 2026",time:"10am – 10pm",venue:"Singapore Chinese Cultural Centre · Roof Garden",mrt:"Tanjong Pagar MRT",duration:"30–60 min",adult:"Free",senior:"Free",child:"Free",status:"Ongoing",statusClass:"",tags:["ongoing","weekend","free","senior","wheelchair"],link:"https://singaporeccc.org.sg/events/bit-bit-forest-mid-autumn-light-up-maff-2026/"},
+{title:"Crossing Borders 2026",category:"Music · Free Performances",overview:"A month of free music and cultural performances from the Middle East, Asia, Europe and the Americas. The 26–27 September weekend includes Okinawan music, Korean dance, Latin American performances and Afro-Brazilian percussion.",why:"Good for a flexible weekend visit because you can choose from several free performances rather than committing to one long ticketed show.",period:"1 – 30 Sep 2026",time:"Various programme times",venue:"Esplanade – Theatres on the Bay",mrt:"Esplanade MRT",duration:"Varies",adult:"Free programmes",senior:"Free programmes",child:"Free programmes",status:"Ending Soon",statusClass:"ending",tags:["ongoing","weekend","ending","free","senior","wheelchair"],link:"https://www.esplanade.com/whats-on/festivals-and-series/crossing-borders/2026"},
+{title:"Into the Ocean: Journey Beneath",category:"Exhibition · Ocean & Science",overview:"A world-premiere ArtScience Museum exhibition with OceanX that takes visitors from sunlit surface waters into the deep ocean through footage, specimens, research and immersive displays.",why:"A strong indoor choice if you enjoy nature documentaries, marine life, science and immersive museum experiences.",period:"6 Jun – 1 Nov 2026",time:"9am – 6pm daily · last entry 5pm",venue:"ArtScience Museum · Basement 2 Galleries",mrt:"Bayfront MRT",duration:"60–90 min",adult:"SG resident from $19.50",senior:"Concession from $16.50*",child:"Concession from $16.50*",status:"Ongoing",statusClass:"",tags:["ongoing","weekend","senior","wheelchair","indoor"],link:"https://www.marinabaysands.com/museum/exhibitions/into-the-ocean.html"},
+{title:"Lai Foong Moi: Crossings",category:"Exhibition · Art & Singapore",overview:"See 1960s Singapore and Malaya through the paintings of Lai Foong Moi, with portraits, landscapes and everyday scenes exploring identity, social change and belonging.",why:"A quieter cultural outing for visitors interested in Singapore and Malayan social history seen through art.",period:"14 Aug 2026 – 3 Oct 2027",time:"Gallery opening hours",venue:"National Gallery Singapore · City Hall Wing, Level 2",mrt:"City Hall MRT",duration:"60–90 min",adult:"Local General Admission: Free",senior:"Local: Free · overseas senior 60+: $5 off standard",child:"Local: Free · age 7–12 overseas: $5 off; 6 & under free",status:"Ongoing",statusClass:"",tags:["ongoing","weekend","free","senior","wheelchair","nostalgia","indoor"],link:"https://www.nationalgallery.sg/sg/en/exhibitions/Lai-Foong-Moi-Crossings.html"},
+{title:"Mid-Autumn Festival 2026",category:"Festival · Lights",overview:"Gardens by the Bay lights up with lantern displays across Golden Garden, Dragonfly Lake, Supertree Grove and other areas, plus a marketplace, carnival activities and selected craft programmes.",why:"This is the final weekend, making it a timely choice for an evening outing with lanterns, food stalls and festive performances.",period:"12 – 27 Sep 2026",time:"6pm – 10pm",venue:"Gardens by the Bay · Multiple outdoor locations",mrt:"Gardens by the Bay MRT",duration:"1½–2 hr",adult:"Free festival admission*",senior:"Free festival admission*",child:"Free festival admission*",status:"Ending Soon",statusClass:"ending",tags:["ongoing","weekend","ending","free","senior","wheelchair"],link:"https://www.gardensbythebay.com.sg/en/things-to-do/calendar-of-events/mid-autumn-festival-2026.html"},
+{title:"Singapore TV: From Local to Global",category:"Exhibition · Nostalgia",overview:"A nostalgic journey through Singapore Chinese television dramas from the 1960s to today. Five themed zones feature original costumes, artefacts, photographs, magazines, recreated sets, multimedia and interactive experiences.",why:"A strong pick if you remember local Chinese dramas from the 1970s–1990s and want to revisit familiar programmes, stars, costumes and TV memories.",period:"9 Jul 2026 – 26 Jan 2027",time:"10am – 6pm",venue:"Singapore Chinese Cultural Centre · Creative Box, Level 6",mrt:"Tanjong Pagar MRT",duration:"60–90 min",adult:"Free",senior:"Free",child:"Free",status:"Ongoing",statusClass:"",tags:["ongoing","weekend","free","senior","wheelchair","nostalgia","indoor"],link:"https://singaporeccc.org.sg/events/singapore-tv-from-local-to-global-special-exhibition/"},
+{title:"Small Screen, Big Stories: Telemovies of the 1990s",category:"Screening · Nostalgia",overview:"Revisit classic made-for-TV movies that were a familiar Saturday-night feature in Singapore from 1994 to 1997. The 26 September screenings are When a Child Is Born and The Matchmaker’s Match.",why:"Ideal as a companion outing to the Singapore TV exhibition if you enjoy 1990s local television nostalgia.",period:"Selected Saturdays · 29 Aug 2026 – 10 Jan 2027",time:"2–3.30pm & 4.30–6pm",venue:"Singapore Chinese Cultural Centre · Recital Studio, Level 6",mrt:"Tanjong Pagar MRT",duration:"90 min per screening",adult:"$5 refundable fee",senior:"$5 refundable fee",child:"$5 refundable fee",status:"This Weekend",statusClass:"ending",tags:["ongoing","weekend","senior","wheelchair","nostalgia","indoor"],link:"https://singaporeccc.org.sg/events/small-screen-big-stories-telemovies-of-the-1990s/"},
+{title:"Tails from the Coasts: Nature Stories of Singapore",category:"Exhibition · Nature & Heritage",overview:"An exhibition at the National Museum exploring nature stories connected with Singapore’s coasts, adding an environmental perspective to the museum’s Singapore-focused displays.",why:"A free indoor option for Singapore Citizens and Permanent Residents that combines nature, local stories and museum time.",period:"26 Jun – 1 Nov 2026",time:"10am – 7pm daily",venue:"National Museum of Singapore",mrt:"Bencoolen / Bras Basah MRT",duration:"45–75 min",adult:"Free for Singapore Citizens & PRs",senior:"Free for Singapore Citizens & PRs",child:"Free for Singapore Citizens & PRs",status:"Ongoing",statusClass:"",tags:["ongoing","weekend","free","senior","wheelchair","indoor"],link:"https://www.nationalmuseum.nhb.gov.sg/whats-on/exhibition/exhibitions"},
+{title:"The Albatross File: Singapore’s Independence Declassified",category:"Permanent Exhibition · Singapore History",overview:"Go behind the scenes of Singapore’s merger and separation from Malaysia using newly declassified documents, oral-history accounts and material tracing the crucial years from 1963 to 1965.",why:"A substantial free history exhibition for visitors who want a deeper understanding of how independent Singapore came about.",period:"Permanent exhibition",time:"10am – 9pm · closed Public Holidays",venue:"National Library Building · Level 10",mrt:"Bugis / Bras Basah MRT",duration:"60–90 min",adult:"Free · booking required",senior:"Free · booking required",child:"Free · booking required",status:"Ongoing",statusClass:"",tags:["ongoing","weekend","free","senior","wheelchair","nostalgia","indoor"],link:"https://exhibitions.nlb.gov.sg/current-exhibitions/"}
+];
+
+/* ---------- EXPIRY RULE ----------
+   An event is dropped once today's date (Singapore time) is AFTER its end date.
+   End date = optional "end_date" (YYYY-MM-DD) field if the feed provides it,
+   otherwise the LAST date written in "period" (e.g. "12 Aug – 26 Oct 2026" -> 26 Oct 2026).
+   No date found (e.g. "Permanent exhibition") -> kept. */
+const MONTHS={jan:1,feb:2,mar:3,apr:4,may:5,jun:6,jul:7,aug:8,sep:9,oct:10,nov:11,dec:12};
+let testDate=null;
+function pad(n){return String(n).padStart(2,"0")}
+function todaySGT(){
+ if(testDate) return testDate;
+ return new Intl.DateTimeFormat("en-CA",{timeZone:"Asia/Singapore",year:"numeric",month:"2-digit",day:"2-digit"}).format(new Date());
+}
+function endDateOf(e){
+ if(e.end_date && /^\d{4}-\d{2}-\d{2}$/.test(e.end_date)) return e.end_date;
+ const re=/(\d{1,2})\s+(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\.?\s+(\d{4})/gi;
+ const all=[...String(e.period||"").matchAll(re)];
+ if(!all.length) return null;
+ const m=all[all.length-1];
+ return m[3]+"-"+pad(MONTHS[m[2].slice(0,3).toLowerCase()])+"-"+pad(+m[1]);
+}
+function isExpired(e){
+ const end=endDateOf(e);
+ return end!==null && end<todaySGT();   // ISO dates compare correctly as text
+}
+function currentEvents(){return events.filter(e=>!isExpired(e))}
+
+/* ---------- RENDERING ---------- */
+let activeFilter="all";
+function esc(s){return String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
+function eventCard(e){
+return `<article class="card event" data-tags="${e.tags.join(" ")}" data-search="${esc((e.title+" "+e.category+" "+e.overview+" "+e.venue).toLowerCase())}">
+<div class="card-body">
+<div class="topline"><div class="category">${e.category}</div><span class="status ${e.statusClass}">${e.status}</span></div>
+<h3>${e.title}</h3>
+<p class="overview">${e.overview}</p>
+<div class="why"><b>Why you may like this:</b> ${e.why}</div>
+<div class="meta">
+<div class="meta-item"><b>📅 Period</b>${e.period}</div>
+<div class="meta-item"><b>🕙 Time</b>${e.time}</div>
+<div class="meta-item"><b>📍 Venue</b>${e.venue}</div>
+<div class="meta-item"><b>🚇 Nearest MRT</b>${e.mrt}</div>
+<div class="meta-item"><b>⏱ Suggested visit</b>${e.duration}</div>
+<div class="meta-item"><b>♿ Accessibility</b>${e.tags.includes("wheelchair")?"Wheelchair-friendly":"Check venue"}</div>
+</div>
+<div class="prices">
+<span class="price"><b>Adult:</b> ${e.adult}</span>
+<span class="price"><b>Senior:</b> ${e.senior}</span>
+<span class="price"><b>Child:</b> ${e.child}</span>
+</div>
+<div class="tags">${e.tags.filter(x=>["free","nostalgia","indoor","wheelchair"].includes(x)).map(x=>`<span class="tag">${x==="wheelchair"?"♿ Wheelchair":x[0].toUpperCase()+x.slice(1)}</span>`).join("")}</div>
+</div>
+<div class="card-actions">
+<a class="btn primary" href="${e.link}" target="_blank" rel="noopener">Official Information ↗</a>
+<a class="btn secondary" href="https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(e.venue)}" target="_blank" rel="noopener">Directions</a>
+</div>
+</article>`;
+}
+function tableRow(e){
+return `<tr class="event" data-tags="${e.tags.join(" ")}" data-search="${esc((e.title+" "+e.category+" "+e.overview+" "+e.venue).toLowerCase())}">
+<td><b>${e.title}</b><br><span style="color:#617789">${e.overview}</span></td>
+<td>${e.period}</td><td>${e.time}</td><td>${e.venue}<br><small>${e.mrt}</small></td>
+<td>Adult: ${e.adult}<br>Senior: ${e.senior}<br>Child: ${e.child}</td>
+<td>${e.tags.includes("wheelchair")?"♿ Wheelchair-friendly":"Check venue"}</td>
+<td><a href="${e.link}" target="_blank" rel="noopener"><b>Official site ↗</b></a></td></tr>`;
+}
+function timingRow(e){
+ const published=String(e.time||"").trim();
+ const hours=!published||/^(check official information|check official site|tbc|tba|unknown|n\/a)$/i.test(published)
+  ?"Not available — check official site":published;
+ return `<tr class="event" data-tags="${esc((e.tags||[]).join(" "))}" data-search="${esc((e.title+" "+e.category+" "+e.overview+" "+e.venue).toLowerCase())}">
+<td><b>${esc(e.title||"")}</b></td><td>${esc(hours)}</td><td>${esc(e.period||"")}</td><td>${esc(e.venue||"")}</td>
+<td><a href="${esc(e.link||"#")}" target="_blank" rel="noopener"><b>Official site ↗</b></a></td></tr>`;
+}
+function render(){
+ const list=currentEvents();
+ document.getElementById("timingsBody").innerHTML=list.map(timingRow).join("");
+ document.getElementById("cards").innerHTML=list.map(eventCard).join("");
+ document.getElementById("tableBody").innerHTML=list.map(tableRow).join("");
+ document.getElementById("emptyState").classList.toggle("hidden",list.length>0);
+ applyFilters();
+ renderExpiryCheck();
+}
+function setFilter(f){
+ const wasTimings=activeFilter==="timings";
+ activeFilter=f;
+ if(f==="timings") setView("timings");
+ else if(wasTimings) setView("cards");
+ document.querySelectorAll(".chip").forEach(c=>c.classList.toggle("active",c.dataset.filter===f));
+ applyFilters();
+ document.querySelector(".quick").scrollIntoView({behavior:"smooth",block:"start"});
+}
+function applyFilters(){
+ const q=document.getElementById("search").value.trim().toLowerCase();
+ document.querySelectorAll(".event").forEach(el=>{
+  const tags=el.dataset.tags.split(" ");
+  const okF=activeFilter==="all"||activeFilter==="timings"||tags.includes(activeFilter);
+  const okS=!q||el.dataset.search.includes(q);
+  el.classList.toggle("hidden",!(okF&&okS));
+ });
+}
+function setView(v){
+ if(v!=="timings"&&activeFilter==="timings"){
+  activeFilter="all";
+  document.querySelectorAll(".chip").forEach(c=>c.classList.toggle("active",c.dataset.filter==="all"));
+  applyFilters();
+ }
+ document.getElementById("timingsWrap").style.display=v==="timings"?"block":"none";
+ const cards=v==="cards";
+ document.getElementById("cards").style.display=cards?"grid":"none";
+ document.getElementById("tableWrap").style.display=v==="table"?"block":"none";
+ document.getElementById("cardsBtn").classList.toggle("active",cards);
+ document.getElementById("tableBtn").classList.toggle("active",v==="table");
+}
+
+/* ---------- FEED / REFRESH DISPLAY ---------- */
+const EVENT_FEED_URL="./events.json";
+function formatSGT(iso){
+ try{return new Intl.DateTimeFormat("en-SG",{timeZone:"Asia/Singapore",day:"numeric",month:"short",year:"numeric",hour:"numeric",minute:"2-digit",hour12:true}).format(new Date(iso))+" SGT";}
+ catch(e){return iso;}
+}
+/* Per-source "last checked successfully" display. Uses feed.sources written by the new refresh script. */
+function renderSourceStatus(feed){
+ const sum=document.getElementById("srcSummary"), list=document.getElementById("srcList"), warn=document.getElementById("allFailed");
+ if(!sum||!list) return;
+ list.textContent=""; warn.classList.add("hidden");
+ if(!feed){sum.textContent="Checking…"; return;}
+ const rows=Array.isArray(feed.sources)?feed.sources:null;
+ if(!rows||!rows.length){
+  sum.textContent="Dates for each source will appear after the next refresh."+(feed.updated_at?" (Feed file saved "+formatSGT(feed.updated_at)+")":"");
+  return;
+ }
+ const okNow=rows.filter(r=>r.status==="ok").length;
+ sum.textContent=okNow+" of "+rows.length+" sources read successfully in the latest refresh.";
+ rows.forEach(r=>{
+  const li=document.createElement("li");
+  const nm=(typeof r.url==="string"&&/^https:\/\//.test(r.url))?document.createElement("a"):document.createElement("span");
+  nm.textContent=r.name||r.id||"Source";
+  if(nm.tagName==="A"){nm.href=r.url; nm.target="_blank"; nm.rel="noopener";}
+  const st=document.createElement("span");
+  if(r.status==="ok"){st.className="src-ok"; st.textContent=" ✓ checked "+formatSGT(r.last_success);}
+  else{st.className="src-warn"; st.textContent=" ⚠ could not be read this time · last successful check: "+(r.last_success?formatSGT(r.last_success):"none recorded yet");}
+  li.append(nm,st); list.append(li);
+ });
+ if(feed.all_sources_failed) warn.classList.remove("hidden");
+}
+const SAMPLE_FEED={updated_at:"2026-10-19T06:46:00+08:00",all_sources_failed:false,sources:[
+ {id:"sccc",name:"Singapore Chinese Cultural Centre",url:"https://singaporeccc.org.sg/events/",status:"ok",last_success:"2026-10-19T06:46:00+08:00"},
+ {id:"esplanade",name:"Esplanade",url:"https://www.esplanade.com/whats-on",status:"fallback",last_success:"2026-10-05T06:46:00+08:00"},
+ {id:"artscience",name:"ArtScience Museum",url:"https://www.marinabaysands.com/museum/whats-on.html",status:"fallback",last_success:null}]};
+function previewSampleSources(){renderSourceStatus(SAMPLE_FEED);}
+function previewAllFailed(){renderSourceStatus({...SAMPLE_FEED,all_sources_failed:true});}
+async function loadScheduledFeed(){
+ try{
+  const res=await fetch(EVENT_FEED_URL+"?t="+Date.now(),{cache:"no-store"});
+  if(!res.ok) throw new Error("No scheduled feed");
+  const feed=await res.json();
+  if(!feed||!Array.isArray(feed.events)) throw new Error("Invalid feed");
+  events.splice(0,events.length,...feed.events);
+  render();
+  renderSourceStatus(feed);
+ }catch(err){}
+}
+
+/* ---------- SOURCE SETTINGS ---------- */
+const MAX_SOURCES=20;
+const DEFAULT_SOURCES=[
+ {id:"sccc",name:"Singapore Chinese Cultural Centre",url:"https://singaporeccc.org.sg/events/",enabled:true},
+ {id:"gardens",name:"Gardens by the Bay",url:"https://www.gardensbythebay.com.sg/en/things-to-do/calendar-of-events.html",enabled:true},
+ {id:"esplanade",name:"Esplanade",url:"https://www.esplanade.com/whats-on",enabled:true},
+ {id:"national_museum",name:"National Museum of Singapore",url:"https://www.nationalmuseum.nhb.gov.sg/whats-on/exhibition/exhibitions",enabled:true},
+ {id:"national_gallery",name:"National Gallery Singapore",url:"https://www.nationalgallery.sg/sg/en/whats-on.html",enabled:true},
+ {id:"artscience",name:"ArtScience Museum",url:"https://www.marinabaysands.com/museum/whats-on.html",enabled:true},
+ {id:"ura",name:"Urban Redevelopment Authority",url:"https://www.ura.gov.sg/get-involved/events-and-exhibitions/",enabled:true},
+ {id:"nlb",name:"National Library Board",url:"https://exhibitions.nlb.gov.sg/current-exhibitions/",enabled:true}
+];
+const LS_KEY="ec_whatson_sources_v1";
+let sources=[];
+let sourceOrigin="";
+
+function lsGet(){try{return localStorage.getItem(LS_KEY)}catch(e){return null}}
+function lsSet(v){try{localStorage.setItem(LS_KEY,v);return true}catch(e){return false}}
+function lsDel(){try{localStorage.removeItem(LS_KEY)}catch(e){}}
+
+async function loadSources(){
+ const draft=lsGet();
+ if(draft){
+  try{const d=JSON.parse(draft); if(Array.isArray(d.sources)){sources=d.sources.slice(0,MAX_SOURCES); sourceOrigin="(draft saved in this browser)"; return;}}catch(e){}
+ }
+ try{
+  const res=await fetch("https://raw.githubusercontent.com/myai118/EverydayCompass/main/sources.json?t="+Date.now(),{cache:"no-store"});
+  if(res.ok){const d=await res.json(); if(Array.isArray(d.sources)){sources=d.sources.slice(0,MAX_SOURCES); sourceOrigin="(from sources.json)"; return;}}
+ }catch(e){}
+ sources=DEFAULT_SOURCES.map(s=>({...s})); sourceOrigin="(built-in defaults)";
+}
+async function reloadPublishedSources(){
+ if(!confirm("Discard your current edits and load the published source list?")) return;
+ try{
+  const r=await fetch("https://raw.githubusercontent.com/myai118/EverydayCompass/main/sources.json?t="+Date.now(),{cache:"no-store"});
+  if(!r.ok) throw new Error("HTTP "+r.status);
+  const data=await r.json();
+  if(!Array.isArray(data.sources)) throw new Error("Invalid source list");
+  sources=data.sources.slice(0,MAX_SOURCES); lsDel(); sourceOrigin="(published list)";
+  drawRows(); document.getElementById("srcErrors").textContent="";
+  document.getElementById("srcOk").textContent="Loaded the current published source list.";
+ }catch(e){document.getElementById("srcErrors").textContent="Could not load the published list. Your edits were kept.";}
+}
+function openSettings(){
+ document.getElementById("overlay").classList.remove("hidden");
+ document.getElementById("srcErrors").textContent=""; document.getElementById("srcOk").textContent="";
+ drawRows(); renderExpiryCheck();
+}
+function closeSettings(){document.getElementById("overlay").classList.add("hidden"); ghToken=""; const t=document.getElementById("ghToken"); if(t) t.value="";}
+function drawRows(){
+ const box=document.getElementById("srcRows"); box.textContent="";
+ sources.forEach((s,i)=>{
+  const row=document.createElement("div"); row.className="src-row";
+  const cb=document.createElement("input"); cb.type="checkbox"; cb.checked=s.enabled!==false; cb.title="Include this source"; cb.setAttribute("aria-label","Include source "+(i+1));
+  cb.onchange=()=>{sources[i].enabled=cb.checked};
+  const nm=document.createElement("input"); nm.type="text"; nm.maxLength=60; nm.value=s.name||""; nm.placeholder="Name"; nm.setAttribute("aria-label","Source name "+(i+1));
+  nm.oninput=()=>{sources[i].name=nm.value};
+  const ur=document.createElement("input"); ur.type="url"; ur.value=s.url||""; ur.placeholder="https://..."; ur.setAttribute("aria-label","Source web address "+(i+1));
+  ur.oninput=()=>{sources[i].url=ur.value; ur.classList.remove("bad")};
+  const del=document.createElement("button"); del.className="btn danger"; del.textContent="Remove"; del.onclick=()=>{sources.splice(i,1); drawRows()};
+  row.append(cb,nm,ur,del); box.append(row);
+ });
+ document.getElementById("srcCount").textContent=sources.length+" of "+MAX_SOURCES+" sources";
+ document.getElementById("srcOrigin").textContent=sourceOrigin;
+ document.getElementById("addBtn").disabled=sources.length>=MAX_SOURCES;
+}
+function addRow(){
+ if(sources.length>=MAX_SOURCES) return;
+ sources.push({id:"src"+Date.now().toString(36),name:"",url:"https://",enabled:true}); drawRows();
+}
+function slug(s,i){return (s.toLowerCase().replace(/[^a-z0-9]+/g,"_").replace(/^_|_$/g,"")||"src")+"_"+(i+1)}
+function validate(){
+ const errs=[], seen=new Set(); const rows=document.querySelectorAll("#srcRows .src-row");
+ sources.forEach((s,i)=>{
+  const label="Row "+(i+1)+": ";
+  const name=(s.name||"").trim(); let ok=true;
+  if(!name){errs.push(label+"name is empty."); ok=false;}
+  let u=null; try{u=new URL((s.url||"").trim())}catch(e){}
+  if(!u||u.protocol!=="https:"||!u.hostname.includes(".")){errs.push(label+"web address must be a full https:// address."); ok=false;}
+  else{ const key=u.href.replace(/\/$/,"").toLowerCase(); if(seen.has(key)){errs.push(label+"duplicate web address."); ok=false;} seen.add(key); }
+  if(!ok) rows[i].querySelector("input[type=url]").classList.add("bad");
+ });
+ return errs;
+}
+function cleanPayload(){
+ return {version:1,max_sources:MAX_SOURCES,sources:sources.map((s,i)=>({id:(s.id&&/^[a-z0-9_]+$/.test(s.id))?s.id:slug(s.name||"",i),name:(s.name||"").trim(),url:new URL((s.url||"").trim()).href,enabled:s.enabled!==false,...(s.listing_url?{listing_url:s.listing_url}:{})}))};
+}
+function saveSources(){
+ const errs=validate(), er=document.getElementById("srcErrors"), ok=document.getElementById("srcOk");
+ ok.textContent=""; er.textContent=errs.join("\n"); if(errs.length) return;
+ const p=cleanPayload();
+ if(lsSet(JSON.stringify(p))){sources=p.sources; sourceOrigin="(draft saved in this browser)"; drawRows(); ok.textContent="Draft saved in this browser. To use it for the weekly update, download sources.json and upload it to GitHub.";}
+ else er.textContent="Could not save in this browser (storage blocked). Use Download or Copy instead.";
+}
+
+async function publishSources(){
+ const er=document.getElementById("srcErrors"), ok=document.getElementById("srcOk");
+ const errs=validate(); er.textContent=errs.join("\n"); ok.textContent=""; if(errs.length) return;
+ if(!ghNeedToken()){
+  er.textContent="Open “Publish sources or run a refresh” below and enter a token with Contents: Read and write.";
+  document.getElementById("ghToken").closest("details").open=true;
+  document.getElementById("ghToken").focus(); return;
+ }
+ const payload=cleanPayload(), btn=document.getElementById("publishSourcesBtn");
+ btn.disabled=true; ok.textContent="Publishing source list…";
+ try{
+  const url="https://api.github.com/repos/"+GH_REPO+"/contents/sources.json";
+  const current=await fetch(url+"?ref="+encodeURIComponent(GH_REF),{headers:ghHeaders(false),cache:"no-store"});
+  if(!current.ok) throw new Error("Cannot read the current source list (HTTP "+current.status+").");
+  const file=await current.json();
+  const bytes=new TextEncoder().encode(JSON.stringify(payload,null,2)+"\n");
+  const content=btoa(Array.from(bytes,b=>String.fromCharCode(b)).join(""));
+  const saved=await fetch(url,{method:"PUT",headers:ghHeaders(true),body:JSON.stringify({
+   message:"Update What's On source settings",branch:GH_REF,sha:file.sha,content
+  })});
+  if(!saved.ok) throw new Error(saved.status===409||saved.status===422
+   ?"The source list changed while saving. Reload the published list before retrying."
+   :"Publishing failed (HTTP "+saved.status+"). Check Contents: Read and write permission on EverydayCompass.");
+  sources=payload.sources; lsDel(); sourceOrigin="(published to GitHub)"; drawRows();
+  ok.textContent="Source list published. A refresh starts automatically and will check every enabled site. See GitHub Actions for progress.";
+ }catch(e){ok.textContent="";er.textContent=e.message||"Publishing failed. Check your connection.";}
+ finally{btn.disabled=false;}
+}
+
+function downloadSources(){
+ const errs=validate(); document.getElementById("srcErrors").textContent=errs.join("\n"); if(errs.length) return;
+ const blob=new Blob([JSON.stringify(cleanPayload(),null,2)+"\n"],{type:"application/json"});
+ const a=document.createElement("a"); a.href=URL.createObjectURL(blob); a.download="sources.json"; document.body.appendChild(a); a.click(); a.remove(); setTimeout(()=>URL.revokeObjectURL(a.href),1000);
+ document.getElementById("srcOk").textContent="sources.json downloaded. Upload it to your GitHub repository to make it active.";
+}
+async function copySources(){
+ const errs=validate(); document.getElementById("srcErrors").textContent=errs.join("\n"); if(errs.length) return;
+ try{await navigator.clipboard.writeText(JSON.stringify(cleanPayload(),null,2)); document.getElementById("srcOk").textContent="JSON copied.";}
+ catch(e){document.getElementById("srcErrors").textContent="Copy was blocked by the browser. Use Download instead.";}
+}
+function resetSources(){
+ if(!confirm("Replace the list with the 8 default sources? Your saved draft in this browser will be cleared.")) return;
+ lsDel(); sources=DEFAULT_SOURCES.map(s=>({...s})); sourceOrigin="(built-in defaults)"; drawRows();
+ document.getElementById("srcErrors").textContent=""; document.getElementById("srcOk").textContent="Reset to defaults.";
+}
+
+/* ---------- EXPIRY TEST PANEL ---------- */
+function applyTestDate(){
+ const v=document.getElementById("testDate").value;
+ testDate=/^\d{4}-\d{2}-\d{2}$/.test(v)?v:null; render();
+}
+function clearTestDate(){document.getElementById("testDate").value=""; testDate=null; render();}
+function renderExpiryCheck(){
+ const body=document.getElementById("checkBody"); if(!body) return;
+ body.textContent="";
+ events.forEach(e=>{
+  const end=endDateOf(e), exp=isExpired(e), tr=document.createElement("tr");
+  [e.title,e.period,end||"none found (kept)"].forEach(t=>{const td=document.createElement("td"); td.textContent=t; tr.append(td)});
+  const r=document.createElement("td"); r.textContent=exp?"Dropped (ended)":"Kept"; r.className=exp?"dropped":"kept"; tr.append(r);
+  body.append(tr);
+ });
+ document.getElementById("todayInfo").textContent="Date used for the check: "+todaySGT()+(testDate?" (test date)":" (today, Singapore time)")+" · Showing "+currentEvents().length+" of "+events.length+" events.";
+}
+
+/* ---------- RUN REFRESH (GitHub Actions) ---------- */
+const GH_REPO="myai118/EverydayCompass", GH_REF="main";
+let ghToken="";
+function ghHeaders(json){
+ const h={"Accept":"application/vnd.github+json","Authorization":"Bearer "+ghToken,"X-GitHub-Api-Version":"2022-11-28"};
+ if(json) h["Content-Type"]="application/json"; return h;
+}
+function ghMsg(ok,err){document.getElementById("ghOk").textContent=ok||"";document.getElementById("ghErr").textContent=err||"";}
+function ghHttpError(status){
+ if(status===401) return "GitHub did not accept the token (wrong, expired or revoked). Create a new one.";
+ if(status===403) return "The token is not allowed to do this. It needs “Actions: Read and write” on the EverydayCompass repository.";
+ if(status===404) return "GitHub could not find the repository or job. Check the token is for EverydayCompass.";
+ if(status===422) return "This job cannot be started by hand (it has no manual “workflow_dispatch” trigger).";
+ return "GitHub replied with error "+status+".";
+}
+function ghNeedToken(){
+ const v=document.getElementById("ghToken").value.trim();
+ if(v) ghToken=v;
+ if(!ghToken){ghMsg("","Paste your GitHub token first.");return false;}
+ return true;
+}
+async function ghLoadWorkflows(){
+ if(!ghNeedToken()) return; ghMsg("Loading jobs…","");
+ try{
+  const r=await fetch("https://api.github.com/repos/"+GH_REPO+"/actions/workflows",{headers:ghHeaders(false)});
+  if(!r.ok){ghMsg("",ghHttpError(r.status));return;}
+  const d=await r.json(), sel=document.getElementById("ghWorkflow"); sel.textContent="";
+  const list=(d.workflows||[]).filter(w=>w.state==="active");
+  if(!list.length){ghMsg("","No active jobs found in the repository.");return;}
+  list.forEach(w=>{const o=document.createElement("option"); o.value=w.id; o.textContent=w.name+" ("+w.path+")"; sel.append(o);});
+  ghMsg("Found "+list.length+" job(s). Choose the one that refreshes What's On / news, then press Run.","");
+ }catch(e){ghMsg("","Could not reach GitHub. Check your internet connection.");}
+}
+async function ghRun(){
+ if(!ghNeedToken()) return;
+ const sel=document.getElementById("ghWorkflow"), id=sel.value;
+ if(!id){ghMsg("","Press “Load jobs” and choose a job first.");return;}
+ if(!confirm("Run “"+sel.options[sel.selectedIndex].text+"” now? This updates your live website.")) return;
+ ghMsg("Starting…","");
+ try{
+  const r=await fetch("https://api.github.com/repos/"+GH_REPO+"/actions/workflows/"+encodeURIComponent(id)+"/dispatches",{method:"POST",headers:ghHeaders(true),body:JSON.stringify({ref:GH_REF})});
+  if(r.status===204){ghMsg("Refresh started. Checking its status in a few seconds…",""); setTimeout(ghStatus,6000);}
+  else ghMsg("",ghHttpError(r.status));
+ }catch(e){ghMsg("","Could not reach GitHub. Check your internet connection.");}
+}
+async function ghStatus(){
+ if(!ghNeedToken()) return;
+ const id=document.getElementById("ghWorkflow").value;
+ if(!id){ghMsg("","Press “Load jobs” and choose a job first.");return;}
+ try{
+  const r=await fetch("https://api.github.com/repos/"+GH_REPO+"/actions/workflows/"+encodeURIComponent(id)+"/runs?per_page=1",{headers:ghHeaders(false)});
+  if(!r.ok){ghMsg("",ghHttpError(r.status));return;}
+  const d=await r.json(), run=(d.workflow_runs||[])[0];
+  if(!run){ghMsg("No runs found yet.","");return;}
+  const state=run.status==="completed"?("finished – "+(run.conclusion||"unknown")):run.status;
+  ghMsg("Latest run: "+state+" · started "+formatSGT(run.created_at)+". When it finishes, wait a minute or two for the website to update, then press “Reload events on this page”.  Details: "+run.html_url,"");
+ }catch(e){ghMsg("","Could not reach GitHub. Check your internet connection.");}
+}
+async function reloadEventsNow(){renderSourceStatus(null); await loadScheduledFeed(); renderExpiryCheck(); ghMsg("Events reloaded from events.json on the website.","");}
+
+/* ---------- START ---------- */
+document.addEventListener("keydown",e=>{if(e.key==="Escape") closeSettings()});
+render();
+renderSourceStatus(null);
+loadSources();
+loadScheduledFeed();
+</script>
+</body>
+</html>
