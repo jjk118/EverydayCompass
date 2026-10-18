@@ -3,7 +3,7 @@
     {
       "title": "Singapore haze: Air quality remains very unhealthy in west, unhealthy in other regions",
       "url": "https://www.channelnewsasia.com/singapore/haze-oct-18-psi-west-remains-very-unhealthy-6468376",
-      "summary": "At 9am, the 24-hour PSI in the west stood at 229.",
+      "summary": "At 10am, the 24-hour PSI in the west hit 230 – a new high for the country this year.",
       "source": "CNA",
       "published": "Sun, 18 Oct 2026 07:22:00 +0800"
     },
@@ -78,13 +78,6 @@
       "published": "Sat, 17 Oct 2026 07:09:00 +0800"
     },
     {
-      "title": "Snap Insight: Protecting Singapore’s outdoor workers from haze is easier said than done",
-      "url": "https://www.channelnewsasia.com/commentary/haze-outdoor-worker-platform-mask-snap-insight-6466426",
-      "summary": "Financial pressures make reducing haze exposure difficult for Singapore's outdoor workers, says Olivia Jensen of NUS’ Institute for the Public Understanding of Risk.",
-      "source": "CNA",
-      "published": "Sat, 17 Oct 2026 06:00:00 +0800"
-    },
-    {
       "title": "Some Singapore pilgrims press ahead with Umrah plans despite advisory, others face cancellations",
       "url": "https://www.channelnewsasia.com/singapore/singapore-pilgrims-umrah-mfa-muis-advisory-saudi-arabia-6465391",
       "summary": "The Ministry of Foreign Affairs advised Singaporeans to defer all travel to Saudi Arabia amid heightened security risks.",
@@ -99,6 +92,13 @@
       "published": "Sat, 17 Oct 2026 06:00:00 +0800"
     },
     {
+      "title": "Snap Insight: Protecting Singapore’s outdoor workers from haze is easier said than done",
+      "url": "https://www.channelnewsasia.com/commentary/haze-outdoor-worker-platform-mask-snap-insight-6466426",
+      "summary": "Financial pressures make reducing haze exposure difficult for Singapore's outdoor workers, says Olivia Jensen of NUS’ Institute for the Public Understanding of Risk.",
+      "source": "CNA",
+      "published": "Sat, 17 Oct 2026 06:00:00 +0800"
+    },
+    {
       "title": "Singapore-listed Kencana Agri facing inquiry in Indonesia over suspected land clearing by burning",
       "url": "https://www.channelnewsasia.com/singapore/forest-fire-haze-sgx-listed-kencana-inquiry-indonesia-6466396",
       "summary": "Several firms listed on the Singapore Exchange (SGX) on Friday (Oct 16) distanced themselves from the fires and haze.",
@@ -107,6 +107,13 @@
     }
   ],
   "world": [
+    {
+      "title": "Western brands under pressure as 'pre-owned' luxury booms in China",
+      "url": "https://www.channelnewsasia.com/east-asia/western-brands-under-pressure-pre-owned-luxury-booms-in-china-6469201",
+      "summary": "French luxury house Louis Vuitton has closed five stores in mainland China in the past two years - including a chocolate boutique in Shanghai - while Parisian department store Galeries Lafayette shut its Beijing flagship in May.",
+      "source": "CNA",
+      "published": "Sun, 18 Oct 2026 11:40:00 +0800"
+    },
     {
       "title": "I visited Salzburg's new Sound Of Music museum and cycled on a bike named Julie Andrews",
       "url": "https://www.channelnewsasia.com/travel/sound-music-museum-salzburg-austria-6441126",
@@ -124,9 +131,9 @@
     {
       "title": "Israeli settlers attack European diplomats, beat French mayor",
       "url": "https://www.channelnewsasia.com/world/israeli-settlers-attack-european-diplomats-beat-french-mayor-6469036",
-      "summary": "The West Bank violence has shocked much of the world, with Britain spearheading economic sanctions that in turn led Israel to close the British consulate in Jerusalem.",
+      "summary": "The attack came just a day after Israeli settlers beat up an American photographer for The Washington Post, leaving her with broken vertebrae.",
       "source": "CNA",
-      "published": "Sun, 18 Oct 2026 05:37:56 +0800"
+      "published": "Sun, 18 Oct 2026 05:37:00 +0800"
     },
     {
       "title": "Kenya confirms four new Ebola cases, bringing total number to seven",
@@ -152,7 +159,7 @@
     {
       "title": "Mass protests in France spiral into worst riots in years",
       "url": "https://www.channelnewsasia.com/world/mass-protests-in-france-spiral-worst-riots-in-years-6468581",
-      "summary": "The protests in France began last ‌month at high schools in Paris' poor northern suburbs, where anger over teacher shortages and shabby facilities evolved into a broader movement focused on inequality, public spending and living standards.",
+      "summary": "French Prime Minister Sebastien Lecornu blamed the unrest on the \"ultra-left\" and criminals.",
       "source": "CNA",
       "published": "Sun, 18 Oct 2026 02:03:00 +0800"
     },
@@ -204,15 +211,8 @@
       "summary": "US President Donald Trump told the new White House press secretary Katie Zacharia to “reconsider” her job just days after her first press briefing faced criticism.",
       "source": "CNA",
       "published": "Sat, 17 Oct 2026 02:25:00 +0800"
-    },
-    {
-      "title": "Saudi-led coalition says intercepts missiles, drones over Riyadh, other areas",
-      "url": "https://www.channelnewsasia.com/world/saudi-arabia-houthi-attacks-riyadh-missiles-6467001",
-      "summary": "The UN Security Council “condemned in the strongest terms continued and escalatory Houthi attacks against the Kingdom of Saudi Arabia” and criticised attacks on commercial shipping in the Red Sea.",
-      "source": "CNA",
-      "published": "Sat, 17 Oct 2026 02:14:31 +0800"
     }
   ],
-  "generated_at": "2026-10-18T10:07:44+08:00",
+  "generated_at": "2026-10-18T13:04:53+08:00",
   "test_mode": false
 }
