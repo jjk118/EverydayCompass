@@ -1,18 +1,25 @@
 {
   "singapore": [
     {
+      "title": "Singapore haze: Air quality remains very unhealthy in west, unhealthy in other regions",
+      "url": "https://www.channelnewsasia.com/singapore/haze-oct-18-psi-west-remains-very-unhealthy-6468376",
+      "summary": "At 9am, the 24-hour PSI in the west stood at 229.",
+      "source": "CNA",
+      "published": "Sun, 18 Oct 2026 07:22:00 +0800"
+    },
+    {
       "title": "BigBang XX: Cosmos in Singapore – a triumphant return for the K-pop legends",
       "url": "https://www.channelnewsasia.com/entertainment/bigbang-singapore-2026-concert-review-6468981",
       "summary": "BigBang staged their first concert in Singapore in a decade on Saturday (Oct 17). Here’s how it went down.",
       "source": "CNA",
-      "published": "Sun, 18 Oct 2026 06:56:54 +0800"
+      "published": "Sun, 18 Oct 2026 06:56:00 +0800"
     },
     {
       "title": "Rival ports 'fast catching up': SM Lee warns against complacency, says port workers must not face shift alone",
       "url": "https://www.channelnewsasia.com/singapore/singapore-port-workers-union-technology-lee-hsien-loong-6468356",
       "summary": "Senior Minister Lee Hsien Loong also highlighted the importance of strong tripartism to enable PSA's management team, the unions and the workers to work together in a \"relationship of trust\" to build a \"disciplined and skilled workforce\".",
       "source": "CNA",
-      "published": "Sun, 18 Oct 2026 06:48:22 +0800"
+      "published": "Sun, 18 Oct 2026 06:48:00 +0800"
     },
     {
       "title": "These marathon runners will give up their personal best to save a life",
@@ -97,13 +104,6 @@
       "summary": "Several firms listed on the Singapore Exchange (SGX) on Friday (Oct 16) distanced themselves from the fires and haze.",
       "source": "CNA",
       "published": "Fri, 16 Oct 2026 23:02:00 +0800"
-    },
-    {
-      "title": "Great Eastern Women’s Run cancelled due to worsening haze",
-      "url": "https://www.channelnewsasia.com/singapore/great-eastern-womens-run-cancelled-haze-air-quality-6466311",
-      "summary": "The decision to cancel the run, scheduled for Nov 1, was made to safeguard the health of participants, staff and volunteers, the event organiser said.",
-      "source": "CNA",
-      "published": "Fri, 16 Oct 2026 21:50:00 +0800"
     }
   ],
   "world": [
@@ -213,6 +213,6 @@
       "published": "Sat, 17 Oct 2026 02:14:31 +0800"
     }
   ],
-  "generated_at": "2026-10-18T06:59:22+08:00",
+  "generated_at": "2026-10-18T09:17:23+08:00",
   "test_mode": false
 }
