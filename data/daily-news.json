@@ -1,9 +1,16 @@
 {
   "singapore": [
     {
-      "title": "Singapore haze: Air quality remains very unhealthy in west, unhealthy in other regions",
+      "title": "Haze disrupts daily routines, hits businesses in Singapore's west as PSI reaches very unhealthy level",
+      "url": "https://www.channelnewsasia.com/singapore/haze-western-region-daily-routines-psi-businesses-6469406",
+      "summary": "Singapore's west has seen some of the highest haze readings in recent days, but experts say this may not continue as the situation remains dynamic.",
+      "source": "CNA",
+      "published": "Sun, 18 Oct 2026 17:17:00 +0800"
+    },
+    {
+      "title": "Singapore haze: Air quality unhealthy in all regions",
       "url": "https://www.channelnewsasia.com/singapore/haze-oct-18-psi-west-remains-very-unhealthy-6468376",
-      "summary": "At 10am, the 24-hour PSI in the west hit 230 – a new high for the country this year.",
+      "summary": "At 10am, the 24-hour PSI in the west had hit 230 – a new high for the country this year.",
       "source": "CNA",
       "published": "Sun, 18 Oct 2026 07:22:00 +0800"
     },
@@ -78,9 +85,9 @@
       "published": "Sat, 17 Oct 2026 07:09:00 +0800"
     },
     {
-      "title": "Some Singapore pilgrims press ahead with Umrah plans despite advisory, others face cancellations",
-      "url": "https://www.channelnewsasia.com/singapore/singapore-pilgrims-umrah-mfa-muis-advisory-saudi-arabia-6465391",
-      "summary": "The Ministry of Foreign Affairs advised Singaporeans to defer all travel to Saudi Arabia amid heightened security risks.",
+      "title": "Snap Insight: Protecting Singapore’s outdoor workers from haze is easier said than done",
+      "url": "https://www.channelnewsasia.com/commentary/haze-outdoor-worker-platform-mask-snap-insight-6466426",
+      "summary": "Financial pressures make reducing haze exposure difficult for Singapore's outdoor workers, says Olivia Jensen of NUS’ Institute for the Public Understanding of Risk.",
       "source": "CNA",
       "published": "Sat, 17 Oct 2026 06:00:00 +0800"
     },
@@ -92,21 +99,35 @@
       "published": "Sat, 17 Oct 2026 06:00:00 +0800"
     },
     {
-      "title": "Snap Insight: Protecting Singapore’s outdoor workers from haze is easier said than done",
-      "url": "https://www.channelnewsasia.com/commentary/haze-outdoor-worker-platform-mask-snap-insight-6466426",
-      "summary": "Financial pressures make reducing haze exposure difficult for Singapore's outdoor workers, says Olivia Jensen of NUS’ Institute for the Public Understanding of Risk.",
+      "title": "Some Singapore pilgrims press ahead with Umrah plans despite advisory, others face cancellations",
+      "url": "https://www.channelnewsasia.com/singapore/singapore-pilgrims-umrah-mfa-muis-advisory-saudi-arabia-6465391",
+      "summary": "The Ministry of Foreign Affairs advised Singaporeans to defer all travel to Saudi Arabia amid heightened security risks.",
       "source": "CNA",
       "published": "Sat, 17 Oct 2026 06:00:00 +0800"
-    },
-    {
-      "title": "Singapore-listed Kencana Agri facing inquiry in Indonesia over suspected land clearing by burning",
-      "url": "https://www.channelnewsasia.com/singapore/forest-fire-haze-sgx-listed-kencana-inquiry-indonesia-6466396",
-      "summary": "Several firms listed on the Singapore Exchange (SGX) on Friday (Oct 16) distanced themselves from the fires and haze.",
-      "source": "CNA",
-      "published": "Fri, 16 Oct 2026 23:02:00 +0800"
     }
   ],
   "world": [
+    {
+      "title": "'Record' 855 people arrested over Paris protest violence",
+      "url": "https://www.channelnewsasia.com/world/france-paris-protest-violence-people-arrested-police-6469426",
+      "summary": "",
+      "source": "CNA",
+      "published": "Sun, 18 Oct 2026 17:45:00 +0800"
+    },
+    {
+      "title": "Japan to launch historic round-trip mission to Mars moon",
+      "url": "https://www.channelnewsasia.com/east-asia/japan-launch-historic-round-trip-mission-mars-moon-6469436",
+      "summary": "The flagship H3 rocket carrying the MMX is set to blast off from the Tanegashima Space Center on Tuesday (Oct 20) at 4.41am.",
+      "source": "CNA",
+      "published": "Sun, 18 Oct 2026 17:20:00 +0800"
+    },
+    {
+      "title": "Saudi landmark closes offices, chopper pilots killed near Yemen",
+      "url": "https://www.channelnewsasia.com/world/saudi-arabia-helicopter-crash-houthis-yemen-6469396",
+      "summary": "",
+      "source": "CNA",
+      "published": "Sun, 18 Oct 2026 16:14:00 +0800"
+    },
     {
       "title": "Vietnam signs free trade deal with four European nations",
       "url": "https://www.channelnewsasia.com/asia/vietnam-signs-free-trade-deal-four-european-nations-6469346",
@@ -138,7 +159,7 @@
     {
       "title": "Israeli settlers attack European diplomats, beat French mayor",
       "url": "https://www.channelnewsasia.com/world/israeli-settlers-attack-european-diplomats-beat-french-mayor-6469036",
-      "summary": "The attack came just a day after Israeli settlers beat up an American photographer for The Washington Post, leaving her with broken vertebrae.",
+      "summary": "The attack came a day after Israeli settlers beat up an American photographer for The Washington Post, leaving her with broken vertebrae.",
       "source": "CNA",
       "published": "Sun, 18 Oct 2026 05:37:00 +0800"
     },
@@ -190,29 +211,8 @@
       "summary": "The Bill would reportedly let the government block a model's release or use only if it poses a foreseeable, imminent risk of more than US$1 billion in damages, or of killing or seriously injuring more than 50 people.",
       "source": "CNA",
       "published": "Sat, 17 Oct 2026 06:37:00 +0800"
-    },
-    {
-      "title": "Iran denies Saudi accusation of involvement in Houthi attacks",
-      "url": "https://www.channelnewsasia.com/world/iran-denies-houthi-attacks-saudi-arabia-6467476",
-      "summary": "",
-      "source": "CNA",
-      "published": "Sat, 17 Oct 2026 05:48:00 +0800"
-    },
-    {
-      "title": "Trump says did not order curb to Starshield for Ukraine",
-      "url": "https://www.channelnewsasia.com/world/trump-starshield-ukraine-zelenskyy-musk-6467441",
-      "summary": "Ukrainian President Volodymyr Zelenskyy said the service was being restored after the White House reportedly asked SpaceX to reinstate it.",
-      "source": "CNA",
-      "published": "Sat, 17 Oct 2026 04:49:05 +0800"
-    },
-    {
-      "title": "Trump says armed bystander who killed US school shooter a 'great hero'",
-      "url": "https://www.channelnewsasia.com/world/trump-great-hero-oregon-school-shooting-6467381",
-      "summary": "US President Donald Trump praised an armed bystander as a “great hero” for killing a teenage gunman who shot dead three children and a teacher at an Oregon elementary school.",
-      "source": "CNA",
-      "published": "Sat, 17 Oct 2026 03:44:54 +0800"
     }
   ],
-  "generated_at": "2026-10-18T16:04:34+08:00",
+  "generated_at": "2026-10-18T19:05:21+08:00",
   "test_mode": false
 }
