@@ -8,9 +8,9 @@
       "published": "Sun, 18 Oct 2026 17:17:00 +0800"
     },
     {
-      "title": "Singapore haze: Air quality unhealthy in all regions",
+      "title": "Singapore haze: Air quality expected to remain unhealthy on Monday",
       "url": "https://www.channelnewsasia.com/singapore/haze-oct-18-psi-west-remains-very-unhealthy-6468376",
-      "summary": "At 10am, the 24-hour PSI in the west had hit 230 – a new high for the country this year.",
+      "summary": "The 24-hour PSI is forecast to range from 101 to 190 on Monday (Oct 19), said the National Environment Agency.",
       "source": "CNA",
       "published": "Sun, 18 Oct 2026 07:22:00 +0800"
     },
@@ -108,9 +108,16 @@
   ],
   "world": [
     {
-      "title": "'Record' 855 people arrested over Paris protest violence",
+      "title": "Pope Leo pledges gradual return to duties in first event since cancer surgery",
+      "url": "https://www.channelnewsasia.com/world/pope-leo-gradually-resume-duties-vatican-cancer-surgery-6469501",
+      "summary": "Pope Leo's surgeon said the pontiff was in \"absolutely satisfactory clinical condition\", estimating another ten days before he was fully recovered.",
+      "source": "CNA",
+      "published": "Sun, 18 Oct 2026 19:20:00 +0800"
+    },
+    {
+      "title": "'Like we had a war': France counts cost of violent protests",
       "url": "https://www.channelnewsasia.com/world/france-paris-protest-violence-people-arrested-police-6469426",
-      "summary": "",
+      "summary": "Paris, and many other French cities, experienced clashes between police and protesters, multiple street blazes and widespread looting on Saturday (Oct 17).",
       "source": "CNA",
       "published": "Sun, 18 Oct 2026 17:45:00 +0800"
     },
@@ -124,7 +131,7 @@
     {
       "title": "Saudi landmark closes offices, chopper pilots killed near Yemen",
       "url": "https://www.channelnewsasia.com/world/saudi-arabia-helicopter-crash-houthis-yemen-6469396",
-      "summary": "",
+      "summary": "Riyadh's Kingdom Centre skyscraper on Sunday (Oct 18) ordered remote work for office tenants until further notice following repeated Houthi attacks on Saudi Arabia.",
       "source": "CNA",
       "published": "Sun, 18 Oct 2026 16:14:00 +0800"
     },
@@ -204,15 +211,8 @@
       "summary": "US President Donald Trump's reversal on the Russia sanctions comes after he struck a deal with Russia President Vlamidir Putin to ease sanctions on Russia in exchange for Moscow releasing large amounts of diesel into global markets.",
       "source": "CNA",
       "published": "Sat, 17 Oct 2026 13:27:00 +0800"
-    },
-    {
-      "title": "Anthropic quietly pitches its own AI safety Bill to US lawmakers",
-      "url": "https://www.channelnewsasia.com/business/anthropic-quietly-pitches-its-own-ai-safety-bill-us-lawmakers-6467581",
-      "summary": "The Bill would reportedly let the government block a model's release or use only if it poses a foreseeable, imminent risk of more than US$1 billion in damages, or of killing or seriously injuring more than 50 people.",
-      "source": "CNA",
-      "published": "Sat, 17 Oct 2026 06:37:00 +0800"
     }
   ],
-  "generated_at": "2026-10-18T19:05:21+08:00",
+  "generated_at": "2026-10-18T21:15:22+08:00",
   "test_mode": false
 }
