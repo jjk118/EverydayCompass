@@ -110,7 +110,10 @@ td{font-size:.9rem}
 .src-row input[type=url]{grid-column:1 / -1}
 }
 </style>
-</head>
+<style>
+.timing-sort{font:inherit;font-weight:inherit;color:inherit;background:transparent;border:0;padding:8px 0;cursor:pointer;text-align:left;display:inline-flex;align-items:center;gap:8px;min-height:44px}
+.timing-sort:hover{text-decoration:underline}.timing-sort:focus-visible{outline:3px solid #f2b52b;outline-offset:3px}.sort-arrow{white-space:nowrap}
+</style></head>
 <body>
 <header class="hero">
 <div class="wrap">
@@ -165,8 +168,8 @@ To request for What’s On adhoc request, click <a class="btn primary" href="htt
 </div>
 
 <section id="timingsWrap" class="table-wrap" style="display:none" aria-label="Daily event opening timings">
-<p style="padding:12px">Published opening hours and session times for all current events. Hours may vary by day; check the official site before visiting.</p>
-<table><thead><tr><th>Event</th><th>Daily opening hours / sessions</th><th>Event dates</th><th>Venue</th><th>More</th></tr></thead>
+<p style="padding:12px">Published opening hours and session times for all current events. Hours may vary by day; check the official site before visiting. Click a column heading to reverse the order: earliest opening/session time, event start date, or venue A–Z. Unspecified times and dates stay at the bottom.</p>
+<table><thead><tr><th>Event</th><th scope="col" data-timing-sort="time" aria-sort="none"><button type="button" class="timing-sort" onclick="sortTimings('time')">Daily opening hours / sessions <span class="sort-arrow" aria-hidden="true">↕</span></button></th><th scope="col" data-timing-sort="period" aria-sort="none"><button type="button" class="timing-sort" onclick="sortTimings('period')">Event dates <span class="sort-arrow" aria-hidden="true">↕</span></button></th><th scope="col" data-timing-sort="venue" aria-sort="none"><button type="button" class="timing-sort" onclick="sortTimings('venue')">Venue <span class="sort-arrow" aria-hidden="true">↕</span></button></th><th>More</th></tr></thead>
 <tbody id="timingsBody"></tbody></table></section>
 <section id="cards" class="grid"></section>
 <section id="tableWrap" class="table-wrap">
@@ -333,9 +336,70 @@ function timingRow(e){
 <td><b>${esc(e.title||"")}</b></td><td>${esc(hours)}</td><td>${esc(e.period||"")}</td><td>${esc(e.venue||"")}</td>
 <td><a href="${esc(e.link||"#")}" target="_blank" rel="noopener"><b>Official site ↗</b></a></td></tr>`;
 }
+/* ---------- DAILY TIMINGS SORT ---------- */
+let timingSort={key:null,direction:1};
+function openingMinutes(text){
+ const source=String(text||'').split(/last\s+(?:entry|admission)/i)[0];
+ const tokens=[...source.matchAll(/\b(\d{1,2})(?:[:.](\d{2}))?\s*(am|pm)?\b/gi)];
+ const times=[];
+ for(let i=0;i<tokens.length;i++){
+  const t=tokens[i];let meridian=t[3];
+  // In "2–3.30pm", the first time shares the next time's am/pm.
+  if(!meridian&&tokens[i+1]&&/^\s*[-–—]\s*$/.test(source.slice(t.index+t[0].length,tokens[i+1].index))) meridian=tokens[i+1][3];
+  const h=Number(t[1]),m=Number(t[2]||0);
+  if(!meridian||h<1||h>12||m>59)continue;
+  times.push((h%12)+(meridian.toLowerCase()==='pm'?12:0));
+  times[times.length-1]=times[times.length-1]*60+m;
+ }
+ return times.length?Math.min(...times):null;
+}
+function eventStartKey(e){
+ if(/^\d{4}-\d{2}-\d{2}$/.test(e.start_date||''))return e.start_date;
+ const p=String(e.period||'');
+ const iso=p.match(/\b\d{4}-\d{2}-\d{2}\b/);if(iso)return iso[0];
+ const year=p.match(/\b(?:19|20)\d{2}\b/);if(!year)return null;
+ const dayFirst=p.match(/\b(\d{1,2})\s+(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\.?\s*(\d{4})?/i);
+ const monthFirst=p.match(/\b(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\.?\s+(\d{1,2}),?\s+(\d{4})/i);
+ let d,m,y;
+ if(monthFirst&&(!dayFirst||monthFirst.index<dayFirst.index)){
+  [,m,d,y]=monthFirst;
+ }else if(dayFirst){
+  [,d,m,y]=dayFirst;y=y||year[0];
+  // A shared month/year: "16–18 Oct 2026" or "21 & 22 Nov 2026".
+  const prefix=p.slice(0,dayFirst.index);
+  const shared=prefix.match(/\b(\d{1,2})\s*[-–—&]\s*$/);if(shared)d=shared[1];
+ }else return null;
+ const month=MONTHS[m.slice(0,3).toLowerCase()];
+ return y+'-'+pad(month)+'-'+pad(Number(d));
+}
+function sortedTimingEvents(list){
+ if(!timingSort.key)return list;
+ const key=timingSort.key,dir=timingSort.direction;
+ const value=e=>key==='time'?openingMinutes(e.time):key==='period'?eventStartKey(e):(String(e.venue||'').trim()||null);
+ return list.map((event,index)=>({event,index,value:value(event)})).sort((a,b)=>{
+  if(a.value===null||b.value===null)return a.value===b.value?a.index-b.index:a.value===null?1:-1;
+  const c=typeof a.value==='number'?a.value-b.value:String(a.value).localeCompare(String(b.value),'en',{numeric:true,sensitivity:'base'});
+  return c*dir||a.index-b.index;
+ }).map(x=>x.event);
+}
+function renderTimings(list){
+ document.getElementById('timingsBody').innerHTML=sortedTimingEvents(list).map(timingRow).join('');
+ document.querySelectorAll('[data-timing-sort]').forEach(th=>{
+  const active=th.dataset.timingSort===timingSort.key;
+  th.setAttribute('aria-sort',active?(timingSort.direction===1?'ascending':'descending'):'none');
+  th.querySelector('.sort-arrow').textContent=active?(timingSort.direction===1?'↑':'↓'):'↕';
+ });
+}
+function sortTimings(key){
+ if(!['time','period','venue'].includes(key))return;
+ timingSort= {key,direction:timingSort.key===key?-timingSort.direction:1};
+ renderTimings(currentEvents());applyFilters();
+}
+/* ---------- END DAILY TIMINGS SORT ---------- */
+
 function render(){
  const list=currentEvents();
- document.getElementById("timingsBody").innerHTML=list.map(timingRow).join("");
+ renderTimings(list);
  document.getElementById("cards").innerHTML=list.map(eventCard).join("");
  document.getElementById("tableBody").innerHTML=list.map(tableRow).join("");
  document.getElementById("emptyState").classList.toggle("hidden",list.length>0);
