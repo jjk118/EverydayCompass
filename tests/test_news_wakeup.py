@@ -1,5 +1,10 @@
 import datetime as dt
+import json
+import os
+import subprocess
 import sys
+import tempfile
+import textwrap
 import unittest
 from pathlib import Path
 
@@ -82,6 +87,38 @@ class WakeupTests(unittest.TestCase):
         client = FakeGitHub([{}])
         self.assertEqual(wake.recover(client, stamp('13:08'), dry_run=True)['action'], 'would_dispatch')
         self.assertEqual(client.posts, [])
+
+
+class WorkflowRunnerTests(unittest.TestCase):
+    def test_actual_gate_as_external_python_file(self):
+        root = Path(__file__).resolve().parents[1]
+        workflow = (root / '.github/workflows/daily-news.yml').read_text()
+        body = workflow.split('        shell: python\n        run: |\n', 1)[1]
+        body = textwrap.dedent(body.split('\n      - name:', 1)[0])
+        with tempfile.TemporaryDirectory() as temporary:
+            runner = Path(temporary)
+            workspace = runner / 'workspace'
+            (workspace / 'scripts').mkdir(parents=True)
+            (workspace / 'data').mkdir()
+            (workspace / 'scripts/news_wakeup.py').write_text(Path(wake.__file__).read_text())
+            data = edition()
+            data['generated_at'] = dt.datetime.now(dt.timezone.utc).isoformat()
+            (workspace / 'data/daily-news.json').write_text(json.dumps(data))
+            # GitHub runs shell: python using a file outside the checkout.
+            script = runner / 'github-temporary-step.py'
+            script.write_text(body)
+            for event, recovery, expected in [('schedule', '', 'false'),
+                                               ('workflow_dispatch', '', 'true'),
+                                               ('workflow_dispatch', 'recovery-test', 'false')]:
+                output = runner / 'output.txt'
+                output.write_text('')
+                env = {**os.environ, 'GITHUB_WORKSPACE': str(workspace),
+                       'GITHUB_OUTPUT': str(output), 'GITHUB_EVENT_NAME': event,
+                       'RECOVERY_WINDOW': recovery}
+                result = subprocess.run([sys.executable, '-I', str(script)],
+                                        cwd=workspace, env=env, capture_output=True, text=True)
+                self.assertEqual(result.returncode, 0, result.stderr)
+                self.assertEqual(output.read_text().strip(), 'needed=' + expected)
 
 
 if __name__ == '__main__':

@@ -46,7 +46,8 @@ jobs:
           RECOVERY_WINDOW: ${{ inputs.recoveryWindow }}
         shell: python
         run: |
-          import json, os
+          import json, os, sys
+          sys.path.insert(0, os.environ.get('GITHUB_WORKSPACE', os.getcwd()))
           from datetime import datetime, timezone
           from scripts.news_wakeup import latest_window, edition_fresh
 
