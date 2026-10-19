@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T07:05:01+08:00",
+  "updated_at": "2026-10-19T09:20:35+08:00",
   "events": [
     {
       "title": "70 Years of RSP: Where Design Meets Humanity",
@@ -776,6 +776,30 @@
       ]
     },
     {
+      "title": "Source Code: A Solo Exhibition by Balinese Artist Jemana Murti",
+      "overview": "Gajah Gallery Singapore presents Source Code, the second solo exhibition by Balinese artist Jemana Murti, opening in October 2026. The exhibition presents a focused examination of Jemana’s evolving practice in response to his Balinese identity within modernity, exploring the tensions between cultural heritage and technological advancement. Raised in a family of artists and deeply influenced by Balinese Hindu traditions, Jemana’s practice is rooted in an ongoing engagement with the cultural forms and knowledge systems of his home. His work is informed by his interest in ethnomathematics and by the use of proportion, repetition, and spatial relationships within Balinese artistic and architectu",
+      "period": "01 Oct 2026 - 25 Oct 2026",
+      "category": "Event / Exhibition",
+      "link": "https://www.catch.sg/Event/Source-Code-A-Solo-Exhibition-by-Balinese-Artist-Jemana-Murti-20260923095539",
+      "source_key": "catch_sg",
+      "source": "Catch.sg — Free Events",
+      "why": "See the official organiser page for the latest visitor information.",
+      "time": "Check official information",
+      "venue": "Catch.sg — Free Events",
+      "mrt": "Check directions",
+      "duration": "Flexible",
+      "adult": "Free",
+      "senior": "Free",
+      "child": "Free",
+      "status": "Ending Soon",
+      "statusClass": "ending",
+      "tags": [
+        "ending",
+        "free",
+        "ongoing"
+      ]
+    },
+    {
       "title": "Sunflower Surprise: Garden by the Ocean",
       "period": "9 Oct - 9 Nov 2026",
       "link": "https://www.gardensbythebay.com.sg/en/things-to-do/calendar-of-events/sunflower-surprise-2026.html",
@@ -1389,6 +1413,28 @@
       ]
     },
     {
+      "title": "LANY: soft world tour",
+      "category": "Event / Exhibition",
+      "overview": "04 NOV ’26 LANY: soft world tour Late-night drives, heartbreak playlists, and songs you know by heart. LANY returns with the soft world tour, bringing fan favourites like “ILYSB”, “Thru These Tears”, “Super Far”, and more to life on stage.",
+      "period": "04 NOV 2026",
+      "time": "Check official information",
+      "venue": "Visit Singapore",
+      "link": "https://www.visitsingapore.com/whats-happening/all-happenings/",
+      "source_key": "visit_singapore",
+      "source": "Visit Singapore",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "Flexible",
+      "adult": "Check official information",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Upcoming",
+      "statusClass": "upcoming",
+      "tags": [
+        "upcoming"
+      ]
+    },
+    {
       "title": "Leave Those Kids Alone",
       "category": "Event",
       "overview": "Leave Those Kids Alone throws a 2010s pop party, running through a decade of hits and feel-good anthems that defined a generation. With favourites from Rihanna, Taylor Swift, Bruno Mars, Justin Bieber and more, it is a set built for singing and dancing along. This bunch of kids brings high-energy performances to every stage they play, in a night that relives, rewinds and parties like it is the 2010s all over again!",
@@ -1985,6 +2031,29 @@
       ]
     },
     {
+      "title": "The Big Picture- Fortnightly Film Screening (29 October)",
+      "overview": "Film Synopsis: In this classic dance drama film, a ballerina is torn between romantic love and her pursuit of artistic perfection. Advisory: PG About: The Big Picture is a series of fortnightly movie screenings lovingly curated by librarians at the Central Arts Library. Through these screenings, we aim to highlight some interesting titles from our avail-to-loan film collection and cultivate a community of film-lovers!",
+      "period": "29 Oct 2026",
+      "category": "Event / Exhibition",
+      "link": "https://www.catch.sg/Event/The-Big-Picture-Fortnightly-Film-Screening-29-October-20261005042341",
+      "source_key": "catch_sg",
+      "source": "Catch.sg — Free Events",
+      "why": "See the official organiser page for the latest visitor information.",
+      "time": "Check official information",
+      "venue": "Catch.sg — Free Events",
+      "mrt": "Check directions",
+      "duration": "Flexible",
+      "adult": "Free",
+      "senior": "Free",
+      "child": "Free",
+      "status": "Upcoming",
+      "statusClass": "upcoming",
+      "tags": [
+        "free",
+        "upcoming"
+      ]
+    },
+    {
       "title": "The Rabbit Hole",
       "category": "Event",
       "overview": "Get ready to werk it with BANIE, an emerging Singaporean vocalist and Anugerah Generasi Terkini 2026 contestant ready to bring bold energy and vocal power to the stage. With an ear for contemporary pop and R&B, BANIE delivers a set filled with familiar favourites, infectious energy and moments that let her vocals take centre stage. Inspired by artists such as Rihanna, RAYE, Zara Larsson and Doja Cat, audiences can expect upbeat pop anthems, soulful grooves and feel-good songs reimagined through BANIE’s distinctive vocal style. Come for the music, stay for the energy—and werk it with BANIE!",
@@ -2248,11 +2317,11 @@
     },
     "visit_singapore": {
       "status": "fresh",
-      "count": 11
+      "count": 12
     },
     "catch_sg": {
       "status": "fresh",
-      "count": 3
+      "count": 5
     }
   },
   "sources": [
@@ -2262,7 +2331,7 @@
       "url": "https://singaporeccc.org.sg/events/",
       "status": "ok",
       "count": 28,
-      "last_success": "2026-10-19T07:02:41+08:00",
+      "last_success": "2026-10-19T09:17:49+08:00",
       "error": "",
       "needs_reader_review": false
     },
@@ -2272,7 +2341,7 @@
       "url": "https://www.gardensbythebay.com.sg/en/things-to-do/calendar-of-events.html",
       "status": "ok",
       "count": 11,
-      "last_success": "2026-10-19T07:02:41+08:00",
+      "last_success": "2026-10-19T09:17:49+08:00",
       "error": "",
       "needs_reader_review": false
     },
@@ -2282,7 +2351,7 @@
       "url": "https://www.esplanade.com/whats-on",
       "status": "ok",
       "count": 28,
-      "last_success": "2026-10-19T07:02:41+08:00",
+      "last_success": "2026-10-19T09:17:49+08:00",
       "error": "",
       "needs_reader_review": false
     },
@@ -2302,7 +2371,7 @@
       "url": "https://www.nationalgallery.sg/sg/en/whats-on.html",
       "status": "ok",
       "count": 2,
-      "last_success": "2026-10-19T07:02:41+08:00",
+      "last_success": "2026-10-19T09:17:49+08:00",
       "error": "",
       "needs_reader_review": false
     },
@@ -2322,7 +2391,7 @@
       "url": "https://www.ura.gov.sg/get-involved/events-and-exhibitions/",
       "status": "ok",
       "count": 1,
-      "last_success": "2026-10-19T07:02:41+08:00",
+      "last_success": "2026-10-19T09:17:49+08:00",
       "error": "",
       "needs_reader_review": false
     },
@@ -2332,7 +2401,7 @@
       "url": "https://exhibitions.nlb.gov.sg/current-exhibitions/",
       "status": "ok",
       "count": 5,
-      "last_success": "2026-10-19T07:02:41+08:00",
+      "last_success": "2026-10-19T09:17:49+08:00",
       "error": "",
       "needs_reader_review": false
     },
@@ -2341,8 +2410,8 @@
       "name": "Visit Singapore",
       "url": "https://www.visitsingapore.com/things-to-do/top-things-to-do/",
       "status": "ok",
-      "count": 11,
-      "last_success": "2026-10-19T07:02:41+08:00",
+      "count": 12,
+      "last_success": "2026-10-19T09:17:49+08:00",
       "error": "",
       "needs_reader_review": false
     },
@@ -2351,8 +2420,8 @@
       "name": "Catch.sg — Free Events",
       "url": "https://www.catch.sg/Event?EventCategory=Free%20Events",
       "status": "ok",
-      "count": 3,
-      "last_success": "2026-10-19T07:02:41+08:00",
+      "count": 5,
+      "last_success": "2026-10-19T09:17:49+08:00",
       "error": "",
       "needs_reader_review": false
     }
