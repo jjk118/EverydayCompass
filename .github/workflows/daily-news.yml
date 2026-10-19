@@ -1,7 +1,14 @@
 name: Daily News Update and Deploy
+run-name: ${{ inputs.recoveryWindow && format('News recovery {0}', inputs.recoveryWindow) || 'Daily News refresh' }}
 
 on:
   workflow_dispatch:
+    inputs:
+      recoveryWindow:
+        description: Optional edition window requested by the wake-up job
+        required: false
+        default: ''
+        type: string
   schedule:
     # UTC: Singapore is UTC+8. GitHub scheduled starts can be delayed.
     - cron: '45 22 * * *'
@@ -33,38 +40,27 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Check whether backup refresh is needed
+      - name: Check whether this news edition is needed
         id: refresh_check
+        env:
+          RECOVERY_WINDOW: ${{ inputs.recoveryWindow }}
         shell: python
         run: |
           import json, os
-          from datetime import datetime, timezone, timedelta
-
-          event = os.environ.get("GITHUB_EVENT_NAME", "")
-          scheduled = os.environ.get("GITHUB_EVENT_SCHEDULE", "")
-          backup_crons = {"45 0 * * *", "45 6 * * *", "45 12 * * *",
-                          "45 1 * * *", "45 7 * * *", "45 13 * * *"}
+          from datetime import datetime, timezone
+          from scripts.news_wakeup import latest_window, edition_fresh
 
           needed = True
-          if event == "schedule" and scheduled in backup_crons:
-              sgt = timezone(timedelta(hours=8))
-              now = datetime.now(sgt)
-              targets = {
-                  "45 0 * * *": now.replace(hour=6, minute=45, second=0, microsecond=0),
-                  "45 6 * * *": now.replace(hour=12, minute=45, second=0, microsecond=0),
-                  "45 12 * * *": now.replace(hour=18, minute=45, second=0, microsecond=0),
-                  "45 1 * * *": now.replace(hour=6, minute=45, second=0, microsecond=0),
-                  "45 7 * * *": now.replace(hour=12, minute=45, second=0, microsecond=0),
-                  "45 13 * * *": now.replace(hour=18, minute=45, second=0, microsecond=0),
-              }
+          now = datetime.now(timezone.utc)
+          if os.environ.get('GITHUB_EVENT_NAME') == 'schedule' or os.environ.get('RECOVERY_WINDOW'):
               try:
-                  with open("data/daily-news.json", encoding="utf-8") as fh:
-                      generated = datetime.fromisoformat(json.load(fh)["generated_at"])
-                  needed = generated < targets[scheduled]
-              except Exception:
-                  needed = True
-
-          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as fh:
+                  with open('data/daily-news.json', encoding='utf-8') as fh:
+                      edition = json.load(fh)
+              except (OSError, ValueError):
+                  edition = {}
+              needed = not edition_fresh(edition, latest_window(now), now)
+          print('Refresh needed:', needed, '; latest window:', latest_window(now).isoformat())
+          with open(os.environ['GITHUB_OUTPUT'], 'a', encoding='utf-8') as fh:
               fh.write(f"needed={'true' if needed else 'false'}\n")
 
       - name: Generate latest Daily News
@@ -78,5 +74,6 @@ jobs:
           git add data/daily-news.json
           if ! git diff --cached --quiet; then
             git commit -m "Update Daily News"
+            git pull --rebase origin main
             git push origin HEAD:main
           fi

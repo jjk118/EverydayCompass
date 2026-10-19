@@ -1,0 +1,67 @@
+name: Daily News Wake-up
+
+on:
+  schedule:
+    # UTC; check every 15 minutes, away from the top of the hour.
+    - cron: '8,23,38,53 * * * *'
+  workflow_dispatch:
+    inputs:
+      dryRun:
+        description: Check recovery decision without launching a refresh
+        type: boolean
+        default: true
+  workflow_run:
+    workflows: ['Daily News Update and Deploy']
+    types: [completed]
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/news-wakeup.yml
+      - scripts/news_wakeup.py
+      - tests/test_news_wakeup.py
+
+permissions:
+  contents: read
+  actions: write
+
+concurrency:
+  group: daily-news-wakeup
+  cancel-in-progress: false
+
+jobs:
+  check:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'failure'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify recovery decisions
+        run: python -m unittest discover -s tests -p 'test_news_wakeup.py' -v
+      - name: Wake a missing Daily News refresh
+        env:
+          GH_TOKEN: ${{ github.token }}
+          DRY_RUN: ${{ inputs.dryRun == true && 'true' || 'false' }}
+        run: python scripts/news_wakeup.py
+      - name: Verify one recovery launch after installation
+        if: github.event_name == 'push'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python - <<'PY'
+          import datetime as dt, os
+          from scripts.news_wakeup import GitHub, latest_window, edition_fresh, WORKFLOW
+          client = GitHub(os.environ['GITHUB_REPOSITORY'], os.environ['GH_TOKEN'])
+          now = dt.datetime.now(dt.timezone.utc)
+          target = latest_window(now)
+          if edition_fresh(client.edition(), target, now):
+              client.request('/actions/workflows/' + WORKFLOW + '/dispatches',
+                             {'ref': 'main', 'inputs': {'recoveryWindow': target.isoformat()}})
+              print('Recovery dispatch accepted. The news job will skip an already-complete edition.')
+          else:
+              print('The normal wake-up check handles the missing edition; no extra test launch.')
+          PY
