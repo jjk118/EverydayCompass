@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T10:12:15+08:00",
+  "updated_at": "2026-10-19T17:11:51+08:00",
   "events": [
     {
       "title": "70 Years of RSP: Where Design Meets Humanity",
@@ -1024,6 +1024,28 @@
       "statusClass": "ending",
       "tags": [
         "ending",
+        "ongoing"
+      ]
+    },
+    {
+      "title": "இன்று புதிதாய் பிறந்தோம் Today We Are Born Anew",
+      "category": "Event",
+      "overview": "இன்று புதிதாய் பிறந்தோம் (Today We Are Born Anew) is a bharatanatyam dance production inspired by Mahakavi Subramania Bharathiyaar's Puthiya Aathichudi (புதிய ஆத்திசூடி), a timeless collection of concise moral and philosophical maxims that serve as a guide for ethical living and social progress. Drawing from these verses, the production brings Bharathiyaar's ideas into the present, exploring their relevance to life today.",
+      "period": "27 & 28 Nov 2026",
+      "time": "8:00 PM",
+      "venue": "Esplanade Theatre",
+      "link": "https://www.esplanade.com/whats-on/festivals-and-series/kalaa-utsavam-indian-festival-of-arts/2026/today-we-are-born-anew",
+      "source_key": "esplanade",
+      "source": "Esplanade",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "5mins",
+      "adult": "From $33.40",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Ongoing",
+      "statusClass": "",
+      "tags": [
         "ongoing"
       ]
     },
@@ -2290,7 +2312,7 @@
     },
     "esplanade": {
       "status": "fresh",
-      "count": 28,
+      "count": 29,
       "detail_errors": 0
     },
     "national_museum": {
@@ -2331,7 +2353,7 @@
       "url": "https://singaporeccc.org.sg/events/",
       "status": "ok",
       "count": 28,
-      "last_success": "2026-10-19T10:09:39+08:00",
+      "last_success": "2026-10-19T17:09:21+08:00",
       "error": "",
       "needs_reader_review": false
     },
@@ -2341,7 +2363,7 @@
       "url": "https://www.gardensbythebay.com.sg/en/things-to-do/calendar-of-events.html",
       "status": "ok",
       "count": 11,
-      "last_success": "2026-10-19T10:09:39+08:00",
+      "last_success": "2026-10-19T17:09:21+08:00",
       "error": "",
       "needs_reader_review": false
     },
@@ -2350,8 +2372,8 @@
       "name": "Esplanade",
       "url": "https://www.esplanade.com/whats-on",
       "status": "ok",
-      "count": 28,
-      "last_success": "2026-10-19T10:09:39+08:00",
+      "count": 29,
+      "last_success": "2026-10-19T17:09:21+08:00",
       "error": "",
       "needs_reader_review": false
     },
@@ -2371,7 +2393,7 @@
       "url": "https://www.nationalgallery.sg/sg/en/whats-on.html",
       "status": "ok",
       "count": 2,
-      "last_success": "2026-10-19T10:09:39+08:00",
+      "last_success": "2026-10-19T17:09:21+08:00",
       "error": "",
       "needs_reader_review": false
     },
@@ -2391,7 +2413,7 @@
       "url": "https://www.ura.gov.sg/get-involved/events-and-exhibitions/",
       "status": "ok",
       "count": 1,
-      "last_success": "2026-10-19T10:09:39+08:00",
+      "last_success": "2026-10-19T17:09:21+08:00",
       "error": "",
       "needs_reader_review": false
     },
@@ -2401,7 +2423,7 @@
       "url": "https://exhibitions.nlb.gov.sg/current-exhibitions/",
       "status": "ok",
       "count": 5,
-      "last_success": "2026-10-19T10:09:39+08:00",
+      "last_success": "2026-10-19T17:09:21+08:00",
       "error": "",
       "needs_reader_review": false
     },
@@ -2411,7 +2433,7 @@
       "url": "https://www.visitsingapore.com/things-to-do/top-things-to-do/",
       "status": "ok",
       "count": 12,
-      "last_success": "2026-10-19T10:09:39+08:00",
+      "last_success": "2026-10-19T17:09:21+08:00",
       "error": "",
       "needs_reader_review": false
     },
@@ -2421,7 +2443,7 @@
       "url": "https://www.catch.sg/Event?EventCategory=Free%20Events",
       "status": "ok",
       "count": 5,
-      "last_success": "2026-10-19T10:09:39+08:00",
+      "last_success": "2026-10-19T17:09:21+08:00",
       "error": "",
       "needs_reader_review": false
     }
