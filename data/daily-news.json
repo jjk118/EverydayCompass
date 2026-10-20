@@ -1,6 +1,27 @@
 {
   "singapore": [
     {
+      "title": "Court orders man to honour S$600,000 payment to brothers left out of mother's will",
+      "url": "https://www.channelnewsasia.com/singapore/court-order-man-600000-payment-brothers-left-out-will-6475111",
+      "summary": "Among other assets, the will bequeathed a property in Eng Kong Road to two of the sons, which was later sold for S$5 million.",
+      "source": "CNA",
+      "published": "Tue, 20 Oct 2026 18:49:00 +0800"
+    },
+    {
+      "title": "Singtel fined S$1 million over mobile service disruptions in March that affected 720,000 users",
+      "url": "https://www.channelnewsasia.com/singapore/singtel-fined-1-million-march-mobile-service-disruptions-6474736",
+      "summary": "The disruptions on Mar 16, Mar 18 and Mar 19 could have been prevented by Singtel and were not due to a cyberattack, IMDA's investigation found.",
+      "source": "CNA",
+      "published": "Tue, 20 Oct 2026 17:30:00 +0800"
+    },
+    {
+      "title": "Romeo Tan owns 5 power banks, says his co-stars 'know they can always borrow' from him",
+      "url": "https://www.channelnewsasia.com/entertainment/romeo-tan-power-banks-6474606",
+      "summary": "“As soon as my phone battery drops to 70 per cent, I start getting nervous,” says Romeo Tan, who admits he’s obsessed with buying power banks.",
+      "source": "CNA",
+      "published": "Tue, 20 Oct 2026 14:18:09 +0800"
+    },
+    {
       "title": "Singapore tech giant Sea plans IPO for financial services arm Monee, memo says",
       "url": "https://www.channelnewsasia.com/business/sea-ipo-monee-forrest-li-6474506",
       "summary": "The memo said the tech group would also launch an AI-first enterprise platform named Sea Cloud.",
@@ -43,23 +64,23 @@
       "published": "Tue, 20 Oct 2026 10:23:00 +0800"
     },
     {
-      "title": "Hourly PM2.5 elevated in four regions; 24-hour PSI unhealthy in west, central, east and south",
+      "title": "Hourly PM2.5 readings elevated in two regions, 24-hour PSI unhealthy in west, central, east and south",
       "url": "https://www.channelnewsasia.com/singapore/haze-psi-pm25-oct-20-6473696",
       "summary": "The National Environment Agency says the haze in Singapore could ease on Tuesday, with showers forecast over the country and the surrounding region.",
       "source": "CNA",
       "published": "Tue, 20 Oct 2026 07:22:00 +0800"
     },
     {
-      "title": "Think you can spot a fake? 5 ways online deception works in the age of AI",
-      "url": "https://www.channelnewsasia.com/interactive/ai-fake-videos-scam-quiz/%2E",
-      "summary": "",
+      "title": "‘Customers won’t be happy’: Why cutting salt is a tough sell for Singapore’s hawkers",
+      "url": "https://www.channelnewsasia.com/singapore/hawkers-food-public-health-salt-sodium-customers-6461566",
+      "summary": "Despite years of efforts to cut sodium intake in Singapore, levels keep rising. Yet hawkers say changing familiar flavours to less salty ones could cost them customers.",
       "source": "CNA",
       "published": "Tue, 20 Oct 2026 06:00:00 +0800"
     },
     {
-      "title": "‘Customers won’t be happy’: Why cutting salt is a tough sell for Singapore’s hawkers",
-      "url": "https://www.channelnewsasia.com/singapore/hawkers-food-public-health-salt-sodium-customers-6461566",
-      "summary": "Despite years of efforts to cut sodium intake in Singapore, levels keep rising. Yet hawkers say changing familiar flavours to less salty ones could cost them customers.",
+      "title": "Think you can spot a fake? 5 ways online deception works in the age of AI",
+      "url": "https://www.channelnewsasia.com/interactive/ai-fake-videos-scam-quiz/%2E",
+      "summary": "",
       "source": "CNA",
       "published": "Tue, 20 Oct 2026 06:00:00 +0800"
     },
@@ -83,30 +104,51 @@
       "summary": "",
       "source": "CNA",
       "published": "Mon, 19 Oct 2026 21:58:57 +0800"
-    },
-    {
-      "title": "Singapore Environment Council restricts Indonesian firm APP's green certification over haze-linked suppliers",
-      "url": "https://www.channelnewsasia.com/singapore/haze-asia-pulp-paper-environment-council-6471366",
-      "summary": "In 2015, major retailers removed Asia Pulp & Paper's products from shelves because of alleged links to fires that caused severe haze.",
-      "source": "CNA",
-      "published": "Mon, 19 Oct 2026 18:57:00 +0800"
-    },
-    {
-      "title": "Brother of convict in S$3 billion money laundering case jailed over receiving S$17.6 million",
-      "url": "https://www.channelnewsasia.com/singapore/brother-convict-3-billion-money-laundering-jailed-million-6471501",
-      "summary": "Zhang Ruisheng used about S$10.4 million to pay for the purchase price and stamp duty for a property in Sentosa Cove.",
-      "source": "CNA",
-      "published": "Mon, 19 Oct 2026 18:04:39 +0800"
-    },
-    {
-      "title": "3,000 year-long internships to be offered to tertiary students as AI reshapes entry-level jobs",
-      "url": "https://www.channelnewsasia.com/singapore/tech-ai-internships-jobs-ite-polytechnic-university-students-6471296",
-      "summary": "The internships will be offered over the next three years to eligible Information and Digital Technologies students from the Institute of Technical Education, polytechnics and autonomous universities.",
-      "source": "CNA",
-      "published": "Mon, 19 Oct 2026 17:59:00 +0800"
     }
   ],
   "world": [
+    {
+      "title": "Australia police charge man over alleged 'targeted' car attack on lawmaker",
+      "url": "https://www.channelnewsasia.com/world/australia-police-man-charged-lawmaker-helen-haines-hit-car-6475091",
+      "summary": "A statement released by the suspect's parents said Australian lawmaker Helen Haines had been \"our friend for more than 20 years\".",
+      "source": "CNA",
+      "published": "Tue, 20 Oct 2026 17:28:00 +0800"
+    },
+    {
+      "title": "Google Cloud services face outage in London, Revolut services down too",
+      "url": "https://www.channelnewsasia.com/business/google-cloud-service-outage-london-revolut-6475076",
+      "summary": "Google said its engineering team was investigating the issue, but gave no reason for the disruption caused.",
+      "source": "CNA",
+      "published": "Tue, 20 Oct 2026 17:11:00 +0800"
+    },
+    {
+      "title": "Musk says will give SpaceX share to 'every kid in America'",
+      "url": "https://www.channelnewsasia.com/world/elon-musk-spacex-share-kid-america-6474866",
+      "summary": "",
+      "source": "CNA",
+      "published": "Tue, 20 Oct 2026 15:46:29 +0800"
+    },
+    {
+      "title": "France to impose new curfews where necessary: PM",
+      "url": "https://www.channelnewsasia.com/world/france-impose-new-protest-curfews-curb-rioting-6474841",
+      "summary": "Prime Minister Sebastien Lecornu said partial curfews in Paris and some other cities \"contributed to calm overnight\".",
+      "source": "CNA",
+      "published": "Tue, 20 Oct 2026 15:38:00 +0800"
+    },
+    {
+      "title": "South Korea to withdraw some Ukraine embassy staff after POW row",
+      "url": "https://www.channelnewsasia.com/east-asia/south-korea-withdraw-ukraine-embassy-staff-6474651",
+      "summary": "Ukraine has insisted that \"diplomacy must prevail over emotions\" in relations between the countries and that they consider \"the situation resolved\".",
+      "source": "CNA",
+      "published": "Tue, 20 Oct 2026 14:33:00 +0800"
+    },
+    {
+      "title": "Japan slams lack of access to journalist detained in Russia",
+      "url": "https://www.channelnewsasia.com/world/japan-slams-russia-journalist-detained-6474546",
+      "summary": "Tokyo said it was \"extremely regrettable\" that its diplomats had been unable to visit the Japanese journalist detained in Russia, despite a bilateral protocol that guarantees the right to consular access.",
+      "source": "CNA",
+      "published": "Tue, 20 Oct 2026 13:11:22 +0800"
+    },
     {
       "title": "‘It was crazy’: Australian barber hailed as hero after rushing to lawmaker’s rescue",
       "url": "https://www.channelnewsasia.com/world/australia-attack-barber-hero-helen-haines-6474301",
@@ -122,16 +164,16 @@
       "published": "Tue, 20 Oct 2026 12:09:00 +0800"
     },
     {
-      "title": "Ukraine claims US missile holdup as Trump floats summit without Zelenskyy",
+      "title": "Ukraine claims US missile holdup ahead of reported talks",
       "url": "https://www.channelnewsasia.com/world/ukraine-us-missile-trump-summit-zelenskyy-6474291",
       "summary": "Ukrainian President Volodymyr Zelenskyy said \"the Pentagon is delaying the delivery of missiles\" already paid for by European countries.",
       "source": "CNA",
       "published": "Tue, 20 Oct 2026 10:46:00 +0800"
     },
     {
-      "title": "Australian PM says attacker's car made U-turn before critically injuring lawmaker",
-      "url": "https://www.channelnewsasia.com/world/australia-lawmaker-helen-haines-car-attacker-intentional-6473641",
-      "summary": "Witnesses said the alleged attacker reversed the vehicle and struck Haines a second time before a bystander intervened.",
+      "title": "Australian lawmaker hurt in car attack loses leg: Report",
+      "url": "https://www.channelnewsasia.com/world/australia-lawmaker-helen-haines-loses-leg-car-attack-6473641",
+      "summary": "Helen Haines was hit by a Toyota Land Cruiser outside her office in the town of Wangaratta. The driver was then arrested and police found a knife in his car.",
       "source": "CNA",
       "published": "Tue, 20 Oct 2026 10:40:00 +0800"
     },
@@ -143,11 +185,11 @@
       "published": "Tue, 20 Oct 2026 10:22:00 +0800"
     },
     {
-      "title": "Vote count begins in Alberta secession referedum, testing Canada unity",
-      "url": "https://www.channelnewsasia.com/world/alberta-secession-referedum-canada-vote-6474136",
-      "summary": "",
+      "title": "Alberta rejects plan for referendum on leaving Canada",
+      "url": "https://www.channelnewsasia.com/world/canada-alberta-secession-referedum-vote-6474136",
+      "summary": "Jeffrey Rath, a top leader of the separatist Alberta Prosperity Project, told reporters his push for an independent Alberta will \"absolutely\" continue.",
       "source": "CNA",
-      "published": "Tue, 20 Oct 2026 09:53:49 +0800"
+      "published": "Tue, 20 Oct 2026 09:53:00 +0800"
     },
     {
       "title": "Trump open to idea of joint meeting with Xi, Putin next month",
@@ -169,50 +211,8 @@
       "summary": "The World Food Programme will cut monthly aid to 500,000 people in Gaza due to a funding shortage, despite ongoing food shortages.",
       "source": "CNA",
       "published": "Tue, 20 Oct 2026 05:48:00 +0800"
-    },
-    {
-      "title": "Saudi flagship investment conference pushed to 2027 after Houthi attacks",
-      "url": "https://www.channelnewsasia.com/world/saudi-flagship-investment-conference-pushed-2027-after-houthi-attacks-6473421",
-      "summary": "Organisers said the new dates would be announced soon, while security concerns remain over travel to Riyadh.",
-      "source": "CNA",
-      "published": "Tue, 20 Oct 2026 04:35:00 +0800"
-    },
-    {
-      "title": "Japan successfully launches probe in historic Mars moon mission",
-      "url": "https://www.channelnewsasia.com/world/japan-mars-moon-mission-phobos-launch-rocket-space-6472976",
-      "summary": "The spacecraft is due to arrive near Mars around August next year, where it will orbit one of its moons, Phobos.",
-      "source": "CNA",
-      "published": "Tue, 20 Oct 2026 02:57:00 +0800"
-    },
-    {
-      "title": "European stocks fall on unrest in France as Nasdaq bounces",
-      "url": "https://www.channelnewsasia.com/world/european-stocks-fall-unrest-in-france-nasdaq-bounces-6472851",
-      "summary": "",
-      "source": "CNA",
-      "published": "Tue, 20 Oct 2026 01:41:00 +0800"
-    },
-    {
-      "title": "US Supreme Court denies bid by 9/11 mastermind to revive plea deal",
-      "url": "https://www.channelnewsasia.com/world/sep-11-attack-khalid-mohammed-court-reject-plea-6472846",
-      "summary": "Khalid Sheikh Mohammed is scheduled to stand trial in Jun 2028 over the Sep 11, 2001, attacks after the US Supreme Court rejected his appeal to reinstate his revoked plea deal.",
-      "source": "CNA",
-      "published": "Tue, 20 Oct 2026 00:53:00 +0800"
-    },
-    {
-      "title": "Government staff in Saudi capital told to work from home",
-      "url": "https://www.channelnewsasia.com/world/government-staff-in-saudi-capital-told-work-home-6472796",
-      "summary": "",
-      "source": "CNA",
-      "published": "Tue, 20 Oct 2026 00:32:00 +0800"
-    },
-    {
-      "title": "CNA Explains: Why are AI stocks tumbling when demand is still booming?",
-      "url": "https://www.channelnewsasia.com/world/ai-stocks-tumbling-tech-giants-investing-demand-why-cna-explains-6471256",
-      "summary": "AI demand is booming, chipmakers are posting record profits and tech giants are continuing to invest hundreds of billions. So why are semiconductor stocks tumbling? CNA speaks to experts about what's driving the sell-off.",
-      "source": "CNA",
-      "published": "Mon, 19 Oct 2026 20:08:00 +0800"
     }
   ],
-  "generated_at": "2026-10-20T13:07:36+08:00",
+  "generated_at": "2026-10-20T19:07:33+08:00",
   "test_mode": false
 }
