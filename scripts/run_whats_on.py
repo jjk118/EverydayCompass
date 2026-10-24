@@ -263,6 +263,28 @@ def run(previous, sources, today=None, now=None, fetcher=None):
         # Safety net: finished events never stay, even when every source failed.
         payload["events"] = [e for e in payload["events"] if not ue.is_expired(e, today)]
 
+    # Track each event's first date in the feed. Older events without history stay unknown.
+    def title_key(event):
+        return re.sub(r"[^a-z0-9]+", " ", ue.norm(event.get("title")).lower()).strip()
+
+    previous_titles = {}
+    for old_event in previous.get("events", []):
+        if not isinstance(old_event, dict):
+            continue
+        key = title_key(old_event)
+        if key and (key not in previous_titles or not previous_titles[key]):
+            previous_titles[key] = old_event.get("date_added")
+    for event in payload["events"]:
+        if not isinstance(event, dict):
+            continue
+        key = title_key(event)
+        if event.get("date_added"):
+            continue
+        if key in previous_titles:
+            event["date_added"] = previous_titles[key]
+        else:
+            event["date_added"] = now.date().isoformat()
+
     old = {}
     for s in previous.get("sources", []) or []:
         if isinstance(s, dict) and s.get("id"):
