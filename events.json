@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T17:20:13+08:00",
+  "updated_at": "2026-10-24T23:44:24+08:00",
   "events": [
     {
       "title": "70 Years of RSP: Where Design Meets Humanity",
@@ -901,6 +901,52 @@
         "ongoing"
       ],
       "date_added": null
+    },
+    {
+      "title": "Singapore History Gallery [Opening 10 Oct 2026]",
+      "category": "Event / Exhibition",
+      "overview": "Exhibitions Singapore History Gallery [Opening 10 Oct 2026] Permanent L2 Enter through Singapore Odyssea Discover over 700 years of Singapore’s history through the artefacts and stories of those who lived it. View details",
+      "period": "Permanent",
+      "time": "Check official information",
+      "venue": "National Museum of Singapore",
+      "link": "https://www.nationalmuseum.nhb.gov.sg/whats-on/exhibition/singapore-history-gallery",
+      "source_key": "national_museum",
+      "source": "National Museum of Singapore",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "Flexible",
+      "adult": "Check official information",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Ongoing",
+      "statusClass": "",
+      "tags": [
+        "ongoing"
+      ],
+      "date_added": "2026-10-24"
+    },
+    {
+      "title": "Singapore Odyssea: A Journey Through Time",
+      "category": "Event / Exhibition",
+      "overview": "Exhibitions Singapore Odyssea: A Journey Through Time Permanent L2 A multi-sensorial time travel experience at the Shaw Foundation Glass Rotunda. View details Add to itinerary",
+      "period": "Permanent",
+      "time": "Check official information",
+      "venue": "National Museum of Singapore",
+      "link": "https://www.nationalmuseum.nhb.gov.sg/whats-on/exhibition/singapore-odyssea",
+      "source_key": "national_museum",
+      "source": "National Museum of Singapore",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "Flexible",
+      "adult": "Check official information",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Ongoing",
+      "statusClass": "",
+      "tags": [
+        "ongoing"
+      ],
+      "date_added": "2026-10-24"
     },
     {
       "title": "Singapore TV: From Local to Global",
@@ -2524,9 +2570,8 @@
       "detail_errors": 0
     },
     "national_museum": {
-      "status": "fallback",
-      "count": 0,
-      "error": "Official source returned HTTP 202 with no usable page; keeping previous events"
+      "status": "fresh",
+      "count": 2
     },
     "national_gallery": {
       "status": "fresh",
@@ -2535,7 +2580,7 @@
     "artscience": {
       "status": "fallback",
       "count": 0,
-      "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.marinabaysands.com/museum/whats-on.html\", waiting until \"domcontentloaded\"\n"
+      "error": "https://www.marinabaysands.com/museum.html: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.marinabaysands.com/museum.html\", waiting until \"commit\"\n; "
     },
     "ura": {
       "status": "fresh",
@@ -2561,7 +2606,7 @@
       "url": "https://singaporeccc.org.sg/events/",
       "status": "ok",
       "count": 28,
-      "last_success": "2026-10-24T17:17:56+08:00",
+      "last_success": "2026-10-24T23:40:12+08:00",
       "error": "",
       "needs_reader_review": false
     },
@@ -2571,7 +2616,7 @@
       "url": "https://www.gardensbythebay.com.sg/en/things-to-do/calendar-of-events.html",
       "status": "ok",
       "count": 11,
-      "last_success": "2026-10-24T17:17:56+08:00",
+      "last_success": "2026-10-24T23:40:12+08:00",
       "error": "",
       "needs_reader_review": false
     },
@@ -2581,7 +2626,7 @@
       "url": "https://www.esplanade.com/whats-on",
       "status": "ok",
       "count": 32,
-      "last_success": "2026-10-24T17:17:56+08:00",
+      "last_success": "2026-10-24T23:40:12+08:00",
       "error": "",
       "needs_reader_review": false
     },
@@ -2589,10 +2634,10 @@
       "id": "national_museum",
       "name": "National Museum of Singapore",
       "url": "https://www.nationalmuseum.nhb.gov.sg/whats-on/exhibition/exhibitions",
-      "status": "fallback",
-      "count": 0,
-      "last_success": null,
-      "error": "Official source returned HTTP 202 with no usable page; keeping previous events",
+      "status": "ok",
+      "count": 2,
+      "last_success": "2026-10-24T23:40:12+08:00",
+      "error": "",
       "needs_reader_review": false
     },
     {
@@ -2601,7 +2646,7 @@
       "url": "https://www.nationalgallery.sg/sg/en/whats-on.html",
       "status": "ok",
       "count": 2,
-      "last_success": "2026-10-24T17:17:56+08:00",
+      "last_success": "2026-10-24T23:40:12+08:00",
       "error": "",
       "needs_reader_review": false
     },
@@ -2612,7 +2657,7 @@
       "status": "fallback",
       "count": 0,
       "last_success": null,
-      "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.marinabaysands.com/museum/whats-on.html\", waiting until \"domcontentloaded\"\n",
+      "error": "https://www.marinabaysands.com/museum.html: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.marinabaysands.com/museum.html\", waiting until \"commit\"\n; ",
       "needs_reader_review": false
     },
     {
@@ -2621,7 +2666,7 @@
       "url": "https://www.ura.gov.sg/get-involved/events-and-exhibitions/",
       "status": "ok",
       "count": 1,
-      "last_success": "2026-10-24T17:17:56+08:00",
+      "last_success": "2026-10-24T23:40:12+08:00",
       "error": "",
       "needs_reader_review": false
     },
@@ -2631,7 +2676,7 @@
       "url": "https://exhibitions.nlb.gov.sg/current-exhibitions/",
       "status": "ok",
       "count": 5,
-      "last_success": "2026-10-24T17:17:56+08:00",
+      "last_success": "2026-10-24T23:40:12+08:00",
       "error": "",
       "needs_reader_review": false
     },
@@ -2641,7 +2686,7 @@
       "url": "https://www.visitsingapore.com/things-to-do/top-things-to-do/",
       "status": "ok",
       "count": 12,
-      "last_success": "2026-10-24T17:17:56+08:00",
+      "last_success": "2026-10-24T23:40:12+08:00",
       "error": "",
       "needs_reader_review": false
     },
@@ -2651,7 +2696,7 @@
       "url": "https://www.catch.sg/Event?EventCategory=Free%20Events",
       "status": "ok",
       "count": 6,
-      "last_success": "2026-10-24T17:17:56+08:00",
+      "last_success": "2026-10-24T23:40:12+08:00",
       "error": "",
       "needs_reader_review": false
     }
