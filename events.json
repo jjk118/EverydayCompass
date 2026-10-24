@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T17:01:52+08:00",
+  "updated_at": "2026-10-24T17:20:13+08:00",
   "events": [
     {
       "title": "70 Years of RSP: Where Design Meets Humanity",
@@ -24,7 +24,8 @@
         "wheelchair",
         "indoor"
       ],
-      "link": "https://www.ura.gov.sg/get-involved/events-and-exhibitions/rsp70-where-design-meets-humanity-sac/"
+      "link": "https://www.ura.gov.sg/get-involved/events-and-exhibitions/rsp70-where-design-meets-humanity-sac/",
+      "date_added": null
     },
     {
       "title": "70 Years of RSP: Where Design Meets Humanity (A Singapore Architecture Collection Exhibition)",
@@ -47,7 +48,8 @@
       "tags": [
         "ending",
         "ongoing"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "Bedok to Bollywood",
@@ -69,7 +71,8 @@
       "statusClass": "",
       "tags": [
         "ongoing"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "Bit Bit Forest Mid-Autumn Light Up!",
@@ -93,7 +96,8 @@
         "senior",
         "wheelchair"
       ],
-      "link": "https://singaporeccc.org.sg/events/bit-bit-forest-mid-autumn-light-up-maff-2026/"
+      "link": "https://singaporeccc.org.sg/events/bit-bit-forest-mid-autumn-light-up-maff-2026/",
+      "date_added": null
     },
     {
       "title": "Bit Bit Forest Mid-Autumn…",
@@ -115,7 +119,8 @@
       "statusClass": "",
       "tags": [
         "ongoing"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "Black Myth: Wukong Global Concert",
@@ -138,7 +143,8 @@
       "tags": [
         "ending",
         "ongoing"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "Bloomyard",
@@ -161,7 +167,8 @@
       "tags": [
         "ending",
         "ongoing"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "Book Havens of Bras Basah: Curiocity",
@@ -183,7 +190,8 @@
       "statusClass": "",
       "tags": [
         "ongoing"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "Botero: A Life in Fullness",
@@ -205,7 +213,8 @@
       "statusClass": "",
       "tags": [
         "ongoing"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "Central Singapore Market",
@@ -227,7 +236,8 @@
       "statusClass": "",
       "tags": [
         "ongoing"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "Cloud Forest featuring Jurassic World: The Experience",
@@ -249,7 +259,8 @@
       "statusClass": "",
       "tags": [
         "ongoing"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "Common Ground",
@@ -271,7 +282,8 @@
       "statusClass": "",
       "tags": [
         "ongoing"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "Dance Connections",
@@ -293,7 +305,8 @@
       "statusClass": "",
       "tags": [
         "ongoing"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "Diana Krall",
@@ -315,7 +328,8 @@
       "statusClass": "",
       "tags": [
         "ongoing"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "Disney Garden of Wonder at Floral Fantasy",
@@ -337,7 +351,8 @@
       "statusClass": "",
       "tags": [
         "ongoing"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "Energize 2026",
@@ -359,7 +374,8 @@
       "statusClass": "",
       "tags": [
         "ongoing"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "Experience Portugal",
@@ -381,7 +397,8 @@
       "statusClass": "",
       "tags": [
         "ongoing"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "Fear No Power: Women Imagining Otherwise",
@@ -403,7 +420,8 @@
       "statusClass": "",
       "tags": [
         "ongoing"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "Get Crafty! – Paper Sunflower Bouquet by When Stars Align",
@@ -426,7 +444,8 @@
       "tags": [
         "ending",
         "ongoing"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "Happy Sing-Along (Season 4)",
@@ -448,7 +467,8 @@
       "statusClass": "",
       "tags": [
         "ongoing"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "Have Your Say: Co-conceptualising…",
@@ -470,7 +490,8 @@
       "statusClass": "",
       "tags": [
         "ongoing"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "Heroic Moves: Chinese Martial…",
@@ -493,7 +514,33 @@
       "tags": [
         "ending",
         "ongoing"
-      ]
+      ],
+      "date_added": null
+    },
+    {
+      "title": "HOME",
+      "overview": "Presented by Arts House Group, Goodman Arts Centre transforms into a creative arts village for the inaugural HOME | GROUND 2026, celebrating the people, stories and creative practices that have shaped the Centre over the decades. Bringing together LASALLE and SOTA alumni, alongside past and present Goodman Arts Centre tenants, HOME | GROUND invites visitors to discover the artists and creative communities that have helped shape Singapore's largest arts enclave. Explore a diverse line-up of experiences across the grounds, from artistic encounters and live music performances to hands-on workshops, creative markets, and spaces for conversation and reflection. Complementing the festival, Open St",
+      "period": "24 Oct 2026",
+      "category": "Event / Exhibition",
+      "link": "https://www.catch.sg/Event/HOME-GROUND-2026-20261007075527",
+      "source_key": "catch_sg",
+      "source": "Catch.sg — Free Events",
+      "why": "See the official organiser page for the latest visitor information.",
+      "time": "Check official information",
+      "venue": "Catch.sg — Free Events",
+      "mrt": "Check directions",
+      "duration": "Flexible",
+      "adult": "Free",
+      "senior": "Free",
+      "child": "Free",
+      "status": "Ending Soon",
+      "statusClass": "ending",
+      "tags": [
+        "ending",
+        "free",
+        "ongoing"
+      ],
+      "date_added": null
     },
     {
       "title": "HOME | GROUND 2026",
@@ -516,7 +563,8 @@
       "tags": [
         "ending",
         "ongoing"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "In the Ether—The Rise of Sanctuary Technologies",
@@ -538,7 +586,8 @@
       "statusClass": "",
       "tags": [
         "ongoing"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "Into the Ocean: Journey Beneath",
@@ -561,7 +610,8 @@
       "tags": [
         "ending",
         "ongoing"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "Into the Ocean: Journey Beneath",
@@ -585,7 +635,8 @@
         "wheelchair",
         "indoor"
       ],
-      "link": "https://www.marinabaysands.com/museum/exhibitions/into-the-ocean.html"
+      "link": "https://www.marinabaysands.com/museum/exhibitions/into-the-ocean.html",
+      "date_added": null
     },
     {
       "title": "Lai Foong Moi: Crossings",
@@ -611,7 +662,8 @@
         "nostalgia",
         "indoor"
       ],
-      "link": "https://www.nationalgallery.sg/sg/en/exhibitions/Lai-Foong-Moi-Crossings.html"
+      "link": "https://www.nationalgallery.sg/sg/en/exhibitions/Lai-Foong-Moi-Crossings.html",
+      "date_added": null
     },
     {
       "title": "Lai Foong Moi: Crossings at National Gallery Singapore",
@@ -633,7 +685,32 @@
       "statusClass": "",
       "tags": [
         "ongoing"
-      ]
+      ],
+      "date_added": null
+    },
+    {
+      "title": "Love Can Happen Anywhere",
+      "overview": "Whitestone Gallery Singapore is pleased to present Peter Draw’s First solo exhibition, Love Can Happen Anywhere, opening on 24 October 2026. This family-friendly exhibition centres on his iconic characters Ai and Aiko and emerges from POST, POST, an art movement founded by Peter Draw. It engages a world defined by constant filtering and appropriation, redirecting these conditions toward a sustained exploration of love. Spanning four series, each corresponding to a season and a tone in Hanyu Pinyin: Love (Spring), Can (Winter), Happen (Autumn), Anywhere (Summer), the exhibition reflects Draw’s twenty-five-year practice, rooted in drawing and human exploration. Central to his work is the idea",
+      "period": "24 Oct 2026 - 29 Dec 2026",
+      "category": "Event / Exhibition",
+      "link": "https://www.catch.sg/Event/Love-Can-Happen-Anywhere-20261009024715",
+      "source_key": "catch_sg",
+      "source": "Catch.sg — Free Events",
+      "why": "See the official organiser page for the latest visitor information.",
+      "time": "Check official information",
+      "venue": "Catch.sg — Free Events",
+      "mrt": "Check directions",
+      "duration": "Flexible",
+      "adult": "Free",
+      "senior": "Free",
+      "child": "Free",
+      "status": "Ongoing",
+      "statusClass": "",
+      "tags": [
+        "free",
+        "ongoing"
+      ],
+      "date_added": "2026-10-24"
     },
     {
       "title": "Music from Daisy Chain Fields",
@@ -657,7 +734,8 @@
         "ending",
         "free",
         "ongoing"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "ONE Ocean: Every Action Ripples",
@@ -679,7 +757,8 @@
       "statusClass": "",
       "tags": [
         "ongoing"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "pov: Ari made Izzy",
@@ -703,7 +782,8 @@
         "ending",
         "free",
         "ongoing"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "Punggol Stories",
@@ -725,7 +805,8 @@
       "statusClass": "",
       "tags": [
         "ongoing"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "Race to Sustainability! 2026",
@@ -747,7 +828,8 @@
       "statusClass": "",
       "tags": [
         "ongoing"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "Rooted in Tradition: A Youthful Insight",
@@ -770,7 +852,8 @@
       "tags": [
         "free",
         "ongoing"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "Side A, A Singapore Record Show",
@@ -793,7 +876,8 @@
       "tags": [
         "ending",
         "ongoing"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "Singapore Alcove",
@@ -815,7 +899,8 @@
       "statusClass": "",
       "tags": [
         "ongoing"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "Singapore TV: From Local to Global",
@@ -841,7 +926,8 @@
         "nostalgia",
         "indoor"
       ],
-      "link": "https://singaporeccc.org.sg/events/singapore-tv-from-local-to-global-special-exhibition/"
+      "link": "https://singaporeccc.org.sg/events/singapore-tv-from-local-to-global-special-exhibition/",
+      "date_added": null
     },
     {
       "title": "Singapore TV: From Local…",
@@ -863,7 +949,8 @@
       "statusClass": "",
       "tags": [
         "ongoing"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "Small Screen, Big Stories: Telemovies of the 1990s",
@@ -888,7 +975,8 @@
         "nostalgia",
         "indoor"
       ],
-      "link": "https://singaporeccc.org.sg/events/small-screen-big-stories-telemovies-of-the-1990s/"
+      "link": "https://singaporeccc.org.sg/events/small-screen-big-stories-telemovies-of-the-1990s/",
+      "date_added": null
     },
     {
       "title": "Small Screen, Big Stories:…",
@@ -910,7 +998,8 @@
       "statusClass": "",
       "tags": [
         "ongoing"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "Source Code: A Solo Exhibition by Balinese Artist Jemana Murti",
@@ -934,7 +1023,8 @@
         "ending",
         "free",
         "ongoing"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "Sunflower Surprise: Garden by the Ocean",
@@ -956,7 +1046,8 @@
       "statusClass": "",
       "tags": [
         "ongoing"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "Tails from the Coasts: Nature Stories of Singapore",
@@ -981,7 +1072,33 @@
         "wheelchair",
         "indoor"
       ],
-      "link": "https://www.nationalmuseum.nhb.gov.sg/whats-on/exhibition/exhibitions"
+      "link": "https://www.nationalmuseum.nhb.gov.sg/whats-on/exhibition/exhibitions",
+      "date_added": null
+    },
+    {
+      "title": "Tea Dance: As We Cha Cha, Jive and K-pop @ Kampung Admiralty",
+      "overview": "Inspired by the beloved 90s community song As We Walk to the Right, this Tea Dance series reimagines the neighbourhood as a communal dance hall. Residents are invited to move together, learn simple steps and create new memories in our everyday spaces.",
+      "period": "24 Oct 2026",
+      "category": "Event / Exhibition",
+      "link": "https://www.catch.sg/Event/Tea-Dance-As-We-Cha-Cha-Jive-and-Kpop-Kampung-Admiralty-20261013151626",
+      "source_key": "catch_sg",
+      "source": "Catch.sg — Free Events",
+      "why": "See the official organiser page for the latest visitor information.",
+      "time": "Check official information",
+      "venue": "Catch.sg — Free Events",
+      "mrt": "Check directions",
+      "duration": "Flexible",
+      "adult": "Free",
+      "senior": "Free",
+      "child": "Free",
+      "status": "Ending Soon",
+      "statusClass": "ending",
+      "tags": [
+        "ending",
+        "free",
+        "ongoing"
+      ],
+      "date_added": null
     },
     {
       "title": "teamLab : Infinite Existence",
@@ -1003,7 +1120,8 @@
       "statusClass": "",
       "tags": [
         "ongoing"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "TGIF Music Station 2026",
@@ -1025,7 +1143,8 @@
       "statusClass": "",
       "tags": [
         "ongoing"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "The Albatross File: Singaporeâs Independence Declassified",
@@ -1047,7 +1166,8 @@
       "statusClass": "",
       "tags": [
         "ongoing"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "The Albatross File: Singapore’s Independence Declassified",
@@ -1073,7 +1193,8 @@
         "nostalgia",
         "indoor"
       ],
-      "link": "https://exhibitions.nlb.gov.sg/current-exhibitions/"
+      "link": "https://exhibitions.nlb.gov.sg/current-exhibitions/",
+      "date_added": null
     },
     {
       "title": "The Misanthrope (Screening)",
@@ -1095,7 +1216,8 @@
       "statusClass": "",
       "tags": [
         "ongoing"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "The News Gallery: Beyond Headlines",
@@ -1117,7 +1239,8 @@
       "statusClass": "",
       "tags": [
         "ongoing"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "Toy Story | PEACEMINUSONE: THE FIRST FAN",
@@ -1143,6 +1266,31 @@
       "date_added": "2026-10-24"
     },
     {
+      "title": "Under the BIG Tree 2026",
+      "overview": "Under The BIG Tree returns to the Singapore Hokkien Huay Kuan Cultural Academy, inviting families and friends to gather beneath its iconic tree for an evening of dance, discovery, and togetherness. Settle onto picnic mats and enjoy performances by SCDT's professional company, Performance Troupes (Children, Junior and Youth), and students from SCDT's training classes in a relaxed outdoor setting. Round off the evening with carnival snacks, DIY prop-making workshops, and Chinese dance-themed games that offer fun, hands-on experiences for all ages. This outdoor dance carnival celebrates the living spirit of Chinese dance and heritage, showing how culture flourishes not only on stage but also th",
+      "period": "24 Oct 2026",
+      "category": "Event / Exhibition",
+      "link": "https://www.catch.sg/Event/Under-the-BIG-Tree-2026-20261002104017",
+      "source_key": "catch_sg",
+      "source": "Catch.sg — Free Events",
+      "why": "See the official organiser page for the latest visitor information.",
+      "time": "Check official information",
+      "venue": "Catch.sg — Free Events",
+      "mrt": "Check directions",
+      "duration": "Flexible",
+      "adult": "Free",
+      "senior": "Free",
+      "child": "Free",
+      "status": "Ending Soon",
+      "statusClass": "ending",
+      "tags": [
+        "ending",
+        "free",
+        "ongoing"
+      ],
+      "date_added": null
+    },
+    {
       "title": "Under the BIG Tree…",
       "category": "Event / Exhibition",
       "overview": "Oct 24, 2026 - Oct 24, 2026 SHHK Cultural Academy Under the BIG Tree… Under The BIG Tree returns to the Singapore Hokkien Huay Kuan Cultural Academy, inviting families… Dance/Theatre Free",
@@ -1163,7 +1311,8 @@
       "tags": [
         "ending",
         "ongoing"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "When Art Meets Nature",
@@ -1185,7 +1334,8 @@
       "statusClass": "",
       "tags": [
         "ongoing"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "When Art Meets Nature at National Gallery",
@@ -1208,7 +1358,8 @@
       "tags": [
         "ending",
         "ongoing"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "Yip Yew Chong: Live Painting at IMBA Theatre",
@@ -1231,7 +1382,8 @@
       "tags": [
         "ending",
         "ongoing"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "இன்று புதிதாய் பிறந்தோம் Today We Are Born Anew",
@@ -1253,7 +1405,8 @@
       "statusClass": "",
       "tags": [
         "ongoing"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "“Culture on Wheels” Travelling…",
@@ -1275,7 +1428,8 @@
       "statusClass": "",
       "tags": [
         "ongoing"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "“My Singapore Voice” Micro…",
@@ -1298,7 +1452,8 @@
       "tags": [
         "ending",
         "ongoing"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "A Sound Not Yet",
@@ -1320,7 +1475,8 @@
       "statusClass": "upcoming",
       "tags": [
         "upcoming"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "A Very Mahogany Wedding",
@@ -1343,7 +1499,8 @@
       "tags": [
         "ongoing",
         "upcoming"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "All My Sons (Screening)",
@@ -1366,7 +1523,8 @@
       "tags": [
         "ongoing",
         "upcoming"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "An Indian Girl's Mixtape",
@@ -1390,7 +1548,8 @@
         "free",
         "ongoing",
         "upcoming"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "Classic Memories: Songs That…",
@@ -1412,7 +1571,8 @@
       "statusClass": "upcoming",
       "tags": [
         "upcoming"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "Des Bishop Live in Singapore",
@@ -1434,7 +1594,8 @@
       "statusClass": "upcoming",
       "tags": [
         "upcoming"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "Diary and the Whale…",
@@ -1456,7 +1617,8 @@
       "statusClass": "upcoming",
       "tags": [
         "upcoming"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "Gema & Gaya: Drop-in Dikir Barat Experience",
@@ -1503,30 +1665,8 @@
       "statusClass": "upcoming",
       "tags": [
         "upcoming"
-      ]
-    },
-    {
-      "title": "HOME",
-      "overview": "Presented by Arts House Group, Goodman Arts Centre transforms into a creative arts village for the inaugural HOME | GROUND 2026, celebrating the people, stories and creative practices that have shaped the Centre over the decades. Bringing together LASALLE and SOTA alumni, alongside past and present Goodman Arts Centre tenants, HOME | GROUND invites visitors to discover the artists and creative communities that have helped shape Singapore's largest arts enclave. Explore a diverse line-up of experiences across the grounds, from artistic encounters and live music performances to hands-on workshops, creative markets, and spaces for conversation and reflection. Complementing the festival, Open St",
-      "period": "24 Oct 2026",
-      "category": "Event / Exhibition",
-      "link": "https://www.catch.sg/Event/HOME-GROUND-2026-20261007075527",
-      "source_key": "catch_sg",
-      "source": "Catch.sg — Free Events",
-      "why": "See the official organiser page for the latest visitor information.",
-      "time": "Check official information",
-      "venue": "Catch.sg — Free Events",
-      "mrt": "Check directions",
-      "duration": "Flexible",
-      "adult": "Free",
-      "senior": "Free",
-      "child": "Free",
-      "status": "Upcoming",
-      "statusClass": "upcoming",
-      "tags": [
-        "free",
-        "upcoming"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "Inventions by Biswa Kalyan Rath",
@@ -1549,7 +1689,8 @@
       "tags": [
         "ongoing",
         "upcoming"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "Leave Those Kids Alone",
@@ -1573,7 +1714,8 @@
         "free",
         "ongoing",
         "upcoming"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "Les Liaisons Dangereuses ​(Screening)",
@@ -1596,7 +1738,8 @@
       "tags": [
         "ongoing",
         "upcoming"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "Life of Pi (Encore Screening)",
@@ -1619,7 +1762,8 @@
       "tags": [
         "ongoing",
         "upcoming"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "Lions and Tigers in…",
@@ -1641,7 +1785,8 @@
       "statusClass": "upcoming",
       "tags": [
         "upcoming"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "Madah & Melodi: Song Creation Masterclass by Zainal Ismail",
@@ -1688,7 +1833,8 @@
       "statusClass": "upcoming",
       "tags": [
         "upcoming"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "Nadya Zaheer",
@@ -1760,7 +1906,8 @@
       "statusClass": "upcoming",
       "tags": [
         "upcoming"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "Rafta Rafta",
@@ -1783,7 +1930,8 @@
       "tags": [
         "ongoing",
         "upcoming"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "Rhythms of Tradition",
@@ -1807,7 +1955,8 @@
         "free",
         "ongoing",
         "upcoming"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "Sad Girl Pop",
@@ -1831,7 +1980,8 @@
         "free",
         "ongoing",
         "upcoming"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "SCO30 Closing Gala",
@@ -1853,7 +2003,8 @@
       "statusClass": "upcoming",
       "tags": [
         "upcoming"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "SENADA-KUSTIK: Dikir Hits of the Past Decade",
@@ -1900,7 +2051,8 @@
       "statusClass": "upcoming",
       "tags": [
         "upcoming"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "Singapore Clay Festival 2026",
@@ -1922,7 +2074,8 @@
       "statusClass": "upcoming",
       "tags": [
         "upcoming"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "Singapore National Traditional Wushu…",
@@ -1944,7 +2097,8 @@
       "statusClass": "upcoming",
       "tags": [
         "upcoming"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "SING浪 2026",
@@ -1966,7 +2120,8 @@
       "statusClass": "upcoming",
       "tags": [
         "upcoming"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "Sit and Chill with GASTON",
@@ -2015,7 +2170,8 @@
         "free",
         "ongoing",
         "upcoming"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "Songs I know because of TikTok",
@@ -2039,7 +2195,8 @@
         "free",
         "ongoing",
         "upcoming"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "Songs of Journey, Songs of Home",
@@ -2062,7 +2219,8 @@
       "tags": [
         "ongoing",
         "upcoming"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "Songs of the Bulbul",
@@ -2085,7 +2243,8 @@
       "tags": [
         "ongoing",
         "upcoming"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "Talking to Twilight (Singapore…",
@@ -2107,30 +2266,8 @@
       "statusClass": "upcoming",
       "tags": [
         "upcoming"
-      ]
-    },
-    {
-      "title": "Tea Dance: As We Cha Cha, Jive and K-pop @ Kampung Admiralty",
-      "overview": "Inspired by the beloved 90s community song As We Walk to the Right, this Tea Dance series reimagines the neighbourhood as a communal dance hall. Residents are invited to move together, learn simple steps and create new memories in our everyday spaces.",
-      "period": "24 Oct 2026",
-      "category": "Event / Exhibition",
-      "link": "https://www.catch.sg/Event/Tea-Dance-As-We-Cha-Cha-Jive-and-Kpop-Kampung-Admiralty-20261013151626",
-      "source_key": "catch_sg",
-      "source": "Catch.sg — Free Events",
-      "why": "See the official organiser page for the latest visitor information.",
-      "time": "Check official information",
-      "venue": "Catch.sg — Free Events",
-      "mrt": "Check directions",
-      "duration": "Flexible",
-      "adult": "Free",
-      "senior": "Free",
-      "child": "Free",
-      "status": "Upcoming",
-      "statusClass": "upcoming",
-      "tags": [
-        "free",
-        "upcoming"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "TEMALANG: Echoes of Heritage, Rhythms of Today",
@@ -2178,7 +2315,8 @@
       "tags": [
         "free",
         "upcoming"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "The Soup of Reincarnation",
@@ -2200,7 +2338,8 @@
       "statusClass": "upcoming",
       "tags": [
         "upcoming"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "The Story of Studio Ghibli",
@@ -2222,7 +2361,8 @@
       "statusClass": "upcoming",
       "tags": [
         "upcoming"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "The Voices We Meet",
@@ -2245,7 +2385,8 @@
       "tags": [
         "ongoing",
         "upcoming"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "Tradisi & Transformasi: Evolution of Dikir Barat in Singapore",
@@ -2273,29 +2414,6 @@
       "date_added": "2026-10-24"
     },
     {
-      "title": "Under the BIG Tree 2026",
-      "overview": "Under The BIG Tree returns to the Singapore Hokkien Huay Kuan Cultural Academy, inviting families and friends to gather beneath its iconic tree for an evening of dance, discovery, and togetherness. Settle onto picnic mats and enjoy performances by SCDT's professional company, Performance Troupes (Children, Junior and Youth), and students from SCDT's training classes in a relaxed outdoor setting. Round off the evening with carnival snacks, DIY prop-making workshops, and Chinese dance-themed games that offer fun, hands-on experiences for all ages. This outdoor dance carnival celebrates the living spirit of Chinese dance and heritage, showing how culture flourishes not only on stage but also th",
-      "period": "24 Oct 2026",
-      "category": "Event / Exhibition",
-      "link": "https://www.catch.sg/Event/Under-the-BIG-Tree-2026-20261002104017",
-      "source_key": "catch_sg",
-      "source": "Catch.sg — Free Events",
-      "why": "See the official organiser page for the latest visitor information.",
-      "time": "Check official information",
-      "venue": "Catch.sg — Free Events",
-      "mrt": "Check directions",
-      "duration": "Flexible",
-      "adult": "Free",
-      "senior": "Free",
-      "child": "Free",
-      "status": "Upcoming",
-      "statusClass": "upcoming",
-      "tags": [
-        "free",
-        "upcoming"
-      ]
-    },
-    {
       "title": "Visible Differences: Why Are…",
       "category": "Event / Exhibition",
       "overview": "Oct 31, 2026 - Oct 31, 2026 Singapore Chinese Cultural Centre Recital Studio, Level 6 Visible Differences: Why Are… Stand in front of Thian Hock Keng, Wak Hai Cheng Bio and the former Thong… Lectures/Talks/Conference Free",
@@ -2315,7 +2433,8 @@
       "statusClass": "upcoming",
       "tags": [
         "upcoming"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "When Singapore’s Little Otter…",
@@ -2337,7 +2456,8 @@
       "statusClass": "upcoming",
       "tags": [
         "upcoming"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "Workshop: Sama-Sama, Let us Sing Together!",
@@ -2360,7 +2480,8 @@
       "tags": [
         "ongoing",
         "upcoming"
-      ]
+      ],
+      "date_added": null
     },
     {
       "title": "听，与你潼乐 Tunes with Hazel Yew",
@@ -2429,9 +2550,8 @@
       "count": 12
     },
     "catch_sg": {
-      "status": "fallback",
-      "count": 5,
-      "error": "zero usable events; preserving previous source records"
+      "status": "fresh",
+      "count": 6
     }
   },
   "sources": [
@@ -2441,7 +2561,7 @@
       "url": "https://singaporeccc.org.sg/events/",
       "status": "ok",
       "count": 28,
-      "last_success": "2026-10-24T16:59:24+08:00",
+      "last_success": "2026-10-24T17:17:56+08:00",
       "error": "",
       "needs_reader_review": false
     },
@@ -2451,7 +2571,7 @@
       "url": "https://www.gardensbythebay.com.sg/en/things-to-do/calendar-of-events.html",
       "status": "ok",
       "count": 11,
-      "last_success": "2026-10-24T16:59:24+08:00",
+      "last_success": "2026-10-24T17:17:56+08:00",
       "error": "",
       "needs_reader_review": false
     },
@@ -2461,7 +2581,7 @@
       "url": "https://www.esplanade.com/whats-on",
       "status": "ok",
       "count": 32,
-      "last_success": "2026-10-24T16:59:24+08:00",
+      "last_success": "2026-10-24T17:17:56+08:00",
       "error": "",
       "needs_reader_review": false
     },
@@ -2481,7 +2601,7 @@
       "url": "https://www.nationalgallery.sg/sg/en/whats-on.html",
       "status": "ok",
       "count": 2,
-      "last_success": "2026-10-24T16:59:24+08:00",
+      "last_success": "2026-10-24T17:17:56+08:00",
       "error": "",
       "needs_reader_review": false
     },
@@ -2501,7 +2621,7 @@
       "url": "https://www.ura.gov.sg/get-involved/events-and-exhibitions/",
       "status": "ok",
       "count": 1,
-      "last_success": "2026-10-24T16:59:24+08:00",
+      "last_success": "2026-10-24T17:17:56+08:00",
       "error": "",
       "needs_reader_review": false
     },
@@ -2511,7 +2631,7 @@
       "url": "https://exhibitions.nlb.gov.sg/current-exhibitions/",
       "status": "ok",
       "count": 5,
-      "last_success": "2026-10-24T16:59:24+08:00",
+      "last_success": "2026-10-24T17:17:56+08:00",
       "error": "",
       "needs_reader_review": false
     },
@@ -2521,7 +2641,7 @@
       "url": "https://www.visitsingapore.com/things-to-do/top-things-to-do/",
       "status": "ok",
       "count": 12,
-      "last_success": "2026-10-24T16:59:24+08:00",
+      "last_success": "2026-10-24T17:17:56+08:00",
       "error": "",
       "needs_reader_review": false
     },
@@ -2529,11 +2649,11 @@
       "id": "catch_sg",
       "name": "Catch.sg — Free Events",
       "url": "https://www.catch.sg/Event?EventCategory=Free%20Events",
-      "status": "fallback",
-      "count": 5,
-      "last_success": "2026-10-19T17:41:03+08:00",
-      "error": "zero usable events; preserving previous source records",
-      "needs_reader_review": true
+      "status": "ok",
+      "count": 6,
+      "last_success": "2026-10-24T17:17:56+08:00",
+      "error": "",
+      "needs_reader_review": false
     }
   ],
   "all_sources_failed": false
