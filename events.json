@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T05:27:14+08:00",
+  "updated_at": "2026-10-25T05:31:33+08:00",
   "events": [
     {
       "title": "\"A-Z: The State of Youth\" Roving Exhibition | Our Living Library Collective",
@@ -13,6 +13,7 @@
       "category": "Event / Programme",
       "link": "https://nlb.libcal.com/event/5976528",
       "tags": [
+        "ending",
         "ongoing"
       ],
       "source_key": "nlb_calendar",
@@ -22,8 +23,8 @@
       "duration": "Flexible",
       "senior": "Check official information",
       "child": "Check official information",
-      "status": "Ongoing",
-      "statusClass": "",
+      "status": "Ending Soon",
+      "statusClass": "ending",
       "date_added": "2026-10-25"
     },
     {
@@ -38,6 +39,7 @@
       "category": "Event / Programme",
       "link": "https://nlb.libcal.com/event/5974874",
       "tags": [
+        "ending",
         "ongoing"
       ],
       "source_key": "nlb_calendar",
@@ -47,8 +49,8 @@
       "duration": "Flexible",
       "senior": "Check official information",
       "child": "Check official information",
-      "status": "Ongoing",
-      "statusClass": "",
+      "status": "Ending Soon",
+      "statusClass": "ending",
       "date_added": "2026-10-25"
     },
     {
@@ -102,32 +104,6 @@
       "date_added": null
     },
     {
-      "title": "[20 Nov 2026] Humanity in the Age of AI",
-      "overview": "As AI evolves, discover how empathy, creativity, and human connection remain your greatest strengths in the future of work.",
-      "period": "2026-11-20 to 2026-11-20",
-      "start_date": "2026-11-20",
-      "end_date": "2026-11-20",
-      "time": "2:00pm – 5:00pm",
-      "venue": "Concorde Hotel Singapore",
-      "adult": "Free",
-      "category": "Event / Programme",
-      "link": "https://allevents.in/singapore/20-nov-2026-humanity-in-the-age-of-ai/100001995901333617",
-      "tags": [
-        "free",
-        "ongoing"
-      ],
-      "source_key": "allevents",
-      "source": "AllEvents Singapore — Free Events",
-      "why": "See the official organiser page for the latest visitor information.",
-      "mrt": "Check directions",
-      "duration": "Flexible",
-      "senior": "Check official information",
-      "child": "Check official information",
-      "status": "Ongoing",
-      "statusClass": "",
-      "date_added": "2026-10-25"
-    },
-    {
       "title": "[Early READ Fiesta] Let's Talk about Feelings!",
       "overview": "About the Event Spend time with your child to learn more about what feelings and emotions are, how we can manage our feelings, and the choices that we can make about them. In...",
       "period": "2026-10-25 to 2026-10-25",
@@ -139,6 +115,7 @@
       "category": "Event / Programme",
       "link": "https://nlb.libcal.com/event/5973586",
       "tags": [
+        "ending",
         "ongoing"
       ],
       "source_key": "nlb_calendar",
@@ -148,8 +125,8 @@
       "duration": "Flexible",
       "senior": "Check official information",
       "child": "Check official information",
-      "status": "Ongoing",
-      "statusClass": "",
+      "status": "Ending Soon",
+      "statusClass": "ending",
       "date_added": "2026-10-25"
     },
     {
@@ -164,6 +141,7 @@
       "category": "Event / Programme",
       "link": "https://nlb.libcal.com/event/5976647",
       "tags": [
+        "ending",
         "ongoing"
       ],
       "source_key": "nlb_calendar",
@@ -173,34 +151,8 @@
       "duration": "Flexible",
       "senior": "Check official information",
       "child": "Check official information",
-      "status": "Ongoing",
-      "statusClass": "",
-      "date_added": "2026-10-25"
-    },
-    {
-      "title": "Access MBA Singapore – Meet Top Business Schools in One Evening",
-      "overview": "Your next career opportunity starts here.If you want to build an international career, increase your earning potential and open the door to new opportunities abroad, the right MBA can be a powerful next step.Join Access MBA Singapore on November 2 at Marina Bay Sands Convention & Expo Center and mee",
-      "period": "2026-11-02 to 2026-11-02",
-      "start_date": "2026-11-02",
-      "end_date": "2026-11-02",
-      "time": "5:30pm – 10:00pm",
-      "venue": "Marina Bay Sands Expo & Convention",
-      "adult": "Free",
-      "category": "Event / Programme",
-      "link": "https://allevents.in/singapore/access-mba-singapore-meet-top-business-schools-in-one-evening-tickets/80002642617676",
-      "tags": [
-        "free",
-        "ongoing"
-      ],
-      "source_key": "allevents",
-      "source": "AllEvents Singapore — Free Events",
-      "why": "See the official organiser page for the latest visitor information.",
-      "mrt": "Check directions",
-      "duration": "Flexible",
-      "senior": "Check official information",
-      "child": "Check official information",
-      "status": "Ongoing",
-      "statusClass": "",
+      "status": "Ending Soon",
+      "statusClass": "ending",
       "date_added": "2026-10-25"
     },
     {
@@ -215,6 +167,7 @@
       "category": "Event / Programme",
       "link": "https://nlb.libcal.com/event/5977664",
       "tags": [
+        "ending",
         "ongoing"
       ],
       "source_key": "nlb_calendar",
@@ -224,34 +177,8 @@
       "duration": "Flexible",
       "senior": "Check official information",
       "child": "Check official information",
-      "status": "Ongoing",
-      "statusClass": "",
-      "date_added": "2026-10-25"
-    },
-    {
-      "title": "AI Engineering Summit | Singapore | 2026",
-      "overview": "Explore how engineering teams are building, deploying, and scaling intelligent AI systems from code to production",
-      "period": "2026-12-03 to 2026-12-03",
-      "start_date": "2026-12-03",
-      "end_date": "2026-12-03",
-      "time": "9:00am – 5:00pm",
-      "venue": "Four Points by Sheraton Singapore, Riverview",
-      "adult": "Free",
-      "category": "Event / Programme",
-      "link": "https://allevents.in/singapore/ai-engineering-summit-singapore-2026/100001995178186665",
-      "tags": [
-        "free",
-        "ongoing"
-      ],
-      "source_key": "allevents",
-      "source": "AllEvents Singapore — Free Events",
-      "why": "See the official organiser page for the latest visitor information.",
-      "mrt": "Check directions",
-      "duration": "Flexible",
-      "senior": "Check official information",
-      "child": "Check official information",
-      "status": "Ongoing",
-      "statusClass": "",
+      "status": "Ending Soon",
+      "statusClass": "ending",
       "date_added": "2026-10-25"
     },
     {
@@ -266,6 +193,7 @@
       "category": "Event / Programme",
       "link": "https://nlb.libcal.com/event/5976449",
       "tags": [
+        "ending",
         "ongoing"
       ],
       "source_key": "nlb_calendar",
@@ -275,34 +203,8 @@
       "duration": "Flexible",
       "senior": "Check official information",
       "child": "Check official information",
-      "status": "Ongoing",
-      "statusClass": "",
-      "date_added": "2026-10-25"
-    },
-    {
-      "title": "BeautyFresh Christmas Beauty Bazaar - Up to 80% OFF 120+ Beauty Brands ( 29 Oct - 1 Nov)",
-      "overview": "Get your wishlists ready! The countdown to our final and biggest event of the year has officially begun, and we are pulling out all the stops to make this our most spectacular sale yet ✨Mark your calendars and clear your schedules. You will not want to miss this!🛍️ Up to 80% OFF 120+ beauty brands🎟️",
-      "period": "2026-10-29 to 2026-11-01",
-      "start_date": "2026-10-29",
-      "end_date": "2026-11-01",
-      "time": "10:00am – 7:00pm",
-      "venue": "BeautyFresh WareHouse",
-      "adult": "Free",
-      "category": "Event / Programme",
-      "link": "https://allevents.in/singapore/beautyfresh-christmas-beauty-bazaar-up-to-80-off-120-beauty-brands-29-oct-1-nov-tickets/80008096100144",
-      "tags": [
-        "free",
-        "ongoing"
-      ],
-      "source_key": "allevents",
-      "source": "AllEvents Singapore — Free Events",
-      "why": "See the official organiser page for the latest visitor information.",
-      "mrt": "Check directions",
-      "duration": "Flexible",
-      "senior": "Check official information",
-      "child": "Check official information",
-      "status": "Ongoing",
-      "statusClass": "",
+      "status": "Ending Soon",
+      "statusClass": "ending",
       "date_added": "2026-10-25"
     },
     {
@@ -388,6 +290,7 @@
       "category": "Event / Programme",
       "link": "https://nlb.libcal.com/event/5975164",
       "tags": [
+        "ending",
         "ongoing"
       ],
       "source_key": "nlb_calendar",
@@ -397,8 +300,8 @@
       "duration": "Flexible",
       "senior": "Check official information",
       "child": "Check official information",
-      "status": "Ongoing",
-      "statusClass": "",
+      "status": "Ending Soon",
+      "statusClass": "ending",
       "date_added": "2026-10-25"
     },
     {
@@ -532,6 +435,7 @@
       "category": "Event / Programme",
       "link": "https://nlb.libcal.com/event/5971649",
       "tags": [
+        "ending",
         "ongoing"
       ],
       "source_key": "nlb_calendar",
@@ -541,34 +445,8 @@
       "duration": "Flexible",
       "senior": "Check official information",
       "child": "Check official information",
-      "status": "Ongoing",
-      "statusClass": "",
-      "date_added": "2026-10-25"
-    },
-    {
-      "title": "BTO Nov '26 Workshop",
-      "overview": "Choose wise, live better! Join our workshop that's exclusive for the launch in Nov 2026 as you prepare yourself for a dream home!",
-      "period": "2026-11-08 to 2026-11-08",
-      "start_date": "2026-11-08",
-      "end_date": "2026-11-08",
-      "time": "1:00pm – 3:00pm",
-      "venue": "1 Pickering St",
-      "adult": "Free",
-      "category": "Event / Programme",
-      "link": "https://allevents.in/singapore/bto-nov-26-workshop/100001998522593877",
-      "tags": [
-        "free",
-        "ongoing"
-      ],
-      "source_key": "allevents",
-      "source": "AllEvents Singapore — Free Events",
-      "why": "See the official organiser page for the latest visitor information.",
-      "mrt": "Check directions",
-      "duration": "Flexible",
-      "senior": "Check official information",
-      "child": "Check official information",
-      "status": "Ongoing",
-      "statusClass": "",
+      "status": "Ending Soon",
+      "statusClass": "ending",
       "date_added": "2026-10-25"
     },
     {
@@ -583,6 +461,7 @@
       "category": "Event / Programme",
       "link": "https://nlb.libcal.com/event/5975964",
       "tags": [
+        "ending",
         "ongoing"
       ],
       "source_key": "nlb_calendar",
@@ -592,8 +471,8 @@
       "duration": "Flexible",
       "senior": "Check official information",
       "child": "Check official information",
-      "status": "Ongoing",
-      "statusClass": "",
+      "status": "Ending Soon",
+      "statusClass": "ending",
       "date_added": "2026-10-25"
     },
     {
@@ -608,6 +487,7 @@
       "category": "Event / Programme",
       "link": "https://nlb.libcal.com/event/5975963",
       "tags": [
+        "ending",
         "ongoing"
       ],
       "source_key": "nlb_calendar",
@@ -617,33 +497,8 @@
       "duration": "Flexible",
       "senior": "Check official information",
       "child": "Check official information",
-      "status": "Ongoing",
-      "statusClass": "",
-      "date_added": "2026-10-25"
-    },
-    {
-      "title": "Can aI Help You? Discover GenAI with Good Help Mart @ Woodlands Library",
-      "overview": "Welcome to Good Help Mart, where shelves are stocked with playful, hands-on experiences with AI tools. Browse at your own pace; discover how AI can add a little spark to everyday...",
-      "period": "2026-10-01 to 2026-10-31",
-      "start_date": "2026-10-01",
-      "end_date": "2026-10-31",
-      "time": "9:00am – 9:00pm",
-      "venue": "Woodlands Library",
-      "adult": "Check official information",
-      "category": "Event / Programme",
-      "link": "https://nlb.libcal.com/event/5975961",
-      "tags": [
-        "ongoing"
-      ],
-      "source_key": "nlb_calendar",
-      "source": "NLB GoLibrary — All Events",
-      "why": "See the official organiser page for the latest visitor information.",
-      "mrt": "Check directions",
-      "duration": "Flexible",
-      "senior": "Check official information",
-      "child": "Check official information",
-      "status": "Ongoing",
-      "statusClass": "",
+      "status": "Ending Soon",
+      "statusClass": "ending",
       "date_added": "2026-10-25"
     },
     {
@@ -693,31 +548,6 @@
       "date_added": null
     },
     {
-      "title": "Come, Let's Eat | TOYLC26",
-      "overview": "About the Event Eating is more than nourishment, it is also about enjoyment, connection and sharing meaningful moments with family and friends. But for some older adults and...",
-      "period": "2026-10-26 to 2026-10-26",
-      "start_date": "2026-10-26",
-      "end_date": "2026-10-26",
-      "time": "11:00am – 1:00pm",
-      "venue": "Tampines Library - Programme Zone 1 (Level 2)",
-      "adult": "Check official information",
-      "category": "Event / Programme",
-      "link": "https://nlb.libcal.com/event/5975969",
-      "tags": [
-        "ongoing"
-      ],
-      "source_key": "nlb_calendar",
-      "source": "NLB GoLibrary — All Events",
-      "why": "See the official organiser page for the latest visitor information.",
-      "mrt": "Check directions",
-      "duration": "Flexible",
-      "senior": "Check official information",
-      "child": "Check official information",
-      "status": "Ongoing",
-      "statusClass": "",
-      "date_added": "2026-10-25"
-    },
-    {
       "title": "Common Ground",
       "category": "Event / Exhibition",
       "overview": "Apr 09, 2026 - Apr 06, 2027 SCCC Level 9 & 10 foyer Common Ground Common Ground shines the spotlight on void decks and the familiar void deck tables as… Exhibition Free",
@@ -752,6 +582,7 @@
       "category": "Event / Programme",
       "link": "https://nlb.libcal.com/event/5976581",
       "tags": [
+        "ending",
         "ongoing"
       ],
       "source_key": "nlb_calendar",
@@ -761,60 +592,8 @@
       "duration": "Flexible",
       "senior": "Check official information",
       "child": "Check official information",
-      "status": "Ongoing",
-      "statusClass": "",
-      "date_added": "2026-10-25"
-    },
-    {
-      "title": "Create Financial Freedom: Invest and Build Wealth Now (13 Nov 2026)",
-      "overview": "Find Out How You Can Earn Additional Investment Income To FIRE",
-      "period": "2026-11-13 to 2026-11-13",
-      "start_date": "2026-11-13",
-      "end_date": "2026-11-13",
-      "time": "7:15pm – 10:30pm",
-      "venue": "MBFC Tower 2",
-      "adult": "Free",
-      "category": "Event / Programme",
-      "link": "https://allevents.in/singapore/create-financial-freedom-invest-and-build-wealth-now-13-nov-2026/100001991917846901",
-      "tags": [
-        "free",
-        "ongoing"
-      ],
-      "source_key": "allevents",
-      "source": "AllEvents Singapore — Free Events",
-      "why": "See the official organiser page for the latest visitor information.",
-      "mrt": "Check directions",
-      "duration": "Flexible",
-      "senior": "Check official information",
-      "child": "Check official information",
-      "status": "Ongoing",
-      "statusClass": "",
-      "date_added": "2026-10-25"
-    },
-    {
-      "title": "Cyber Revolution Summit - Singapore",
-      "overview": "Singapore stands as Southeast Asia’s digital trust anchor, where innovation, connectivity, and cybersecurity converge to power one of the world’s most advanced digital economies. As ASEAN’s leading technology and financial hub, Singapore continues to drive regional cyber resilience, safeguarding cri",
-      "period": "2026-11-24 to 2026-11-24",
-      "start_date": "2026-11-24",
-      "end_date": "2026-11-24",
-      "time": "9:00am – 5:00pm",
-      "venue": "Orchard Hotel Singapore",
-      "adult": "Free",
-      "category": "Event / Programme",
-      "link": "https://allevents.in/singapore/cyber-revolution-summit-singapore-tickets/80007518451233",
-      "tags": [
-        "free",
-        "ongoing"
-      ],
-      "source_key": "allevents",
-      "source": "AllEvents Singapore — Free Events",
-      "why": "See the official organiser page for the latest visitor information.",
-      "mrt": "Check directions",
-      "duration": "Flexible",
-      "senior": "Check official information",
-      "child": "Check official information",
-      "status": "Ongoing",
-      "statusClass": "",
+      "status": "Ending Soon",
+      "statusClass": "ending",
       "date_added": "2026-10-25"
     },
     {
@@ -875,6 +654,7 @@
       "category": "Event / Programme",
       "link": "https://nlb.libcal.com/event/5975958",
       "tags": [
+        "ending",
         "ongoing"
       ],
       "source_key": "nlb_calendar",
@@ -884,33 +664,8 @@
       "duration": "Flexible",
       "senior": "Check official information",
       "child": "Check official information",
-      "status": "Ongoing",
-      "statusClass": "",
-      "date_added": "2026-10-25"
-    },
-    {
-      "title": "Digital Canvas of Yesteryears at Harbourfront Library | TOYLC26",
-      "overview": "Step into an immersive digital gallery featuring the nostalgic artwork of renowned local artist Yip Yew Chong. Travel back in time to reminisce iconic food scenes in the Immersive...",
-      "period": "2026-10-16 to 2026-10-31",
-      "start_date": "2026-10-16",
-      "end_date": "2026-10-31",
-      "time": "11:00am – 9:00pm",
-      "venue": "Harbourfront Library - Stories Come Alive Room (Level 3)",
-      "adult": "Check official information",
-      "category": "Event / Programme",
-      "link": "https://nlb.libcal.com/event/5975956",
-      "tags": [
-        "ongoing"
-      ],
-      "source_key": "nlb_calendar",
-      "source": "NLB GoLibrary — All Events",
-      "why": "See the official organiser page for the latest visitor information.",
-      "mrt": "Check directions",
-      "duration": "Flexible",
-      "senior": "Check official information",
-      "child": "Check official information",
-      "status": "Ongoing",
-      "statusClass": "",
+      "status": "Ending Soon",
+      "statusClass": "ending",
       "date_added": "2026-10-25"
     },
     {
@@ -925,6 +680,7 @@
       "category": "Event / Programme",
       "link": "https://nlb.libcal.com/event/5975960",
       "tags": [
+        "ending",
         "ongoing"
       ],
       "source_key": "nlb_calendar",
@@ -934,8 +690,8 @@
       "duration": "Flexible",
       "senior": "Check official information",
       "child": "Check official information",
-      "status": "Ongoing",
-      "statusClass": "",
+      "status": "Ending Soon",
+      "statusClass": "ending",
       "date_added": "2026-10-25"
     },
     {
@@ -960,32 +716,6 @@
         "ongoing"
       ],
       "date_added": null
-    },
-    {
-      "title": "Dress Up and Crack the Mystery at StarHub WatchParty: Halloween Edition",
-      "overview": "StarHub’s Halloween edition of WatchParty takes over CQ @ Clarke Quay Fountain Square on 30 and 31 October, bringing guests together for a movie night and Halloween fun. Settle in for a screening of Haunted Mansion, then put your detective skills to the test as you uncover clues and solve a mystery.",
-      "period": "2026-10-30 to 2026-10-31",
-      "start_date": "2026-10-30",
-      "end_date": "2026-10-31",
-      "time": "6:00pm – 11:00pm",
-      "venue": "CQ @ Clarke Quay, Fountain Square",
-      "adult": "Free",
-      "category": "Event / Programme",
-      "link": "https://allevents.in/singapore/dress-up-and-crack-the-mystery-at-starhub-watchparty-halloween-edition-tickets/80003032302585",
-      "tags": [
-        "free",
-        "ongoing"
-      ],
-      "source_key": "allevents",
-      "source": "AllEvents Singapore — Free Events",
-      "why": "See the official organiser page for the latest visitor information.",
-      "mrt": "Check directions",
-      "duration": "Flexible",
-      "senior": "Check official information",
-      "child": "Check official information",
-      "status": "Ongoing",
-      "statusClass": "",
-      "date_added": "2026-10-25"
     },
     {
       "title": "Energize 2026",
@@ -1045,6 +775,7 @@
       "category": "Event / Programme",
       "link": "https://nlb.libcal.com/event/5971850",
       "tags": [
+        "ending",
         "ongoing"
       ],
       "source_key": "nlb_calendar",
@@ -1054,8 +785,8 @@
       "duration": "Flexible",
       "senior": "Check official information",
       "child": "Check official information",
-      "status": "Ongoing",
-      "statusClass": "",
+      "status": "Ending Soon",
+      "statusClass": "ending",
       "date_added": "2026-10-25"
     },
     {
@@ -1070,6 +801,7 @@
       "category": "Event / Programme",
       "link": "https://nlb.libcal.com/event/5971860",
       "tags": [
+        "ending",
         "ongoing"
       ],
       "source_key": "nlb_calendar",
@@ -1079,8 +811,8 @@
       "duration": "Flexible",
       "senior": "Check official information",
       "child": "Check official information",
-      "status": "Ongoing",
-      "statusClass": "",
+      "status": "Ending Soon",
+      "statusClass": "ending",
       "date_added": "2026-10-25"
     },
     {
@@ -1095,6 +827,7 @@
       "category": "Event / Programme",
       "link": "https://nlb.libcal.com/event/5971841",
       "tags": [
+        "ending",
         "ongoing"
       ],
       "source_key": "nlb_calendar",
@@ -1104,8 +837,8 @@
       "duration": "Flexible",
       "senior": "Check official information",
       "child": "Check official information",
-      "status": "Ongoing",
-      "statusClass": "",
+      "status": "Ending Soon",
+      "statusClass": "ending",
       "date_added": "2026-10-25"
     },
     {
@@ -1143,6 +876,7 @@
       "category": "Event / Programme",
       "link": "https://nlb.libcal.com/event/5974711",
       "tags": [
+        "ending",
         "ongoing"
       ],
       "source_key": "nlb_calendar",
@@ -1152,8 +886,8 @@
       "duration": "Flexible",
       "senior": "Check official information",
       "child": "Check official information",
-      "status": "Ongoing",
-      "statusClass": "",
+      "status": "Ending Soon",
+      "statusClass": "ending",
       "date_added": "2026-10-25"
     },
     {
@@ -1179,32 +913,6 @@
         "ongoing"
       ],
       "date_added": null
-    },
-    {
-      "title": "Great Eastern Women's Run 2026",
-      "overview": "Singapore’s only all-women’s run returns for its milestone 20th edition! The Great Eastern Women’s Run (GEWR) 2026 will take place on 1 November at The Kallang.For 20 years, GEWR has brought together women and girls of all ages through fitness, friendship and shared purpose. From first-time runners",
-      "period": "2026-11-01 to 2026-11-01",
-      "start_date": "2026-11-01",
-      "end_date": "2026-11-01",
-      "time": "4:30am – 12:00pm",
-      "venue": "The Kallang",
-      "adult": "Free",
-      "category": "Event / Programme",
-      "link": "https://allevents.in/singapore/great-eastern-womens-run-2026-tickets/80003049646072",
-      "tags": [
-        "free",
-        "ongoing"
-      ],
-      "source_key": "allevents",
-      "source": "AllEvents Singapore — Free Events",
-      "why": "See the official organiser page for the latest visitor information.",
-      "mrt": "Check directions",
-      "duration": "Flexible",
-      "senior": "Check official information",
-      "child": "Check official information",
-      "status": "Ongoing",
-      "statusClass": "",
-      "date_added": "2026-10-25"
     },
     {
       "title": "Happy Sing-Along (Season 4)",
@@ -1300,32 +1008,6 @@
       "date_added": null
     },
     {
-      "title": "Inner Resonance",
-      "overview": "An intimate evening of live music for Cello, Da Ruan, Harp and electronic beats, woven with gentle guided mindfulness and deep relaxation.",
-      "period": "2026-11-20 to 2026-11-20",
-      "start_date": "2026-11-20",
-      "end_date": "2026-11-20",
-      "time": "7:00pm – 8:00pm",
-      "venue": "Ashtanga Yoga Nilayam Singapore",
-      "adult": "Free",
-      "category": "Event / Programme",
-      "link": "https://allevents.in/singapore/inner-resonance/100002003415315138",
-      "tags": [
-        "free",
-        "ongoing"
-      ],
-      "source_key": "allevents",
-      "source": "AllEvents Singapore — Free Events",
-      "why": "See the official organiser page for the latest visitor information.",
-      "mrt": "Check directions",
-      "duration": "Flexible",
-      "senior": "Check official information",
-      "child": "Check official information",
-      "status": "Ongoing",
-      "statusClass": "",
-      "date_added": "2026-10-25"
-    },
-    {
       "title": "Into the Ocean: Journey Beneath",
       "category": "Event / Exhibition",
       "overview": "06 JUN ’26 - 01 NOV ’26 Into the Ocean: Journey Beneath Featuring never-before-seen deep-sea footage and contemporary art and science, this immersive exhibition by ArtScience Museum and OceanX takes visitors through the ocean’s depths and inspires marine conservation.",
@@ -1361,6 +1043,7 @@
       "category": "Event / Programme",
       "link": "https://nlb.libcal.com/event/5972247",
       "tags": [
+        "ending",
         "ongoing"
       ],
       "source_key": "nlb_calendar",
@@ -1370,8 +1053,8 @@
       "duration": "Flexible",
       "senior": "Check official information",
       "child": "Check official information",
-      "status": "Ongoing",
-      "statusClass": "",
+      "status": "Ending Soon",
+      "statusClass": "ending",
       "date_added": "2026-10-25"
     },
     {
@@ -1386,6 +1069,7 @@
       "category": "Event / Programme",
       "link": "https://nlb.libcal.com/event/5971005",
       "tags": [
+        "ending",
         "ongoing"
       ],
       "source_key": "nlb_calendar",
@@ -1395,8 +1079,8 @@
       "duration": "Flexible",
       "senior": "Check official information",
       "child": "Check official information",
-      "status": "Ongoing",
-      "statusClass": "",
+      "status": "Ending Soon",
+      "statusClass": "ending",
       "date_added": "2026-10-25"
     },
     {
@@ -1461,6 +1145,7 @@
       "category": "Event / Programme",
       "link": "https://nlb.libcal.com/event/5974878",
       "tags": [
+        "ending",
         "ongoing"
       ],
       "source_key": "nlb_calendar",
@@ -1470,8 +1155,8 @@
       "duration": "Flexible",
       "senior": "Check official information",
       "child": "Check official information",
-      "status": "Ongoing",
-      "statusClass": "",
+      "status": "Ending Soon",
+      "statusClass": "ending",
       "date_added": "2026-10-25"
     },
     {
@@ -1535,6 +1220,7 @@
       "category": "Event / Programme",
       "link": "https://nlb.libcal.com/event/5974087",
       "tags": [
+        "ending",
         "ongoing"
       ],
       "source_key": "nlb_calendar",
@@ -1544,8 +1230,8 @@
       "duration": "Flexible",
       "senior": "Check official information",
       "child": "Check official information",
-      "status": "Ongoing",
-      "statusClass": "",
+      "status": "Ending Soon",
+      "statusClass": "ending",
       "date_added": "2026-10-25"
     },
     {
@@ -1560,6 +1246,7 @@
       "category": "Event / Programme",
       "link": "https://nlb.libcal.com/event/5974553",
       "tags": [
+        "ending",
         "ongoing"
       ],
       "source_key": "nlb_calendar",
@@ -1569,8 +1256,8 @@
       "duration": "Flexible",
       "senior": "Check official information",
       "child": "Check official information",
-      "status": "Ongoing",
-      "statusClass": "",
+      "status": "Ending Soon",
+      "statusClass": "ending",
       "date_added": "2026-10-25"
     },
     {
@@ -1585,6 +1272,7 @@
       "category": "Event / Programme",
       "link": "https://nlb.libcal.com/event/5972203",
       "tags": [
+        "ending",
         "ongoing"
       ],
       "source_key": "nlb_calendar",
@@ -1594,8 +1282,8 @@
       "duration": "Flexible",
       "senior": "Check official information",
       "child": "Check official information",
-      "status": "Ongoing",
-      "statusClass": "",
+      "status": "Ending Soon",
+      "statusClass": "ending",
       "date_added": "2026-10-25"
     },
     {
@@ -1610,6 +1298,7 @@
       "category": "Event / Programme",
       "link": "https://nlb.libcal.com/event/5972204",
       "tags": [
+        "ending",
         "ongoing"
       ],
       "source_key": "nlb_calendar",
@@ -1619,34 +1308,8 @@
       "duration": "Flexible",
       "senior": "Check official information",
       "child": "Check official information",
-      "status": "Ongoing",
-      "statusClass": "",
-      "date_added": "2026-10-25"
-    },
-    {
-      "title": "Muslim Professionals Summit 2026",
-      "overview": "Navigate the future of work at MPS 2026. Discover how AI is reshaping careers, industries and opportunities for professionals.",
-      "period": "2026-10-31 to 2026-10-31",
-      "start_date": "2026-10-31",
-      "end_date": "2026-10-31",
-      "time": "10:00am – 5:00pm",
-      "venue": "Marina Bay Sands Expo & Convention",
-      "adult": "Free",
-      "category": "Event / Programme",
-      "link": "https://allevents.in/singapore/muslim-professionals-summit-2026/100001999341918499",
-      "tags": [
-        "free",
-        "ongoing"
-      ],
-      "source_key": "allevents",
-      "source": "AllEvents Singapore — Free Events",
-      "why": "See the official organiser page for the latest visitor information.",
-      "mrt": "Check directions",
-      "duration": "Flexible",
-      "senior": "Check official information",
-      "child": "Check official information",
-      "status": "Ongoing",
-      "statusClass": "",
+      "status": "Ending Soon",
+      "statusClass": "ending",
       "date_added": "2026-10-25"
     },
     {
@@ -1684,6 +1347,7 @@
       "category": "Event / Programme",
       "link": "https://nlb.libcal.com/event/5975674",
       "tags": [
+        "ending",
         "ongoing"
       ],
       "source_key": "nlb_calendar",
@@ -1693,8 +1357,8 @@
       "duration": "Flexible",
       "senior": "Check official information",
       "child": "Check official information",
-      "status": "Ongoing",
-      "statusClass": "",
+      "status": "Ending Soon",
+      "statusClass": "ending",
       "date_added": "2026-10-25"
     },
     {
@@ -1709,6 +1373,7 @@
       "category": "Event / Programme",
       "link": "https://nlb.libcal.com/event/5975765",
       "tags": [
+        "ending",
         "ongoing"
       ],
       "source_key": "nlb_calendar",
@@ -1718,8 +1383,8 @@
       "duration": "Flexible",
       "senior": "Check official information",
       "child": "Check official information",
-      "status": "Ongoing",
-      "statusClass": "",
+      "status": "Ending Soon",
+      "statusClass": "ending",
       "date_added": "2026-10-25"
     },
     {
@@ -1734,6 +1399,7 @@
       "category": "Event / Programme",
       "link": "https://nlb.libcal.com/event/5974356",
       "tags": [
+        "ending",
         "ongoing"
       ],
       "source_key": "nlb_calendar",
@@ -1743,8 +1409,8 @@
       "duration": "Flexible",
       "senior": "Check official information",
       "child": "Check official information",
-      "status": "Ongoing",
-      "statusClass": "",
+      "status": "Ending Soon",
+      "statusClass": "ending",
       "date_added": "2026-10-25"
     },
     {
@@ -1759,6 +1425,7 @@
       "category": "Event / Programme",
       "link": "https://nlb.libcal.com/event/5974366",
       "tags": [
+        "ending",
         "ongoing"
       ],
       "source_key": "nlb_calendar",
@@ -1768,8 +1435,8 @@
       "duration": "Flexible",
       "senior": "Check official information",
       "child": "Check official information",
-      "status": "Ongoing",
-      "statusClass": "",
+      "status": "Ending Soon",
+      "statusClass": "ending",
       "date_added": "2026-10-25"
     },
     {
@@ -1843,32 +1510,6 @@
       "date_added": null
     },
     {
-      "title": "Run For Inclusion 2026",
-      "overview": "Get moving for a more inclusive community at Run For Inclusion (RFI) 2026, taking place on Saturday, 7 November 2026 at HomeTeamNS Bedok Reservoir. Returning for its 12th edition, RFI brings Persons with Special Needs (PWSN), caregivers and the wider community together through the shared joy of spo",
-      "period": "2026-11-07 to 2026-11-07",
-      "start_date": "2026-11-07",
-      "end_date": "2026-11-07",
-      "time": "3:00pm – 6:30pm",
-      "venue": "HomeTeamNS Bedok Reservoir Clubhouse",
-      "adult": "Free",
-      "category": "Event / Programme",
-      "link": "https://allevents.in/singapore/run-for-inclusion-2026-tickets/80003284096513",
-      "tags": [
-        "free",
-        "ongoing"
-      ],
-      "source_key": "allevents",
-      "source": "AllEvents Singapore — Free Events",
-      "why": "See the official organiser page for the latest visitor information.",
-      "mrt": "Check directions",
-      "duration": "Flexible",
-      "senior": "Check official information",
-      "child": "Check official information",
-      "status": "Ongoing",
-      "statusClass": "",
-      "date_added": "2026-10-25"
-    },
-    {
       "title": "Sentosa Waterfront Property & Insights",
       "overview": "Explore Sentosa Luxury Homes Available Units at Wonderful Value. For the pleasures of ownership & immediate occupation. Register Now!",
       "period": "2024-09-20 to 2027-01-31",
@@ -1906,6 +1547,7 @@
       "category": "Event / Programme",
       "link": "https://nlb.libcal.com/event/5974875",
       "tags": [
+        "ending",
         "ongoing"
       ],
       "source_key": "nlb_calendar",
@@ -1915,8 +1557,8 @@
       "duration": "Flexible",
       "senior": "Check official information",
       "child": "Check official information",
-      "status": "Ongoing",
-      "statusClass": "",
+      "status": "Ending Soon",
+      "statusClass": "ending",
       "date_added": "2026-10-25"
     },
     {
@@ -2149,6 +1791,7 @@
       "category": "Event / Programme",
       "link": "https://nlb.libcal.com/event/5973533",
       "tags": [
+        "ending",
         "ongoing"
       ],
       "source_key": "nlb_calendar",
@@ -2158,8 +1801,8 @@
       "duration": "Flexible",
       "senior": "Check official information",
       "child": "Check official information",
-      "status": "Ongoing",
-      "statusClass": "",
+      "status": "Ending Soon",
+      "statusClass": "ending",
       "date_added": "2026-10-25"
     },
     {
@@ -2174,6 +1817,7 @@
       "category": "Event / Programme",
       "link": "https://nlb.libcal.com/event/5916418",
       "tags": [
+        "ending",
         "ongoing"
       ],
       "source_key": "nlb_calendar",
@@ -2183,34 +1827,34 @@
       "duration": "Flexible",
       "senior": "Check official information",
       "child": "Check official information",
-      "status": "Ongoing",
-      "statusClass": "",
+      "status": "Ending Soon",
+      "statusClass": "ending",
       "date_added": "2026-10-25"
     },
     {
-      "title": "Spring Sprang Sprung 2026",
-      "overview": "The first Singaporean watch fair of its kind—one which focuses on independent watch brands, is back this 2026 at GlassDome Singapore.",
-      "period": "2026-11-14 to 2026-11-15",
-      "start_date": "2026-11-14",
-      "end_date": "2026-11-15",
-      "time": "11:00am – 7:00pm",
-      "venue": "Glass Dome - Landmark of Good",
-      "adult": "Free",
+      "title": "Spark!Lab™ | Punggol Library",
+      "overview": "About the Event Calling all children aged 7 to 12! Are you always asking how things work or do you love taking things apart? Join us at Spark!Lab™ at Punggol Library (Level...",
+      "period": "2026-10-01 to 2026-10-31",
+      "start_date": "2026-10-01",
+      "end_date": "2026-10-31",
+      "time": "10:00am – 8:30pm",
+      "venue": "Punggol Library - Spark!Lab (Level 2)",
+      "adult": "Check official information",
       "category": "Event / Programme",
-      "link": "https://allevents.in/singapore/spring-sprang-sprung-2026/100001995453498129",
+      "link": "https://nlb.libcal.com/event/5972319",
       "tags": [
-        "free",
+        "ending",
         "ongoing"
       ],
-      "source_key": "allevents",
-      "source": "AllEvents Singapore — Free Events",
+      "source_key": "nlb_calendar",
+      "source": "NLB GoLibrary — All Events",
       "why": "See the official organiser page for the latest visitor information.",
       "mrt": "Check directions",
       "duration": "Flexible",
       "senior": "Check official information",
       "child": "Check official information",
-      "status": "Ongoing",
-      "statusClass": "",
+      "status": "Ending Soon",
+      "statusClass": "ending",
       "date_added": "2026-10-25"
     },
     {
@@ -2225,6 +1869,7 @@
       "category": "Event / Programme",
       "link": "https://nlb.libcal.com/event/5975950",
       "tags": [
+        "ending",
         "ongoing"
       ],
       "source_key": "nlb_calendar",
@@ -2234,8 +1879,8 @@
       "duration": "Flexible",
       "senior": "Check official information",
       "child": "Check official information",
-      "status": "Ongoing",
-      "statusClass": "",
+      "status": "Ending Soon",
+      "statusClass": "ending",
       "date_added": "2026-10-25"
     },
     {
@@ -2250,6 +1895,7 @@
       "category": "Event / Programme",
       "link": "https://nlb.libcal.com/event/5973468",
       "tags": [
+        "ending",
         "ongoing"
       ],
       "source_key": "nlb_calendar",
@@ -2259,8 +1905,8 @@
       "duration": "Flexible",
       "senior": "Check official information",
       "child": "Check official information",
-      "status": "Ongoing",
-      "statusClass": "",
+      "status": "Ending Soon",
+      "statusClass": "ending",
       "date_added": "2026-10-25"
     },
     {
@@ -2287,31 +1933,6 @@
       "date_added": null
     },
     {
-      "title": "Tai Chi For Healthy Longevity",
-      "overview": "Note: This is a weekly LearnX Community that meets every Monday, 02:00pm-03:00pm (excluding Public Holidays) unless otherwise specified. We strongly encourage participants to...",
-      "period": "2026-10-26 to 2026-10-26",
-      "start_date": "2026-10-26",
-      "end_date": "2026-10-26",
-      "time": "2:00pm – 3:00pm",
-      "venue": "Woodlands Library - Programme Zone (Level 1)",
-      "adult": "Check official information",
-      "category": "Event / Programme",
-      "link": "https://nlb.libcal.com/event/5977445",
-      "tags": [
-        "ongoing"
-      ],
-      "source_key": "nlb_calendar",
-      "source": "NLB GoLibrary — All Events",
-      "why": "See the official organiser page for the latest visitor information.",
-      "mrt": "Check directions",
-      "duration": "Flexible",
-      "senior": "Check official information",
-      "child": "Check official information",
-      "status": "Ongoing",
-      "statusClass": "",
-      "date_added": "2026-10-25"
-    },
-    {
       "title": "Tamil Reading Club: Vaasagar Vattam / வாசகர் வட்டம்",
       "overview": "Vaasagar Vattam வாசகர் வட்டம் 25 October 2026, Sunday 2pm to 5.30pm The POD, level 16 National Library Building 100 Victoria Street",
       "period": "2026-10-25 to 2026-10-25",
@@ -2323,6 +1944,7 @@
       "category": "Event / Programme",
       "link": "https://nlb.libcal.com/event/5977658",
       "tags": [
+        "ending",
         "ongoing"
       ],
       "source_key": "nlb_calendar",
@@ -2332,8 +1954,8 @@
       "duration": "Flexible",
       "senior": "Check official information",
       "child": "Check official information",
-      "status": "Ongoing",
-      "statusClass": "",
+      "status": "Ending Soon",
+      "statusClass": "ending",
       "date_added": "2026-10-25"
     },
     {
@@ -2348,6 +1970,7 @@
       "category": "Event / Programme",
       "link": "https://nlb.libcal.com/event/5977657",
       "tags": [
+        "ending",
         "ongoing"
       ],
       "source_key": "nlb_calendar",
@@ -2357,8 +1980,8 @@
       "duration": "Flexible",
       "senior": "Check official information",
       "child": "Check official information",
-      "status": "Ongoing",
-      "statusClass": "",
+      "status": "Ending Soon",
+      "statusClass": "ending",
       "date_added": "2026-10-25"
     },
     {
@@ -2373,6 +1996,7 @@
       "category": "Event / Programme",
       "link": "https://nlb.libcal.com/event/5867951",
       "tags": [
+        "ending",
         "ongoing"
       ],
       "source_key": "nlb_calendar",
@@ -2382,8 +2006,8 @@
       "duration": "Flexible",
       "senior": "Check official information",
       "child": "Check official information",
-      "status": "Ongoing",
-      "statusClass": "",
+      "status": "Ending Soon",
+      "statusClass": "ending",
       "date_added": "2026-10-25"
     },
     {
@@ -2564,6 +2188,7 @@
       "category": "Event / Programme",
       "link": "https://nlb.libcal.com/event/5976540",
       "tags": [
+        "ending",
         "ongoing"
       ],
       "source_key": "nlb_calendar",
@@ -2573,8 +2198,8 @@
       "duration": "Flexible",
       "senior": "Check official information",
       "child": "Check official information",
-      "status": "Ongoing",
-      "statusClass": "",
+      "status": "Ending Soon",
+      "statusClass": "ending",
       "date_added": "2026-10-25"
     },
     {
@@ -2593,9 +2218,10 @@
       "duration": "Flexible",
       "senior": "Check official information",
       "child": "Check official information",
-      "status": "Ongoing",
-      "statusClass": "",
+      "status": "Ending Soon",
+      "statusClass": "ending",
       "tags": [
+        "ending",
         "ongoing"
       ],
       "date_added": null
@@ -2636,6 +2262,7 @@
       "category": "Event / Programme",
       "link": "https://nlb.libcal.com/event/5974467",
       "tags": [
+        "ending",
         "ongoing"
       ],
       "source_key": "nlb_calendar",
@@ -2645,8 +2272,8 @@
       "duration": "Flexible",
       "senior": "Check official information",
       "child": "Check official information",
-      "status": "Ongoing",
-      "statusClass": "",
+      "status": "Ending Soon",
+      "statusClass": "ending",
       "date_added": "2026-10-25"
     },
     {
@@ -2661,6 +2288,7 @@
       "category": "Event / Programme",
       "link": "https://nlb.libcal.com/event/5976088",
       "tags": [
+        "ending",
         "ongoing"
       ],
       "source_key": "nlb_calendar",
@@ -2670,8 +2298,8 @@
       "duration": "Flexible",
       "senior": "Check official information",
       "child": "Check official information",
-      "status": "Ongoing",
-      "statusClass": "",
+      "status": "Ending Soon",
+      "statusClass": "ending",
       "date_added": "2026-10-25"
     },
     {
@@ -2756,6 +2384,7 @@
       "category": "Event / Programme",
       "link": "https://nlb.libcal.com/event/5974437",
       "tags": [
+        "ending",
         "ongoing"
       ],
       "source_key": "nlb_calendar",
@@ -2765,8 +2394,8 @@
       "duration": "Flexible",
       "senior": "Check official information",
       "child": "Check official information",
-      "status": "Ongoing",
-      "statusClass": "",
+      "status": "Ending Soon",
+      "statusClass": "ending",
       "date_added": "2026-10-25"
     },
     {
@@ -2781,6 +2410,7 @@
       "category": "Event / Programme",
       "link": "https://nlb.libcal.com/event/5975059",
       "tags": [
+        "ending",
         "ongoing"
       ],
       "source_key": "nlb_calendar",
@@ -2790,8 +2420,8 @@
       "duration": "Flexible",
       "senior": "Check official information",
       "child": "Check official information",
-      "status": "Ongoing",
-      "statusClass": "",
+      "status": "Ending Soon",
+      "statusClass": "ending",
       "date_added": "2026-10-25"
     },
     {
@@ -2806,6 +2436,7 @@
       "category": "Event / Programme",
       "link": "https://nlb.libcal.com/event/5975764",
       "tags": [
+        "ending",
         "ongoing"
       ],
       "source_key": "nlb_calendar",
@@ -2815,8 +2446,34 @@
       "duration": "Flexible",
       "senior": "Check official information",
       "child": "Check official information",
-      "status": "Ongoing",
-      "statusClass": "",
+      "status": "Ending Soon",
+      "statusClass": "ending",
+      "date_added": "2026-10-25"
+    },
+    {
+      "title": "[20 Nov 2026] Humanity in the Age of AI",
+      "overview": "As AI evolves, discover how empathy, creativity, and human connection remain your greatest strengths in the future of work.",
+      "period": "2026-11-20 to 2026-11-20",
+      "start_date": "2026-11-20",
+      "end_date": "2026-11-20",
+      "time": "2:00pm – 5:00pm",
+      "venue": "Concorde Hotel Singapore",
+      "adult": "Free",
+      "category": "Event / Programme",
+      "link": "https://allevents.in/singapore/20-nov-2026-humanity-in-the-age-of-ai/100001995901333617",
+      "tags": [
+        "free",
+        "upcoming"
+      ],
+      "source_key": "allevents",
+      "source": "AllEvents Singapore — Free Events",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "Flexible",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Upcoming",
+      "statusClass": "upcoming",
       "date_added": "2026-10-25"
     },
     {
@@ -2865,6 +2522,58 @@
         "upcoming"
       ],
       "date_added": null
+    },
+    {
+      "title": "Access MBA Singapore – Meet Top Business Schools in One Evening",
+      "overview": "Your next career opportunity starts here.If you want to build an international career, increase your earning potential and open the door to new opportunities abroad, the right MBA can be a powerful next step.Join Access MBA Singapore on November 2 at Marina Bay Sands Convention & Expo Center and mee",
+      "period": "2026-11-02 to 2026-11-02",
+      "start_date": "2026-11-02",
+      "end_date": "2026-11-02",
+      "time": "5:30pm – 10:00pm",
+      "venue": "Marina Bay Sands Expo & Convention",
+      "adult": "Free",
+      "category": "Event / Programme",
+      "link": "https://allevents.in/singapore/access-mba-singapore-meet-top-business-schools-in-one-evening-tickets/80002642617676",
+      "tags": [
+        "free",
+        "upcoming"
+      ],
+      "source_key": "allevents",
+      "source": "AllEvents Singapore — Free Events",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "Flexible",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Upcoming",
+      "statusClass": "upcoming",
+      "date_added": "2026-10-25"
+    },
+    {
+      "title": "AI Engineering Summit | Singapore | 2026",
+      "overview": "Explore how engineering teams are building, deploying, and scaling intelligent AI systems from code to production",
+      "period": "2026-12-03 to 2026-12-03",
+      "start_date": "2026-12-03",
+      "end_date": "2026-12-03",
+      "time": "9:00am – 5:00pm",
+      "venue": "Four Points by Sheraton Singapore, Riverview",
+      "adult": "Free",
+      "category": "Event / Programme",
+      "link": "https://allevents.in/singapore/ai-engineering-summit-singapore-2026/100001995178186665",
+      "tags": [
+        "free",
+        "upcoming"
+      ],
+      "source_key": "allevents",
+      "source": "AllEvents Singapore — Free Events",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "Flexible",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Upcoming",
+      "statusClass": "upcoming",
+      "date_added": "2026-10-25"
     },
     {
       "title": "All My Sons (Screening)",
@@ -2916,6 +2625,58 @@
       "date_added": null
     },
     {
+      "title": "BeautyFresh Christmas Beauty Bazaar - Up to 80% OFF 120+ Beauty Brands ( 29 Oct - 1 Nov)",
+      "overview": "Get your wishlists ready! The countdown to our final and biggest event of the year has officially begun, and we are pulling out all the stops to make this our most spectacular sale yet ✨Mark your calendars and clear your schedules. You will not want to miss this!🛍️ Up to 80% OFF 120+ beauty brands🎟️",
+      "period": "2026-10-29 to 2026-11-01",
+      "start_date": "2026-10-29",
+      "end_date": "2026-11-01",
+      "time": "10:00am – 7:00pm",
+      "venue": "BeautyFresh WareHouse",
+      "adult": "Free",
+      "category": "Event / Programme",
+      "link": "https://allevents.in/singapore/beautyfresh-christmas-beauty-bazaar-up-to-80-off-120-beauty-brands-29-oct-1-nov-tickets/80008096100144",
+      "tags": [
+        "free",
+        "upcoming"
+      ],
+      "source_key": "allevents",
+      "source": "AllEvents Singapore — Free Events",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "Flexible",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Upcoming",
+      "statusClass": "upcoming",
+      "date_added": "2026-10-25"
+    },
+    {
+      "title": "BTO Nov '26 Workshop",
+      "overview": "Choose wise, live better! Join our workshop that's exclusive for the launch in Nov 2026 as you prepare yourself for a dream home!",
+      "period": "2026-11-08 to 2026-11-08",
+      "start_date": "2026-11-08",
+      "end_date": "2026-11-08",
+      "time": "1:00pm – 3:00pm",
+      "venue": "1 Pickering St",
+      "adult": "Free",
+      "category": "Event / Programme",
+      "link": "https://allevents.in/singapore/bto-nov-26-workshop/100001998522593877",
+      "tags": [
+        "free",
+        "upcoming"
+      ],
+      "source_key": "allevents",
+      "source": "AllEvents Singapore — Free Events",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "Flexible",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Upcoming",
+      "statusClass": "upcoming",
+      "date_added": "2026-10-25"
+    },
+    {
       "title": "Classic Memories: Songs That…",
       "category": "Event / Exhibition",
       "overview": "Nov 06, 2026 - Nov 06, 2026 Victoria Concert Hall Classic Memories: Songs That… Classic Memories: Songs That Bring Us Together reimagines beloved Chinese popular classics through the distinctive… Concert",
@@ -2937,6 +2698,83 @@
         "upcoming"
       ],
       "date_added": null
+    },
+    {
+      "title": "Come, Let's Eat | TOYLC26",
+      "overview": "About the Event Eating is more than nourishment, it is also about enjoyment, connection and sharing meaningful moments with family and friends. But for some older adults and...",
+      "period": "2026-10-26 to 2026-10-26",
+      "start_date": "2026-10-26",
+      "end_date": "2026-10-26",
+      "time": "11:00am – 1:00pm",
+      "venue": "Tampines Library - Programme Zone 1 (Level 2)",
+      "adult": "Check official information",
+      "category": "Event / Programme",
+      "link": "https://nlb.libcal.com/event/5975969",
+      "tags": [
+        "upcoming"
+      ],
+      "source_key": "nlb_calendar",
+      "source": "NLB GoLibrary — All Events",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "Flexible",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Upcoming",
+      "statusClass": "upcoming",
+      "date_added": "2026-10-25"
+    },
+    {
+      "title": "Create Financial Freedom: Invest and Build Wealth Now (13 Nov 2026)",
+      "overview": "Find Out How You Can Earn Additional Investment Income To FIRE",
+      "period": "2026-11-13 to 2026-11-13",
+      "start_date": "2026-11-13",
+      "end_date": "2026-11-13",
+      "time": "7:15pm – 10:30pm",
+      "venue": "MBFC Tower 2",
+      "adult": "Free",
+      "category": "Event / Programme",
+      "link": "https://allevents.in/singapore/create-financial-freedom-invest-and-build-wealth-now-13-nov-2026/100001991917846901",
+      "tags": [
+        "free",
+        "upcoming"
+      ],
+      "source_key": "allevents",
+      "source": "AllEvents Singapore — Free Events",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "Flexible",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Upcoming",
+      "statusClass": "upcoming",
+      "date_added": "2026-10-25"
+    },
+    {
+      "title": "Cyber Revolution Summit - Singapore",
+      "overview": "Singapore stands as Southeast Asia’s digital trust anchor, where innovation, connectivity, and cybersecurity converge to power one of the world’s most advanced digital economies. As ASEAN’s leading technology and financial hub, Singapore continues to drive regional cyber resilience, safeguarding cri",
+      "period": "2026-11-24 to 2026-11-24",
+      "start_date": "2026-11-24",
+      "end_date": "2026-11-24",
+      "time": "9:00am – 5:00pm",
+      "venue": "Orchard Hotel Singapore",
+      "adult": "Free",
+      "category": "Event / Programme",
+      "link": "https://allevents.in/singapore/cyber-revolution-summit-singapore-tickets/80007518451233",
+      "tags": [
+        "free",
+        "upcoming"
+      ],
+      "source_key": "allevents",
+      "source": "AllEvents Singapore — Free Events",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "Flexible",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Upcoming",
+      "statusClass": "upcoming",
+      "date_added": "2026-10-25"
     },
     {
       "title": "Des Bishop Live in Singapore",
@@ -2985,6 +2823,32 @@
       "date_added": null
     },
     {
+      "title": "Dress Up and Crack the Mystery at StarHub WatchParty: Halloween Edition",
+      "overview": "StarHub’s Halloween edition of WatchParty takes over CQ @ Clarke Quay Fountain Square on 30 and 31 October, bringing guests together for a movie night and Halloween fun. Settle in for a screening of Haunted Mansion, then put your detective skills to the test as you uncover clues and solve a mystery.",
+      "period": "2026-10-30 to 2026-10-31",
+      "start_date": "2026-10-30",
+      "end_date": "2026-10-31",
+      "time": "6:00pm – 11:00pm",
+      "venue": "CQ @ Clarke Quay, Fountain Square",
+      "adult": "Free",
+      "category": "Event / Programme",
+      "link": "https://allevents.in/singapore/dress-up-and-crack-the-mystery-at-starhub-watchparty-halloween-edition-tickets/80003032302585",
+      "tags": [
+        "free",
+        "upcoming"
+      ],
+      "source_key": "allevents",
+      "source": "AllEvents Singapore — Free Events",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "Flexible",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Upcoming",
+      "statusClass": "upcoming",
+      "date_added": "2026-10-25"
+    },
+    {
       "title": "Gema & Gaya: Drop-in Dikir Barat Experience",
       "category": "Event",
       "overview": "Immerse yourself in traditional dikir barat music with this interactive, drop-in cultural experience suitable for all ages. Drop by anytime during the two-hour session to try your hand at beating the infectious rhythms on traditional percussion instruments like the rebana and canang . Or take a seat at our craft station to fold and customise your very own paper tanjak (traditional headgear) to wear. Whether you stay for 10 minutes or the full two hours, this flexible, hands-on activity offers a fun and spontaneous way for children and families to connect with a rich cultural heritage at their own pace.",
@@ -3031,6 +2895,58 @@
         "upcoming"
       ],
       "date_added": null
+    },
+    {
+      "title": "Great Eastern Women's Run 2026",
+      "overview": "Singapore’s only all-women’s run returns for its milestone 20th edition! The Great Eastern Women’s Run (GEWR) 2026 will take place on 1 November at The Kallang.For 20 years, GEWR has brought together women and girls of all ages through fitness, friendship and shared purpose. From first-time runners",
+      "period": "2026-11-01 to 2026-11-01",
+      "start_date": "2026-11-01",
+      "end_date": "2026-11-01",
+      "time": "4:30am – 12:00pm",
+      "venue": "The Kallang",
+      "adult": "Free",
+      "category": "Event / Programme",
+      "link": "https://allevents.in/singapore/great-eastern-womens-run-2026-tickets/80003049646072",
+      "tags": [
+        "free",
+        "upcoming"
+      ],
+      "source_key": "allevents",
+      "source": "AllEvents Singapore — Free Events",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "Flexible",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Upcoming",
+      "statusClass": "upcoming",
+      "date_added": "2026-10-25"
+    },
+    {
+      "title": "Inner Resonance",
+      "overview": "An intimate evening of live music for Cello, Da Ruan, Harp and electronic beats, woven with gentle guided mindfulness and deep relaxation.",
+      "period": "2026-11-20 to 2026-11-20",
+      "start_date": "2026-11-20",
+      "end_date": "2026-11-20",
+      "time": "7:00pm – 8:00pm",
+      "venue": "Ashtanga Yoga Nilayam Singapore",
+      "adult": "Free",
+      "category": "Event / Programme",
+      "link": "https://allevents.in/singapore/inner-resonance/100002003415315138",
+      "tags": [
+        "free",
+        "upcoming"
+      ],
+      "source_key": "allevents",
+      "source": "AllEvents Singapore — Free Events",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "Flexible",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Upcoming",
+      "statusClass": "upcoming",
+      "date_added": "2026-10-25"
     },
     {
       "title": "Inventions by Biswa Kalyan Rath",
@@ -3176,6 +3092,32 @@
       "date_added": null
     },
     {
+      "title": "Muslim Professionals Summit 2026",
+      "overview": "Navigate the future of work at MPS 2026. Discover how AI is reshaping careers, industries and opportunities for professionals.",
+      "period": "2026-10-31 to 2026-10-31",
+      "start_date": "2026-10-31",
+      "end_date": "2026-10-31",
+      "time": "10:00am – 5:00pm",
+      "venue": "Marina Bay Sands Expo & Convention",
+      "adult": "Free",
+      "category": "Event / Programme",
+      "link": "https://allevents.in/singapore/muslim-professionals-summit-2026/100001999341918499",
+      "tags": [
+        "free",
+        "upcoming"
+      ],
+      "source_key": "allevents",
+      "source": "AllEvents Singapore — Free Events",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "Flexible",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Upcoming",
+      "statusClass": "upcoming",
+      "date_added": "2026-10-25"
+    },
+    {
       "title": "Nadya Zaheer",
       "category": "Event",
       "overview": "Nadya Zaheer brings together a collection of her favourite love songs from the past decade that have kept her company through long bus rides, cosy evenings and spontaneous dance parties. Nadya dedicates her set to the zillennials in the audience and everyone she has ever loved.",
@@ -3296,6 +3238,32 @@
         "upcoming"
       ],
       "date_added": null
+    },
+    {
+      "title": "Run For Inclusion 2026",
+      "overview": "Get moving for a more inclusive community at Run For Inclusion (RFI) 2026, taking place on Saturday, 7 November 2026 at HomeTeamNS Bedok Reservoir. Returning for its 12th edition, RFI brings Persons with Special Needs (PWSN), caregivers and the wider community together through the shared joy of spo",
+      "period": "2026-11-07 to 2026-11-07",
+      "start_date": "2026-11-07",
+      "end_date": "2026-11-07",
+      "time": "3:00pm – 6:30pm",
+      "venue": "HomeTeamNS Bedok Reservoir Clubhouse",
+      "adult": "Free",
+      "category": "Event / Programme",
+      "link": "https://allevents.in/singapore/run-for-inclusion-2026-tickets/80003284096513",
+      "tags": [
+        "free",
+        "upcoming"
+      ],
+      "source_key": "allevents",
+      "source": "AllEvents Singapore — Free Events",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "Flexible",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Upcoming",
+      "statusClass": "upcoming",
+      "date_added": "2026-10-25"
     },
     {
       "title": "Sad Girl Pop",
@@ -3559,6 +3527,57 @@
         "upcoming"
       ],
       "date_added": null
+    },
+    {
+      "title": "Spring Sprang Sprung 2026",
+      "overview": "The first Singaporean watch fair of its kind—one which focuses on independent watch brands, is back this 2026 at GlassDome Singapore.",
+      "period": "2026-11-14 to 2026-11-15",
+      "start_date": "2026-11-14",
+      "end_date": "2026-11-15",
+      "time": "11:00am – 7:00pm",
+      "venue": "Glass Dome - Landmark of Good",
+      "adult": "Free",
+      "category": "Event / Programme",
+      "link": "https://allevents.in/singapore/spring-sprang-sprung-2026/100001995453498129",
+      "tags": [
+        "free",
+        "upcoming"
+      ],
+      "source_key": "allevents",
+      "source": "AllEvents Singapore — Free Events",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "Flexible",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Upcoming",
+      "statusClass": "upcoming",
+      "date_added": "2026-10-25"
+    },
+    {
+      "title": "Tai Chi For Healthy Longevity",
+      "overview": "Note: This is a weekly LearnX Community that meets every Monday, 02:00pm-03:00pm (excluding Public Holidays) unless otherwise specified. We strongly encourage participants to...",
+      "period": "2026-10-26 to 2026-10-26",
+      "start_date": "2026-10-26",
+      "end_date": "2026-10-26",
+      "time": "2:00pm – 3:00pm",
+      "venue": "Woodlands Library - Programme Zone (Level 1)",
+      "adult": "Check official information",
+      "category": "Event / Programme",
+      "link": "https://nlb.libcal.com/event/5977445",
+      "tags": [
+        "upcoming"
+      ],
+      "source_key": "nlb_calendar",
+      "source": "NLB GoLibrary — All Events",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "Flexible",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Upcoming",
+      "statusClass": "upcoming",
+      "date_added": "2026-10-25"
     },
     {
       "title": "Talking to Twilight (Singapore…",
@@ -3873,7 +3892,7 @@
     },
     "nlb_calendar": {
       "status": "fresh",
-      "count": 47
+      "count": 46
     }
   },
   "sources": [
@@ -3883,7 +3902,7 @@
       "url": "https://singaporeccc.org.sg/events/",
       "status": "ok",
       "count": 26,
-      "last_success": "2026-10-25T05:25:50+08:00",
+      "last_success": "2026-10-25T05:29:59+08:00",
       "error": "",
       "needs_reader_review": false
     },
@@ -3893,7 +3912,7 @@
       "url": "https://www.gardensbythebay.com.sg/en/things-to-do/calendar-of-events.html",
       "status": "ok",
       "count": 11,
-      "last_success": "2026-10-25T05:25:50+08:00",
+      "last_success": "2026-10-25T05:29:59+08:00",
       "error": "",
       "needs_reader_review": false
     },
@@ -3903,7 +3922,7 @@
       "url": "https://www.esplanade.com/whats-on",
       "status": "ok",
       "count": 30,
-      "last_success": "2026-10-25T05:25:50+08:00",
+      "last_success": "2026-10-25T05:29:59+08:00",
       "error": "",
       "needs_reader_review": false
     },
@@ -3913,7 +3932,7 @@
       "url": "https://www.nationalmuseum.nhb.gov.sg/whats-on/exhibition/exhibitions",
       "status": "ok",
       "count": 2,
-      "last_success": "2026-10-25T05:25:50+08:00",
+      "last_success": "2026-10-25T05:29:59+08:00",
       "error": "",
       "needs_reader_review": false
     },
@@ -3923,7 +3942,7 @@
       "url": "https://www.nationalgallery.sg/sg/en/whats-on.html",
       "status": "ok",
       "count": 2,
-      "last_success": "2026-10-25T05:25:50+08:00",
+      "last_success": "2026-10-25T05:29:59+08:00",
       "error": "",
       "needs_reader_review": false
     },
@@ -3933,7 +3952,7 @@
       "url": "https://www.ura.gov.sg/get-involved/events-and-exhibitions/",
       "status": "ok",
       "count": 1,
-      "last_success": "2026-10-25T05:25:50+08:00",
+      "last_success": "2026-10-25T05:29:59+08:00",
       "error": "",
       "needs_reader_review": false
     },
@@ -3943,7 +3962,7 @@
       "url": "https://exhibitions.nlb.gov.sg/current-exhibitions/",
       "status": "ok",
       "count": 5,
-      "last_success": "2026-10-25T05:25:50+08:00",
+      "last_success": "2026-10-25T05:29:59+08:00",
       "error": "",
       "needs_reader_review": false
     },
@@ -3953,7 +3972,7 @@
       "url": "https://www.visitsingapore.com/things-to-do/top-things-to-do/",
       "status": "ok",
       "count": 10,
-      "last_success": "2026-10-25T05:25:50+08:00",
+      "last_success": "2026-10-25T05:29:59+08:00",
       "error": "",
       "needs_reader_review": false
     },
@@ -3983,7 +4002,7 @@
       "url": "https://allevents.in/singapore/free-events",
       "status": "ok",
       "count": 14,
-      "last_success": "2026-10-25T05:25:50+08:00",
+      "last_success": "2026-10-25T05:29:59+08:00",
       "error": "",
       "needs_reader_review": false
     },
@@ -3992,8 +4011,8 @@
       "name": "NLB GoLibrary — All Events",
       "url": "https://nlb.libcal.com/calendar/public",
       "status": "ok",
-      "count": 47,
-      "last_success": "2026-10-25T05:25:50+08:00",
+      "count": 46,
+      "last_success": "2026-10-25T05:29:59+08:00",
       "error": "",
       "needs_reader_review": false
     }
