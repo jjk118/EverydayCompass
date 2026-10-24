@@ -78,3 +78,8 @@ def test_national_museum_challenge_is_not_reported_as_success(monkeypatch):
     got = u.update(previous, TODAY, fetcher=fail)
     assert got["source_report"]["national_museum"]["status"] == "fallback"
     assert got["events"][0]["title"] == "Preserved event"
+
+def test_national_museum_omits_explicit_overseas_touring_exhibition():
+    html = """<article><h3><a href="/whats-on/exhibition/tails-from-the-coasts">Tails from the Coasts</a></h3>
+    <p>25 Jun 2026 – 1 Nov 2026</p><p>Canterbury Museum, Christchurch, New Zealand</p></article>"""
+    assert u.source_specific_events(u.BeautifulSoup(html, "html.parser"), "national_museum", TODAY) == []

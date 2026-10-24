@@ -310,6 +310,9 @@ def source_specific_events(soup, key, today):
     out = []
     seen = set()
     for el, txt in text_blocks(soup):
+        # The museum also promotes touring exhibitions held overseas.
+        if key == "national_museum" and re.search(r"\b(?:Canterbury Museum|Christchurch,?\s+New Zealand)\b", txt, re.I):
+            continue
         period = extract_period(txt)
         if not period:
             continue
@@ -648,7 +651,10 @@ def render_source(url):
     """Read a public JavaScript listing; never interact with verification challenges."""
     from playwright.sync_api import sync_playwright
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True, args=["--disable-http2"])
+        # Use Chromium's normal protocol negotiation for Marina Bay Sands.
+        # Keep the existing compatibility setting for the other working sources.
+        args = [] if (urlparse(url).hostname or "").endswith("marinabaysands.com") else ["--disable-http2"]
+        browser = p.chromium.launch(headless=True, args=args)
         try:
             page = browser.new_page(locale="en-SG")
             # Optional resources must not prevent reading an already loaded document.
