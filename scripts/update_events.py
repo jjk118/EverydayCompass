@@ -542,6 +542,7 @@ def fetch_esplanade_two_stage(listing_html, today, fetcher, max_details=80):
     return dedupe(events), errors
 
 DETAIL_PATHS = {
+    "national_museum": re.compile(r"^/whats-on/(?:exhibition|programme)/[^/]+(?:/events)?/?$"),
     "visit_singapore": re.compile(r"^/whats-happening/all-happenings/events/[^/]+/?$"),
     "catch_sg": re.compile(r"^/Event/(?:[^/]+/)*[^/]*\d{8,}[^/]*$"),
     "gardens": re.compile(r"^/en/things-to-do/calendar-of-events/[^/]+\.html$"),
@@ -650,7 +651,9 @@ def render_source(url):
         browser = p.chromium.launch(headless=True, args=["--disable-http2"])
         try:
             page = browser.new_page(locale="en-SG")
-            response = page.goto(url, wait_until="domcontentloaded", timeout=45000)
+            # Optional resources must not prevent reading an already loaded document.
+            response = page.goto(url, wait_until="commit", timeout=45000)
+            page.locator("body").wait_for(state="attached", timeout=20000)
             if response and response.status >= 400:
                 raise ValueError(f"Official browser page returned HTTP {response.status}")
             def check_verification():
@@ -677,6 +680,46 @@ def render_source(url):
             browser.close()
 
 
+# Public official alternatives only. A challenge page is never a successful read.
+OFFICIAL_LISTING_ALTERNATIVES = {
+    "artscience": ["https://www.marinabaysands.com/museum.html"],
+}
+BROWSER_SOURCES = {"gardens", "artscience", "visit_singapore", "catch_sg", "national_museum"}
+
+
+def read_source_events(cfg, key, today, fetcher):
+    urls = list(dict.fromkeys([cfg.get("listing_url", cfg["url"])]
+                             + OFFICIAL_LISTING_ALTERNATIVES.get(key, [])))
+    errors = []
+
+    def extract(html):
+        events = parse_source_html(html, key, today)
+        # Read official detail links before rendering the JavaScript listing.
+        return events or fetch_official_details(html, key, today, fetcher)
+
+    for url in urls:
+        try:
+            fresh = extract(fetcher(url))
+            if fresh:
+                return fresh
+            errors.append(f"{url}: zero usable events")
+        except Exception as exc:
+            errors.append(f"{url}: {exc}")
+            print(f"Official listing unavailable: {errors[-1]}", flush=True)
+    if fetcher is fetch and key in BROWSER_SOURCES:
+        for url in urls:
+            try:
+                fresh = extract(render_source(url))
+                if fresh:
+                    return fresh
+                errors.append(f"{url}: zero usable events after browser read")
+            except Exception as exc:
+                errors.append(f"{url}: {exc}")
+                print(f"Official browser read unavailable: {errors[-1]}", flush=True)
+    reason = errors[-1] if errors else "zero usable events"
+    raise ValueError(reason + "; preserving previous source records")
+
+
 def update(previous, today=None, fetcher=fetch):
     today = today or datetime.now(SGT).date()
     all_events = []
@@ -684,15 +727,8 @@ def update(previous, today=None, fetcher=fetch):
     for key, cfg in SOURCES.items():
         prev = previous_for(previous, key)
         try:
-            rendered = False
-            try:
-                html = fetcher(cfg.get("listing_url", cfg["url"]))
-            except Exception:
-                if fetcher is not fetch or key not in ("gardens", "artscience", "visit_singapore", "catch_sg"):
-                    raise
-                html = render_source(cfg.get("listing_url", cfg["url"]))
-                rendered = True
             if key == "esplanade":
+                html = fetcher(cfg.get("listing_url", cfg["url"]))
                 fresh, detail_errors = fetch_esplanade_two_stage(html, today, fetcher)
                 # If no detail links/results are usable, fall back to conservative listing parser.
                 if not fresh:
@@ -703,14 +739,7 @@ def update(previous, today=None, fetcher=fetch):
                 report[key] = {"status":"fresh", "count":len(fresh),
                                "detail_errors":len(detail_errors)}
             else:
-                fresh = parse_source_html(html, key, today)
-                if not fresh and not rendered and fetcher is fetch and key in ("gardens", "artscience", "visit_singapore", "catch_sg"):
-                    html = render_source(cfg.get("listing_url", cfg["url"]))
-                    fresh = parse_source_html(html, key, today)
-                if not fresh:
-                    fresh = fetch_official_details(html, key, today, fetcher)
-                if not fresh:
-                    raise ValueError("zero usable events; preserving previous source records")
+                fresh = read_source_events(cfg, key, today, fetcher)
                 all_events.extend(fresh)
                 report[key] = {"status":"fresh", "count":len(fresh)}
         except Exception as exc:
