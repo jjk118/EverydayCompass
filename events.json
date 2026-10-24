@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T17:43:21+08:00",
+  "updated_at": "2026-10-24T17:01:52+08:00",
   "events": [
     {
       "title": "70 Years of RSP: Where Design Meets Humanity",
@@ -118,6 +118,29 @@
       ]
     },
     {
+      "title": "Black Myth: Wukong Global Concert",
+      "category": "Event / Exhibition",
+      "overview": "24 - 25 OCT ’26 Black Myth: Wukong Global Concert Heed the Destiny - Black Myth: Wukong Global Concert features selected in-game music, blending symphonic orchestration with Chinese folk music to score an epic adventure. Destined Ones get to embark on the Journey to the West and listen to what destiny plays.",
+      "period": "24 - 25 OCT 2026",
+      "time": "Check official information",
+      "venue": "Visit Singapore",
+      "link": "https://www.visitsingapore.com/whats-happening/all-happenings/",
+      "source_key": "visit_singapore",
+      "source": "Visit Singapore",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "Flexible",
+      "adult": "Check official information",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Ending Soon",
+      "statusClass": "ending",
+      "tags": [
+        "ending",
+        "ongoing"
+      ]
+    },
+    {
       "title": "Bloomyard",
       "period": "10 Sep - 25 Oct 2026",
       "link": "https://www.gardensbythebay.com.sg/en/things-to-do/calendar-of-events/bloomyard.html",
@@ -164,7 +187,7 @@
     },
     {
       "title": "Botero: A Life in Fullness",
-      "period": "26 Apr - 1 Nov 2026",
+      "period": "26 Apr - 30 Nov 2026",
       "link": "https://www.gardensbythebay.com.sg/en/things-to-do/calendar-of-events/botero-life-in-fullness.html",
       "overview": "Step inside Botero’s universe through a fully immersive experience of colour, music, and movement. His unmistakable forms fill the space around you, transforming his sculptures and paintings into a living, dynamic world.",
       "time": "Mon–Thu: 10.00am - 7.00pm Fri–Sun & PH: 10.00am - 8.00pm",
@@ -178,10 +201,9 @@
       "adult": "Check official information",
       "senior": "Check official information",
       "child": "Check official information",
-      "status": "Ending Soon",
-      "statusClass": "ending",
+      "status": "Ongoing",
+      "statusClass": "",
       "tags": [
-        "ending",
         "ongoing"
       ]
     },
@@ -318,30 +340,6 @@
       ]
     },
     {
-      "title": "Doomscroll Time!",
-      "category": "Event",
-      "overview": "Popping off on a Monday evening, this performance by Masha Nyanna invites audiences into an indie-pop deep-dive of songs from her For You page. Featuring viral hits from Janine Berdin, Hayley Williams and more, the set showcases how these tunes have shaped her distinct musical artistry, while also highlighting recent releases like The Feeling and Changing Seasons . Joined by long-time friend and guitarist Syafiq Gunawi, and percussionist Kendrick Tan and Joel Tan on keys, audiences are invited to arrive curious—this is a doomscroll that might just lead to a new favourite.",
-      "period": "19 Oct 2026",
-      "time": "6:45 pm, 7:45 pm",
-      "venue": "Esplanade Concourse",
-      "link": "https://www.esplanade.com/whats-on/festivals-and-series/popaholic/2026/doomscroll-time",
-      "source_key": "esplanade",
-      "source": "Esplanade",
-      "why": "See the official organiser page for the latest visitor information.",
-      "mrt": "Check directions",
-      "duration": "5mins",
-      "adult": "Free",
-      "senior": "Free",
-      "child": "Free",
-      "status": "Ending Soon",
-      "statusClass": "ending",
-      "tags": [
-        "ending",
-        "free",
-        "ongoing"
-      ]
-    },
-    {
       "title": "Energize 2026",
       "category": "Event / Exhibition",
       "overview": "Mar 01, 2025 - Dec 30, 2026 Singapore Chinese Cultural Centre Concourse, Level 1 Energize 2026 “Energize” is back! Every Monday to Wednesday, 7pm to 8pm, let’s workout together at the… Fitness/Exercise Free",
@@ -408,6 +406,29 @@
       ]
     },
     {
+      "title": "Get Crafty! – Paper Sunflower Bouquet by When Stars Align",
+      "period": "24 Oct - 25 Oct 2026",
+      "link": "https://www.gardensbythebay.com.sg/en/things-to-do/calendar-of-events/get-crafty-paper-sunflower-bouquet-by-when-stars-align.html",
+      "overview": "Inspired by Vincent van Gogh's iconic sunflower paintings, craft an everlasting paper sunflower before adding dried baby's breath and learning simple paper-folding techniques to create a beautiful bouquet.",
+      "time": "10.00am - 6.00pm",
+      "venue": "Australian Garden, Flower Dome",
+      "category": "Event / Exhibition",
+      "source_key": "gardens",
+      "source": "Gardens by the Bay",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "Flexible",
+      "adult": "Check official information",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Ending Soon",
+      "statusClass": "ending",
+      "tags": [
+        "ending",
+        "ongoing"
+      ]
+    },
+    {
       "title": "Happy Sing-Along (Season 4)",
       "category": "Event / Exhibition",
       "overview": "Apr 01, 2026 - Mar 17, 2027 SCCC Auditorium, Level 9 and online Happy Sing-Along (Season 4) Happy Sing-Along is back with season four! The monthly dialect concert features popular Chinese and… Concert",
@@ -461,6 +482,29 @@
       "link": "https://singaporeccc.org.sg/events/heroic-moves-chinese-martial-arts-in-singapore-popular-culture-travelling-exhibition/",
       "source_key": "sccc",
       "source": "Singapore Chinese Cultural Centre",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "Flexible",
+      "adult": "Check official information",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Ending Soon",
+      "statusClass": "ending",
+      "tags": [
+        "ending",
+        "ongoing"
+      ]
+    },
+    {
+      "title": "HOME | GROUND 2026",
+      "category": "Event / Exhibition",
+      "overview": "24 OCT ’26 HOME | GROUND 2026 HOME | GROUND 2026 transforms Goodman Arts Centre into a creative arts village celebrating the artists, stories, and communities that shaped the space. Enjoy performances, workshops, markets, and open studios in Singapore’s largest arts enclave.",
+      "period": "24 OCT 2026",
+      "time": "Check official information",
+      "venue": "Visit Singapore",
+      "link": "https://www.visitsingapore.com/whats-happening/all-happenings/",
+      "source_key": "visit_singapore",
+      "source": "Visit Singapore",
       "why": "See the official organiser page for the latest visitor information.",
       "mrt": "Check directions",
       "duration": "Flexible",
@@ -592,6 +636,30 @@
       ]
     },
     {
+      "title": "Music from Daisy Chain Fields",
+      "category": "Event",
+      "overview": "Risa Ann Wong and guitarist RENE pay tribute to the artists who performed at the inaugural Daisy Chain Fields Music Festival in August 2026. Founded and headlined by Olivia Rodrigo, the all-women line-up donated all proceeds to charities advancing and advocating for women and girls. Audiences can expect pop hits from Olivia Rodrigo, Chappell Roan, Alanis Morissette, Stevie Nicks and more.",
+      "period": "24 Oct 2026",
+      "time": "6:45 pm, 7:45 pm",
+      "venue": "Esplanade Concourse",
+      "link": "https://www.esplanade.com/whats-on/festivals-and-series/popaholic/2026/music-from-daisy-chain-fields",
+      "source_key": "esplanade",
+      "source": "Esplanade",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "5mins",
+      "adult": "Free",
+      "senior": "Free",
+      "child": "Free",
+      "status": "Ending Soon",
+      "statusClass": "ending",
+      "tags": [
+        "ending",
+        "free",
+        "ongoing"
+      ]
+    },
+    {
       "title": "ONE Ocean: Every Action Ripples",
       "category": "Event / Exhibition",
       "overview": "30 MAY ’26 - 03 JAN ’27 ONE Ocean: Every Action Ripples Embark on a multi-sensory journey into the depths of the Ocean through immersive 360° spatial projection, free-roaming VR adventure and hands-on wow moments at every turn.",
@@ -614,6 +682,30 @@
       ]
     },
     {
+      "title": "pov: Ari made Izzy",
+      "category": "Event",
+      "overview": "Izzathy Halil takes centre stage for a night celebrating the music of pop queen Ariana Grande.",
+      "period": "24 Oct 2026",
+      "time": "8:15 pm, 9:30 pm, 7:00 PM",
+      "venue": "DBS Foundation Outdoor Theatre at Esplanade",
+      "link": "https://www.esplanade.com/whats-on/festivals-and-series/popaholic/2026/pov-ari-made-izzy",
+      "source_key": "esplanade",
+      "source": "Esplanade",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "5mins",
+      "adult": "Free",
+      "senior": "Free",
+      "child": "Free",
+      "status": "Ending Soon",
+      "statusClass": "ending",
+      "tags": [
+        "ending",
+        "free",
+        "ongoing"
+      ]
+    },
+    {
       "title": "Punggol Stories",
       "period": "Permanent",
       "overview": "Imagine Punggol when it was home to many kampongs, pig farms and a thriving seafood scene at Punggol Stories . Discover the rich tapestry of Punggol's history from the National Library Board's collections.",
@@ -624,6 +716,28 @@
       "source": "National Library Board",
       "why": "See the official organiser page for the latest visitor information.",
       "time": "Check official information",
+      "mrt": "Check directions",
+      "duration": "Flexible",
+      "adult": "Check official information",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Ongoing",
+      "statusClass": "",
+      "tags": [
+        "ongoing"
+      ]
+    },
+    {
+      "title": "Race to Sustainability! 2026",
+      "period": "22 Oct – 29 Nov 2026",
+      "link": "https://www.gardensbythebay.com.sg/en/things-to-do/calendar-of-events/race-to-sustainability-2026.html",
+      "overview": "Race to Sustainability! turns 10 this year! Join us in our exciting lineup of activities as we celebrate this milestone and learn about the effects of climate change and what we can do to ensure the sustainability of our environment.",
+      "time": "Various Timings",
+      "venue": "Gardens by the Bay",
+      "category": "Event / Exhibition",
+      "source_key": "gardens",
+      "source": "Gardens by the Bay",
+      "why": "See the official organiser page for the latest visitor information.",
       "mrt": "Check directions",
       "duration": "Flexible",
       "adult": "Check official information",
@@ -655,6 +769,29 @@
       "statusClass": "",
       "tags": [
         "free",
+        "ongoing"
+      ]
+    },
+    {
+      "title": "Side A, A Singapore Record Show",
+      "category": "Event / Exhibition",
+      "overview": "24 OCT ’26 Side A, A Singapore Record Show Side A, A Singapore Record Show, celebrates the vibrant culture of vinyl records and other physical music formats. Held for the third time this year, the event will be joined by Universal Music Singapore.",
+      "period": "24 OCT 2026",
+      "time": "Check official information",
+      "venue": "Visit Singapore",
+      "link": "https://www.visitsingapore.com/whats-happening/all-happenings/",
+      "source_key": "visit_singapore",
+      "source": "Visit Singapore",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "Flexible",
+      "adult": "Check official information",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Ending Soon",
+      "statusClass": "ending",
+      "tags": [
+        "ending",
         "ongoing"
       ]
     },
@@ -983,6 +1120,51 @@
       ]
     },
     {
+      "title": "Toy Story | PEACEMINUSONE: THE FIRST FAN",
+      "category": "Event / Exhibition",
+      "overview": "16 OCT ’26 - 11 NOV ’26 Toy Story | PEACEMINUSONE: THE FIRST FAN Mighty Jaxx presents Toy Story | PEACEMINUSONE: THE FIRST FAN, a pop-up pairing G-DRAGON’s label with Disney and Pixar’s characters. Discover sculptures, photo spots, and exclusive collectibles at CQ @ Clarke Quay.",
+      "period": "16 OCT 2026 - 11 NOV 2026",
+      "time": "Check official information",
+      "venue": "Visit Singapore",
+      "link": "https://www.visitsingapore.com/whats-happening/all-happenings/",
+      "source_key": "visit_singapore",
+      "source": "Visit Singapore",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "Flexible",
+      "adult": "Check official information",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Ongoing",
+      "statusClass": "",
+      "tags": [
+        "ongoing"
+      ]
+    },
+    {
+      "title": "Under the BIG Tree…",
+      "category": "Event / Exhibition",
+      "overview": "Oct 24, 2026 - Oct 24, 2026 SHHK Cultural Academy Under the BIG Tree… Under The BIG Tree returns to the Singapore Hokkien Huay Kuan Cultural Academy, inviting families… Dance/Theatre Free",
+      "period": "Oct 24, 2026 - Oct 24, 2026",
+      "time": "Check official information",
+      "venue": "Singapore Chinese Cultural Centre",
+      "link": "https://singaporeccc.org.sg/events/under-the-big-tree-2026/",
+      "source_key": "sccc",
+      "source": "Singapore Chinese Cultural Centre",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "Flexible",
+      "adult": "Check official information",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Ending Soon",
+      "statusClass": "ending",
+      "tags": [
+        "ending",
+        "ongoing"
+      ]
+    },
+    {
       "title": "When Art Meets Nature",
       "category": "Event",
       "overview": "In When Art Meets Nature, a children’s art exhibition co-curated by the Taoyuan Museum of Fine Arts and the National Gallery Singapore, we invite you into a sensorial journey where you can explore nature through the artists’ lens and reimagine new worlds that foster environmental sustainability.",
@@ -1014,6 +1196,29 @@
       "link": "https://www.visitsingapore.com/whats-happening/all-happenings/",
       "source_key": "visit_singapore",
       "source": "Visit Singapore",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "Flexible",
+      "adult": "Check official information",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Ending Soon",
+      "statusClass": "ending",
+      "tags": [
+        "ending",
+        "ongoing"
+      ]
+    },
+    {
+      "title": "Yip Yew Chong: Live Painting at IMBA Theatre",
+      "period": "21 Oct 2026 - 25 Oct 2026",
+      "link": "https://www.gardensbythebay.com.sg/en/things-to-do/calendar-of-events/yip-yew-chong-live-painting-at-imba.html",
+      "overview": "Watch artist Yip Yew Chong bring Singapore to life at IMBA Theatre from 21 to 25 October. See a panoramic night scene featuring Gardens by the Bay and the city skyline gradually take shape in his I Paint my World series.",
+      "time": "12.00pm - 6.00pm",
+      "venue": "IMBA Theatre (West Lawn, beside Bayfront Plaza)",
+      "category": "Event / Exhibition",
+      "source_key": "gardens",
+      "source": "Gardens by the Bay",
       "why": "See the official organiser page for the latest visitor information.",
       "mrt": "Check directions",
       "duration": "Flexible",
@@ -1187,52 +1392,6 @@
       ]
     },
     {
-      "title": "BEYOND BORDERS",
-      "category": "Event",
-      "overview": "In BEYOND BORDERS, Fusiosonic reimagines Tamil and Indian pop hits through Western and world music influences. Audiences can look forward to favourites from the past decade, reworked through new arrangements and a wide range of musical textures. The set brings together chart-topping Tamil songs and popular film hits, alongside selected favourites from across India. Familiar melodies take unexpected turns, blending cultures and musical styles while keeping the spirit of each song intact. For anyone who grew up with these songs, it is a chance to hear them again for the first time.",
-      "period": "21 Oct 2026",
-      "time": "6:45 pm, 7:45 pm",
-      "venue": "Esplanade Concourse",
-      "link": "https://www.esplanade.com/whats-on/festivals-and-series/popaholic/2026/beyond-borders",
-      "source_key": "esplanade",
-      "source": "Esplanade",
-      "why": "See the official organiser page for the latest visitor information.",
-      "mrt": "Check directions",
-      "duration": "5mins",
-      "adult": "Free",
-      "senior": "Free",
-      "child": "Free",
-      "status": "Upcoming",
-      "statusClass": "upcoming",
-      "tags": [
-        "free",
-        "ongoing",
-        "upcoming"
-      ]
-    },
-    {
-      "title": "Black Myth: Wukong Global Concert",
-      "category": "Event / Exhibition",
-      "overview": "24 - 25 OCT ’26 Black Myth: Wukong Global Concert Heed the Destiny - Black Myth: Wukong Global Concert features selected in-game music, blending symphonic orchestration with Chinese folk music to score an epic adventure. Destined Ones get to embark on the Journey to the West and listen to what destiny plays.",
-      "period": "24 - 25 OCT 2026",
-      "time": "Check official information",
-      "venue": "Visit Singapore",
-      "link": "https://www.visitsingapore.com/whats-happening/all-happenings/",
-      "source_key": "visit_singapore",
-      "source": "Visit Singapore",
-      "why": "See the official organiser page for the latest visitor information.",
-      "mrt": "Check directions",
-      "duration": "Flexible",
-      "adult": "Check official information",
-      "senior": "Check official information",
-      "child": "Check official information",
-      "status": "Upcoming",
-      "statusClass": "upcoming",
-      "tags": [
-        "upcoming"
-      ]
-    },
-    {
       "title": "Classic Memories: Songs That…",
       "category": "Event / Exhibition",
       "overview": "Nov 06, 2026 - Nov 06, 2026 Victoria Concert Hall Classic Memories: Songs That… Classic Memories: Songs That Bring Us Together reimagines beloved Chinese popular classics through the distinctive… Concert",
@@ -1299,24 +1458,26 @@
       ]
     },
     {
-      "title": "Get Crafty! – Paper Sunflower Bouquet by When Stars Align",
-      "period": "24 Oct - 25 Oct 2026",
-      "link": "https://www.gardensbythebay.com.sg/en/things-to-do/calendar-of-events/get-crafty-paper-sunflower-bouquet-by-when-stars-align.html",
-      "overview": "Inspired by Vincent van Gogh's iconic sunflower paintings, craft an everlasting paper sunflower before adding dried baby's breath and learning simple paper-folding techniques to create a beautiful bouquet.",
-      "time": "10.00am - 6.00pm",
-      "venue": "Australian Garden, Flower Dome",
-      "category": "Event / Exhibition",
-      "source_key": "gardens",
-      "source": "Gardens by the Bay",
+      "title": "Gema & Gaya: Drop-in Dikir Barat Experience",
+      "category": "Event",
+      "overview": "Immerse yourself in traditional dikir barat music with this interactive, drop-in cultural experience suitable for all ages. Drop by anytime during the two-hour session to try your hand at beating the infectious rhythms on traditional percussion instruments like the rebana and canang . Or take a seat at our craft station to fold and customise your very own paper tanjak (traditional headgear) to wear. Whether you stay for 10 minutes or the full two hours, this flexible, hands-on activity offers a fun and spontaneous way for children and families to connect with a rich cultural heritage at their own pace.",
+      "period": "31 Oct 2026",
+      "time": "4:00 PM",
+      "venue": "Esplanade Concourse",
+      "link": "https://www.esplanade.com/whats-on/festivals-and-series/temalang/2026/gema-and-gaya-drop-in-dikir-barat-experience",
+      "source_key": "esplanade",
+      "source": "Esplanade",
       "why": "See the official organiser page for the latest visitor information.",
       "mrt": "Check directions",
-      "duration": "Flexible",
-      "adult": "Check official information",
-      "senior": "Check official information",
-      "child": "Check official information",
+      "duration": "5mins",
+      "adult": "Free",
+      "senior": "Free",
+      "child": "Free",
       "status": "Upcoming",
       "statusClass": "upcoming",
       "tags": [
+        "free",
+        "ongoing",
         "upcoming"
       ]
     },
@@ -1366,28 +1527,6 @@
       ]
     },
     {
-      "title": "HOME | GROUND 2026",
-      "category": "Event / Exhibition",
-      "overview": "24 OCT ’26 HOME | GROUND 2026 HOME | GROUND 2026 transforms Goodman Arts Centre into a creative arts village celebrating the artists, stories, and communities that shaped the space. Enjoy performances, workshops, markets, and open studios in Singapore’s largest arts enclave.",
-      "period": "24 OCT 2026",
-      "time": "Check official information",
-      "venue": "Visit Singapore",
-      "link": "https://www.visitsingapore.com/whats-happening/all-happenings/",
-      "source_key": "visit_singapore",
-      "source": "Visit Singapore",
-      "why": "See the official organiser page for the latest visitor information.",
-      "mrt": "Check directions",
-      "duration": "Flexible",
-      "adult": "Check official information",
-      "senior": "Check official information",
-      "child": "Check official information",
-      "status": "Upcoming",
-      "statusClass": "upcoming",
-      "tags": [
-        "upcoming"
-      ]
-    },
-    {
       "title": "Inventions by Biswa Kalyan Rath",
       "category": "Event",
       "overview": "Fresh off packed houses across North America and India, comedy heavy-hitter and serial ranter Biswa Kalyan Rath is finally coming to town with his latest, highly acclaimed stand-up show.",
@@ -1407,52 +1546,6 @@
       "statusClass": "upcoming",
       "tags": [
         "ongoing",
-        "upcoming"
-      ]
-    },
-    {
-      "title": "Just Sittin’ Up in My Room",
-      "category": "Event",
-      "overview": "An evening in Elsa Mickayla’s room awaits, filled with R&B favourites, originals and good company.",
-      "period": "23 Oct 2026",
-      "time": "8:15 pm, 7:00 PM",
-      "venue": "DBS Foundation Outdoor Theatre at Esplanade",
-      "link": "https://www.esplanade.com/whats-on/festivals-and-series/popaholic/2026/just-sittin-up-in-my-room",
-      "source_key": "esplanade",
-      "source": "Esplanade",
-      "why": "See the official organiser page for the latest visitor information.",
-      "mrt": "Check directions",
-      "duration": "5mins",
-      "adult": "Free",
-      "senior": "Free",
-      "child": "Free",
-      "status": "Upcoming",
-      "statusClass": "upcoming",
-      "tags": [
-        "free",
-        "ongoing",
-        "upcoming"
-      ]
-    },
-    {
-      "title": "LANY: soft world tour",
-      "category": "Event / Exhibition",
-      "overview": "04 NOV ’26 LANY: soft world tour Late-night drives, heartbreak playlists, and songs you know by heart. LANY returns with the soft world tour, bringing fan favourites like “ILYSB”, “Thru These Tears”, “Super Far”, and more to life on stage.",
-      "period": "04 NOV 2026",
-      "time": "Check official information",
-      "venue": "Visit Singapore",
-      "link": "https://www.visitsingapore.com/whats-happening/all-happenings/",
-      "source_key": "visit_singapore",
-      "source": "Visit Singapore",
-      "why": "See the official organiser page for the latest visitor information.",
-      "mrt": "Check directions",
-      "duration": "Flexible",
-      "adult": "Check official information",
-      "senior": "Check official information",
-      "child": "Check official information",
-      "status": "Upcoming",
-      "statusClass": "upcoming",
-      "tags": [
         "upcoming"
       ]
     },
@@ -1549,13 +1642,13 @@
       ]
     },
     {
-      "title": "Love, NurJannah",
+      "title": "Madah & Melodi: Song Creation Masterclass by Zainal Ismail",
       "category": "Event",
-      "overview": "NurJannah brings a heartfelt pop showcase through every stage of love—the butterflies, the heartbreak, and the healing that follows. She performs soulful renditions of contemporary favourites from Olivia Dean, Adele, Ariana Grande, Bruno Mars, Dua Lipa, Taylor Swift and more, alongside regional gems from Tulus and Misha Omar. Expect warm, vocal-driven pop and R&B, for a feel-good, family-friendly celebration of love in all forms.",
-      "period": "23 Oct 2026",
-      "time": "6:45 pm, 7:45 pm",
-      "venue": "Esplanade Concourse",
-      "link": "https://www.esplanade.com/whats-on/festivals-and-series/popaholic/2026/love-nurjannah",
+      "overview": "Madah & Melodi: Song Creation Masterclass by Zainal Ismail explores the creative process of composing dikir barat songs, where meaningful lyrics and captivating melodies come together in a compelling performance. Led by experienced composer and practitioner Zainal Ismail, participants will gain insights into developing lyrical themes, crafting melodies, structuring songs, and understanding the relationship between words, rhythm and musical expression. Through practical exercises and collaborative creation, participants will experience how an original dikir barat composition evolves from an initial idea into a performance-ready piece, while appreciating the artistry and traditions that contin",
+      "period": "31 Oct 2026",
+      "time": "3:30 pm",
+      "venue": "DBS Foundation Outdoor Theatre at Esplanade",
+      "link": "https://www.esplanade.com/whats-on/festivals-and-series/temalang/2026/madah-and-melodi-song-creation-masterclass",
       "source_key": "esplanade",
       "source": "Esplanade",
       "why": "See the official organiser page for the latest visitor information.",
@@ -1595,13 +1688,13 @@
       ]
     },
     {
-      "title": "Music from Daisy Chain Fields",
+      "title": "Nadya Zaheer",
       "category": "Event",
-      "overview": "Risa Ann Wong and guitarist RENE pay tribute to the artists who performed at the inaugural Daisy Chain Fields Music Festival in August 2026. Founded and headlined by Olivia Rodrigo, the all-women line-up donated all proceeds to charities advancing and advocating for women and girls. Audiences can expect pop hits from Olivia Rodrigo, Chappell Roan, Alanis Morissette, Stevie Nicks and more.",
-      "period": "24 Oct 2026",
+      "overview": "Nadya Zaheer brings together a collection of her favourite love songs from the past decade that have kept her company through long bus rides, cosy evenings and spontaneous dance parties. Nadya dedicates her set to the zillennials in the audience and everyone she has ever loved.",
+      "period": "30 Oct 2026",
       "time": "6:45 pm, 7:45 pm",
       "venue": "Esplanade Concourse",
-      "link": "https://www.esplanade.com/whats-on/festivals-and-series/popaholic/2026/music-from-daisy-chain-fields",
+      "link": "https://www.esplanade.com/whats-on/festivals-and-series/popaholic/2026/nadya-zaheer",
       "source_key": "esplanade",
       "source": "Esplanade",
       "why": "See the official organiser page for the latest visitor information.",
@@ -1619,37 +1712,13 @@
       ]
     },
     {
-      "title": "nightly laments with & ish",
+      "title": "Oakë",
       "category": "Event",
-      "overview": "Danish finds inspiration in heartbreak, longing, and the quieter, more reflective moments of life. It’s in these moments that listeners meet & ish. Through folk-pop, acoustic, and soulful sounds, he creates an intimate space for listeners to slow down, reminisce and feel. Audiences can expect songs from artists such as Faouzia, Gigi Perez and Rachel Chinouriri, alongside familiar favourites and original music by & ish. Whether carrying a memory, nursing a heartbreak or simply looking for a moment to themselves, audiences will find in his set an invitation to breathe, sit with their thoughts and just be.",
-      "period": "20 Oct 2026",
-      "time": "6:45 pm, 7:45 pm",
-      "venue": "Esplanade Concourse",
-      "link": "https://www.esplanade.com/whats-on/festivals-and-series/popaholic/2026/nightly-laments-with-and-ish",
-      "source_key": "esplanade",
-      "source": "Esplanade",
-      "why": "See the official organiser page for the latest visitor information.",
-      "mrt": "Check directions",
-      "duration": "5mins",
-      "adult": "Free",
-      "senior": "Free",
-      "child": "Free",
-      "status": "Upcoming",
-      "statusClass": "upcoming",
-      "tags": [
-        "free",
-        "ongoing",
-        "upcoming"
-      ]
-    },
-    {
-      "title": "pov: Ari made Izzy",
-      "category": "Event",
-      "overview": "Izzathy Halil takes centre stage for a night celebrating the music of pop queen Ariana Grande.",
-      "period": "24 Oct 2026",
-      "time": "8:15 pm, 9:30 pm, 7:00 PM",
+      "overview": "Get ready for an exhilarating evening as Oakë and friends take to the stage! Known for their sweet melodies, vibrant energy and soulful music, the band never fails to get the crowd moving.",
+      "period": "30 Oct 2026",
+      "time": "8:15 pm, 7:00 PM",
       "venue": "DBS Foundation Outdoor Theatre at Esplanade",
-      "link": "https://www.esplanade.com/whats-on/festivals-and-series/popaholic/2026/pov-ari-made-izzy",
+      "link": "https://www.esplanade.com/whats-on/festivals-and-series/popaholic/2026/oake",
       "source_key": "esplanade",
       "source": "Esplanade",
       "why": "See the official organiser page for the latest visitor information.",
@@ -1676,28 +1745,6 @@
       "link": "https://singaporeccc.org.sg/events/pan/",
       "source_key": "sccc",
       "source": "Singapore Chinese Cultural Centre",
-      "why": "See the official organiser page for the latest visitor information.",
-      "mrt": "Check directions",
-      "duration": "Flexible",
-      "adult": "Check official information",
-      "senior": "Check official information",
-      "child": "Check official information",
-      "status": "Upcoming",
-      "statusClass": "upcoming",
-      "tags": [
-        "upcoming"
-      ]
-    },
-    {
-      "title": "Race to Sustainability! 2026",
-      "period": "22 Oct – 29 Nov 2026",
-      "link": "https://www.gardensbythebay.com.sg/en/things-to-do/calendar-of-events/race-to-sustainability-2026.html",
-      "overview": "Race to Sustainability! turns 10 this year! Join us in our exciting lineup of activities as we celebrate this milestone and learn about the effects of climate change and what we can do to ensure the sustainability of our environment.",
-      "time": "Various Timings",
-      "venue": "Gardens by the Bay",
-      "category": "Event / Exhibition",
-      "source_key": "gardens",
-      "source": "Gardens by the Bay",
       "why": "See the official organiser page for the latest visitor information.",
       "mrt": "Check directions",
       "duration": "Flexible",
@@ -1804,6 +1851,30 @@
       ]
     },
     {
+      "title": "SENADA-KUSTIK: Dikir Hits of the Past Decade",
+      "category": "Event",
+      "overview": "SENADA-KUSTIK: Dikir Hits of the Past Decade is a fresh vocal showcase featuring emerging and established dikir talents performing well-loved hits from the past decade. Blending dikir and acappella elements, the performance highlights the versatility and vibrancy of contemporary dikir .",
+      "period": "31 Oct 2026",
+      "time": "6:15 pm, 7:15 pm",
+      "venue": "Esplanade Concourse",
+      "link": "https://www.esplanade.com/whats-on/festivals-and-series/temalang/2026/senada-kustik-dikir-hits-of-the-past-decade",
+      "source_key": "esplanade",
+      "source": "Esplanade",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "5mins",
+      "adult": "Free",
+      "senior": "Free",
+      "child": "Free",
+      "status": "Upcoming",
+      "statusClass": "upcoming",
+      "tags": [
+        "free",
+        "ongoing",
+        "upcoming"
+      ]
+    },
+    {
       "title": "Siaw-Tao’s 56th Anniversary Exhibition",
       "category": "Event / Exhibition",
       "overview": "Dec 09, 2026 - Dec 13, 2026 新加坡华族文化中心七楼多功能礼堂 Siaw-Tao’s 56th Anniversary Exhibition The 56th Anniversary Exhibition of Siaw-Tao Seal Carving, Calligraphy and Painting Society is a showcase… Exhibition Free",
@@ -1813,28 +1884,6 @@
       "link": "https://singaporeccc.org.sg/events/siaw-taos-56th-anniversary-exhibition/",
       "source_key": "sccc",
       "source": "Singapore Chinese Cultural Centre",
-      "why": "See the official organiser page for the latest visitor information.",
-      "mrt": "Check directions",
-      "duration": "Flexible",
-      "adult": "Check official information",
-      "senior": "Check official information",
-      "child": "Check official information",
-      "status": "Upcoming",
-      "statusClass": "upcoming",
-      "tags": [
-        "upcoming"
-      ]
-    },
-    {
-      "title": "Side A, A Singapore Record Show",
-      "category": "Event / Exhibition",
-      "overview": "24 OCT ’26 Side A, A Singapore Record Show Side A, A Singapore Record Show, celebrates the vibrant culture of vinyl records and other physical music formats. Held for the third time this year, the event will be joined by Universal Music Singapore.",
-      "period": "24 OCT 2026",
-      "time": "Check official information",
-      "venue": "Visit Singapore",
-      "link": "https://www.visitsingapore.com/whats-happening/all-happenings/",
-      "source_key": "visit_singapore",
-      "source": "Visit Singapore",
       "why": "See the official organiser page for the latest visitor information.",
       "mrt": "Check directions",
       "duration": "Flexible",
@@ -1910,6 +1959,30 @@
       "status": "Upcoming",
       "statusClass": "upcoming",
       "tags": [
+        "upcoming"
+      ]
+    },
+    {
+      "title": "Sit and Chill with GASTON",
+      "category": "Event",
+      "overview": "An evening of warm, easy, and infectious songs awaits, with Gaston on vocals and Simeon on the keys. Expect reimagined versions of songs from old-school artists like Earth, Wind & Fire to popular artists of today like Bruno Mars, as well as never-heard-before unreleased originals by Gaston. With influences from pop, soul, and R&B , Gaston’s performance promises all the right vibes for audiences to sit back, relax and groove along to the music.",
+      "period": "29 Oct 2026",
+      "time": "6:45 pm, 7:45 pm",
+      "venue": "Esplanade Concourse",
+      "link": "https://www.esplanade.com/whats-on/festivals-and-series/popaholic/2026/sit-and-chill-with-gaston-liew",
+      "source_key": "esplanade",
+      "source": "Esplanade",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "5mins",
+      "adult": "Free",
+      "senior": "Free",
+      "child": "Free",
+      "status": "Upcoming",
+      "statusClass": "upcoming",
+      "tags": [
+        "free",
+        "ongoing",
         "upcoming"
       ]
     },
@@ -2053,6 +2126,30 @@
       ]
     },
     {
+      "title": "TEMALANG: Echoes of Heritage, Rhythms of Today",
+      "category": "Event",
+      "overview": "Experience a groundbreaking musical journey at TEMALANG: Echoes of Heritage, Rhythms of Today , the flagship main showcase honouring the rich evolution, vibrant present and collaborative future of d ikir b arat !",
+      "period": "31 Oct 2026",
+      "time": "7:45 pm",
+      "venue": "Esplanade Concert Hall",
+      "link": "https://www.esplanade.com/whats-on/festivals-and-series/temalang/2026/temalang-echoes-of-heritage-rhythms-of-today",
+      "source_key": "esplanade",
+      "source": "Esplanade",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "5mins",
+      "adult": "Free",
+      "senior": "Free",
+      "child": "Free",
+      "status": "Upcoming",
+      "statusClass": "upcoming",
+      "tags": [
+        "free",
+        "ongoing",
+        "upcoming"
+      ]
+    },
+    {
       "title": "The Big Picture- Fortnightly Film Screening (29 October)",
       "overview": "Film Synopsis: In this classic dance drama film, a ballerina is torn between romantic love and her pursuit of artistic perfection. Advisory: PG About: The Big Picture is a series of fortnightly movie screenings lovingly curated by librarians at the Central Arts Library. Through these screenings, we aim to highlight some interesting titles from our avail-to-loan film collection and cultivate a community of film-lovers!",
       "period": "29 Oct 2026",
@@ -2072,30 +2169,6 @@
       "statusClass": "upcoming",
       "tags": [
         "free",
-        "upcoming"
-      ]
-    },
-    {
-      "title": "The Rabbit Hole",
-      "category": "Event",
-      "overview": "Get ready to werk it with BANIE, an emerging Singaporean vocalist and Anugerah Generasi Terkini 2026 contestant ready to bring bold energy and vocal power to the stage. With an ear for contemporary pop and R&B, BANIE delivers a set filled with familiar favourites, infectious energy and moments that let her vocals take centre stage. Inspired by artists such as Rihanna, RAYE, Zara Larsson and Doja Cat, audiences can expect upbeat pop anthems, soulful grooves and feel-good songs reimagined through BANIE’s distinctive vocal style. Come for the music, stay for the energy—and werk it with BANIE!",
-      "period": "22 Oct 2026",
-      "time": "6:45 pm, 7:45 pm",
-      "venue": "Esplanade Concourse",
-      "link": "https://www.esplanade.com/whats-on/festivals-and-series/popaholic/2026/the-rabbit-hole",
-      "source_key": "esplanade",
-      "source": "Esplanade",
-      "why": "See the official organiser page for the latest visitor information.",
-      "mrt": "Check directions",
-      "duration": "5mins",
-      "adult": "Free",
-      "senior": "Free",
-      "child": "Free",
-      "status": "Upcoming",
-      "statusClass": "upcoming",
-      "tags": [
-        "free",
-        "ongoing",
         "upcoming"
       ]
     },
@@ -2167,6 +2240,30 @@
       ]
     },
     {
+      "title": "Tradisi & Transformasi: Evolution of Dikir Barat in Singapore",
+      "category": "Event",
+      "overview": "Tradisi & Transformasi: Evolution of Dikir Barat in Singapore brings together two distinguished speakers, Djohan A. Rahman and Sazali Zainal, to explore the evolution of dikir barat in Singapore. Through personal experiences and critical reflection, the speakers will discuss the creative innovations they introduced, the challenges they encountered, and the varying degrees of acceptance and resistance from the community.",
+      "period": "31 Oct 2026",
+      "time": "5:00 PM",
+      "venue": "DBS Foundation Outdoor Theatre at Esplanade",
+      "link": "https://www.esplanade.com/whats-on/festivals-and-series/temalang/2026/tradisi-and-transformasi-evolution-of-dikir-barat-in-singapore",
+      "source_key": "esplanade",
+      "source": "Esplanade",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "5mins",
+      "adult": "Free",
+      "senior": "Free",
+      "child": "Free",
+      "status": "Upcoming",
+      "statusClass": "upcoming",
+      "tags": [
+        "free",
+        "ongoing",
+        "upcoming"
+      ]
+    },
+    {
       "title": "Under the BIG Tree 2026",
       "overview": "Under The BIG Tree returns to the Singapore Hokkien Huay Kuan Cultural Academy, inviting families and friends to gather beneath its iconic tree for an evening of dance, discovery, and togetherness. Settle onto picnic mats and enjoy performances by SCDT's professional company, Performance Troupes (Children, Junior and Youth), and students from SCDT's training classes in a relaxed outdoor setting. Round off the evening with carnival snacks, DIY prop-making workshops, and Chinese dance-themed games that offer fun, hands-on experiences for all ages. This outdoor dance carnival celebrates the living spirit of Chinese dance and heritage, showing how culture flourishes not only on stage but also th",
       "period": "24 Oct 2026",
@@ -2186,28 +2283,6 @@
       "statusClass": "upcoming",
       "tags": [
         "free",
-        "upcoming"
-      ]
-    },
-    {
-      "title": "Under the BIG Tree…",
-      "category": "Event / Exhibition",
-      "overview": "Oct 24, 2026 - Oct 24, 2026 SHHK Cultural Academy Under the BIG Tree… Under The BIG Tree returns to the Singapore Hokkien Huay Kuan Cultural Academy, inviting families… Dance/Theatre Free",
-      "period": "Oct 24, 2026 - Oct 24, 2026",
-      "time": "Check official information",
-      "venue": "Singapore Chinese Cultural Centre",
-      "link": "https://singaporeccc.org.sg/events/under-the-big-tree-2026/",
-      "source_key": "sccc",
-      "source": "Singapore Chinese Cultural Centre",
-      "why": "See the official organiser page for the latest visitor information.",
-      "mrt": "Check directions",
-      "duration": "Flexible",
-      "adult": "Check official information",
-      "senior": "Check official information",
-      "child": "Check official information",
-      "status": "Upcoming",
-      "statusClass": "upcoming",
-      "tags": [
         "upcoming"
       ]
     },
@@ -2279,24 +2354,26 @@
       ]
     },
     {
-      "title": "Yip Yew Chong: Live Painting at IMBA Theatre",
-      "period": "21 Oct 2026 - 25 Oct 2026",
-      "link": "https://www.gardensbythebay.com.sg/en/things-to-do/calendar-of-events/yip-yew-chong-live-painting-at-imba.html",
-      "overview": "Watch artist Yip Yew Chong bring Singapore to life at IMBA Theatre from 21 to 25 October. See a panoramic night scene featuring Gardens by the Bay and the city skyline gradually take shape in his I Paint my World series.",
-      "time": "12.00pm - 6.00pm",
-      "venue": "IMBA Theatre (West Lawn, beside Bayfront Plaza)",
-      "category": "Event / Exhibition",
-      "source_key": "gardens",
-      "source": "Gardens by the Bay",
+      "title": "听，与你潼乐 Tunes with Hazel Yew",
+      "category": "Event",
+      "overview": "From the butterflies of a first crush to the courage it takes to make a move, the set follows a relationship through its many moods—hopeful, uncertain and everything after.",
+      "period": "28 Oct 2026",
+      "time": "6:45 pm, 7:45 pm",
+      "venue": "Esplanade Concourse",
+      "link": "https://www.esplanade.com/whats-on/festivals-and-series/popaholic/2026/tunes-with-hazel-yew",
+      "source_key": "esplanade",
+      "source": "Esplanade",
       "why": "See the official organiser page for the latest visitor information.",
       "mrt": "Check directions",
-      "duration": "Flexible",
-      "adult": "Check official information",
-      "senior": "Check official information",
-      "child": "Check official information",
+      "duration": "5mins",
+      "adult": "Free",
+      "senior": "Free",
+      "child": "Free",
       "status": "Upcoming",
       "statusClass": "upcoming",
       "tags": [
+        "free",
+        "ongoing",
         "upcoming"
       ]
     }
@@ -2312,7 +2389,7 @@
     },
     "esplanade": {
       "status": "fresh",
-      "count": 29,
+      "count": 32,
       "detail_errors": 0
     },
     "national_museum": {
@@ -2342,8 +2419,9 @@
       "count": 12
     },
     "catch_sg": {
-      "status": "fresh",
-      "count": 5
+      "status": "fallback",
+      "count": 5,
+      "error": "zero usable events; preserving previous source records"
     }
   },
   "sources": [
@@ -2353,7 +2431,7 @@
       "url": "https://singaporeccc.org.sg/events/",
       "status": "ok",
       "count": 28,
-      "last_success": "2026-10-19T17:41:03+08:00",
+      "last_success": "2026-10-24T16:59:24+08:00",
       "error": "",
       "needs_reader_review": false
     },
@@ -2363,7 +2441,7 @@
       "url": "https://www.gardensbythebay.com.sg/en/things-to-do/calendar-of-events.html",
       "status": "ok",
       "count": 11,
-      "last_success": "2026-10-19T17:41:03+08:00",
+      "last_success": "2026-10-24T16:59:24+08:00",
       "error": "",
       "needs_reader_review": false
     },
@@ -2372,8 +2450,8 @@
       "name": "Esplanade",
       "url": "https://www.esplanade.com/whats-on",
       "status": "ok",
-      "count": 29,
-      "last_success": "2026-10-19T17:41:03+08:00",
+      "count": 32,
+      "last_success": "2026-10-24T16:59:24+08:00",
       "error": "",
       "needs_reader_review": false
     },
@@ -2393,7 +2471,7 @@
       "url": "https://www.nationalgallery.sg/sg/en/whats-on.html",
       "status": "ok",
       "count": 2,
-      "last_success": "2026-10-19T17:41:03+08:00",
+      "last_success": "2026-10-24T16:59:24+08:00",
       "error": "",
       "needs_reader_review": false
     },
@@ -2413,7 +2491,7 @@
       "url": "https://www.ura.gov.sg/get-involved/events-and-exhibitions/",
       "status": "ok",
       "count": 1,
-      "last_success": "2026-10-19T17:41:03+08:00",
+      "last_success": "2026-10-24T16:59:24+08:00",
       "error": "",
       "needs_reader_review": false
     },
@@ -2423,7 +2501,7 @@
       "url": "https://exhibitions.nlb.gov.sg/current-exhibitions/",
       "status": "ok",
       "count": 5,
-      "last_success": "2026-10-19T17:41:03+08:00",
+      "last_success": "2026-10-24T16:59:24+08:00",
       "error": "",
       "needs_reader_review": false
     },
@@ -2433,7 +2511,7 @@
       "url": "https://www.visitsingapore.com/things-to-do/top-things-to-do/",
       "status": "ok",
       "count": 12,
-      "last_success": "2026-10-19T17:41:03+08:00",
+      "last_success": "2026-10-24T16:59:24+08:00",
       "error": "",
       "needs_reader_review": false
     },
@@ -2441,11 +2519,11 @@
       "id": "catch_sg",
       "name": "Catch.sg — Free Events",
       "url": "https://www.catch.sg/Event?EventCategory=Free%20Events",
-      "status": "ok",
+      "status": "fallback",
       "count": 5,
       "last_success": "2026-10-19T17:41:03+08:00",
-      "error": "",
-      "needs_reader_review": false
+      "error": "zero usable events; preserving previous source records",
+      "needs_reader_review": true
     }
   ],
   "all_sources_failed": false
