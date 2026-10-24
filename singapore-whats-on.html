@@ -163,7 +163,7 @@ To request for What’s On adhoc request, click <a class="btn primary" href="htt
 
 <div class="section-head">
 <div><h2>⭐ Discover what's happening</h2><p>Understand the event at a glance before deciding where to go.</p></div>
-<div class="updated">Source priority: Official organiser websites</div>
+<div class="updated">Official organisers and event directories — confirm admission in the linked details</div>
 </div>
 
 <section id="timingsWrap" class="table-wrap" style="display:none" aria-label="Daily event opening timings">
@@ -179,7 +179,7 @@ To request for What’s On adhoc request, click <a class="btn primary" href="htt
 </section>
 <div id="emptyState" class="empty hidden">No current events to show right now. Please check back after the next weekly refresh.</div>
 
-<p class="footer-note"><b>Information checked 23 Sep 2026.</b> Always use the “Official Information” button before travelling because organisers may change timings, prices or programmes.<br>Everyday Compass · Simple, useful information for everyday life in Singapore</p>
+<p class="footer-note"><b>Information checked 23 Sep 2026.</b> Always check the linked event information before travelling because organisers may change timings, prices or programmes.<br>Everyday Compass · Simple, useful information for everyday life in Singapore</p>
 <!-- Owner request 2026-10-21: no public settings link or dot.
 Settings are opened from digital-tools/myweb/kwc.html via #admin-whats-on. -->
 </main>
@@ -292,41 +292,44 @@ function currentEvents(){return events.filter(e=>!isExpired(e))}
 /* ---------- RENDERING ---------- */
 let activeFilter="all";
 function esc(s){return String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
+function eventLinkLabel(e){
+ return ["eventbrite","allevents"].includes(e.source_key)?"Event details":"Official Information";
+}
 function eventCard(e){
 return `<article class="card event" data-tags="${e.tags.join(" ")}" data-search="${esc((e.title+" "+e.category+" "+e.overview+" "+e.venue).toLowerCase())}">
 <div class="card-body">
-<div class="topline"><div class="category">${e.category}</div><span class="status ${e.statusClass}">${e.status}</span></div>
-<h3>${e.title}</h3>
-<p class="overview">${e.overview}</p>
-<div class="why"><b>Why you may like this:</b> ${e.why}</div>
+<div class="topline"><div class="category">${esc(e.category||"")}</div><span class="status ${esc(e.statusClass||"")}">${esc(e.status||"")}</span></div>
+<h3>${esc(e.title||"")}</h3>
+<p class="overview">${esc(e.overview||"")}</p>
+<div class="why"><b>Why you may like this:</b> ${esc(e.why||"")}</div>
 <div class="meta">
-<div class="meta-item"><b>📅 Period</b>${e.period}</div>
-<div class="meta-item"><b>🕙 Time</b>${e.time}</div>
-<div class="meta-item"><b>📍 Venue</b>${e.venue}</div>
-<div class="meta-item"><b>🚇 Nearest MRT</b>${e.mrt}</div>
-<div class="meta-item"><b>⏱ Suggested visit</b>${e.duration}</div>
+<div class="meta-item"><b>📅 Period</b>${esc(e.period||"")}</div>
+<div class="meta-item"><b>🕙 Time</b>${esc(e.time||"")}</div>
+<div class="meta-item"><b>📍 Venue</b>${esc(e.venue||"")}</div>
+<div class="meta-item"><b>🚇 Nearest MRT</b>${esc(e.mrt||"")}</div>
+<div class="meta-item"><b>⏱ Suggested visit</b>${esc(e.duration||"")}</div>
 <div class="meta-item"><b>♿ Accessibility</b>${e.tags.includes("wheelchair")?"Wheelchair-friendly":"Check venue"}</div>
 </div>
 <div class="prices">
-<span class="price"><b>Adult:</b> ${e.adult}</span>
-<span class="price"><b>Senior:</b> ${e.senior}</span>
-<span class="price"><b>Child:</b> ${e.child}</span>
+<span class="price"><b>Adult:</b> ${esc(e.adult||"")}</span>
+<span class="price"><b>Senior:</b> ${esc(e.senior||"")}</span>
+<span class="price"><b>Child:</b> ${esc(e.child||"")}</span>
 </div>
 <div class="tags">${e.tags.filter(x=>["free","nostalgia","indoor","wheelchair"].includes(x)).map(x=>`<span class="tag">${x==="wheelchair"?"♿ Wheelchair":x[0].toUpperCase()+x.slice(1)}</span>`).join("")}</div>
 </div>
 <div class="card-actions">
-<a class="btn primary" href="${e.link}" target="_blank" rel="noopener">Official Information ↗</a>
+<a class="btn primary" href="${esc(e.link||"")}" target="_blank" rel="noopener">${eventLinkLabel(e)} ↗</a>
 <a class="btn secondary" href="https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(e.venue)}" target="_blank" rel="noopener">Directions</a>
 </div>
 </article>`;
 }
 function tableRow(e){
 return `<tr class="event" data-tags="${e.tags.join(" ")}" data-search="${esc((e.title+" "+e.category+" "+e.overview+" "+e.venue).toLowerCase())}">
-<td><b>${e.title}</b><br><span style="color:#617789">${e.overview}</span></td>
-<td>${e.period}</td><td>${e.time}</td><td>${e.venue}<br><small>${e.mrt}</small></td>
-<td>Adult: ${e.adult}<br>Senior: ${e.senior}<br>Child: ${e.child}</td>
+<td><b>${esc(e.title||"")}</b><br><span style="color:#617789">${esc(e.overview||"")}</span></td>
+<td>${esc(e.period||"")}</td><td>${esc(e.time||"")}</td><td>${esc(e.venue||"")}<br><small>${esc(e.mrt||"")}</small></td>
+<td>Adult: ${esc(e.adult||"")}<br>Senior: ${esc(e.senior||"")}<br>Child: ${esc(e.child||"")}</td>
 <td>${e.tags.includes("wheelchair")?"♿ Wheelchair-friendly":"Check venue"}</td>
-<td><a href="${e.link}" target="_blank" rel="noopener"><b>Official site ↗</b></a></td></tr>`;
+<td><a href="${esc(e.link||"")}" target="_blank" rel="noopener"><b>${eventLinkLabel(e)} ↗</b></a></td></tr>`;
 }
 function formatAddedDate(value){
  const m=String(value||"").match(/^(\d{4})-(\d{2})-(\d{2})$/);
@@ -347,7 +350,7 @@ function timingRow(e){
   ?"Not available — check official site":published;
  return `<tr class="event" data-tags="${esc((e.tags||[]).join(" "))}" data-search="${esc((e.title+" "+e.category+" "+e.overview+" "+e.venue).toLowerCase())}">
 <td><b>${esc(e.title||"")}</b></td><td>${esc(hours)}</td><td>${esc(e.period||"")}</td><td>${esc(e.venue||"")}</td><td>${esc(formatAddedDate(e.date_added))}</td><td>${esc(freeForSingaporeans(e)||"")}</td>
-<td><a href="${esc(e.link||"#")}" target="_blank" rel="noopener"><b>Official site ↗</b></a></td></tr>`;
+<td><a href="${esc(e.link||"#")}" target="_blank" rel="noopener"><b>${eventLinkLabel(e)} ↗</b></a></td></tr>`;
 }
 /* ---------- DAILY TIMINGS SORT ---------- */
 let timingSort={key:null,direction:1};
