@@ -221,7 +221,7 @@ Settings are opened from digital-tools/myweb/kwc.html via #admin-whats-on. -->
 </div>
 <div class="panel-actions">
 <select id="ghWorkflow" aria-label="Refresh job" style="flex:1;min-width:200px;padding:9px 11px;border:1px solid var(--line);border-radius:11px"><option value="">— load jobs first —</option></select>
-<button class="btn primary" onclick="ghRun()">Run refresh now</button>
+<button class="btn primary" id="runWhatsOnRefreshBtn" onclick="ghRunWhatsOn()">Refresh What’s On now</button>
 <button class="btn outline" onclick="ghStatus()">Check latest run</button>
 </div>
 <div id="ghErr" class="errors"></div>
@@ -675,7 +675,7 @@ async function ghLoadWorkflows(){
   const d=await r.json(), sel=document.getElementById("ghWorkflow"); sel.textContent="";
   const list=(d.workflows||[]).filter(w=>w.state==="active");
   if(!list.length){ghMsg("","No active jobs found in the repository.");return;}
-  list.forEach(w=>{const o=document.createElement("option"); o.value=w.id; o.textContent=w.name+" ("+w.path+")"; sel.append(o);});
+  list.forEach(w=>{const o=document.createElement("option"); o.value=w.id; o.textContent=w.name+" ("+w.path+")"; o.dataset.path=w.path||""; sel.append(o);});
   ghMsg("Found "+list.length+" job(s). Choose the one that refreshes What's On / news, then press Run.","");
  }catch(e){ghMsg("","Could not reach GitHub. Check your internet connection.");}
 }
@@ -690,6 +690,14 @@ async function ghRun(){
   if(r.status===204){ghMsg("Refresh started. Checking its status in a few seconds…",""); setTimeout(ghStatus,6000);}
   else ghMsg("",ghHttpError(r.status));
  }catch(e){ghMsg("","Could not reach GitHub. Check your internet connection.");}
+}
+async function ghRunWhatsOn(){
+ if(!ghNeedToken()) return;
+ const sel=document.getElementById("ghWorkflow");
+ const option=[...sel.options].find(o=>/whats-on-weekly\.yml$/i.test(o.dataset.path||"")||/what.?s on weekly refresh/i.test(o.textContent));
+ if(!option){ghMsg("","Load jobs first. The What’s On refresh workflow could not be identified.");return;}
+ sel.value=option.value;
+ await ghRun();
 }
 async function ghStatus(){
  if(!ghNeedToken()) return;
