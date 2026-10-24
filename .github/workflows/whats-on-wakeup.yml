@@ -45,6 +45,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           DRY_RUN: ${{ inputs.dryRun == true && 'true' || 'false' }}
         run: python scripts/whats_on_wakeup.py
+      # Integration check: exercise dispatch and the main job's fresh-feed skip.
       - name: Verify recovery dispatch after installation
         if: github.event_name == 'push'
         env:

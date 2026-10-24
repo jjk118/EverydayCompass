@@ -47,8 +47,9 @@ jobs:
           RECOVERY_TARGET: ${{ inputs.recoveryTarget }}
         shell: python
         run: |
-          import json, os
+          import json, os, sys
           from datetime import datetime, timezone
+          sys.path.insert(0, os.environ["GITHUB_WORKSPACE"])
           from scripts.whats_on_wakeup import parse_time, feed_fresh
           value = os.environ.get("RECOVERY_TARGET", "")
           needed = True
