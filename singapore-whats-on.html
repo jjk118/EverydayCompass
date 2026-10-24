@@ -168,7 +168,7 @@ To request for What’s On adhoc request, click <a class="btn primary" href="htt
 
 <section id="timingsWrap" class="table-wrap" style="display:none" aria-label="Daily event opening timings">
 <p style="padding:12px">Published opening hours and session times for all current events. Hours may vary by day; check the official site before visiting. Click a column heading to reverse the order: earliest opening/session time, event start date, or venue A–Z. Unspecified times and dates stay at the bottom.</p>
-<table><thead><tr><th>Event</th><th scope="col" data-timing-sort="time" aria-sort="none"><button type="button" class="timing-sort" onclick="sortTimings('time')">Daily opening hours / sessions <span class="sort-arrow" aria-hidden="true">↕</span></button></th><th scope="col" data-timing-sort="period" aria-sort="none"><button type="button" class="timing-sort" onclick="sortTimings('period')">Event dates <span class="sort-arrow" aria-hidden="true">↕</span></button></th><th scope="col" data-timing-sort="venue" aria-sort="none"><button type="button" class="timing-sort" onclick="sortTimings('venue')">Venue <span class="sort-arrow" aria-hidden="true">↕</span></button></th><th>More</th></tr></thead>
+<table><thead><tr><th>Event</th><th scope="col" data-timing-sort="time" aria-sort="none"><button type="button" class="timing-sort" onclick="sortTimings('time')">Daily opening hours / sessions <span class="sort-arrow" aria-hidden="true">↕</span></button></th><th scope="col" data-timing-sort="period" aria-sort="none"><button type="button" class="timing-sort" onclick="sortTimings('period')">Event dates <span class="sort-arrow" aria-hidden="true">↕</span></button></th><th scope="col" data-timing-sort="venue" aria-sort="none"><button type="button" class="timing-sort" onclick="sortTimings('venue')">Venue <span class="sort-arrow" aria-hidden="true">↕</span></button></th><th>Date added</th><th>More</th></tr></thead>
 <tbody id="timingsBody"></tbody></table></section>
 <section id="cards" class="grid"></section>
 <section id="tableWrap" class="table-wrap">
@@ -328,12 +328,18 @@ return `<tr class="event" data-tags="${e.tags.join(" ")}" data-search="${esc((e.
 <td>${e.tags.includes("wheelchair")?"♿ Wheelchair-friendly":"Check venue"}</td>
 <td><a href="${e.link}" target="_blank" rel="noopener"><b>Official site ↗</b></a></td></tr>`;
 }
+function formatAddedDate(value){
+ const m=String(value||"").match(/^(\d{4})-(\d{2})-(\d{2})$/);
+ if(!m)return "";
+ const months=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+ return Number(m[3])+" "+months[Number(m[2])-1]+" "+m[1];
+}
 function timingRow(e){
  const published=String(e.time||"").trim();
  const hours=!published||/^(check official information|check official site|tbc|tba|unknown|n\/a)$/i.test(published)
   ?"Not available — check official site":published;
  return `<tr class="event" data-tags="${esc((e.tags||[]).join(" "))}" data-search="${esc((e.title+" "+e.category+" "+e.overview+" "+e.venue).toLowerCase())}">
-<td><b>${esc(e.title||"")}</b></td><td>${esc(hours)}</td><td>${esc(e.period||"")}</td><td>${esc(e.venue||"")}</td>
+<td><b>${esc(e.title||"")}</b></td><td>${esc(hours)}</td><td>${esc(e.period||"")}</td><td>${esc(e.venue||"")}</td><td>${esc(formatAddedDate(e.date_added))}</td>
 <td><a href="${esc(e.link||"#")}" target="_blank" rel="noopener"><b>Official site ↗</b></a></td></tr>`;
 }
 /* ---------- DAILY TIMINGS SORT ---------- */
