@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T05:31:33+08:00",
+  "updated_at": "2026-10-25T05:50:16+08:00",
   "events": [
     {
       "title": "\"A-Z: The State of Youth\" Roving Exhibition | Our Living Library Collective",
@@ -450,32 +450,6 @@
       "date_added": "2026-10-25"
     },
     {
-      "title": "Can aI Help You? Discover GenAI with Good Help Mart @ Sembawang Library",
-      "overview": "Welcome to Good Help Mart, where shelves are stocked with playful, hands-on experiences with AI tools. Browse at your own pace; discover how AI can add a little spark to everyday...",
-      "period": "2026-10-01 to 2026-10-31",
-      "start_date": "2026-10-01",
-      "end_date": "2026-10-31",
-      "time": "9:00am – 9:00pm",
-      "venue": "Sembawang Library",
-      "adult": "Check official information",
-      "category": "Event / Programme",
-      "link": "https://nlb.libcal.com/event/5975964",
-      "tags": [
-        "ending",
-        "ongoing"
-      ],
-      "source_key": "nlb_calendar",
-      "source": "NLB GoLibrary — All Events",
-      "why": "See the official organiser page for the latest visitor information.",
-      "mrt": "Check directions",
-      "duration": "Flexible",
-      "senior": "Check official information",
-      "child": "Check official information",
-      "status": "Ending Soon",
-      "statusClass": "ending",
-      "date_added": "2026-10-25"
-    },
-    {
       "title": "Can aI Help You? Discover GenAI with Good Help Mart @ Serangoon Library",
       "overview": "Welcome to Good Help Mart, where shelves are stocked with playful, hands-on experiences with AI tools. Browse at your own pace; discover how AI can add a little spark to everyday...",
       "period": "2026-10-01 to 2026-10-31",
@@ -653,6 +627,32 @@
       "adult": "Check official information",
       "category": "Event / Programme",
       "link": "https://nlb.libcal.com/event/5975958",
+      "tags": [
+        "ending",
+        "ongoing"
+      ],
+      "source_key": "nlb_calendar",
+      "source": "NLB GoLibrary — All Events",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "Flexible",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Ending Soon",
+      "statusClass": "ending",
+      "date_added": "2026-10-25"
+    },
+    {
+      "title": "Digital Canvas of Yesteryears at Harbourfront Library | TOYLC26",
+      "overview": "Step into an immersive digital gallery featuring the nostalgic artwork of renowned local artist Yip Yew Chong. Travel back in time to reminisce iconic food scenes in the Immersive...",
+      "period": "2026-10-16 to 2026-10-31",
+      "start_date": "2026-10-16",
+      "end_date": "2026-10-31",
+      "time": "11:00am – 9:00pm",
+      "venue": "Harbourfront Library - Stories Come Alive Room (Level 3)",
+      "adult": "Check official information",
+      "category": "Event / Programme",
+      "link": "https://nlb.libcal.com/event/5975956",
       "tags": [
         "ending",
         "ongoing"
@@ -2625,32 +2625,6 @@
       "date_added": null
     },
     {
-      "title": "BeautyFresh Christmas Beauty Bazaar - Up to 80% OFF 120+ Beauty Brands ( 29 Oct - 1 Nov)",
-      "overview": "Get your wishlists ready! The countdown to our final and biggest event of the year has officially begun, and we are pulling out all the stops to make this our most spectacular sale yet ✨Mark your calendars and clear your schedules. You will not want to miss this!🛍️ Up to 80% OFF 120+ beauty brands🎟️",
-      "period": "2026-10-29 to 2026-11-01",
-      "start_date": "2026-10-29",
-      "end_date": "2026-11-01",
-      "time": "10:00am – 7:00pm",
-      "venue": "BeautyFresh WareHouse",
-      "adult": "Free",
-      "category": "Event / Programme",
-      "link": "https://allevents.in/singapore/beautyfresh-christmas-beauty-bazaar-up-to-80-off-120-beauty-brands-29-oct-1-nov-tickets/80008096100144",
-      "tags": [
-        "free",
-        "upcoming"
-      ],
-      "source_key": "allevents",
-      "source": "AllEvents Singapore — Free Events",
-      "why": "See the official organiser page for the latest visitor information.",
-      "mrt": "Check directions",
-      "duration": "Flexible",
-      "senior": "Check official information",
-      "child": "Check official information",
-      "status": "Upcoming",
-      "statusClass": "upcoming",
-      "date_added": "2026-10-25"
-    },
-    {
       "title": "BTO Nov '26 Workshop",
       "overview": "Choose wise, live better! Join our workshop that's exclusive for the launch in Nov 2026 as you prepare yourself for a dream home!",
       "period": "2026-11-08 to 2026-11-08",
@@ -3652,6 +3626,32 @@
       "date_added": null
     },
     {
+      "title": "The Christmas Atelier",
+      "overview": "TICKETS ARE NOT SOLD HERE. To purchase official tickets, visit Trip.com.THE CHRISTMAS ATELIER RETURNS FOR ITS 8TH EDITION!Step into Singapore's favourite holiday market - The Christmas Atelier, curated by The Atelier & Co. This highly anticipated annual event brings together over 130 artisanal brand",
+      "period": "2026-11-12 to 2026-11-14",
+      "start_date": "2026-11-12",
+      "end_date": "2026-11-14",
+      "time": "12:00am – 11:00am",
+      "venue": "Marina Bay Sands Expo & Convention",
+      "adult": "Free",
+      "category": "Event / Programme",
+      "link": "https://allevents.in/singapore/the-christmas-atelier-tickets/80008188260754",
+      "tags": [
+        "free",
+        "upcoming"
+      ],
+      "source_key": "allevents",
+      "source": "AllEvents Singapore — Free Events",
+      "why": "See the official organiser page for the latest visitor information.",
+      "mrt": "Check directions",
+      "duration": "Flexible",
+      "senior": "Check official information",
+      "child": "Check official information",
+      "status": "Upcoming",
+      "statusClass": "upcoming",
+      "date_added": "2026-10-25"
+    },
+    {
       "title": "The Soup of Reincarnation",
       "category": "Event / Exhibition",
       "overview": "Nov 13, 2026 - Nov 15, 2026 Goodman Arts Centre BlackBox The Soup of Reincarnation Step into a mysterious world where love, fate, memory and rebirth collide. At the River… Dance/Theatre",
@@ -3897,7 +3897,7 @@
       "url": "https://singaporeccc.org.sg/events/",
       "status": "ok",
       "count": 26,
-      "last_success": "2026-10-25T05:29:59+08:00",
+      "last_success": "2026-10-25T05:48:55+08:00",
       "error": "",
       "needs_reader_review": false
     },
@@ -3907,7 +3907,7 @@
       "url": "https://www.gardensbythebay.com.sg/en/things-to-do/calendar-of-events.html",
       "status": "ok",
       "count": 11,
-      "last_success": "2026-10-25T05:29:59+08:00",
+      "last_success": "2026-10-25T05:48:55+08:00",
       "error": "",
       "needs_reader_review": false
     },
@@ -3917,7 +3917,7 @@
       "url": "https://www.esplanade.com/whats-on",
       "status": "ok",
       "count": 30,
-      "last_success": "2026-10-25T05:29:59+08:00",
+      "last_success": "2026-10-25T05:48:55+08:00",
       "error": "",
       "needs_reader_review": false
     },
@@ -3927,7 +3927,7 @@
       "url": "https://www.nationalmuseum.nhb.gov.sg/whats-on/exhibition/exhibitions",
       "status": "ok",
       "count": 2,
-      "last_success": "2026-10-25T05:29:59+08:00",
+      "last_success": "2026-10-25T05:48:55+08:00",
       "error": "",
       "needs_reader_review": false
     },
@@ -3937,7 +3937,7 @@
       "url": "https://www.nationalgallery.sg/sg/en/whats-on.html",
       "status": "ok",
       "count": 2,
-      "last_success": "2026-10-25T05:29:59+08:00",
+      "last_success": "2026-10-25T05:48:55+08:00",
       "error": "",
       "needs_reader_review": false
     },
@@ -3947,7 +3947,7 @@
       "url": "https://www.ura.gov.sg/get-involved/events-and-exhibitions/",
       "status": "ok",
       "count": 1,
-      "last_success": "2026-10-25T05:29:59+08:00",
+      "last_success": "2026-10-25T05:48:55+08:00",
       "error": "",
       "needs_reader_review": false
     },
@@ -3957,7 +3957,7 @@
       "url": "https://exhibitions.nlb.gov.sg/current-exhibitions/",
       "status": "ok",
       "count": 5,
-      "last_success": "2026-10-25T05:29:59+08:00",
+      "last_success": "2026-10-25T05:48:55+08:00",
       "error": "",
       "needs_reader_review": false
     },
@@ -3967,7 +3967,7 @@
       "url": "https://www.visitsingapore.com/things-to-do/top-things-to-do/",
       "status": "ok",
       "count": 10,
-      "last_success": "2026-10-25T05:29:59+08:00",
+      "last_success": "2026-10-25T05:48:55+08:00",
       "error": "",
       "needs_reader_review": false
     },
@@ -3987,7 +3987,7 @@
       "url": "https://allevents.in/singapore/free-events",
       "status": "ok",
       "count": 14,
-      "last_success": "2026-10-25T05:29:59+08:00",
+      "last_success": "2026-10-25T05:48:55+08:00",
       "error": "",
       "needs_reader_review": false
     },
@@ -3997,7 +3997,7 @@
       "url": "https://nlb.libcal.com/calendar/public",
       "status": "ok",
       "count": 46,
-      "last_success": "2026-10-25T05:29:59+08:00",
+      "last_success": "2026-10-25T05:48:55+08:00",
       "error": "",
       "needs_reader_review": false
     }
