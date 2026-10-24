@@ -58,12 +58,6 @@
       "enabled": true
     },
     {
-      "id": "eventbrite",
-      "name": "Eventbrite Singapore — Free Events",
-      "url": "https://www.eventbrite.sg/d/singapore/free--events/",
-      "enabled": true
-    },
-    {
       "id": "allevents",
       "name": "AllEvents Singapore — Free Events",
       "url": "https://allevents.in/singapore/free-events",

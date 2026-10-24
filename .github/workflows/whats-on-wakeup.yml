@@ -1,0 +1,62 @@
+name: What's On Wake-up Checks
+
+on:
+  schedule:
+    # Three daily checks in UTC: 04:45, 05:15 and 05:45 Singapore time.
+    - cron: '45 20 * * *'
+    - cron: '15 21 * * *'
+    - cron: '45 21 * * *'
+  workflow_dispatch:
+    inputs:
+      dryRun:
+        description: Check recovery decision without launching a refresh
+        type: boolean
+        default: true
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/whats-on-wakeup.yml
+      - scripts/whats_on_wakeup.py
+      - tests/test_whats_on_wakeup.py
+
+permissions:
+  contents: read
+  actions: write
+
+concurrency:
+  group: whats-on-wakeup-checks
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify recovery decisions
+        run: python -m unittest discover -s tests -p 'test_whats_on_wakeup.py' -v
+      - name: Recover a missing daily refresh
+        env:
+          GH_TOKEN: ${{ github.token }}
+          DRY_RUN: ${{ inputs.dryRun == true && 'true' || 'false' }}
+        run: python scripts/whats_on_wakeup.py
+      - name: Verify recovery dispatch after installation
+        if: github.event_name == 'push'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python - <<'PY'
+          import os
+          from datetime import datetime, timezone
+          from scripts.whats_on_wakeup import GitHub, WORKFLOW, latest_window
+          target = latest_window(datetime.now(timezone.utc))
+          client = GitHub(os.environ["GITHUB_REPOSITORY"], os.environ["GH_TOKEN"])
+          client.request("/actions/workflows/" + WORKFLOW + "/dispatches",
+                         {"ref": "main", "inputs": {"recoveryTarget": target.isoformat()}})
+          print("Recovery dispatch accepted; the main job will skip work once the feed is fresh.")
+          PY

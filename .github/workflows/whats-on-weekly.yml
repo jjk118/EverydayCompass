@@ -1,4 +1,4 @@
-name: What's On Weekly Refresh
+name: What's On Daily Refresh
 
 on:
   push:
@@ -10,13 +10,15 @@ on:
       - tests/**
       - .github/workflows/whats-on-weekly.yml
   workflow_dispatch:
+    inputs:
+      recoveryTarget:
+        description: Recovery window used by wake-up jobs to skip completed work
+        required: false
+        type: string
+        default: ''
   schedule:
-    # Monday 6:45 AM Singapore = Sunday 10:45 PM UTC
-    - cron: '45 22 * * 0'
-    # Backup 1 Monday 8:45 AM Singapore = Monday 12:45 AM UTC.
-    - cron: '45 0 * * 1'
-    # Backup 2 Monday 9:45 AM Singapore = Monday 1:45 AM UTC.
-    - cron: '45 1 * * 1'
+    # Daily 04:15 Singapore = 20:15 UTC on the previous date.
+    - cron: '15 20 * * *'
 
 permissions:
   contents: write
@@ -28,6 +30,7 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    timeout-minutes: 25
     outputs:
       reader_review: ${{ steps.update.outputs.reader_review }}
       reader_review_details: ${{ steps.update.outputs.reader_review_details }}
@@ -38,46 +41,44 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: pip install requests beautifulsoup4 pytest playwright
-      - name: Install browser for public JavaScript event listings
-        run: python -m playwright install --with-deps chromium
-      - name: Check whether backup refresh is needed
-        id: refresh_check
+      - name: Check whether this recovery is still needed
+        id: recovery_check
         env:
-          GITHUB_EVENT_SCHEDULE: ${{ github.event.schedule }}
+          RECOVERY_TARGET: ${{ inputs.recoveryTarget }}
         shell: python
         run: |
           import json, os
-          from datetime import datetime, timezone, timedelta
-
+          from datetime import datetime, timezone
+          from scripts.whats_on_wakeup import parse_time, feed_fresh
+          value = os.environ.get("RECOVERY_TARGET", "")
           needed = True
-          scheduled = os.environ.get("GITHUB_EVENT_SCHEDULE", "")
-          backup_crons = {"45 0 * * 1", "45 1 * * 1"}
-          if os.environ.get("GITHUB_EVENT_NAME") == "schedule" and scheduled in backup_crons:
-              sgt = timezone(timedelta(hours=8))
-              now = datetime.now(sgt)
-              target = now.replace(hour=6, minute=45, second=0, microsecond=0)
+          if value:
+              target = parse_time(value)
+              if target is None:
+                  raise ValueError("Invalid recovery target")
               try:
-                  with open("events.json", encoding="utf-8") as fh:
-                      feed = json.load(fh)
-                  updated = datetime.fromisoformat(feed["updated_at"])
-                  needed = updated < target or feed.get("all_sources_failed", False) or any(
-                      row.get("status") != "ok" for row in feed.get("sources", [])
-                  )
-              except Exception:
-                  needed = True
-
-          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as fh:
-              fh.write(f"needed={'true' if needed else 'false'}\n")
+                  with open("events.json", encoding="utf-8") as handle:
+                      feed = json.load(handle)
+              except (OSError, ValueError):
+                  feed = {}
+              needed = not feed_fresh(feed, target, datetime.now(timezone.utc))
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as handle:
+              handle.write(f"needed={'true' if needed else 'false'}\n")
+          print("Refresh needed:", needed)
+      - run: pip install requests beautifulsoup4 pytest playwright
+        if: steps.recovery_check.outputs.needed == 'true'
+      - name: Install browser for public JavaScript event listings
+        if: steps.recovery_check.outputs.needed == 'true'
+        run: python -m playwright install --with-deps chromium
       - name: Safety tests
-        if: steps.refresh_check.outputs.needed == 'true'
+        if: steps.recovery_check.outputs.needed == 'true'
         run: pytest -q
       - name: Update feed
+        if: steps.recovery_check.outputs.needed == 'true'
         id: update
-        if: steps.refresh_check.outputs.needed == 'true'
         run: python scripts/run_whats_on.py
       - name: Commit changed feed
-        if: steps.refresh_check.outputs.needed == 'true'
+        if: steps.recovery_check.outputs.needed == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -90,7 +91,7 @@ jobs:
       # Runs AFTER the feed is saved, so finished events are still removed.
       # Failing here marks the run red on the Actions page and triggers GitHub's failure notification.
       - name: Fail the run if every source returned zero events
-        if: steps.refresh_check.outputs.needed == 'true' && steps.update.outputs.all_sources_failed == 'true'
+        if: steps.recovery_check.outputs.needed == 'true' && steps.update.outputs.all_sources_failed == 'true'
         run: |
           echo "::error::Every What's On source returned zero events. Previous events were kept and finished events removed. Check the source list and the websites."
           exit 1

@@ -152,7 +152,7 @@ td{font-size:.9rem}
 <div><strong>Sources last checked successfully:</strong> <span id="srcSummary">Checking…</span></div>
 <details class="src-details"><summary>See the date for each source</summary><ul id="srcList"></ul></details>
 <div id="allFailed" class="warnbox hidden">⚠ The latest refresh could not read any source. The events below are the last known ones, with finished events removed.</div>
-<div><strong>Refreshed weekly</strong> · Events past their end date are removed automatically.</div>
+<div><strong>Refreshed daily around 4:15am Singapore time</strong> · Events past their end date are removed automatically.</div>
 </div>
 </div>
 </section>
@@ -177,7 +177,7 @@ To request for What’s On adhoc request, click <a class="btn primary" href="htt
 <tbody id="tableBody"></tbody>
 </table>
 </section>
-<div id="emptyState" class="empty hidden">No current events to show right now. Please check back after the next weekly refresh.</div>
+<div id="emptyState" class="empty hidden">No current events to show right now. Please check back after the next daily refresh.</div>
 
 <p class="footer-note"><b>Information checked 23 Sep 2026.</b> Always check the linked event information before travelling because organisers may change timings, prices or programmes.<br>Everyday Compass · Simple, useful information for everyday life in Singapore</p>
 <!-- Owner request 2026-10-21: no public settings link or dot.
@@ -188,7 +188,7 @@ Settings are opened from digital-tools/myweb/kwc.html via #admin-whats-on. -->
 <div id="overlay" class="overlay hidden" onclick="if(event.target===this)closeSettings()">
 <div class="panel" role="dialog" aria-modal="true" aria-labelledby="setTitle">
 <h2 id="setTitle">Source settings</h2>
-<p class="sub">These are the websites the weekly update searches for events. Maximum 20. Only secure (https) web addresses are accepted.</p>
+<p class="sub">These are the websites the daily update searches for events. Maximum 20. Only secure (https) web addresses are accepted.</p>
 <div><span class="src-count" id="srcCount"></span> <span id="srcOrigin" style="color:var(--muted);font-size:.85rem"></span></div>
 <div id="srcRows" style="margin-top:10px"></div>
 <div id="srcErrors" class="errors"></div>
@@ -200,13 +200,13 @@ Settings are opened from digital-tools/myweb/kwc.html via #admin-whats-on. -->
 <button class="btn outline" onclick="reloadPublishedSources()">Load published list</button>
 <button class="btn outline" onclick="downloadSources()">Download sources.json</button>
 <button class="btn outline" onclick="copySources()">Copy JSON</button>
-<button class="btn danger" onclick="resetSources()">Reset to the 12 defaults</button>
+<button class="btn danger" onclick="resetSources()">Reset to the 11 defaults</button>
 <button class="btn outline" onclick="closeSettings()">Close</button>
 </div>
-<p class="sub" style="margin-top:12px"><b>To make the weekly update use your list:</b> download <code>sources.json</code> and upload it to the main folder of your GitHub repository (same place as <code>events.json</code>). Saving here only keeps a draft in this browser; it does not change the live website. Every refresh reads the current published file, including newly added enabled sites. Alternatively, use <b>Publish source list</b> with the token below to save directly to GitHub and start a refresh. Browser drafts must be published or uploaded before the refresh can use them.</p>
+<p class="sub" style="margin-top:12px"><b>To make the daily update use your list:</b> download <code>sources.json</code> and upload it to the main folder of your GitHub repository (same place as <code>events.json</code>). Saving here only keeps a draft in this browser; it does not change the live website. Every refresh reads the current published file, including newly added enabled sites. Alternatively, use <b>Publish source list</b> with the token below to save directly to GitHub and start a refresh. Browser drafts must be published or uploaded before the refresh can use them.</p>
 
 <h3>🔄 Run What's On refresh</h3>
-<p class="sub">The refresh runs on GitHub (the same job that runs weekly). It looks for new events and removes finished ones, then updates the website. It can take a few minutes.</p>
+<p class="sub">The refresh runs on GitHub (the same job that runs daily). It looks for new events and removes finished ones, then updates the website. It can take a few minutes.</p>
 <div class="panel-actions" style="margin-top:0">
 <a class="btn primary" href="https://github.com/myai118/EverydayCompass/actions" target="_blank" rel="noopener">Open GitHub Actions ↗</a>
 <button class="btn outline" onclick="reloadEventsNow()">Reload events on this page</button>
@@ -568,12 +568,6 @@ const DEFAULT_SOURCES=[
     "enabled": true
   },
   {
-    "id": "eventbrite",
-    "name": "Eventbrite Singapore — Free Events",
-    "url": "https://www.eventbrite.sg/d/singapore/free--events/",
-    "enabled": true
-  },
-  {
     "id": "allevents",
     "name": "AllEvents Singapore — Free Events",
     "url": "https://allevents.in/singapore/free-events",
@@ -665,7 +659,7 @@ function saveSources(){
  const errs=validate(), er=document.getElementById("srcErrors"), ok=document.getElementById("srcOk");
  ok.textContent=""; er.textContent=errs.join("\n"); if(errs.length) return;
  const p=cleanPayload();
- if(lsSet(JSON.stringify(p))){sources=p.sources; sourceOrigin="(draft saved in this browser)"; drawRows(); ok.textContent="Draft saved in this browser. To use it for the weekly update, download sources.json and upload it to GitHub.";}
+ if(lsSet(JSON.stringify(p))){sources=p.sources; sourceOrigin="(draft saved in this browser)"; drawRows(); ok.textContent="Draft saved in this browser. To use it for the daily update, download sources.json and upload it to GitHub.";}
  else er.textContent="Could not save in this browser (storage blocked). Use Download or Copy instead.";
 }
 
@@ -710,7 +704,7 @@ async function copySources(){
  catch(e){document.getElementById("srcErrors").textContent="Copy was blocked by the browser. Use Download instead.";}
 }
 function resetSources(){
- if(!confirm("Replace the list with the 12 default sources? Your saved draft in this browser will be cleared.")) return;
+ if(!confirm("Replace the list with the 11 default sources? Your saved draft in this browser will be cleared.")) return;
  lsDel(); sources=DEFAULT_SOURCES.map(s=>({...s})); sourceOrigin="(built-in defaults)"; drawRows();
  document.getElementById("srcErrors").textContent=""; document.getElementById("srcOk").textContent="Reset to defaults.";
 }
@@ -781,7 +775,7 @@ async function ghRun(){
 async function ghRunWhatsOn(){
  if(!ghNeedToken()) return;
  const sel=document.getElementById("ghWorkflow");
- const option=[...sel.options].find(o=>/whats-on-weekly\.yml$/i.test(o.dataset.path||"")||/what.?s on weekly refresh/i.test(o.textContent));
+ const option=[...sel.options].find(o=>/whats-on-weekly\.yml$/i.test(o.dataset.path||"")||/what.?s on daily refresh/i.test(o.textContent));
  if(!option){ghMsg("","Load jobs first. The What’s On refresh workflow could not be identified.");return;}
  sel.value=option.value;
  await ghRun();

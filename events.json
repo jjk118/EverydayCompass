@@ -3881,11 +3881,6 @@
       "count": 3,
       "error": "https://www.catch.sg/Event?EventCategory=Free%20Events: Official browser page returned HTTP 403; preserving previous source records"
     },
-    "eventbrite": {
-      "status": "fallback",
-      "count": 0,
-      "error": "https://www.eventbrite.sg/d/singapore/free--events/: Official browser page returned HTTP 405; preserving previous source records"
-    },
     "allevents": {
       "status": "fresh",
       "count": 14
@@ -3984,16 +3979,6 @@
       "count": 3,
       "last_success": "2026-10-24T23:47:53+08:00",
       "error": "https://www.catch.sg/Event?EventCategory=Free%20Events: Official browser page returned HTTP 403; preserving previous source records",
-      "needs_reader_review": false
-    },
-    {
-      "id": "eventbrite",
-      "name": "Eventbrite Singapore — Free Events",
-      "url": "https://www.eventbrite.sg/d/singapore/free--events/",
-      "status": "fallback",
-      "count": 0,
-      "last_success": null,
-      "error": "https://www.eventbrite.sg/d/singapore/free--events/: Official browser page returned HTTP 405; preserving previous source records",
       "needs_reader_review": false
     },
     {
