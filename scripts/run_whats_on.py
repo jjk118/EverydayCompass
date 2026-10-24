@@ -268,7 +268,7 @@ def run(previous, sources, today=None, now=None, fetcher=None):
 
     # Track each event's first date in the feed. Older events without history stay unknown.
     def title_key(event):
-        return re.sub(r"[^a-z0-9]+", " ", ue.norm(event.get("title")).lower()).strip()
+        return re.sub(r"[\W_]+", " ", ue.norm(event.get("title")).casefold()).strip()
 
     previous_titles = {}
     for old_event in previous.get("events", []):

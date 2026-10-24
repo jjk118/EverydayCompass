@@ -178,7 +178,7 @@ def status_for(period, today):
     if end and end < today:
         return "Expired", ""
     # Parse start where possible
-    m = MONTH_FIRST_RANGE.search(norm(period)) or DATE_RANGE.search(norm(period))
+    m = MONTH_FIRST_RANGE.search(norm(period)) or DATE_RANGE.search(norm(period)) or ISO_RANGE.search(norm(period))
     if m:
         end_d = parse_date(m.group("end"))
         start_d = parse_date(m.group("start"), end_d.year if end_d else today.year)
@@ -198,8 +198,8 @@ def richness(e):
     return sum(bool(norm(str(e.get(k,"")))) for k in fields) + len(e.get("tags", []))/10
 
 def event_identity(e):
-    title = re.sub(r"[^a-z0-9]+", " ", norm(e.get("title","")).lower()).strip()
-    venue = re.sub(r"[^a-z0-9]+", " ", norm(e.get("venue","")).lower()).strip()
+    title = re.sub(r"[\W_]+", " ", norm(e.get("title","")).casefold()).strip()
+    venue = re.sub(r"[\W_]+", " ", norm(e.get("venue","")).casefold()).strip()
     return (title, venue)
 
 def dedupe(events):

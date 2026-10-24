@@ -72,3 +72,13 @@ def test_nlb_detail_date_and_registration_fields():
     assert event["adult"] == "Free"
     assert event["start_date"] == "2026-11-03"
     assert event["venue"] == "Central Library"
+
+
+def test_iso_dates_and_multilingual_event_identity():
+    core_path = Path(__file__).resolve().parents[1] / "scripts" / "update_events.py"
+    core_spec = importlib.util.spec_from_file_location("additional_core_test", core_path)
+    core = importlib.util.module_from_spec(core_spec)
+    core_spec.loader.exec_module(core)
+    assert core.status_for("2026-11-03 to 2026-11-03", TODAY)[0] == "Upcoming"
+    got = core.dedupe([{"title": "中文故事会", "venue": "图书馆"}, {"title": "华文读书会", "venue": "图书馆"}])
+    assert len(got) == 2
