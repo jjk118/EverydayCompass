@@ -33,12 +33,6 @@
       "enabled": true
     },
     {
-      "id": "artscience",
-      "name": "ArtScience Museum",
-      "url": "https://www.marinabaysands.com/museum/whats-on.html",
-      "enabled": true
-    },
-    {
       "id": "ura",
       "name": "Urban Redevelopment Authority",
       "url": "https://www.ura.gov.sg/get-involved/events-and-exhibitions/",
@@ -61,6 +55,24 @@
       "id": "catch_sg",
       "name": "Catch.sg — Free Events",
       "url": "https://www.catch.sg/Event?EventCategory=Free%20Events",
+      "enabled": true
+    },
+    {
+      "id": "eventbrite",
+      "name": "Eventbrite Singapore — Free Events",
+      "url": "https://www.eventbrite.sg/d/singapore/free--events/",
+      "enabled": true
+    },
+    {
+      "id": "allevents",
+      "name": "AllEvents Singapore — Free Events",
+      "url": "https://allevents.in/singapore/free-events",
+      "enabled": true
+    },
+    {
+      "id": "nlb_calendar",
+      "name": "NLB GoLibrary — All Events",
+      "url": "https://nlb.libcal.com/calendar/public",
       "enabled": true
     }
   ]

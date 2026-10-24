@@ -614,31 +614,6 @@
       "date_added": null
     },
     {
-      "title": "Into the Ocean: Journey Beneath",
-      "category": "Exhibition · Ocean & Science",
-      "overview": "A world-premiere ArtScience Museum exhibition with OceanX that takes visitors from sunlit surface waters into the deep ocean through footage, specimens, research and immersive displays.",
-      "why": "A strong indoor choice if you enjoy nature documentaries, marine life, science and immersive museum experiences.",
-      "period": "6 Jun – 1 Nov 2026",
-      "time": "9am – 6pm daily · last entry 5pm",
-      "venue": "ArtScience Museum · Basement 2 Galleries",
-      "mrt": "Bayfront MRT",
-      "duration": "60–90 min",
-      "adult": "SG resident from $19.50",
-      "senior": "Concession from $16.50*",
-      "child": "Concession from $16.50*",
-      "status": "Ongoing",
-      "statusClass": "",
-      "tags": [
-        "ongoing",
-        "weekend",
-        "senior",
-        "wheelchair",
-        "indoor"
-      ],
-      "link": "https://www.marinabaysands.com/museum/exhibitions/into-the-ocean.html",
-      "date_added": null
-    },
-    {
       "title": "Lai Foong Moi: Crossings",
       "category": "Exhibition · Art & Singapore",
       "overview": "See 1960s Singapore and Malaya through the paintings of Lai Foong Moi, with portraits, landscapes and everyday scenes exploring identity, social change and belonging.",
@@ -2551,11 +2526,6 @@
       "status": "fresh",
       "count": 2
     },
-    "artscience": {
-      "status": "fallback",
-      "count": 0,
-      "error": "https://www.marinabaysands.com/museum.html: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.marinabaysands.com/museum.html\nCall log:\n  - navigating to \"https://www.marinaba"
-    },
     "ura": {
       "status": "fresh",
       "count": 1
@@ -2622,16 +2592,6 @@
       "count": 2,
       "last_success": "2026-10-24T23:47:53+08:00",
       "error": "",
-      "needs_reader_review": false
-    },
-    {
-      "id": "artscience",
-      "name": "ArtScience Museum",
-      "url": "https://www.marinabaysands.com/museum/whats-on.html",
-      "status": "fallback",
-      "count": 0,
-      "last_success": null,
-      "error": "https://www.marinabaysands.com/museum.html: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.marinabaysands.com/museum.html\nCall log:\n  - navigating to \"https://www.marinaba",
       "needs_reader_review": false
     },
     {

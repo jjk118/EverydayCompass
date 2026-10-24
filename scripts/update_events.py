@@ -107,6 +107,8 @@ def extract_period(text):
 def official_link(url, key):
     parsed = urlparse(url)
     host = (parsed.hostname or "").lower()
+    if key == "eventbrite":
+        return parsed.scheme == "https" and any(host == h or host.endswith("." + h) for h in ("eventbrite.sg", "eventbrite.com"))
     allowed = SOURCES[key]["host"]
     return parsed.scheme == "https" and (host == allowed or host.endswith("." + allowed))
 
@@ -545,6 +547,9 @@ def fetch_esplanade_two_stage(listing_html, today, fetcher, max_details=80):
     return dedupe(events), errors
 
 DETAIL_PATHS = {
+    "eventbrite": re.compile(r"^/e/[^/]+/?$"),
+    "allevents": re.compile(r"^/singapore/[^/]+/[^/]+/?$"),
+    "nlb_calendar": re.compile(r"^/event/\d+/?$"),
     "national_museum": re.compile(r"^/whats-on/(?:exhibition|programme)/[^/]+(?:/events)?/?$"),
     "visit_singapore": re.compile(r"^/whats-happening/all-happenings/events/[^/]+/?$"),
     "catch_sg": re.compile(r"^/Event/(?:[^/]+/)*[^/]*\d{8,}[^/]*$"),
@@ -555,6 +560,9 @@ DETAIL_PATHS = {
 }
 
 def parse_official_detail(html, url, key, today):
+    if key in {"eventbrite", "allevents", "nlb_calendar"}:
+        import additional_sources
+        return additional_sources.parse(html, key, today, SOURCES[key], clean_event, base_url=url)
     soup = BeautifulSoup(html, "html.parser")
     structured = jsonld_events(soup, key, today)
     if structured:
@@ -612,6 +620,8 @@ def parse_official_detail(html, url, key, today):
     return [] if is_expired(e, today) else [e]
 
 def fetch_official_details(listing_html, key, today, fetcher, limit=12):
+    if key in {"eventbrite", "allevents", "nlb_calendar"}:
+        limit = 60
     pattern = DETAIL_PATHS.get(key)
     if not pattern:
         return []
@@ -624,7 +634,7 @@ def fetch_official_details(listing_html, key, today, fetcher, limit=12):
     def read(url):
         try:
             events = parse_official_detail(fetcher(url), url, key, today)
-            if not events and key == "catch_sg" and fetcher is fetch:
+            if not events and key in ("catch_sg", "nlb_calendar") and fetcher is fetch:
                 events = parse_official_detail(render_source(url), url, key, today)
             return events
         except Exception as exc:
@@ -635,7 +645,7 @@ def fetch_official_details(listing_html, key, today, fetcher, limit=12):
 
 
 def fetch(url, timeout=30):
-    r = requests.get(url, headers={"User-Agent": UA, "Accept-Language": "en-SG,en;q=0.9"}, timeout=timeout)
+    r = requests.get(url, headers={"User-Agent": UA, "Accept-Language": "en-SG,en;q=0.9", "Accept": "text/html,application/xhtml+xml"}, timeout=timeout)
     r.raise_for_status()
     if r.status_code != 200 or not r.content:
         raise ValueError(f"Official source returned HTTP {r.status_code} with no usable page; keeping previous events")
@@ -671,6 +681,9 @@ def render_source(url):
             try:
                 if "catch.sg" in url and "/Event/" in urlparse(url).path:
                     page.wait_for_function("() => document.body.innerText.includes('Event Details')", timeout=20000)
+                elif any(host in (urlparse(url).hostname or "") for host in ("eventbrite", "allevents", "libcal")):
+                    page.wait_for_function("""() => [...document.querySelectorAll('a[href]')].some(a =>
+                        /\\/e\\/|\\/singapore\\/[^/]+\\/|\\/event\\/\\d+/.test(a.getAttribute('href') || ''))""", timeout=25000)
                 else:
                     page.wait_for_function("""() => [...document.querySelectorAll('a[href]')].some(a =>
                         /calendar-of-events\\/.+|museum\\/(exhibitions|events|programmes)\\/.+|\\/Event\\/.*\\d{8}|whats-happening\\/.+/.test(a.getAttribute('href') || ''))""",
@@ -690,7 +703,7 @@ def render_source(url):
 OFFICIAL_LISTING_ALTERNATIVES = {
     "artscience": ["https://www.marinabaysands.com/museum.html"],
 }
-BROWSER_SOURCES = {"gardens", "artscience", "visit_singapore", "catch_sg", "national_museum"}
+BROWSER_SOURCES = {"gardens", "artscience", "visit_singapore", "catch_sg", "national_museum", "eventbrite", "allevents", "nlb_calendar"}
 
 
 def read_source_events(cfg, key, today, fetcher):

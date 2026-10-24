@@ -200,7 +200,7 @@ Settings are opened from digital-tools/myweb/kwc.html via #admin-whats-on. -->
 <button class="btn outline" onclick="reloadPublishedSources()">Load published list</button>
 <button class="btn outline" onclick="downloadSources()">Download sources.json</button>
 <button class="btn outline" onclick="copySources()">Copy JSON</button>
-<button class="btn danger" onclick="resetSources()">Reset to the 8 defaults</button>
+<button class="btn danger" onclick="resetSources()">Reset to the 12 defaults</button>
 <button class="btn outline" onclick="closeSettings()">Close</button>
 </div>
 <p class="sub" style="margin-top:12px"><b>To make the weekly update use your list:</b> download <code>sources.json</code> and upload it to the main folder of your GitHub repository (same place as <code>events.json</code>). Saving here only keeps a draft in this browser; it does not change the live website. Every refresh reads the current published file, including newly added enabled sites. Alternatively, use <b>Publish source list</b> with the token below to save directly to GitHub and start a refresh. Browser drafts must be published or uploaded before the refresh can use them.</p>
@@ -509,14 +509,79 @@ async function loadScheduledFeed(){
 /* ---------- SOURCE SETTINGS ---------- */
 const MAX_SOURCES=20;
 const DEFAULT_SOURCES=[
- {id:"sccc",name:"Singapore Chinese Cultural Centre",url:"https://singaporeccc.org.sg/events/",enabled:true},
- {id:"gardens",name:"Gardens by the Bay",url:"https://www.gardensbythebay.com.sg/en/things-to-do/calendar-of-events.html",enabled:true},
- {id:"esplanade",name:"Esplanade",url:"https://www.esplanade.com/whats-on",enabled:true},
- {id:"national_museum",name:"National Museum of Singapore",url:"https://www.nationalmuseum.nhb.gov.sg/whats-on/exhibition/exhibitions",enabled:true},
- {id:"national_gallery",name:"National Gallery Singapore",url:"https://www.nationalgallery.sg/sg/en/whats-on.html",enabled:true},
- {id:"artscience",name:"ArtScience Museum",url:"https://www.marinabaysands.com/museum/whats-on.html",enabled:true},
- {id:"ura",name:"Urban Redevelopment Authority",url:"https://www.ura.gov.sg/get-involved/events-and-exhibitions/",enabled:true},
- {id:"nlb",name:"National Library Board",url:"https://exhibitions.nlb.gov.sg/current-exhibitions/",enabled:true}
+  {
+    "id": "sccc",
+    "name": "Singapore Chinese Cultural Centre",
+    "url": "https://singaporeccc.org.sg/events/",
+    "enabled": true
+  },
+  {
+    "id": "gardens",
+    "name": "Gardens by the Bay",
+    "url": "https://www.gardensbythebay.com.sg/en/things-to-do/calendar-of-events.html",
+    "enabled": true
+  },
+  {
+    "id": "esplanade",
+    "name": "Esplanade",
+    "url": "https://www.esplanade.com/whats-on",
+    "enabled": true
+  },
+  {
+    "id": "national_museum",
+    "name": "National Museum of Singapore",
+    "url": "https://www.nationalmuseum.nhb.gov.sg/whats-on/exhibition/exhibitions",
+    "enabled": true
+  },
+  {
+    "id": "national_gallery",
+    "name": "National Gallery Singapore",
+    "url": "https://www.nationalgallery.sg/sg/en/whats-on.html",
+    "enabled": true
+  },
+  {
+    "id": "ura",
+    "name": "Urban Redevelopment Authority",
+    "url": "https://www.ura.gov.sg/get-involved/events-and-exhibitions/",
+    "enabled": true
+  },
+  {
+    "id": "nlb",
+    "name": "National Library Board",
+    "url": "https://exhibitions.nlb.gov.sg/current-exhibitions/",
+    "enabled": true
+  },
+  {
+    "id": "visit_singapore",
+    "name": "Visit Singapore",
+    "url": "https://www.visitsingapore.com/things-to-do/top-things-to-do/",
+    "listing_url": "https://www.visitsingapore.com/whats-happening/all-happenings/",
+    "enabled": true
+  },
+  {
+    "id": "catch_sg",
+    "name": "Catch.sg — Free Events",
+    "url": "https://www.catch.sg/Event?EventCategory=Free%20Events",
+    "enabled": true
+  },
+  {
+    "id": "eventbrite",
+    "name": "Eventbrite Singapore — Free Events",
+    "url": "https://www.eventbrite.sg/d/singapore/free--events/",
+    "enabled": true
+  },
+  {
+    "id": "allevents",
+    "name": "AllEvents Singapore — Free Events",
+    "url": "https://allevents.in/singapore/free-events",
+    "enabled": true
+  },
+  {
+    "id": "nlb_calendar",
+    "name": "NLB GoLibrary — All Events",
+    "url": "https://nlb.libcal.com/calendar/public",
+    "enabled": true
+  }
 ];
 const LS_KEY="ec_whatson_sources_v1";
 let sources=[];
@@ -642,7 +707,7 @@ async function copySources(){
  catch(e){document.getElementById("srcErrors").textContent="Copy was blocked by the browser. Use Download instead.";}
 }
 function resetSources(){
- if(!confirm("Replace the list with the 8 default sources? Your saved draft in this browser will be cleared.")) return;
+ if(!confirm("Replace the list with the 12 default sources? Your saved draft in this browser will be cleared.")) return;
  lsDel(); sources=DEFAULT_SOURCES.map(s=>({...s})); sourceOrigin="(built-in defaults)"; drawRows();
  document.getElementById("srcErrors").textContent=""; document.getElementById("srcOk").textContent="Reset to defaults.";
 }

@@ -29,6 +29,7 @@ from urllib.parse import urljoin, urlparse
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import update_events as ue  # noqa: E402
+import additional_sources as additional
 
 ROOT = ue.ROOT
 SOURCES_FILE = ROOT / "sources.json"
@@ -218,6 +219,8 @@ def generic_parse(html, key, today):
 
 
 def parse_source_html_v2(html, key, today):
+    if key in additional.KEYS:
+        return ue.dedupe(additional.parse(html, key, today, ue.SOURCES[key], ue.clean_event))
     structured = generic_parse(html, key, today)
     if key == "catch_sg":
         return [e for e in structured if e.get("adult") == "Free"]
